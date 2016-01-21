@@ -1,0 +1,59 @@
+#map{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #555555;
+}
+
+@media only screen and (max-width: 40em) {
+    .overviewPic{
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 40em) and (max-width: 64.063em) {
+    .overviewPic{
+        max-width: 60% !important;
+    }
+    #missionPic{
+        text-align: center;
+    }
+}
+
+#linkPortal{
+    color: black;
+    text-decoration: underline;
+}
+/*set size for the picture in the mission-info-popup*/
+.mapPic{
+    width: inherit;
+    /*margin-left: -10px;*/
+    float: left;
+}
+.leaflet-popup{
+    z-index: 180 !important;
+    color: black;
+}
+.leaflet-popup p{
+	margin: 2px !important;
+}
+.leaflet-control-layers-expanded{
+    max-height: 500px !important;
+    overflow: auto !important;
+}
+/* css for the overview page*/
+span{
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+#a{
+    height: 95%;
+    padding-top: 5%;
+}
+#panel60, #panel54, #panel36, #panel24, #panel18, #panel12, #panel6, #panel5, #panel4, #panel3, #panel0{
+    background-color: #555555;
+}

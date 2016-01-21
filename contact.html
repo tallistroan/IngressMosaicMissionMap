@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mosaikmissionen München</title>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/ownStyle.css"/>
+
+    <script src="js/vendor/modernizr.js"></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
+          rel='stylesheet'/>
+</head>
+<body>
+<div class="fixed">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#" id="title">Kontakt</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#" style="color: #ff8000;"><span>Menü</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul>
+                <li><a href="index.html">Karte</a></li>
+                <li><a href="info.html">Legende</a></li>
+                <li><a href="overview.html">Übersicht</a></li>
+
+            </ul>
+        </section>
+    </nav>
+</div>
+<div class="row" data-equalizer >
+    <div class="large-12 columns panel" data-equalizer-watch style="background-color: #ff8000">
+        <p>Disclaimer: Dies ist eine Fanwebseite für Ingress und steht in keinem Verhältnis zu Ingress oder Niantic Labs.</p>
+    </div>
+</div>
+<div class="row" data-equalizer>
+    <div class="large-6 columns panel" data-equalizer-watch>
+        Fehlt ein Mosaik? Hast du Fragen oder Hinweise zur Seite? Kontaktiert mich einfach in <a href="https://plus.google.com/+CarstenStemmler">Google+/Hangouts</a> oder schreibt mir eine
+        <a href="mailto:tallistroan@gmail.com">E-Mail</a>.
+    </div>
+    <div class="large-6 columns panel" data-equalizer-watch>
+        <p>Achtung: Ich übernehme keine Gewähr für die Richtigkeit oder Vollständigkeit der Karte und Mosaikdaten. Im Zweifel sollte immer die Intel vor einer geplanten Tour angeschaut werden.</p>
+    </div>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation({
+        topbar: {
+            custom_back_text: true,
+            back_text: 'Zurück'
+        }
+    });
+
+</script>
+</body>
+</html>

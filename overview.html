@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mosaikmissionen München</title>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/ownStyle.css"/>
+    <script type="text/javascript" src="missions.js"></script>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/helpFunctions.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
+          rel='stylesheet'/>
+</head>
+<body>
+<div class="fixed">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#" id="title">Übersicht</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#" style="color: #ff8000;"><span>Menü</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul>
+                <li class="has-dropdown">
+                    <a href="#" style="color: #ff8000;">Übersichtsliste</a>
+                    <ul class="dropdown">
+                        <li class="has-dropdown"><a href="#">60er Mosaik</a>
+                            <ul class="dropdown">
+                                <li><a href="#28">Olympiaturm München</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#">36er Mosaik</a>
+                            <ul class="dropdown">
+                                <li><a href="#38">Celtic Knot</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#">24er Mosaike</a>
+                            <ul class="dropdown">
+                                <li><a href="#42">Antiquarium München</a></li>
+                                <li><a href="#16">Districts of Munich</a></li>
+                                <li><a href="#23">Das große Biergartenmosaik</a></li>
+								<li><a href="#46">Endless I</a></li>
+                                <li><a href="#31">Karlsplatz, Stachus</a></li>
+                                <li><a href="#4">Marienplatz</a></li>
+                                <li><a href="#2">Münchner Kindl</a></li>
+                                <li><a href="#12">Munich City</a></li>
+                                <li><a href="#10">Munich Portal Hunter Stroll</a></li>
+                                <li><a href="#26">Pasinger Stadtwappen</a></li>
+                                <li><a href="#20">Resistance München</a></li>
+                                <li><a href="#43">Schleissheim Postcard</a></li>
+								<li><a href="#49">1972 Summer Olympics</a></li>
+                                <li><a href="#30">Stadtwappen Dachau</a></li>
+                                <li><a href="#32">X-MAS Mosaik</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#">18er Mosaike</a>
+                            <ul class="dropdown">
+                                <li><a href="#39">Dachau goes Warcraft</a></li>
+								<li><a href="#47">Endless II</a></li>
+                                <li><a href="#34">FFB Enl-Mosaik</a></li>
+                                <li><a href="#21">Germeringer Kermit</a></li>
+                                <!--<li><a href="#6">Hacken in Giesing</a></li> offline-->
+                                <li><a href="#9">Ismaning Mosaik</a></li>
+                                <li><a href="#1">München Panorama</a></li>
+                                <li><a href="#33">The Shapers Eye</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#">12er Mosaike</a>
+                            <ul class="dropdown">
+								<li><a href="#48">Endless III</a></li>
+                                <li><a href="#19">Spaziergang durch Erding</a></li>
+                                <li><a href="#11">Spiderweb</a></li>
+                                <li><a href="#13">Sunset at the Lake</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#">6er Mosaike</a>
+                            <ul class="dropdown">
+                                <li><a href="#36">AURUM Dachau</a></li>
+                                <li><a href="#37">ARGENTUM Dachau</a></li>
+                                <li><a href="#15">Äußerer Radring</a></li>
+                                <li><a href="#41">EXPUGNA SENTILINGA</a></li>
+                                <li><a href="#22">Germering</a></li>
+                                <li><a href="#14">Innerer Radring</a></li>
+								<li><a href="#45">Oberhachinger Runde</a></li>
+                                <li><a href="#27">Pullach im Isartal</a></li>
+                                <li><a href="#25">Westkreuz</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#">5er Mosaik</a>
+                            <ul class="dropdown">
+                                <li><a href="#35">Türkenfeld</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#">4er Mosaike</a>
+                            <ul class="dropdown">
+                                <li><a href="#17">Englischer Garten</a></li>
+                                <li><a href="#8">I love München</a></li>
+                                <li><a href="#29">Münchens Biergärten</a></li>
+                                <li><a href="#18">Trudering</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#">3er Mosaike</a>
+                            <ul class="dropdown">
+                                <li><a href="#5">Hachinger Bach</a></li>
+                                <li><a href="#24">Nymphenburger Schloss</a></li>
+								<li><a href="#44">Schlösser in Oberschleißheim</a></li>
+                            </ul>
+                        </li>
+						<!-- previously used for the special starwars missions
+                        <li class="has-dropdown"><a href="#">Spezialmissionen</a>
+                            <ul class="dropdown">
+                                <li></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </li>
+                <li><a href="index.html">Karte</a></li>
+                <li><a href="info.html">Legende</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </section>
+    </nav>
+</div>
+<div id="a">
+
+</div>
+<script>
+    // 60er Mosaiker
+    addMissions(olyturm_startMissions.features[0], olyturm_mission, 'a');
+    // 36er Mosaike
+    addMissions(celtic_startMissions.features[0], celtic_mission, 'a');
+    // 24er Mosaike
+    addMissions(antiquar_startMissions.features[0], antiquar_mission, 'a');
+    addMissions(districts_startMissions.features[0], districts_mission, 'a');
+    addMissions(biergarten_startMissions.features[0], biergarten_mission, 'a');
+	addMissions(endlessI_startMissions.features[0], endlessI_mission, 'a');
+    addMissions(stachus_startMissions.features[0], stachus_mission, 'a');
+    addMissions(marienplatz_startMissions.features[0], marienplatz_mission, 'a');
+    addMissions(kindl_startMissions.features[0], kindl_mission, 'a');
+    addMissions(city_startMissions.features[0], city_mission, 'a');
+    addMissions(stroll_startMissions.features[0], stroll_mission, 'a');
+    addMissions(pasing_startMissions.features[0], pasing_mission, 'a');
+    addMissions(res_startMissions.features[0], res_mission, 'a');
+    addMissions(postcard_startMissions.features[0], postcard_mission, 'a');
+	addMissions(olympics_startMissions.features[0], olympics_mission, 'a');
+    addMissions(dachau_startMissions.features[0], dachau_mission, 'a');
+    addMissions(xmas_startMissions.features[0], xmas_mission, 'a');
+    // 18er Mosaike
+    addMissions(warcraft_startMissions.features[0], warcraft_mission, 'a');
+	addMissions(endlessII_startMissions.features[0], endlessII_mission, 'a');
+    addMissions(ffbenl_startMissions.features[0], ffbenl_mission, 'a');
+    addMissions(kermit_startMissions.features[0], kermit_mission, 'a');
+    addMissions(ismaning_startMissions.features[0], ismaning_mission, 'a');
+    addMissions(panorama_startMissions.features[0], panorama_mission, 'a');
+    addMissions(shapers_startMissions.features[0], shapers_mission, 'a');
+    // 12er Mosaike
+	addMissions(endlessIII_startMissions.features[0], endlessIII_mission, 'a');
+    addMissions(erding_startMissions.features[0], erding_mission, 'a');
+    addMissions(spiderweb_startMissions.features[0], spiderweb_mission, 'a');
+    addMissions(sunset_startMissions.features[0], sunset_mission, 'a');
+    // 6er Mosaike
+    addMissions(aurum_startMissions.features[0], aurum_mission, 'a');
+    addMissions(argentum_startMissions.features[0], argentum_mission, 'a');
+    addMissions(aussen_startMissions.features[0], aussen_mission, 'a');
+    addMissions(sendling_startMissions.features[0], sendling_mission, 'a');
+    addMissions(germering_startMissions.features[0], germering_mission, 'a');
+    addMissions(innen_startMissions.features[0], innen_mission, 'a');
+    addMissions(pullach_startMissions.features[0], pullach_mission, 'a');
+    addMissions(westkreuz_startMissions.features[0], westkreuz_mission, 'a');
+    // 5er Mosaike
+    addMissions(turk_startMissions.features[0], turk_mission, 'a');
+    // 4er Mosaike
+    addMissions(garten_startMissions.features[0], garten_mission, 'a');
+    addMissions(love_startMissions.features[0], love_mission, 'a');
+    addMissions(bier_startMissions.features[0], bier_mission, 'a');
+    addMissions(trudering_startMissions.features[0], trudering_mission, 'a');
+    // 3er Mosaike
+    addMissions(bach_startMissions.features[0], bach_mission, 'a');
+    addMissions(nymphenburg_startMissions.features[0], nymphenburg_mission, 'a');
+	addMissions(schleiss_startMissions.features[0], schleiss_mission, 'a');
+
+    function addMissions (feature, mission, panelName) {
+
+        var arrayPortals = [];
+		var arrayPortalTypeNum = [];
+		var arrayPortalObjectiveNum = [];
+		var medianCompletionTime = 0;
+
+		for (var i = mission.features.length - 1; i >= 0; i--) {
+			// collect all waypoints of the mosaic
+			for (var j = mission.features[i].geometry.coordinates.length - 1; j >= 0; j--) {
+				arrayPortals.push(mission.features[i].geometry.coordinates[j]);
+			}
+			// collect all type of every waypoint of the mosaic
+			arrayPortalTypeNum.push(mission.features[i].properties.portalTypeNum);
+			// collect all objectives (actions) of every waypoint of the mosaic
+			arrayPortalObjectiveNum.push(mission.features[i].properties.portalObjectiveNum);
+			// count total completion time of the mosaic
+			medianCompletionTime += mission.features[i].properties.medianCompletionTimeMs;
+		}
+		// calc mission length incl. gaps between the missions itself
+		var missionLength = 0;
+		for (var i = 0; i < arrayPortals.length - 1; i++) {
+			missionLength += calcDistance(arrayPortals[i], arrayPortals[i + 1]);
+		}
+		var outputMissionLength = "";
+		if (missionLength < 1) {
+						//when length < 1km display the value in meters
+						outputMissionLength += (missionLength * 1000).toFixed(0) + ' m'
+					} else {
+						// when length > 1km display the value in kilometers
+						outputMissionLength += missionLength.toFixed(2) + ' km'
+					}
+		
+		countActionHack = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
+			return elem === 1; // value for Action Hack
+		}).length;
+	countActionCapture = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
+			return elem === 2; // value for Action Capture or Upgrade
+		}).length;
+	countActionLink = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
+			return elem === 3; // value for Action Create Link from Portal
+		}).length;
+	countActionField = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
+			return elem === 4; // value for Action Create Field from Portal
+		}).length;
+	countActionMod = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
+			return elem === 5; // value for Action Install Mod on Portal
+		}).length;
+	countActionPhoto = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
+			return elem === 6; // value for Action Take a Photo
+		}).length;
+	countActionViewWaypoint = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
+			return elem === 7; // value for Action View this Fieldtrip Waypoint
+		}).length;
+	countActionPassphrase = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
+			return elem === 8; // value for Action Enter the Passphrase
+		}).length;
+		
+		var actionsString = []
+				if (countActionHack > 0) {
+					actionsString.push(countActionHack + ' x Hack')
+				}
+				if (countActionCapture > 0) {
+					actionsString.push(countActionCapture + ' x Capture oder Upgrade')
+				}
+				if (countActionLink > 0) {
+					actionsString.push(countActionLink + ' x Link erstellen')
+				}
+				if (countActionField > 0) {
+					actionsString.push(countActionField + ' x Feld erstellen')
+				}
+				if (countActionMod > 0) {
+					actionsString.push(countActionMod + ' x Mod deployen')
+				}
+				if (countActionPhoto > 0) {
+					actionsString.push(countActionPhoto + ' x Photo machen')
+				}
+				if (countActionViewWaypoint > 0) {
+					actionsString.push(countActionViewWaypoint + ' x Fieldtrip Waypoint')
+				}
+				if (countActionPassphrase > 0) {
+					actionsString.push(countActionPassphrase + ' x Passphrase eingeben')
+				}
+				
+				asOf = new Date(mission.features[0].properties.time);
+        // aquire the data for the overview of each mosaic
+        var tempString =
+
+                '<div class="row" data-equalizer>'+
+                '<div id="missionPic" class="large-6 columns panel" data-equalizer-watch>'+
+                '<img id="'+feature.properties.id +'" class="overviewPic" src="'+ feature.properties.imagePath+ '"></div>'+
+                '<div class="large-6 columns panel" data-equalizer-watch>'+
+                '<h4>'+feature.properties.title+'</h4>'+
+                '<div><span>Ersteller: </span>'+mission.features[0].properties.author+
+				'</div><div><span>Zeit: </span>ca. '+ calcTime(medianCompletionTime) +
+                '</div><div><span>Länge: </span>ca. '+ outputMissionLength +
+				'</div><div><span>Aktionen: </span>'+ actionsString.join(", ") +
+                '</div><div><span>Gesamtanzahl Portale: </span>'+ arrayPortals.length+
+                '</div><div><span>Anzahl Unique Portale: </span>'+ unique(arrayPortals).length+
+				'</div><div><span>Mehr: </span>'+feature.properties.description +
+				'</div><div><span>Stand vom: </span>'+ asOf.getDate() + '.' + (asOf.getMonth()) + 1 + '.' + asOf.getFullYear() +
+				'</div><div><span>Download: </span><a href="'+feature.properties.imagePath.replace('pics','kml').replace('.jpg','.kml')+'">Download als kml</a>'+
+                '</div><div><span>Karte: </span><a href="index.html?id='+feature.properties.id+'">Mosaik auf Karte ansehen</a></div>';
+
+        if(feature.properties.info!= "---"){
+            tempString += '<div><span>G+: </span><a href="'+ feature.properties.info +
+                    '">mehr Infos auf G+</a></div></div></div>';
+        }
+        else{
+            tempString += '<div><span>G+: </span>Leider kein G+ Post verfügbar</div></div></div>';;
+        }
+
+        document.getElementById(panelName).innerHTML = document.getElementById(panelName).innerHTML + tempString;
+    }
+    // function to determine the number of unique portals in the mosaic
+    function unique(a) {
+        var seen = new Set();
+        return a.filter(function(x) {
+            // use of toString, because every pair of coordinates is an array -> quick comparison of the values
+            return !seen.has(x.toString()) && seen.add(x.toString());
+        })
+    }
+</script>
+
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation({
+        topbar: {
+            custom_back_text: true,
+            back_text: 'Zurück'
+        }
+    });
+
+</script>
+</body>
+</html>

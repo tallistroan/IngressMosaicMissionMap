@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>Mosaikmissionen München</title>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/ownStyle.css"/>
+
+    <script src="js/vendor/modernizr.js"></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
+          rel='stylesheet'/>
+</head>
+<body>
+<div class="fixed">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#" id="title">Legende</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#" style="color: #ff8000;"><span>Menü</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul>
+                <li><a href="index.html">Karte</a></li>
+                <li><a href="overview.html">Übersicht</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </section>
+    </nav>
+</div>
+<div class="row" data-equalizer>
+    <div class="large-12 columns panel" data-equalizer-watch>
+        <h3>Legende</h3>
+        <ul>
+            <li>Missionen mit beliebiger Reihenfolge sind gestrichelt dargestellt</li>
+            <li>Missionen mit fester Reihenfolge werden als durchgehende Linie dargestellt</li>
+            <li>Missionen mit versteckten Wegpunkten werden am Startpunkt mit einem Fragezeichen gekennzeichnet</li>
+            <li>Der Start jeder Mission ist mit der jeweiligen Nummer bzw. mehreren Nummern der Mosaikreihenfolge beschriftet</li>
+			<li>Die angegebene Länge bezieht sich auf die Luftlinie zwischen den einzelnen Portalen inkl. der Entfernung zwischen den einzelnen Missionen. Die reale Länge kann abweichend sein</li>
+			<li>Die Dauer bezieht sich auf die Zeit, die andere Agenten bisher dafür benötigt haben. Besonders bei großen Abständen zwischen den Einzelmissionen kann die real benötigte Zeit abweichend sein</li>
+        </ul>
+        <p>Hinweis: Fieldtrip Waypoints werden auf der Karte nicht dargestellt, daher können Missionen vereinzelt nicht in ihrer tatsächlichen Länge sichtbar sein.</p>
+
+    </div>
+</div>
+<div class="row" data-equalizer>
+    <div class="large-12 columns panel" data-equalizer-watch>
+        <h3>Changelog</h3>
+        <ul>
+			<li>13.01.2016: v2.1 - Anzeige von Dauer + Länge + genaue Anzahl der Aktionen je Mosaik, Downloadmöglichkeit der Mosaik-Route als kml-Datei
+            <li>04.01.2016: v2.0 - komplett überarbeitetes Design, Portalanzahl total/unique für jedes Mosaik wird angezeigt, Übersichtskarte enthält Startpunkte der einzelnen Mosaike</li>
+            <li>02.12.2015: v1.0 - Veröffentlichung der Webseite, alle grundlegenden Funktionen vorhanden</li>
+            <li>15.11.2015: v0.1 - erste beta-Version</li>
+        </ul>
+
+
+    </div>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation({
+        topbar: {
+            custom_back_text: true,
+            back_text: 'Zurück'
+        }
+    });
+
+</script>
+</body>
+</html>
