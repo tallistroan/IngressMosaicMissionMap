@@ -4,10 +4,12 @@
 
 // Please fill out the following values for the mosaic, before you run the script:
 
-/* title for the mosaic which is displayed to the user */
+/* title for the mosaic which is displayed to the user
+   Please use only alphanumeric characters! */
 var mosaicTitle = "title";
 /* internal name of the mosaic, use a short and descriptive name,
- it is only used for including the files at the website and must be unique at the whole website */
+   it is only used for including the files at the website and must be unique at the whole website
+   Please use only letters a-z */
 var mosaicName = "name";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
@@ -116,9 +118,9 @@ for (var i = 0; i < startPoints.length; i++) {
     line.push('{"type": "Feature",\n"properties": {\n');
     // write extra information only once to the file
     if (i == 0) {
-        line.push('"title": "' + mosaicTitle + '",\n');
-        line.push('"description": "' + mosaicDescription + '",\n');
-        line.push('"imagePath": "pics/' + mosaicName + '.jpg",\n');
+        line.push('"title": "' + mosaicTitle.replace(/"/g, ' ') + '",\n');
+        line.push('"description": "' + mosaicDescription.replace(/"/g, ' ') + '",\n');
+        line.push('"imagePath": "pics/' + mosaicName+ '.jpg",\n');
         line.push('"info": "' + mosaicInfoPost + '",\n');
         line.push('"id": ' + mosaicID + ',\n');
     }
