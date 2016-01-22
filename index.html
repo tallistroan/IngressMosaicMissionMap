@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="de">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
@@ -8,8 +8,6 @@
     <title>Mosaikmissionen München</title>
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/ownStyle.css"/>
-
-
     <script src="js/vendor/modernizr.js"></script>
     <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'/>
@@ -49,6 +47,9 @@
 
         <section class="top-bar-section">
             <ul class="left">
+                <!--list where all available mosaics should be included,
+                    use the same id as specified during export
+                    template: <li><a href="index.html?id=id">mosaicTitle</a></li>-->
                 <li class="has-dropdown">
                     <a href="#" style="color: #ff8000;">Mosaikliste</a>
                     <ul class="dropdown">
@@ -169,7 +170,9 @@
     var medianCompletionTime = 0;
 
     // initialize background map
-    L.mapbox.accessToken = '<PUT YOUR API-KEY HERE>';
+    L.mapbox.accessToken = '< PUT YOUR API-KEY HERE >';
+    // provide boundaries if you wish, that the user is only able to pan and zoom at your city and not at the whole world
+    // but choose the corners generous, because otherwise the user is very limited in the zoom-functionality especially at small zoom levels
     var southWest = L.latLng(47.653085, 10.754076);
     var northEast = L.latLng(48.756453, 12.649536);
     bounds = L.latLngBounds(southWest, northEast);
@@ -177,7 +180,8 @@
         maxBounds: bounds,
         maxZoom: 17,
         minZoom: 10
-    })
+    });
+    // set the focus of the map, when it is loaded
     map.setView([48.14, 11.57], 14);
     L.control.locate().addTo(map);
 
@@ -382,14 +386,14 @@
         case "2":
             addLayer(kindl_mission, kindl_startMissions);
             break;
-// case 3 was: Weihnachtliches München
+        // case 3 was: Weihnachtliches München
         case "4":
             addLayer(marienplatz_mission, marienplatz_startMissions);
             break;
         case "5":
             addLayer(bach_mission, bach_startMissions);
             break;
-// case 6 was: Hacken in Giesing
+        // case 6 was: Hacken in Giesing
         case "7":
             addLayer(endless_mission, endless_startMissions);
             break;
@@ -523,6 +527,7 @@
             showStartPortals();
             break;
     }
+
     function addLayer(feature, startMissions) {
         document.getElementById("title").innerHTML = "◄ " + startMissions.features[0].properties.title;
         var arrayPortals = [];
@@ -602,7 +607,6 @@
         map.setView([startMissions.features[0].geometry.coordinates[1], startMissions.features[0].geometry.coordinates[0]], 16);
     }
 
-
     function onEachFeature(feature, layer) {
         var popupContent = "";
         if (feature.properties && feature.properties.title && feature.properties.typeNumMission) {
@@ -611,23 +615,22 @@
 
         layer.bindLabel(popupContent);
 
-        layer.on("mouseover", function (e) {
+        layer.on("mouseover", function () {
             layer.setStyle({
                 "weight": 8
             })
         });
-        layer.on("mouseout", function (e) {
+        layer.on("mouseout", function () {
             layer.setStyle({
                 "weight": 4
             })
         });
-        layer.on("click", function (e) {
+        layer.on("click", function () {
             layer.setStyle({
                 "weight": 8
             })
         });
     }
-
 
     function missionStyles(feature) {
         if (feature.properties && feature.properties.typeNumMission) {
@@ -677,7 +680,7 @@
                 case 1:
                     if (feature.properties && feature.properties.title) {
                         // concat action string
-                        var actionsString = []
+                        var actionsString = [];
                         if (countActionHack > 0) {
                             actionsString.push(countActionHack + ' x Hack')
                         }
@@ -703,7 +706,7 @@
                             actionsString.push(countActionPassphrase + ' x Passphrase eingeben')
                         }
                         // create output mission length
-                        var outputMissionLength = ""
+                        var outputMissionLength = "";
                         if (missionLength < 1) {
                             //when length < 1km display the value in meters
                             outputMissionLength += (missionLength * 1000).toFixed(0) + ' m'
@@ -722,14 +725,14 @@
                                 + '<p><span>Gesamtanzahl Portale: </span>' + totalPortals + '</p>'
                                 + '<p><span>Anzahl Unique Portale: </span>' + uniquePortals + '</p>'
                                 + '<p><span>Mehr: </span>' + feature.properties.description + '</p>'
-                                + '<p><span>Download: </span><a href="' + feature.properties.imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a>' + '</p>'
+                                + '<p><span>Download: </span><a href="' + feature.properties.imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a>' + '</p>';
                         if (feature.properties.info != "---") {
                             popupContent += '<p><span>G+: </span><a href="' + feature.properties.info + '">mehr Infos auf G+</a></p>'
                         } else {
                             popupContent += '<p><span>G+: </span>Leider kein G+ Post verfügbar</p>'
                         }
                         popupContent += '<img class="mapPic" src="' + feature.properties.imagePath + '">'
-                                + '<p><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth()) + 1 + '.' + asOf.getFullYear() + '</p>'
+                                + '<p><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth()) + 1 + '.' + asOf.getFullYear() + '</p>';
 
                         layer.bindPopup(popupContent);
                     }
@@ -737,7 +740,6 @@
             }
         }
     }
-
 
     function startMissionStyle(feature, latlng) {
         switch (feature.properties.missionNumber) {
@@ -752,7 +754,7 @@
                     weight: 2,
                     opacity: 1,
                     fillOpacity: 1
-                })
+                });
                 break;
             default:
                 return L.circleMarker(latlng, {
@@ -776,9 +778,7 @@
         }
         return (false);
     }
-
 </script>
-
 <script src="js/foundation.min.js"></script>
 <script>
     $(document).foundation({
@@ -787,7 +787,6 @@
             back_text: 'Zurück'
         }
     });
-
 </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="de">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -26,6 +26,9 @@
 
         <section class="top-bar-section">
             <ul>
+                <!--list where all available mosaics should be included,
+                    use the same id as specified during export
+                    template: <li><a href="#id">mosaicTitle</a></li>-->
                 <li class="has-dropdown">
                     <a href="#" style="color: #ff8000;">Übersichtsliste</a>
                     <ul class="dropdown">
@@ -130,11 +133,17 @@
 
 </div>
 <script>
-    // 60er Mosaiker
+    /*
+     add every mosaic to the overview page, rendering in order of occurrence in code,
+     use the same name as specific in the var mosaicName during export from intel,
+     change only the mosaicName in the template
+     template: addMissions(mosaicName_startMissions.features[0], mosaicName_mission, 'a');
+     */
+    // mosaics with 60 missions
     addMissions(olyturm_startMissions.features[0], olyturm_mission, 'a');
-    // 36er Mosaike
+    // mosaics with 36 missions
     addMissions(celtic_startMissions.features[0], celtic_mission, 'a');
-    // 24er Mosaike
+    // mosaics with 24 missions
     addMissions(antiquar_startMissions.features[0], antiquar_mission, 'a');
     addMissions(districts_startMissions.features[0], districts_mission, 'a');
     addMissions(biergarten_startMissions.features[0], biergarten_mission, 'a');
@@ -150,7 +159,7 @@
     addMissions(olympics_startMissions.features[0], olympics_mission, 'a');
     addMissions(dachau_startMissions.features[0], dachau_mission, 'a');
     addMissions(xmas_startMissions.features[0], xmas_mission, 'a');
-    // 18er Mosaike
+    // mosaics with 18 missions
     addMissions(warcraft_startMissions.features[0], warcraft_mission, 'a');
     addMissions(endlessII_startMissions.features[0], endlessII_mission, 'a');
     addMissions(ffbenl_startMissions.features[0], ffbenl_mission, 'a');
@@ -158,12 +167,12 @@
     addMissions(ismaning_startMissions.features[0], ismaning_mission, 'a');
     addMissions(panorama_startMissions.features[0], panorama_mission, 'a');
     addMissions(shapers_startMissions.features[0], shapers_mission, 'a');
-    // 12er Mosaike
+    // mosaics with 12 missions
     addMissions(endlessIII_startMissions.features[0], endlessIII_mission, 'a');
     addMissions(erding_startMissions.features[0], erding_mission, 'a');
     addMissions(spiderweb_startMissions.features[0], spiderweb_mission, 'a');
     addMissions(sunset_startMissions.features[0], sunset_mission, 'a');
-    // 6er Mosaike
+    // mosaics with 6 missions
     addMissions(aurum_startMissions.features[0], aurum_mission, 'a');
     addMissions(argentum_startMissions.features[0], argentum_mission, 'a');
     addMissions(aussen_startMissions.features[0], aussen_mission, 'a');
@@ -172,14 +181,14 @@
     addMissions(innen_startMissions.features[0], innen_mission, 'a');
     addMissions(pullach_startMissions.features[0], pullach_mission, 'a');
     addMissions(westkreuz_startMissions.features[0], westkreuz_mission, 'a');
-    // 5er Mosaike
+    // mosaics with 5 missions
     addMissions(turk_startMissions.features[0], turk_mission, 'a');
-    // 4er Mosaike
+    // mosaics with 4 missions
     addMissions(garten_startMissions.features[0], garten_mission, 'a');
     addMissions(love_startMissions.features[0], love_mission, 'a');
     addMissions(bier_startMissions.features[0], bier_mission, 'a');
     addMissions(trudering_startMissions.features[0], trudering_mission, 'a');
-    // 3er Mosaike
+    // mosaics with 3 missions
     addMissions(bach_startMissions.features[0], bach_mission, 'a');
     addMissions(nymphenburg_startMissions.features[0], nymphenburg_mission, 'a');
     addMissions(schleiss_startMissions.features[0], schleiss_mission, 'a');
@@ -242,7 +251,7 @@
             return elem === 8; // value for Action Enter the Passphrase
         }).length;
 
-        var actionsString = []
+        var actionsString = [];
         if (countActionHack > 0) {
             actionsString.push(countActionHack + ' x Hack')
         }
@@ -287,16 +296,15 @@
                 '</div><div><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth()) + 1 + '.' + asOf.getFullYear() +
                 '</div><div><span>Download: </span><a href="' + feature.properties.imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a>' +
                 '</div><div><span>Karte: </span><a href="index.html?id=' + feature.properties.id + '">Mosaik auf Karte ansehen</a></div>';
-
+        // check if a G+ Post is available
         if (feature.properties.info != "---") {
             tempString += '<div><span>G+: </span><a href="' + feature.properties.info +
                     '">mehr Infos auf G+</a></div></div></div>';
         }
         else {
+            // unfortunately no G+ available
             tempString += '<div><span>G+: </span>Leider kein G+ Post verfügbar</div></div></div>';
-            ;
         }
-
         document.getElementById(panelName).innerHTML = document.getElementById(panelName).innerHTML + tempString;
     }
     // function to determine the number of unique portals in the mosaic
@@ -308,7 +316,6 @@
         })
     }
 </script>
-
 <script src="js/foundation.min.js"></script>
 <script>
     $(document).foundation({
@@ -317,7 +324,6 @@
             back_text: 'Zurück'
         }
     });
-
 </script>
 </body>
 </html>

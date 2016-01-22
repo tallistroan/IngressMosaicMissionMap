@@ -14,11 +14,11 @@ function calcDistance(pointOne, pointTwo) {
 }
 function arrayToOneDimension(array) {
 	var oneDimArray = [];
-	for (i = 0; i < array.length; i++) {
-		for (x = 0; x < array[i].length; x++) {
+	for (var i = 0; i < array.length; i++) {
+		for (var x = 0; x < array[i].length; x++) {
 			oneDimArray.push(array[i][x]);
-		};
-	};
+		}
+	}
 	return oneDimArray;
 }
 // return the time string which is displayed for infos
