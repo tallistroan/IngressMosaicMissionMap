@@ -31,7 +31,7 @@ When the preparation is done execute the following steps:
 * Close the windows by using 'Delete Mission Cache and Reload Intel Map'. The Intel tab should reload then.
   **Attention:** When you clicked the button, the locally cached mission will be deleted, so make sure you copied and saved the exports before that, otherwise you need to select all single missions again.
 
-#### Changes in [index.html](index.html)
+#### Adjustments in [index.html](index.html)
 
 For all upcoming changes you must use the same values for mosaicID, mosaicName and mosaicTitle which you already used in the export script
 
@@ -53,7 +53,7 @@ case "mosaicID":
   break;
 ```            
 
-#### Changes in [overview.html](overview.html)
+#### Adjustments in [overview.html](overview.html)
 
 * Include the new mosaic in the menu-list as follows:
 ``` html
