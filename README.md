@@ -2,7 +2,7 @@
 This project is a web map for visualizing the so called banner-/mosaic-missions within the game Ingress. 
 A live version of this code containing mosaics in Munich, Germany can be found at http://ingress.tallistroan.de
 
-**Hinweis:** Eine deutsche Anleitung ist weiter unten zu finden.
+**Hinweis:** Eine deutsche Anleitung ist [weiter unten](#wie-erstelle-ich-eine-eigene-karte) zu finden.
 
 ---
 
@@ -79,7 +79,7 @@ addMissions(mosaicName_startMissions.features[0], mosaicName_mission, 'a');
 #### Done
 
 Now everything is done and you new mosaic should be visible at the map. If you wish to export another mosaic
-just skip the described preparation tasks and start directly with the next steps.
+skip the preparation tasks and start [directly with the export](#export-the-mosaic-from-the-intel).
 
 In case of errors/mosaics not showing at the map, the error messages in the developer console can be of great help to locate the problem.
 
@@ -174,7 +174,7 @@ addMissions(mosaicName_startMissions.features[0], mosaicName_mission, 'a');
 ```
 #### Geschafft
 
-Jetzt sollte das Mosaik auf der Karte sichtbar sein. Wenn du noch weitere Mosaike einbinden willst, führe einfach die Schritte ab dem Kapitel Mosaik-Export nochmals aus.
+Jetzt sollte das Mosaik auf der Karte sichtbar sein. Wenn du noch weitere Mosaike einbinden willst, beginne direkt beim Kapitel [Mosaik-Export](#mosaik-export).
 
 Sollten Fehler auftreten bzw. das Mosaik nicht sichtbar sein, kann die Auswertung der Fehlermeldungen in der Entwickler-Konsole sehr hilfreich sein.
 
