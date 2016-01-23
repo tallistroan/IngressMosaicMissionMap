@@ -3,7 +3,9 @@ This project is a web map for visualizing the so called banner-/mosaic-missions 
 A live version of this code containing mosaics in Munich, Germany can be found at http://ingress.tallistroan.de
 
 **Hinweis:** Eine deutsche Anleitung ist weiter unten zu finden.
+
 ---
+
 English Version:
 ## How to create your own map
 Feel free to fork this project to create a web map for your city/region.
