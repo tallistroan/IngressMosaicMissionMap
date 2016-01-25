@@ -26,105 +26,29 @@
 
         <section class="top-bar-section">
             <ul>
-                <!--list where all available mosaics should be included,
-                    use the same id as specified during export
-                    template: <li><a href="#id">mosaicTitle</a></li>-->
+
                 <li class="has-dropdown">
                     <a href="#" style="color: #ff8000;">Übersichtsliste</a>
                     <ul class="dropdown">
-                        <li class="has-dropdown"><a href="#">60er Mosaik</a>
+                        <li class="has-dropdown"><a href="#">Mosaic with 60 Missions</a>
                             <ul class="dropdown">
-                                <li><a href="#28">Olympiaturm München</a></li>
+                                 <!--
+                                 include you mosaic here for the menu entry, see template:
+                                 <li><a href="#mosaicId">mosaicTitle</a></li>
+                                 -->
                             </ul>
                         </li>
-                        <li class="has-dropdown"><a href="#">36er Mosaik</a>
+                        <li class="has-dropdown"><a href="#">Mosaic with 3 Missions</a>
                             <ul class="dropdown">
-                                <li><a href="#38">Celtic Knot</a></li>
+                                <!-- example: -->
+                                <li><a href="#24">Nymphenburg</a></li>
                             </ul>
                         </li>
-                        <li class="has-dropdown"><a href="#">24er Mosaike</a>
-                            <ul class="dropdown">
-                                <li><a href="#42">Antiquarium München</a></li>
-                                <li><a href="#16">Districts of Munich</a></li>
-                                <li><a href="#23">Das große Biergartenmosaik</a></li>
-                                <li><a href="#46">Endless I</a></li>
-                                <li><a href="#31">Karlsplatz, Stachus</a></li>
-                                <li><a href="#4">Marienplatz</a></li>
-                                <li><a href="#2">Münchner Kindl</a></li>
-                                <li><a href="#12">Munich City</a></li>
-                                <li><a href="#10">Munich Portal Hunter Stroll</a></li>
-                                <li><a href="#26">Pasinger Stadtwappen</a></li>
-                                <li><a href="#20">Resistance München</a></li>
-                                <li><a href="#43">Schleissheim Postcard</a></li>
-                                <li><a href="#49">1972 Summer Olympics</a></li>
-                                <li><a href="#30">Stadtwappen Dachau</a></li>
-                                <li><a href="#32">X-MAS Mosaik</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">18er Mosaike</a>
-                            <ul class="dropdown">
-                                <li><a href="#39">Dachau goes Warcraft</a></li>
-                                <li><a href="#47">Endless II</a></li>
-                                <li><a href="#34">FFB Enl-Mosaik</a></li>
-                                <li><a href="#21">Germeringer Kermit</a></li>
-                                <!--<li><a href="#6">Hacken in Giesing</a></li> offline-->
-                                <li><a href="#9">Ismaning Mosaik</a></li>
-                                <li><a href="#1">München Panorama</a></li>
-                                <li><a href="#33">The Shapers Eye</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">12er Mosaike</a>
-                            <ul class="dropdown">
-                                <li><a href="#48">Endless III</a></li>
-                                <li><a href="#19">Spaziergang durch Erding</a></li>
-                                <li><a href="#11">Spiderweb</a></li>
-                                <li><a href="#13">Sunset at the Lake</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">6er Mosaike</a>
-                            <ul class="dropdown">
-                                <li><a href="#36">AURUM Dachau</a></li>
-                                <li><a href="#37">ARGENTUM Dachau</a></li>
-                                <li><a href="#15">Äußerer Radring</a></li>
-                                <li><a href="#41">EXPUGNA SENTILINGA</a></li>
-                                <li><a href="#22">Germering</a></li>
-                                <li><a href="#14">Innerer Radring</a></li>
-                                <li><a href="#45">Oberhachinger Runde</a></li>
-                                <li><a href="#27">Pullach im Isartal</a></li>
-                                <li><a href="#25">Westkreuz</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">5er Mosaik</a>
-                            <ul class="dropdown">
-                                <li><a href="#35">Türkenfeld</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">4er Mosaike</a>
-                            <ul class="dropdown">
-                                <li><a href="#17">Englischer Garten</a></li>
-                                <li><a href="#8">I love München</a></li>
-                                <li><a href="#29">Münchens Biergärten</a></li>
-                                <li><a href="#18">Trudering</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">3er Mosaike</a>
-                            <ul class="dropdown">
-                                <li><a href="#5">Hachinger Bach</a></li>
-                                <li><a href="#24">Nymphenburger Schloss</a></li>
-                                <li><a href="#44">Schlösser in Oberschleißheim</a></li>
-                            </ul>
-                        </li>
-                        <!-- previously used for the special starwars missions
-                        <li class="has-dropdown"><a href="#">Spezialmissionen</a>
-                            <ul class="dropdown">
-                                <li></li>
-                            </ul>
-                        </li> -->
                     </ul>
                 </li>
-                <li><a href="index.html">Karte</a></li>
-                <li><a href="info.html">Legende</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="index.html">Karte</a></li> <!-- map -->
+                <li><a href="info.html">Legende</a></li> <!-- legend -->
+                <li><a href="contact.html">Kontakt</a></li> <!-- contact -->
             </ul>
         </section>
     </nav>
@@ -139,59 +63,6 @@
      change only the mosaicName in the template
      template: addMissions(mosaicName_startMissions.features[0], mosaicName_mission, 'a');
      */
-    // mosaics with 60 missions
-    addMissions(olyturm_startMissions.features[0], olyturm_mission, 'a');
-    // mosaics with 36 missions
-    addMissions(celtic_startMissions.features[0], celtic_mission, 'a');
-    // mosaics with 24 missions
-    addMissions(antiquar_startMissions.features[0], antiquar_mission, 'a');
-    addMissions(districts_startMissions.features[0], districts_mission, 'a');
-    addMissions(biergarten_startMissions.features[0], biergarten_mission, 'a');
-    addMissions(endlessI_startMissions.features[0], endlessI_mission, 'a');
-    addMissions(stachus_startMissions.features[0], stachus_mission, 'a');
-    addMissions(marienplatz_startMissions.features[0], marienplatz_mission, 'a');
-    addMissions(kindl_startMissions.features[0], kindl_mission, 'a');
-    addMissions(city_startMissions.features[0], city_mission, 'a');
-    addMissions(stroll_startMissions.features[0], stroll_mission, 'a');
-    addMissions(pasing_startMissions.features[0], pasing_mission, 'a');
-    addMissions(res_startMissions.features[0], res_mission, 'a');
-    addMissions(postcard_startMissions.features[0], postcard_mission, 'a');
-    addMissions(olympics_startMissions.features[0], olympics_mission, 'a');
-    addMissions(dachau_startMissions.features[0], dachau_mission, 'a');
-    addMissions(xmas_startMissions.features[0], xmas_mission, 'a');
-    // mosaics with 18 missions
-    addMissions(warcraft_startMissions.features[0], warcraft_mission, 'a');
-    addMissions(endlessII_startMissions.features[0], endlessII_mission, 'a');
-    addMissions(ffbenl_startMissions.features[0], ffbenl_mission, 'a');
-    addMissions(kermit_startMissions.features[0], kermit_mission, 'a');
-    addMissions(ismaning_startMissions.features[0], ismaning_mission, 'a');
-    addMissions(panorama_startMissions.features[0], panorama_mission, 'a');
-    addMissions(shapers_startMissions.features[0], shapers_mission, 'a');
-    // mosaics with 12 missions
-    addMissions(endlessIII_startMissions.features[0], endlessIII_mission, 'a');
-    addMissions(erding_startMissions.features[0], erding_mission, 'a');
-    addMissions(spiderweb_startMissions.features[0], spiderweb_mission, 'a');
-    addMissions(sunset_startMissions.features[0], sunset_mission, 'a');
-    // mosaics with 6 missions
-    addMissions(aurum_startMissions.features[0], aurum_mission, 'a');
-    addMissions(argentum_startMissions.features[0], argentum_mission, 'a');
-    addMissions(aussen_startMissions.features[0], aussen_mission, 'a');
-    addMissions(sendling_startMissions.features[0], sendling_mission, 'a');
-    addMissions(germering_startMissions.features[0], germering_mission, 'a');
-    addMissions(innen_startMissions.features[0], innen_mission, 'a');
-    addMissions(pullach_startMissions.features[0], pullach_mission, 'a');
-    addMissions(westkreuz_startMissions.features[0], westkreuz_mission, 'a');
-    // mosaics with 5 missions
-    addMissions(turk_startMissions.features[0], turk_mission, 'a');
-    // mosaics with 4 missions
-    addMissions(garten_startMissions.features[0], garten_mission, 'a');
-    addMissions(love_startMissions.features[0], love_mission, 'a');
-    addMissions(bier_startMissions.features[0], bier_mission, 'a');
-    addMissions(trudering_startMissions.features[0], trudering_mission, 'a');
-    // mosaics with 3 missions
-    addMissions(bach_startMissions.features[0], bach_mission, 'a');
-    addMissions(nymphenburg_startMissions.features[0], nymphenburg_mission, 'a');
-    addMissions(schleiss_startMissions.features[0], schleiss_mission, 'a');
 
     /**
      * adds mission details to the overview page

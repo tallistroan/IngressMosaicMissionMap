@@ -185,7 +185,7 @@ das Überlagern der Labels verhindert werden. Wenn z.B. Mission 3 und 8 am selbe
 missionNumber von Mission 3 von 3 auf "3, 8".
 
 Wenn am Startportal der ersten Mission des Mosaiks noch weitere Missionen starten, 
-müssen die Fälle in der Funktion startMissionStyle in der datei [index.html](index.html) angepasst werden. Beispiel:
+müssen die Fälle in den Funktionen *startMissionStyle* und *onEachStartPoint* in der Datei [index.html](index.html) angepasst werden. Beispiel:
 ``` javascript
 function startMissionStyle(feature, latlng) {
   switch (feature.properties.missionNumber) {
