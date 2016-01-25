@@ -2,7 +2,7 @@
 This project is a web map for visualizing the so called banner-/mosaic-missions within the game Ingress. 
 A live version of this code containing mosaics in Munich, Germany can be found at http://ingress.tallistroan.de
 
-**Hinweis:** Eine deutsche Anleitung ist weiter unten zu finden.
+**Hinweis:** Eine deutsche Anleitung ist [weiter unten](#wie-erstelle-ich-eine-eigene-karte) zu finden.
 
 ---
 
@@ -79,12 +79,12 @@ addMissions(mosaicName_startMissions.features[0], mosaicName_mission, 'a');
 #### Done
 
 Now everything is done and you new mosaic should be visible at the map. If you wish to export another mosaic
-just skip the described preparation tasks and start directly with the next steps.
+skip the preparation tasks and start [directly with the export](#export-the-mosaic-from-the-intel).
 
 In case of errors/mosaics not showing at the map, the error messages in the developer console can be of great help to locate the problem.
 
 
-#### Special cases
+#### Special case
 
 When two or more missions start at the same portal you can avoid 
 overlapping of the number labels by manually adjusting the properties 'missionNumber'
@@ -103,15 +103,15 @@ Deutsche Version
 ## Wie erstelle ich eine eigene Karte
 Der Code darf gerne geforkt werden um eine eigene Version für deine Stadt/Region zu erstellen.
 
-Grundsätzlich benötigst du natürlich irgendwo einen Webspace auf das du dein Projekt hochladen kannst.
+Grundsätzlich benötigst du natürlich irgendwo einen Webspace, auf den du dein Projekt hochladen kannst.
 
 #### Vorbereitung vor dem Export des ersten Mosaiks
 Du benötigst einen API-Token von www.mapbox.com
 Die kostenlose Variante ist i.d.R. ausreichend für eine Mosaikkarte.
 Kopiere deinen API-Token in die Datei [index.html](index.html)
 
-Passe außerdem die Parameter (bounds, maptype, min/maxZoom, setView) die für die Initialisierung der 
-Karte benötigt werden in der Datei [index.html](index.html) entsprechend deiner Region an.
+Passe außerdem die Parameter (bounds, maptype, min/maxZoom, setView), die für die Initialisierung der 
+Karte benötigt werden, in der Datei [index.html](index.html) entsprechend deiner Region an.
 
 Außerdem brauchst du das [exportMosaics Skript](exportScript/exportMosaics.js) um die Mosaikdaten im passenden Format zu bekommen.
 Das Skript ist kein IITC Plugin, sondern ein Skript welches direkt über die Entwickler-Konsole ausgeführt werden muss.
@@ -127,7 +127,7 @@ Hinweis: Man kann den Cache auch per Hand unter Resources > Local Storage > plug
 Sobald die Vorbereitungen abgeschlossen sind, führe folgenden Schritte durch:
 * Wähle in der IITC alle Missionen des Mosaiks in aufsteigender Reihenfolge aus (beginnend mit 1, 2, ...)
 * Passe die ersten fünf Variablen im Skript entsprechend der Erklärungen direkt darüber an. 
-  Die Werte dieser Variablen werden außerdem im folgenden teilweise zum Einbinden in die Website verwendet. Stelle daher sicher, dass du für ein Mosaik immer die selben Werte verwendest.
+  Die Werte dieser Variablen werden außerdem im Folgenden teilweise zum Einbinden in die Website verwendet. Stelle daher sicher, dass du für ein Mosaik immer die selben Werte verwendest.
 * Führe das angepasste Skript in der Konsole aus
 * Kopiere die Daten aus dem Fenster 'KML File' in eine neue Datei und speichere sie unter dem angezeigten Dateinamen ab (standardmößig ist das mosaicName.kml)
   Kopiere diese .kml Datei außerdem in den Ordner [kml](kml). Die .kml Datei ist nur dafür da, dass sich der Nutzer diese später runterladen kann und
@@ -174,14 +174,14 @@ addMissions(mosaicName_startMissions.features[0], mosaicName_mission, 'a');
 ```
 #### Geschafft
 
-Jetzt sollte das Mosaik auf der Karte sichtbar sein. Wenn du noch weitere Mosaike einbinden willst, führe einfach die Schritte ab dem Kapitel Mosaik-Export nochmals aus.
+Jetzt sollte das Mosaik auf der Karte sichtbar sein. Wenn du noch weitere Mosaike einbinden willst, beginne direkt beim Kapitel [Mosaik-Export](#mosaik-export).
 
 Sollten Fehler auftreten bzw. das Mosaik nicht sichtbar sein, kann die Auswertung der Fehlermeldungen in der Entwickler-Konsole sehr hilfreich sein.
 
 
 #### Spezialfall
 Wenn mehrere Missionen an einem Portal starten, kann durch die Anpassungen der properties missionNumber in der exportierten Variable mosaicName_startMissions
-das Überlagern der Labels verhindert werden. Wenn z.B. Mission 3 und 8 am selben Portal starten, löschen sie den Eintrag für Mission 8 komplett und ändern die
+das Überlagern der Labels verhindert werden. Wenn z.B. Mission 3 und 8 am selben Portal starten, lösche den Eintrag für Mission 8 komplett und ändere die
 missionNumber von Mission 3 von 3 auf "3, 8".
 
 Wenn am Startportal der ersten Mission des Mosaiks noch weitere Missionen starten, 
