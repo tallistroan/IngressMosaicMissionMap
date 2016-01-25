@@ -62,7 +62,7 @@ markers.addLayer( L.geoJson(mosaicName_startMissions.features[0], {
 * Within the switch-statement create a new case:
 ``` javascript
 case "mosaicID":
-  addLayer(mosaicName_mission, mosaicName_startMissions);
+  prepareMission(mosaicName_mission, mosaicName_startMissions);
   break;
 ```            
 
@@ -90,7 +90,7 @@ When two or more missions start at the same portal you can avoid
 overlapping of the number labels by manually adjusting the properties 'missionNumber'
 in the exported geojson-variable mosaicName_startMissions. 
 In case you need to change the value for the first mission
-you also need to adjust the cases in the function startMissionStyle in [index.html](index.html). Example:
+you also need to adjust the cases in the functions *startMissionStyle* and *onEachStartPoint* in [index.html](index.html). Example:
 ``` javascript
 function startMissionStyle(feature, latlng) {
   switch (feature.properties.missionNumber) {
@@ -158,7 +158,7 @@ markers.addLayer( L.geoJson(mosaicName_startMissions.features[0], {
 * Erstelle einen neuen case innerhalb des switch-Blocks:
 ``` javascript
 case "mosaicID":
-  addLayer(mosaicName_mission, mosaicName_startMissions);
+  prepareMission(mosaicName_mission, mosaicName_startMissions);
   break;
 ```            
 
