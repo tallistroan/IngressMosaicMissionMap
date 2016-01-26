@@ -1,5 +1,11 @@
-/*
- Script for extracting the mosaic missions as geojson customized for the use in the mission map
+/**
+ * Script for extracting the mosaic missions as geojson customized for the use in the mission map
+ *
+ * Please note: This script exports almost all properties from every mission,
+ * but not all are displayed to the user at the website at the moment
+ * (e.g. the faction of the author, number of unique players completed the mission, ...)
+ *
+ * Special thanks to @macrojames for providing the basis for this script
  */
 
 // Please fill out the following values for the mosaic, before you run the script:
