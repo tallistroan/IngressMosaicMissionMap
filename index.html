@@ -75,7 +75,6 @@
                                 <li><a href="index.html?id=12">Munich City</a></li>
                                 <li><a href="index.html?id=10">Munich Portal Hunter Stroll</a></li>
                                 <li><a href="index.html?id=26">Pasinger Stadtwappen</a></li>
-                                <li><a href="index.html?id=20">Resistance München</a></li>
                                 <li><a href="index.html?id=43">Schleissheim Postcard</a></li>
                                 <li><a href="index.html?id=49">1972 Summer Olympics</a></li>
                                 <li><a href="index.html?id=30">Stadtwappen Dachau</a></li>
@@ -265,10 +264,6 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
-        markers.addLayer(L.geoJson(res_startMissions.features[0], {
-            pointToLayer: startMissionStyle,
-            onEachFeature: onEachPointOverview
-        }));
         markers.addLayer(L.geoJson(kermit_startMissions.features[0], {
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
@@ -443,9 +438,6 @@
             break;
         case "19":
             prepareMission(erding_mission, erding_startMissions);
-            break;
-        case "20":
-            prepareMission(res_mission, res_startMissions);
             break;
         case "21":
             prepareMission(kermit_mission, kermit_startMissions);
