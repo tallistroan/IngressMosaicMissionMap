@@ -315,7 +315,7 @@
     function onEachStartPoint(feature, layer) {
         if (feature.properties && feature.properties.missionNumber) {
             // create clickable intel-link for every mission start as label
-            layer.bindLabel('<a id="linkPortal" title="Startportal in Intel aufrufen" href="https://www.ingress.com/intel?' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '&z=17&pll=' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '">' + feature.properties.missionNumber.toString() + '</a>', {
+            layer.bindLabel('<a target="_blank" id="linkPortal" title="Startportal in Intel aufrufen" href="https://www.ingress.com/intel?' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '&z=17&pll=' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '">' + feature.properties.missionNumber.toString() + '</a>', {
                 noHide: true
             });
             // add a popup with information on the start point of the first mission
