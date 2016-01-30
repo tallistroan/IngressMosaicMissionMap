@@ -89,7 +89,6 @@
                                 <li><a href="index.html?id=34">FFB Enl-Mosaik</a></li>
                                 <li><a href="index.html?id=21">Germeringer Kermit</a></li>
                                 <li><a href="index.html?id=9">Ismaning Mosaik</a></li>
-                                <li><a href="index.html?id=1">München Panorama</a></li>
                                 <li><a href="index.html?id=33">The Shapers Eye</a></li>
                             </ul>
                         </li>
@@ -205,10 +204,7 @@
          onEachFeature: onEachPointOverview
          }));
         */
-        markers.addLayer(L.geoJson(panorama_startMissions.features[0], {
-            pointToLayer: startMissionStyle,
-            onEachFeature: onEachPointOverview
-        }));
+
         markers.addLayer(L.geoJson(kindl_startMissions.features[0], {
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
@@ -397,9 +393,6 @@
         */
         case "mosaicID":
             prepareMission(mosaicName_mission, mosaicName_startMissions);
-            break;
-        case "1":
-            prepareMission(panorama_mission, panorama_startMissions);
             break;
         case "2":
             prepareMission(kindl_mission, kindl_startMissions);
