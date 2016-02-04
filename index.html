@@ -74,7 +74,6 @@
                                 <li><a href="index.html?id=2">Münchner Kindl</a></li>
                                 <li><a href="index.html?id=12">Munich City</a></li>
                                 <li><a href="index.html?id=10">Munich Portal Hunter Stroll</a></li>
-                                <li><a href="index.html?id=26">Pasinger Stadtwappen</a></li>
                                 <li><a href="index.html?id=43">Schleissheim Postcard</a></li>
                                 <li><a href="index.html?id=49">1972 Summer Olympics</a></li>
                                 <li><a href="index.html?id=30">Stadtwappen Dachau</a></li>
@@ -284,10 +283,6 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
-        markers.addLayer(L.geoJson(pasing_startMissions.features[0], {
-            pointToLayer: startMissionStyle,
-            onEachFeature: onEachPointOverview
-        }));
         markers.addLayer(L.geoJson(pullach_startMissions.features[0], {
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
@@ -400,9 +395,7 @@
             prepareMission(bach_mission, bach_startMissions);
             break;
         // case 6 was: Hacken in Giesing
-        case "7":
-            prepareMission(endless_mission, endless_startMissions);
-            break;
+        // case 7 was: Endless 54 total
         case "8":
             prepareMission(love_mission, love_startMissions);
             break;
@@ -454,9 +447,7 @@
         case "25":
             prepareMission(westkreuz_mission, westkreuz_startMissions);
             break;
-        case "26":
-            prepareMission(pasing_mission, pasing_startMissions);
-            break;
+        // case 26 was: Pasing Wappen
         case "27":
             prepareMission(pullach_mission, pullach_startMissions);
             break;
