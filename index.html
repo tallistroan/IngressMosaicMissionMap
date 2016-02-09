@@ -378,7 +378,7 @@
                             popupContent += '<p><span>G+: </span>Leider kein G+ Post verfügbar</p>' // unfortunately there is no G+ post available
                         }
                         popupContent += '<img class="mapPic" src="' + feature.properties.imagePath + '">'
-                                + '<p><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth()) + 1 + '.' + asOf.getFullYear() + '</p>'; // mission data as of the export date from the mosaic
+                                + '<p><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth()+ 1)  + '.' + asOf.getFullYear() + '</p>'; // mission data as of the export date from the mosaic
 
                         layer.bindPopup(popupContent);
                     }

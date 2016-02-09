@@ -168,7 +168,7 @@
                 '</div><div><span>Gesamtanzahl Portale: </span>' + arrayPortals.length + // number of total portals in the mosaic
                 '</div><div><span>Anzahl Unique Portale: </span>' + unique(arrayPortals).length + // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
                 '</div><div><span>Mehr: </span>' + feature.properties.description + // shows the description specified during the export process from the intel
-                '</div><div><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth()) + 1 + '.' + asOf.getFullYear() + // mission data as of the export date from the mosaic
+                '</div><div><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear() + // mission data as of the export date from the mosaic
                 '</div><div><span>Download: </span><a href="' + feature.properties.imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a>' + // create downloadlink for the kml file, which was specified during export from the intel
                 '</div><div><span>Karte: </span><a href="index.html?id=' + feature.properties.id + '">Mosaik auf Karte ansehen</a></div>'; // creates link for directly viewing on the map
         // check if a G+ Post is available
