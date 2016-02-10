@@ -108,7 +108,6 @@
                                 <li><a href="index.html?id=14">Innerer Radring</a></li>
                                 <li><a href="index.html?id=45">Oberhachinger Runde</a></li>
                                 <li><a href="index.html?id=27">Pullach im Isartal</a></li>
-                                <li><a href="index.html?id=25">Westkreuz</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown"><a href="#">5er Mosaik</a>
@@ -279,10 +278,6 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
-        markers.addLayer(L.geoJson(westkreuz_startMissions.features[0], {
-            pointToLayer: startMissionStyle,
-            onEachFeature: onEachPointOverview
-        }));
         markers.addLayer(L.geoJson(pullach_startMissions.features[0], {
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
@@ -444,9 +439,7 @@
         case "24":
             prepareMission(nymphenburg_mission, nymphenburg_startMissions);
             break;
-        case "25":
-            prepareMission(westkreuz_mission, westkreuz_startMissions);
-            break;
+        // case 25 was: Westkreuz
         // case 26 was: Pasing Wappen
         case "27":
             prepareMission(pullach_mission, pullach_startMissions);
