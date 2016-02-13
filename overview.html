@@ -10,8 +10,10 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/helpFunctions.js"></script>
     <script src="js/vendor/modernizr.js"></script>
+    <script src="js/lazysizes.min.js"></script>
     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
           rel='stylesheet'/>
+
 </head>
 <body>
 <div class="fixed">
@@ -128,6 +130,19 @@
 
 </div>
 <script>
+    // calculates size of the mission pictures
+    var windowWidth = window.innerWidth;
+    var tileSize = 0;
+    var tileSpace = 0;
+    if(windowWidth<450){
+        tileSize = windowWidth*.9/ 6;
+        tileSpace = 2;
+    }
+    else{
+        tileSize =64;
+        tileSpace = 3;
+    }
+
     /*
      add every mosaic to the overview page, rendering in order of occurrence in code,
      use the same name as specific in the var mosaicName during export from intel,
@@ -272,13 +287,26 @@
         }
 
         asOf = new Date(mission.features[0].properties.time);
+        // create html string for pictures
+        // calculate the height of the overview panel depending on the number of mission in the mosaic
+        var minHeightPanel = (mission.features.length/6)*tileSize+(mission.features.length/6)*(tileSpace*2);
+        var stringMissionPictures ="";
+        // cut the mission name from the imagePath
+        var missionName = feature.properties.imagePath.substring(5, feature.properties.imagePath.lastIndexOf("."))+'_';
+        for(var i = window[missionName+"mission"].features.length-1; i >=0; i--){
+            // change the .jpg when you use another file format for the pictures
+            stringMissionPictures += '<nobr><img class="lazyload" data-src="pics/'+missionName+(i+1)+'.jpg" width='+tileSize+'px height='+tileSize+'px style="padding:'+tileSpace+'px;"></nobr>';
+            if(i%6==0)
+                stringMissionPictures += "</br>";
+        }
+
         // aquire the data for the overview of each mosaic
         var tempString =
 
                 '<div class="row" data-equalizer>' +
-                '<div id="missionPic" class="large-6 columns panel" data-equalizer-watch>' +
-                '<img id="' + feature.properties.id + '" class="overviewPic" src="' + feature.properties.imagePath + '"></div>' +
-                '<div class="large-6 columns panel" data-equalizer-watch>' +
+                '<div id="missionPic" class="large-6 columns panel" data-equalizer-watch style="background-color:#303030; min-height:' + minHeightPanel + 'px;">' +
+                stringMissionPictures +
+                '</div><div class="large-6 columns panel" data-equalizer-watch>' +
                 '<h4>' + feature.properties.title + '</h4>' +
                 '<div><span>Ersteller: </span>' + mission.features[0].properties.author + // author
                 '</div><div><span>Zeit: </span>ca. ' + calcTime(medianCompletionTime) + // median completion time
