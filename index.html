@@ -36,7 +36,7 @@
 </head>
 <body>
 <div class="fixed">
-    <nav class="top-bar" data-topbar role="navigation">
+    <nav class="top-bar" data-topbar>
         <ul class="title-area">
             <li class="name">
                 <h1><a href="index.html" id="title">Mosaikkarte München</a></h1>
@@ -654,6 +654,20 @@
         }
     }
 
+    function createHTMLImageString(feature){
+        var stringMissionPictures ="";
+        var missionName = feature.properties.imagePath.substring(5, feature.properties.imagePath.lastIndexOf("."))+'_';
+        // creates the html string for the mission images,
+        // window[missionName+"mission"] is used to access the according variable and to get the number of missions in the mosaic
+        for(var i = window[missionName+"mission"].features.length-1; i >=0; i--){
+            // change the .jpg when you use another file format for the pictures
+            stringMissionPictures += '<nobr><img src="pics/'+missionName+(i+1)+'.jpg"  style="padding:2px;width: 45px;height: 45px;">';
+            if(i%6==0)
+                stringMissionPictures += "</br>";
+        }
+        return  stringMissionPictures;
+    }
+
     /**
      * defines what is visible when clicking on the mission start point at the overview map
      * @param feature
@@ -663,7 +677,7 @@
         if (feature.properties && feature.properties.title) {
             layer.bindPopup(
                     '<h4>' + feature.properties.title + '</h4>'
-                    + '<img class="mapPic" src="' + feature.properties.imagePath + '">'
+                    + createHTMLImageString(feature)
                     + '<p><a href="index.html?id=' + feature.properties.id + '">Details/Route in der Karte anzeigen</a></p>');
         }
     }
@@ -722,6 +736,7 @@
                             outputMissionLength += missionLength.toFixed(2) + ' km'
                         }
 
+
                         var popupContent =
                                 '<h4>' + feature.properties.title + '</h4>'
                                 // popup content, text in german, meaning/content is described in the comments after the p-tag
@@ -739,8 +754,8 @@
                         } else {
                             popupContent += '<p><span>G+: </span>Leider kein G+ Post verfügbar</p>' // unfortunately there is no G+ post available
                         }
-                        popupContent += '<img class="mapPic" src="' + feature.properties.imagePath + '">'
-                                + '<p><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth()) + 1 + '.' + asOf.getFullYear() + '</p>'; // mission data as of the export date from the mosaic
+                        popupContent += createHTMLImageString(feature)
+                                + '<p><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth()+ 1)  + '.' + asOf.getFullYear() + '</p>'; // mission data as of the export date from the mosaic
 
                         layer.bindPopup(popupContent);
                     }
