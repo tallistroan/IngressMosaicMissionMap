@@ -87,6 +87,7 @@
                                 <li><a href="index.html?id=34">FFB Enl-Mosaik</a></li>
                                 <li><a href="index.html?id=21">Germeringer Kermit</a></li>
                                 <li><a href="index.html?id=9">Ismaning Mosaik</a></li>
+                                <li><a href="index.html?id=50">Marienplatz Tal (1890)</a></li>
                                 <li><a href="index.html?id=33">The Shapers Eye</a></li>
                             </ul>
                         </li>
@@ -366,6 +367,10 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
+        markers.addLayer(L.geoJson(tal_startMissions.features[0], {
+            pointToLayer: startMissionStyle,
+            onEachFeature: onEachPointOverview
+        }));
 
         map.addLayer(markers);
     }
@@ -509,6 +514,9 @@
             break;
         case "49":
             prepareMission(olympics_mission, olympics_startMissions);
+            break;
+        case "50":
+            prepareMission(tal_mission, tal_startMissions);
             break;
         default:
             showStartPortals();
