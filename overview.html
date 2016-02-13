@@ -37,6 +37,7 @@
                         <li class="has-dropdown"><a href="#">60er Mosaik</a>
                             <ul class="dropdown">
                                 <li><a href="#28">Olympiaturm München</a></li>
+                                <li><a href="#51">Uptown München</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown"><a href="#">36er Mosaik</a>
@@ -152,6 +153,7 @@
      */
     // mosaics with 60 missions
     addMissions(olyturm_startMissions.features[0], olyturm_mission, 'a');
+    addMissions(uptown_startMissions.features[0], uptown_mission, 'a');
     // mosaics with 36 missions
     addMissions(celtic_startMissions.features[0], celtic_mission, 'a');
     // mosaics with 24 missions
@@ -306,7 +308,7 @@
         var tempString =
 
                 '<div class="row" data-equalizer>' +
-                '<div id="missionPic" class="large-6 columns panel" data-equalizer-watch style="background-color:#303030; min-height:' + minHeightPanel + 'px;">' +
+                '<div id="'+feature.properties.id+'" class="large-6 columns panel" data-equalizer-watch style="background-color:#303030; min-height:' + minHeightPanel + 'px;">' +
                 stringMissionPictures +
                 '</div><div class="large-6 columns panel" data-equalizer-watch>' +
                 '<h4>' + feature.properties.title + '</h4>' +

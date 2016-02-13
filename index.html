@@ -56,6 +56,7 @@
                         <li class="has-dropdown"><a href="#">60er Mosaik</a>
                             <ul class="dropdown">
                                 <li><a href="index.html?id=28">Olympiaturm München</a></li>
+                                <li><a href="index.html?id=51">Uptown München</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown"><a href="#">36er Mosaik</a>
@@ -371,6 +372,10 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
+        markers.addLayer(L.geoJson(uptown_startMissions.features[0], {
+            pointToLayer: startMissionStyle,
+            onEachFeature: onEachPointOverview
+        }));
 
         map.addLayer(markers);
     }
@@ -517,6 +522,9 @@
             break;
         case "50":
             prepareMission(tal_mission, tal_startMissions);
+            break;
+        case "51":
+            prepareMission(uptown_mission, uptown_startMissions);
             break;
         default:
             showStartPortals();
