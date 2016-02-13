@@ -67,6 +67,7 @@
                         <li class="has-dropdown"><a href="#">24er Mosaike</a>
                             <ul class="dropdown">
                                 <li><a href="index.html?id=42">Antiquarium München</a></li>
+                                <li><a href="index.html?id=52">Blue Sun Garching</a></li>
                                 <li><a href="index.html?id=16">Districts of Munich</a></li>
                                 <li><a href="index.html?id=23">Das große Biergartenmosaik</a></li>
                                 <li><a href="index.html?id=46">Endless I</a></li>
@@ -376,6 +377,10 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
+        markers.addLayer(L.geoJson(blueSun_startMissions.features[0], {
+            pointToLayer: startMissionStyle,
+            onEachFeature: onEachPointOverview
+        }));
 
         map.addLayer(markers);
     }
@@ -525,6 +530,9 @@
             break;
         case "51":
             prepareMission(uptown_mission, uptown_startMissions);
+            break;
+        case "52":
+            prepareMission(blueSun_mission, blueSun_startMissions);
             break;
         default:
             showStartPortals();
@@ -677,7 +685,7 @@
         // window[missionName+"mission"] is used to access the according variable and to get the number of missions in the mosaic
         for(var i = window[missionName+"mission"].features.length-1; i >=0; i--){
             // change the .jpg when you use another file format for the pictures
-            stringMissionPictures += '<nobr><img src="pics/'+missionName+(i+1)+'.jpg"  style="padding:2px;width: 45px;height: 45px;">';
+            stringMissionPictures += '<nobr><img src="pics/'+missionName+(i+1)+'.jpg"  style="padding:2px;width: 40px;height: 40px;">';
             if(i%6==0)
                 stringMissionPictures += "</br>";
         }
