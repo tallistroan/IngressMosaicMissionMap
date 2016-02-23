@@ -84,7 +84,6 @@
                         </li>
                         <li class="has-dropdown"><a href="#">18er Mosaike</a>
                             <ul class="dropdown">
-                                <li><a href="index.html?id=39">Dachau goes Warcraft</a></li>
                                 <li><a href="index.html?id=47">Endless II</a></li>
                                 <li><a href="index.html?id=34">FFB Enl-Mosaik</a></li>
                                 <li><a href="index.html?id=21">Germeringer Kermit</a></li>
@@ -329,10 +328,7 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
-        markers.addLayer(L.geoJson(warcraft_startMissions.features[0], {
-            pointToLayer: startMissionStyle,
-            onEachFeature: onEachPointOverview
-        }));
+
         markers.addLayer(L.geoJson(sendling_startMissions.features[0], {
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
@@ -492,9 +488,7 @@
         case "38":
             prepareMission(celtic_mission, celtic_startMissions);
             break;
-        case "39":
-            prepareMission(warcraft_mission, warcraft_startMissions);
-            break;
+        // case 39 was: dachau goes war craft
         case "40":
             prepareMission(star_mission, star_startMissions);
             break;
