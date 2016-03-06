@@ -75,6 +75,7 @@
                                 <li><a href="index.html?id=4">Marienplatz</a></li>
                                 <li><a href="index.html?id=2">Münchner Kindl</a></li>
                                 <li><a href="index.html?id=12">Munich City</a></li>
+                                <li><a href="index.html?id=53">Munich City Walls</a></li>
                                 <li><a href="index.html?id=10">Munich Portal Hunter Stroll</a></li>
                                 <li><a href="index.html?id=43">Schleissheim Postcard</a></li>
                                 <li><a href="index.html?id=49">1972 Summer Olympics</a></li>
@@ -377,6 +378,10 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
+        markers.addLayer(L.geoJson(walls_startMissions.features[0], {
+            pointToLayer: startMissionStyle,
+            onEachFeature: onEachPointOverview
+        }));
 
         map.addLayer(markers);
     }
@@ -527,6 +532,9 @@
             break;
         case "52":
             prepareMission(blueSun_mission, blueSun_startMissions);
+            break;
+        case "53":
+            prepareMission(walls_mission, walls_startMissions);
             break;
         default:
             showStartPortals();
