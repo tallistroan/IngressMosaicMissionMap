@@ -98,6 +98,7 @@
                                 <li><a href="index.html?id=48">Endless III</a></li>
                                 <li><a href="index.html?id=19">Spaziergang durch Erding</a></li>
                                 <li><a href="index.html?id=11">Spiderweb</a></li>
+                                <li><a href="index.html?id=54">Starnberg</a></li>
                                 <li><a href="index.html?id=13">Sunset at the Lake</a></li>
                             </ul>
                         </li>
@@ -382,6 +383,10 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
+        markers.addLayer(L.geoJson(starnberg_startMissions.features[0], {
+            pointToLayer: startMissionStyle,
+            onEachFeature: onEachPointOverview
+        }));
 
         map.addLayer(markers);
     }
@@ -535,6 +540,9 @@
             break;
         case "53":
             prepareMission(walls_mission, walls_startMissions);
+            break;
+        case "54":
+            prepareMission(starnberg_mission, starnberg_startMissions);
             break;
         default:
             showStartPortals();
