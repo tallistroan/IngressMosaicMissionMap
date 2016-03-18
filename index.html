@@ -59,6 +59,11 @@
                                 <li><a href="index.html?id=51">Uptown München</a></li>
                             </ul>
                         </li>
+                        <li class="has-dropdown"><a href="#">48er Mosaik</a>
+                            <ul class="dropdown">
+                                <li><a href="index.html?id=55">Blauer Reiter</a></li>
+                            </ul>
+                        </li>
                         <li class="has-dropdown"><a href="#">36er Mosaik</a>
                             <ul class="dropdown">
                                 <li><a href="index.html?id=38">Celtic Knot</a></li>
@@ -387,6 +392,10 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
+        markers.addLayer(L.geoJson(reiter_startMissions.features[0], {
+            pointToLayer: startMissionStyle,
+            onEachFeature: onEachPointOverview
+        }));
 
         map.addLayer(markers);
     }
@@ -543,6 +552,9 @@
             break;
         case "54":
             prepareMission(starnberg_mission, starnberg_startMissions);
+            break;
+        case "55":
+            prepareMission(reiter_mission, reiter_startMissions);
             break;
         default:
             showStartPortals();
