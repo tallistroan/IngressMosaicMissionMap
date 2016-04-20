@@ -59,6 +59,11 @@
                                 <li><a href="index.html?id=51">Uptown München</a></li>
                             </ul>
                         </li>
+                        <li class="has-dropdown"><a href="#">54er Mosaik</a>
+                            <ul class="dropdown">
+                                <li><a href="index.html?id=56">Sound & Vision</a></li>
+                            </ul>
+                        </li>
                         <li class="has-dropdown"><a href="#">48er Mosaik</a>
                             <ul class="dropdown">
                                 <li><a href="index.html?id=55">Blauer Reiter</a></li>
@@ -85,6 +90,7 @@
                                 <li><a href="index.html?id=43">Schleissheim Postcard</a></li>
                                 <li><a href="index.html?id=49">1972 Summer Olympics</a></li>
                                 <li><a href="index.html?id=30">Stadtwappen Dachau</a></li>
+                                <li><a href="index.html?id=57">Tatort Hadern</a></li>
                                 <li><a href="index.html?id=32">X-MAS Mosaik</a></li>
                             </ul>
                         </li>
@@ -396,7 +402,14 @@
             pointToLayer: startMissionStyle,
             onEachFeature: onEachPointOverview
         }));
-
+        markers.addLayer(L.geoJson(sound_startMissions.features[0], {
+            pointToLayer: startMissionStyle,
+            onEachFeature: onEachPointOverview
+        }));
+        markers.addLayer(L.geoJson(tatort_startMissions.features[0], {
+            pointToLayer: startMissionStyle,
+            onEachFeature: onEachPointOverview
+        }));
         map.addLayer(markers);
     }
     switch (getQueryVariable("id")) {
@@ -555,6 +568,12 @@
             break;
         case "55":
             prepareMission(reiter_mission, reiter_startMissions);
+            break;
+        case "56":
+            prepareMission(sound_mission, sound_startMissions);
+            break;
+        case "57":
+            prepareMission(tatort_mission, tatort_startMissions);
             break;
         default:
             showStartPortals();
