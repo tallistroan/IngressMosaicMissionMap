@@ -1,1 +1,0 @@
-var mapbox_accesstoken = 'API-KEY';

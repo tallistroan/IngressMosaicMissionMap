@@ -9,19 +9,12 @@
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/ownStyle.css"/>
     <script src="js/vendor/modernizr.js"></script>
-    <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'/>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
+
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.css' rel='stylesheet'/>
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css'
-          rel='stylesheet'/>
-    <!--[if lt IE 9]>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css'
-          rel='stylesheet'/>
-    <![endif]-->
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
-          rel='stylesheet'/>
 
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css'
@@ -31,7 +24,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/helpFunctions.js"></script>
     <script type="text/javascript" src="missions.js"></script>
-    <script type="text/javascript" src="mapbox_token.js"></script>
+    <script type="text/javascript" src="options.js"></script>
 
 
 </head>
@@ -182,21 +175,20 @@
     var medianCompletionTime = 0;
 
     // initialize background map
-    L.mapbox.accessToken = mapbox_accesstoken;
-    // provide boundaries if you wish, that the user is only able to pan and zoom at your city and not at the whole world
-    // but choose the corners generous, because otherwise the user is very limited in the zoom-functionality especially at small zoom levels
-    var southWest = L.latLng(47.653085, 10.754076);
-    var northEast = L.latLng(48.756453, 12.649536);
-    bounds = L.latLngBounds(southWest, northEast);
-    var map = L.mapbox.map('map', 'mapbox.streets', {
-        maxBounds: bounds,
-        maxZoom: 17,
-        minZoom: 10
-    });
-    // set the focus of the map, when it is loaded
-    map.setView([48.14, 11.57], 14);
-    L.control.locate().addTo(map);
+    mapboxgl.accessToken = mapbox_accesstoken;
 
+    var map =  new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v9',
+        center: [11.57, 48.14],
+        zoom: 14,
+        minZoom: 10,
+        maxZoom: 16,
+        maxBounds: bounds
+    });
+
+    map.addControl(new mapboxgl.Navigation({position: 'top-right'}));
+    map.addControl(new mapboxgl.Geolocate({position: 'top-right'}));
     // create ClusterGroup for start points on the main map
     var markers = new L.MarkerClusterGroup({
         spiderfyOnMaxZoom: true,
