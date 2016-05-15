@@ -31,6 +31,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/helpFunctions.js"></script>
     <script type="text/javascript" src="missions.js"></script>
+    <script type="text/javascript" src="mapbox_token.js"></script>
 
 
 </head>
@@ -181,7 +182,7 @@
     var medianCompletionTime = 0;
 
     // initialize background map
-    L.mapbox.accessToken = '< PUT YOUR API-KEY HERE >';
+    L.mapbox.accessToken = mapbox_accesstoken;
     // provide boundaries if you wish, that the user is only able to pan and zoom at your city and not at the whole world
     // but choose the corners generous, because otherwise the user is very limited in the zoom-functionality especially at small zoom levels
     var southWest = L.latLng(47.653085, 10.754076);
