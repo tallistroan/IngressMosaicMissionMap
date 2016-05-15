@@ -57,3 +57,7 @@ h4{
     height: 95%;
     padding-top: 5%;
 }
+
+.mapboxgl-ctrl-icon{
+    margin:0 !important;
+}
