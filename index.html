@@ -12,15 +12,6 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
 
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.css' rel='stylesheet'/>
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css'
-          rel='stylesheet'/>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css'
-          rel='stylesheet'/>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/helpFunctions.js"></script>
     <script type="text/javascript" src="missions.js"></script>
@@ -183,14 +174,145 @@
         center: [11.57, 48.14],
         zoom: 14,
         minZoom: 10,
-        maxZoom: 16,
+        maxZoom: 17,
+        hash: true,
         maxBounds: bounds
     });
 
     map.addControl(new mapboxgl.Navigation({position: 'top-right'}));
     map.addControl(new mapboxgl.Geolocate({position: 'top-right'}));
+
+
+    map.on('style.load', function () {
+        map.addSource("route", {
+            "type": "geojson",
+            "data": "./geojson/stachus.geojson",
+            "buffer": 0,
+            "tolerance": 1
+        });
+        map.addSource("start", {
+            "type": "geojson",
+            "data": "./geojson/stachus_start.geojson",
+            "cluster": false
+        });
+
+        map.addLayer({
+            "id": "route",
+            "type": "line",
+            "source": "route",
+            "layout": {
+                "line-join": "round",
+                "line-cap": "round"
+            },
+            "paint": {
+                "line-color": "#ff8000",
+                "line-width": 5,
+                "line-dasharray": [1,2]
+            }
+        });
+        map.addLayer({
+            "id": "route-hover",
+            "type": "line",
+            "source": "route",
+            "layout": {
+                "line-join": "round",
+                "line-cap": "round"
+            },
+            "paint": {
+                "line-color": "#b06110",
+                "line-width": 5,
+                "line-dasharray": [1,2]
+            },
+            "filter": ["==", "title", ""]
+        });
+        map.addLayer({
+            "id": "start_points",
+            "type": "circle",
+            "source": "start",
+            "layout": {},
+            "paint": {
+                "circle-color": "#8f8880",
+                "circle-radius": 6,
+                "circle-blur": 0.5
+            }
+        });
+        map.addLayer({
+            "id": "start",
+            "type": "symbol",
+            "source": "start",
+            "layout": {
+                "text-field": "{missionNumber}",
+                "text-size": 16,
+                "text-anchor": "left",
+                "text-offset": [0.5,0],
+                "icon-padding": 0,
+                "text-allow-overlap": true,
+                "visibility": "visible",
+                "icon-ignore-placement": true
+            },
+            "paint": {
+                "text-halo-color": "#fff",
+                "text-halo-width": 2
+            }
+        });
+
+
+    });
+
+
+
+
+
+
+    // When a click event occurs near a marker icon, open a popup at the location of
+    // the feature, with description HTML from its properties.
+    map.on('click', function (e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: ['start'] });
+
+        if (!features.length) {
+            return;
+        }
+
+        var feature = features[0];
+        map.flyTo({
+            center: features[0].geometry.coordinates,
+            speed: 1
+        });
+        // Populate the popup and set its coordinates
+        // based on the feature found.
+        var popup = new mapboxgl.Popup({
+            "closeButton": false,
+            "closeOnClick": true,
+            "anchor": "bottom"
+        })
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML(
+                        '<h6>' + feature.properties.title + '</h6>'
+                            // popup content, text in german, meaning/content is described in the comments after the p-tag
+                        + '<span>Ersteller: </span>' + authorName +'<br/>' // author
+                        + '<span>Zeit: </span>ca. ' + calcTime(medianCompletionTime)+'<br/>' // median completion time
+                        + '<span>Länge: </span>ca. ' + '5h' +'<br/>'// length of the mission, linear distance including the distance between the individual missions
+                        + '<span>Aktionen: </span>' + 'all' +'<br/>' // type and count of actions that need to be fulfilled during the mosaic
+                        + '<span>Gesamtanzahl Portale: </span>' + 'total' +'<br/>' // number of total portals in the mosaic
+                        + '<span>Anzahl Unique Portale: </span>' + 'unique' +'<br/>' // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
+                        + '<span>Mehr: </span>' + feature.properties.description +'<br/>' // shows the description specified during the export process from the intel
+                        + '<span>Download: </span><a href="' + feature.properties.imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a>'
+                )
+                .addTo(map);
+    });
+
+    map.on("mousemove", function(e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: ["route"] });
+        if (features.length) {
+            map.setFilter("route-hover", ["==", "title", features[0].properties.title]);
+        } else {
+            map.setFilter("route-hover", ["==", "title", ""]);
+        }
+    });
+
+
     // create ClusterGroup for start points on the main map
-    var markers = new L.MarkerClusterGroup({
+    /*var markers = new L.MarkerClusterGroup({
         spiderfyOnMaxZoom: true,
         showCoverageOnHover: false,
         zoomToBoundsOnClick: true,
@@ -198,17 +320,17 @@
         spiderfyDistanceMultiplier: 2
     });
 
-    /**
+    /!**
      * shows all start portals of every single mosaic, when no specific one is choosen
-     */
+     *!/
     function showStartPortals() {
         // include your mosaic here, see template:
-        /*
+        /!*
          markers.addLayer( L.geoJson(mosaicName_startMissions.features[0], {
          pointToLayer: startMissionStyle,
          onEachFeature: onEachPointOverview
          }));
-        */
+        *!/
 
         markers.addLayer(L.geoJson(kindl_startMissions.features[0], {
             pointToLayer: startMissionStyle,
@@ -407,11 +529,11 @@
     }
     switch (getQueryVariable("id")) {
         // include your mosaic here, see template:
-        /*
+        /!*
          case "mosaicID":
             prepareMission(mosaicName_mission, mosaicName_startMissions);
             break;
-        */
+        *!/
         case "mosaicID":
             prepareMission(mosaicName_mission, mosaicName_startMissions);
             break;
@@ -572,9 +694,9 @@
             showStartPortals();
             break;
     }
-    /**
+    /!**
      * prepares mission details, when the mission should be displayed
-     */
+     *!/
     function prepareMission(feature, startMissions) {
         document.getElementById("title").innerHTML = "◄ " + startMissions.features[0].properties.title;
         var arrayPortals = [];
@@ -653,15 +775,15 @@
         map.setView([startMissions.features[0].geometry.coordinates[1], startMissions.features[0].geometry.coordinates[0]], 16);
     }
 
-    /**
+    /!**
      * set popup content for every mission
      * @param feature
-     */
+     *!/
     function onEachFeature(feature, layer) {
         // here you can configure the label content for every mission
         var popupContent = "";
         if (feature.properties && feature.properties.title && feature.properties.typeNumMission) {
-            popupContent += feature.properties.title /*+'</br>Dauer: ca. '+ calcTime(feature.properties.medianCompletionTimeMs)*/;
+            popupContent += feature.properties.title /!*+'</br>Dauer: ca. '+ calcTime(feature.properties.medianCompletionTimeMs)*!/;
         }
 
         layer.bindLabel(popupContent);
@@ -683,11 +805,11 @@
         });
     }
 
-    /**
+    /!**
      * set visualization of the mission, depending on the type ('sequential' or 'non sequential')
      * @param feature
      * @returns style
-     */
+     *!/
     function missionStyles(feature) {
         if (feature.properties && feature.properties.typeNumMission) {
             switch (feature.properties.typeNumMission) {
@@ -726,11 +848,11 @@
         return  stringMissionPictures;
     }
 
-    /**
+    /!**
      * defines what is visible when clicking on the mission start point at the overview map
      * @param feature
      * @param layer
-     */
+     *!/
     function onEachPointOverview(feature, layer) {
         if (feature.properties && feature.properties.title) {
             layer.bindPopup(
@@ -739,11 +861,11 @@
                     + '<p><a href="index.html?id=' + feature.properties.id + '">Details/Route in der Karte anzeigen</a></p>');
         }
     }
-    /**
+    /!**
      * create popup content for the first mission, when the user clicks on the start point
      * @param feature
      * @param layer
-     */
+     *!/
     function onEachStartPoint(feature, layer) {
         if (feature.properties && feature.properties.missionNumber) {
             // create clickable intel-link for every mission start as label
@@ -821,12 +943,12 @@
             }
         }
     }
-    /**
+    /!**
      * returns style of the mission marker - a bigger coloured point for the first mission and small rings for the other missions
      * @param feature
      * @param latlng
      * @returns style
-     */
+     *!/
     function startMissionStyle(feature, latlng) {
         switch (feature.properties.missionNumber) {
             case "1-12": // special pattern solely for the spiderweb-mosaic
@@ -852,11 +974,11 @@
                 break;
         }
     }
-    /**
+    /!**
      * returns the value of id, that is provided, when a mission is selected in the menu or from the overview page
      * @param variable
      * @returns value of id
-     */
+     *!/
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
         var vars = query.split("&");
@@ -867,7 +989,7 @@
             }
         }
         return (false);
-    }
+    }*/
 </script>
 <script src="js/foundation.min.js"></script>
 <script>
@@ -880,3 +1002,4 @@
 </script>
 </body>
 </html>
+ 
