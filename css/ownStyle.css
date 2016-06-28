@@ -68,3 +68,14 @@ h4{
 .mapboxgl-popup-content{
     overflow-y: scroll;
 }
+#sidebar{
+
+    position: absolute;
+    top: 5.625rem;
+    left: 2.8125rem;
+    bottom: 2.8125rem;
+    width: 30%;
+    color: white;
+    background-color: #333333;
+    opacity: 0.8;
+}
