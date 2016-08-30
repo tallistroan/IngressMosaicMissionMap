@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "time": 1452454700750,
+        "guid": "5ee99a94f33649f9ba9fe9a7efaef2a7.1c",
+        "title": "Nymphenburg 1 von 3",
+        "description": "Schloss Nymphenburg und seine Parkanlage wurden Ende des 17. Jh. geplant und erbaut. Wir erkunden den Parkteil, der nahe am Schloss gelegen ist. Viel Spaß!",
+        "author": "8ichi",
+        "authorTeam": "E",
+        "ratingE6": 933333,
+        "medianCompletionTimeMs": 501038,
+        "numUniqueCompletedPlayers": 58,
+        "typeNumMission": 2,
+        "image": "https://lh3.googleusercontent.com/VUlqyc79zVaY8-LuyI_OZ7_HExemzXEPITZH1ivAl5F36cfl7DzhqosSrY8PpNWDE-q2xPRo4sikQGezmi0",
+        "portalTitle": [
+          "Schloß Nymphenburg",
+          "Schloss Nymphenburg",
+          "Nymphenburg Palace",
+          "Schloss Park Nymphenburg",
+          "Statue of Diana",
+          "Statue Of Saturn"
+        ],
+        "portalTypeNum": [
+          1,
+          1,
+          2,
+          1,
+          1,
+          1
+        ],
+        "portalObjectiveNum": [
+          1,
+          1,
+          7,
+          1,
+          1,
+          1
+        ],
+        "id": 24
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.503287,
+            48.158265
+          ],
+          [
+            11.503242,
+            48.158294
+          ],
+          [
+            11.502832,
+            48.158363
+          ],
+          [
+            11.502367,
+            48.158547
+          ],
+          [
+            11.502386,
+            48.158319
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "time": 1452454703920,
+        "guid": "c0ac6cf5c35a4248a6aae04acbc71cff.1c",
+        "title": "Nymphenburg 2 von 3",
+        "description": "Schloss Nymphenburg und seine Parkanlage wurden Ende des 17. Jh. geplant und erbaut. Wir erkunden den Parkteil, der nahe am Schloss gelegen ist. Viel Spaß!",
+        "author": "8ichi",
+        "authorTeam": "E",
+        "ratingE6": 875000,
+        "medianCompletionTimeMs": 277581,
+        "numUniqueCompletedPlayers": 56,
+        "typeNumMission": 2,
+        "image": "https://lh3.googleusercontent.com/5dVPAHRQjqowvBg99K5Y3l6PvkFKerDvPAtSmYtzCtDmk1-22EGSkXPmau0O54Q4Vq5ZTob6P3zVabsPX4c",
+        "portalTitle": [
+          "Kybele",
+          "Statue of Mercurius",
+          "Statue of Venus",
+          "Statue of Jupiter",
+          "Statue of Juno",
+          "Statue of Apollo"
+        ],
+        "portalTypeNum": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "portalObjectiveNum": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "id": 24
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.502431,
+            48.158113
+          ],
+          [
+            11.502447,
+            48.15788
+          ],
+          [
+            11.50183,
+            48.157853
+          ],
+          [
+            11.501788,
+            48.158086
+          ],
+          [
+            11.501781,
+            48.15829
+          ],
+          [
+            11.501754,
+            48.158524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "time": 1452454903011,
+        "guid": "a8ecaa43d642440b80e02b74e4f6fd81.1c",
+        "title": "Nymphenburg 3 von 3",
+        "description": "Schloss Nymphenburg und seine Parkanlage wurden Ende des 17. Jh. geplant und erbaut. Wir erkunden den Parkteil, der nahe am Schloss gelegen ist. Viel Spaß!",
+        "author": "8ichi",
+        "authorTeam": "E",
+        "ratingE6": 909091,
+        "medianCompletionTimeMs": 828319,
+        "numUniqueCompletedPlayers": 53,
+        "typeNumMission": 2,
+        "image": "https://lh3.googleusercontent.com/suaVFGsZ7HRkvaygS7BXTROlkTDKrZOf2oUfQogHwC1SPTNmFnm6EkEN8DajflCUerAuADViXIHha2mfJ5MZ",
+        "portalTitle": [
+          "Brunnen",
+          "Statue of Bacchus",
+          "Proserpina",
+          "Statue of Ceres",
+          "Pyramide",
+          "'n Laaitie Op 'n Groot Vis",
+          "Nackte Schönheit"
+        ],
+        "portalTypeNum": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "portalObjectiveNum": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "id": 24
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.500737,
+            48.158082
+          ],
+          [
+            11.50025,
+            48.1578
+          ],
+          [
+            11.50025,
+            48.15803
+          ],
+          [
+            11.500188,
+            48.158469
+          ],
+          [
+            11.499874,
+            48.159071
+          ],
+          [
+            11.500713,
+            48.159055
+          ],
+          [
+            11.50138,
+            48.15914
+          ]
+        ]
+      }
+    }
+  ]
+}

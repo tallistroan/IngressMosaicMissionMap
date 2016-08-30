@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Schloss Nymphenburg",
+        "description": "nur zu Fuß machbar, <a href='http://www.schloss-nymphenburg.de/deutsch/tourist/oeffn.htm'>Öffnungszeiten des Parks</a> beachten",
+        "imagePath": "pics/nymphenburg.jpg",
+        "info": "---",
+        "id": 24,
+        "missionNumber": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.503287,
+          48.158265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Karlsplatz (Stachus)",
+        "description": "machbar zu Fuß, nachts auch mit Fahrrad (wegen Fußgängerzone)",
+        "imagePath": "pics/stachus.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/4zFmCozzFNj",
+        "id": 31,
+        "missionNumber": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.565815,
+          48.139141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Celtic Knot",
+        "description": "am besten zu Fuß zu machen, nachts auch Fahrrad möglich (wegen Fußgängerzone)",
+        "imagePath": "pics/celtic.jpg",
+        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/J3EadCZ6iPL",
+        "id": 38,
+        "missionNumber": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.565815,
+          48.139141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Olympiaturm München",
+        "description": "zu Fuß machbar, Fahrrad muss stellenweise geschoben werden, wer nur die obere Hälfte des Mosaiks (also ohne die Spiegelung im Wasser) machen möchte, kann direkt mit Mission 31 am Königsplatz (=U-Bahn Station) am Portal <a href='https://www.ingress.com/intel?ll=48.145168,11.565107&z=17&pll=48.145168,11.565107'>Colourfull Art @ Königsplatz</a> anfangen",
+        "imagePath": "pics/olyturm.jpg",
+        "info": "https://plus.google.com/+CarstenStemmler/posts/3et7ia9RRvo",
+        "id": 28,
+        "missionNumber": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.558117,
+          48.141321
+        ]
+      }
+    }
+  ]
+}
