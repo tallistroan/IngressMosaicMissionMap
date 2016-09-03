@@ -16,7 +16,24 @@
   <script src="js/helpFunctions.js"></script>
   <script type="text/javascript" src="missions.js"></script>
   <script type="text/javascript" src="options.js"></script>
+  <script>
 
+    function testDownload() {
+      var obj = {name: 'Bob', occupation: 'Plumber'};
+      var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj));
+
+      $('<a href="data:' + data + '" download="data.json">download JSON</a>').appendTo('#container');
+    }
+
+    function testLocalStorage() {
+      var obj = {
+        name: 'Dhayalan',
+        score: 100
+      };
+
+      localStorage.setItem('gameStorage', JSON.stringify(obj));
+    }
+  </script>
 
 </head>
 <body>
@@ -150,6 +167,7 @@
         <li><a href="info.html">Legende</a></li> <!-- legend -->
         <li><a href="overview.html">Übersicht</a></li> <!-- overview withour map -->
         <li><a href="contact.html">Kontakt</a></li> <!-- contact information -->
+        <li><a id="downloadFiles">TestDownload</a></li>
       </ul>
     </section>
   </nav>
@@ -157,6 +175,12 @@
 <div id="map"></div>
 <script>
   $(document).ready(function () {
+    var obj = {name: 'Bob', occupation: 'Plumber'};
+    var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj));
+
+    $('<a href="data:' + data + '" download="data.json">download JSON</a>').appendTo('#downloadFiles');
+
+
     var totalPortals = 0;
     var uniquePortals = 0;
     var authorName = null;
@@ -190,9 +214,9 @@
       center: [11.57, 48.14],
       zoom: 14,
       minZoom: 10,
-      maxZoom: 17,
-      hash: true,
-      maxBounds: bounds
+      maxZoom: 18
+      //hash: true,
+      //maxBounds: bounds
     });
 
     map.addControl(new mapboxgl.Navigation({position: 'top-right'}));
@@ -206,57 +230,135 @@
         clusterMaxZoom: 17, // Max zoom to cluster points on
         clusterRadius: 20 // Radius of each cluster when clustering points (defaults to 50)
       });
-
-      map.addLayer({
-        "id": "unclustered-points",
-        "type": "circle",
-        "source": "startPoints",
-        "paint": {
-          "circle-color": "#ff8000",
-          "circle-radius": 11,
-          "circle-blur": 0.3
-        },
+      map.addSource("startPoints_unclustered", {
+        type: "geojson",
+        data: "./geojson/startpoints.geojson",
+        cluster: false
+      });
+      map.addSource("nymphenburg", {
+        type: "geojson",
+        data: "./geojson/nymphenburg.geojson"
+      });
+      map.addSource("testMissions", {
+        type: "geojson",
+        data: "./geojson/testMissions.geojson"
+      });
+      map.addSource("nymphenburg_start", {
+        type: "geojson",
+        data: "./geojson/nymphenburg_start.geojson",
+        cluster: false
       });
 
-      // Display the earthquake data in three layers, each filtered to a range of
-      // count values. Each range gets a different fill color.
-      var layers = [
-        [3, '#8db600'],
-        [2, '#ffe135'],
-        [0, '#ff8000']
-      ];
 
-      layers.forEach(function (layer, i) {
+
+
+
+      map.addLayer({
+        "id": "nymphenburg",
+        "type": "line",
+        "source": "nymphenburg",
+        "layout": {
+          "line-join": "round",
+          "line-cap": "round"
+        },
+        "paint": {
+          "line-color": "#ff8000",
+          "line-width": 6
+        }
+
+      });
+      map.addLayer({
+        "id": "testMissions",
+        "type": "line",
+        "source": "testMissions"
+      });
+
+      // when no mosaic is selected
+      if(!getQueryVariable("id")) {
+
+        var layers = [
+          [3, '#8db600'],
+          [2, '#ffe135'],
+          [0, '#ff8000']
+        ];
+
         map.addLayer({
-          "id": "cluster-" + i,
+          "id": "unclustered-points",
           "type": "circle",
           "source": "startPoints",
           "paint": {
-            "circle-color": layer[1],
-            "circle-radius": 18,
-            "circle-blur": 0.2
+            "circle-color": "#ff8000",
+            "circle-radius": 11,
+            "circle-blur": 0.3
           },
-          "filter": i === 0 ?
-              [">=", "point_count", layer[0]] :
-              ["all",
-                [">=", "point_count", layer[0]],
-                ["<", "point_count", layers[i - 1][0]]]
+          "filter": ["has", "id"]
         });
-      });
 
-      // Add a layer for the clusters' count labels
+        layers.forEach(function (layer, i) {
+          map.addLayer({
+            "id": "cluster-" + i,
+            "type": "circle",
+            "source": "startPoints",
+            "paint": {
+              "circle-color": layer[1],
+              "circle-radius": 18,
+              "circle-blur": 0.2
+            },
+            "filter": i === 0 ?
+                [">=", "point_count", layer[0]] :
+                ["all",
+                  [">=", "point_count", layer[0]],
+                  ["<", "point_count", layers[i - 1][0]]]
+          });
+        });
+        // Add a layer for the clusters' count labels
+        map.addLayer({
+          "id": "cluster-count",
+          "type": "symbol",
+          "source": "startPoints",
+          "layout": {
+            "text-field": "{point_count}",
+            "text-font": [
+              "DIN Offc Pro Medium",
+              "Arial Unicode MS Bold"
+            ],
+            "text-size": 12
+          }
+        });
+      }
+      // and when a mosaic is selected
+      else {
+        map.addLayer({
+          "id": "singleStart",
+          "type": "circle",
+          "source": "startPoints_unclustered",
+          "paint": {
+            "circle-color": "#ff8000",
+            "circle-radius": 11,
+            "circle-blur": 0.3
+          },
+          "filter": ["==", "id", parseInt(getQueryVariable("id"))]
+        });
+      }
+
+
       map.addLayer({
-        "id": "cluster-count",
+        "id": "nymphenburg_start",
         "type": "symbol",
-        "source": "startPoints",
+        "source": "nymphenburg_start",
         "layout": {
-          "text-field": "{point_count}",
-          "text-font": [
-            "DIN Offc Pro Medium",
-            "Arial Unicode MS Bold"
-          ],
-          "text-size": 12
-        }
+          "text-field": "{mission}",
+          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+          "text-offset": [0, 0],
+          "text-anchor": "center",
+          "text-size": 20
+        },
+        "paint": {
+          "text-color": "#000000",
+          "text-halo-color": "#ffffff",
+          "text-halo-width": 2
+        },
+        "filter": ["==", "mission", 1]
       });
 
     });
@@ -265,9 +367,9 @@
       closeOnClick: false
     });
     map.on('mousemove', function (e) {
-      var features_startPoints = map.queryRenderedFeatures(e.point, {layers: ['unclustered-points', 'cluster-1', 'cluster-2']});
+      var features_startPoints = map.queryRenderedFeatures(e.point, {layers: ['singleStart', 'unclustered-points', 'cluster-1', 'cluster-2']});
       console.log(features_startPoints);
-      // Change the cursor style as a UI indicator.
+      // Change the cursor style as a UI indicator
       map.getCanvas().style.cursor = (features_startPoints.length) ? 'pointer' : '';
 
       if (!features_startPoints.length) {
@@ -297,7 +399,7 @@
                   missionString += '</br><a href="index.html?id='+startId[i]+'">'+startTitle[i]+'</a>';
                 }
               }
-              else if(startTitle.length === 0){
+              else if(startTitle.length == 0){
                 missionString = "</br>Zoome für mehr Details";
               }
               popup.setLngLat(feature_cluster.geometry.coordinates)
@@ -321,6 +423,7 @@
     });
 
     function iterateMissionsPopup(feature) {
+
       //var missions = "";
       $.getJSON('./geojson/startpoints.geojson',
           function (points) {
@@ -1095,11 +1198,12 @@
    break;
    }
    }
-   /!**
+   */
+   /**
    * returns the value of id, that is provided, when a mission is selected in the menu or from the overview page
    * @param variable
    * @returns value of id
-   *!/
+   */
    function getQueryVariable(variable) {
    var query = window.location.search.substring(1);
    var vars = query.split("&");
@@ -1107,10 +1211,10 @@
    var pair = vars[i].split("=");
    if (pair[0] == variable) {
    return pair[1];
-   }w
+   }
    }
    return (false);
-   }*/
+   }
 </script>
 <script src="js/foundation.min.js"></script>
 <script>

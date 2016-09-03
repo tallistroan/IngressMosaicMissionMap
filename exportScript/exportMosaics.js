@@ -28,8 +28,8 @@ var mosaicDescription = "description";
 var mosaicInfoPost = "---";
 
 var lines = [];
-var counter = 1;
-var startPoints = [];
+var counter = 0;
+var startPoints = '{"type": "FeatureCollection","features": [';
 // begin of the kml file
 var kml = '<?xml version="1.0" encoding="utf-8" ?><kml xmlns="http://www.opengis.net/kml/2.2"><Document>'
     + '<Style id="lineStyle"><LineStyle><width>2</width><color>ff0055ff</color></LineStyle></Style>'
@@ -49,26 +49,48 @@ function createOutputString(arr) {
     return all.join("\r\n");
 }
 
+function saveFile(url, name) {
+    // Get file name from url.
+    //var filename = url.substring(url.lastIndexOf("/") + 1).split("?")[0];
+    var filename = name;
+    var xhr = new XMLHttpRequest();
+    xhr.responseType = 'blob';
+    xhr.onload = function() {
+        var a = document.createElement('a');
+        a.href = window.URL.createObjectURL(xhr.response); // xhr.response is a blob
+        a.download = filename; // Set the file name.
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.click();
+        delete a;
+    };
+    xhr.open('GET', url);
+    xhr.send();
+}
+
 for (guid in window.plugin.missions.cacheByMissionGuid) {
     var m = window.plugin.missions.cacheByMissionGuid[guid];
     var line = [];
-    if (counter == 1) {
-        line.push('var ' + mosaicName + '_mission={"type":"FeatureCollection","features":[');
-        counter = counter + 1
+    if (counter == 0) {
+        line.push('{"type":"FeatureCollection","features":[');
+
     }
+    counter += 1;
+    // save pic for the mission
+    saveFile(m.data.image, mosaicName+'_'+counter);
+
     // names of the portals
     var portalTitle = m.data.waypoints.map(function (e) {
-
-        return '"' + e.title.replace(/"/g, '\'') + '", '
+        return ('"' + e.title.replace(/"/g, '\'') + '"');
     });
     // type as numeric value 1 to 3
     var portalTypeNum = m.data.waypoints.map(function (e) {
-        return e.typeNum + ', '
+        return e.typeNum;
     });
     // action on portal as numeric value 1 to 8
     var portalObjectiveNum = m.data.waypoints.map(function (e) {
 
-        return e.objectiveNum + ', '
+        return e.objectiveNum;
     });
     line.push('{"type": "Feature",\n"properties":{\n');
     line.push('"time": ' + m.time + ',\n');
@@ -83,13 +105,13 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
     line.push('"typeNumMission": ' + m.data.typeNum + ',\n');
     line.push('"image": "' + m.data.image + '",\n');
     line.push('"portalTitle": [');
-    line.push.apply(line, portalTitle);
+    line.push(portalTitle.toString());
     line.push('],\n');
     line.push('"portalTypeNum": [');
-    line.push.apply(line, portalTypeNum);
+    line.push(portalTypeNum.toString());
     line.push('],\n');
     line.push('"portalObjectiveNum": [');
-    line.push.apply(line, portalObjectiveNum);
+    line.push(portalObjectiveNum.toString());
     line.push('],\n');
     line.push('"id": ' + mosaicID + '\n');
     line.push('},\n"geometry": {\n"type": "LineString",\n"coordinates": [\n');
@@ -102,24 +124,28 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
         // if (!e.portal || !e.portal.latE6){return "\t[\n\t0,0\n],\n"}
         //another solution: ignore the hidden and/or fieltrip waypoints completely (better for rendering, because 0,0 is a bit difficult to manage)
         if (!e.portal || !e.portal.latE6) {
-            return ""
+            return null;
         }
         kml += [e.portal.lngE6 / 1E6, e.portal.latE6 / 1E6].join(",") + kmlCoordDelim;
-        return '[\n' + [e.portal.lngE6 / 1E6, e.portal.latE6 / 1E6].join(", ") + '\n],\n'
+        return '[\n' + [e.portal.lngE6 / 1E6, e.portal.latE6 / 1E6].join(",") + '\n]\n';
     });
 
     kml += '</coordinates></LineString></Placemark>';
-
-    line.push.apply(line, waypoints);
+    // remove null values for fieldtrip waypoints/hidden portals
+    var wp = waypoints.filter(function(n){ return n != undefined });
+    line.push(wp.toString()/*.substring(0, waypoints.toString().length-1)*/);
+    //line.push.apply(line, waypoints);
     lines.push(line);
 
     line.push(']\n}\n},\n');
-    startPoints.push(waypoints[0])
+    startPoints += '{"type": "Feature","properties": {"mission":'+counter+'},"geometry":{"type": "Point","coordinates":'+
+                    waypoints[0].toString()+ '}},';
+    //startPoints.push(waypoints[0])
 }
 
-
-line.push(']};\n'); //end of mission
-line.push('var ' + mosaicName + '_startMissions = {\n"type":"FeatureCollection",\n"features":[\n');
+startPoints = startPoints.substring(0, startPoints.length-1)+']}';
+line.push(']}'); //end of mission
+/*line.push('var ' + mosaicName + '_startMissions = {\n"type":"FeatureCollection",\n"features":[\n');
 for (var i = 0; i < startPoints.length; i++) {
     line.push('{"type": "Feature",\n"properties": {\n');
     // write extra information only once to the file
@@ -133,12 +159,14 @@ for (var i = 0; i < startPoints.length; i++) {
     line.push('"missionNumber":' + (i + 1) + '},\n');
     line.push('"geometry": {\n"type": "Point",\n"coordinates":' + startPoints[i] + '}},')
 }
-line.push(']\n};'); // end of startMissions
+line.push(']\n};');*/ // end of startMissions
 
 var html = '<p><a onclick="$(\'.ui-dialog-missions-copy textarea\').select();">Select all</a> and press CTRL+C to copy it.</br>Save the content to a file with the extension .js and include this specific file to the website</p>'
+    + '<div id="missions">Mission: </div><div id="starts">Startpoints: </div><div id="kml">KML: </div>'
     + '<textarea style="width: 96%;height: 500px;" readonly onclick="$(\'.ui-dialog-missions-copy textarea\').select();">'
     + createOutputString(lines)
     + '</textarea>';
+
 dialog({
     html: html,
     height: 'auto',
@@ -156,6 +184,16 @@ dialog({
     }
 
 });
+
+var kml_save = "text/plain;charset=utf-8," + encodeURIComponent(kml+ '</Folder></Document></kml>');
+var resultString = createOutputString(lines);
+resultString = resultString.substring(0,resultString.length-4)+']}';
+var json_save = "text/json;charset=utf-8," + encodeURIComponent(resultString);
+var starts_save = "text/json;charset=utf-8," + encodeURIComponent(startPoints);
+$('<a href="data:' + kml_save + '" download="mission.kml">download KML</a>').appendTo('#kml');
+$('<a href="data:' + json_save + '" download="mission.geojson">download geojson</a>').appendTo('#missions');
+$('<a href="data:' + starts_save + '" download="starts.geojson">download geojson</a>').appendTo('#starts');
+/*
 var textKML = '<p><a onclick="$(\'.ui-dialog-missions-kml textarea\').select();">Select all</a> and press CTRL+C to copy it.</br>Save the content to a file named ' + mosaicName + '.kml</p>'
     + '<textarea style="width: 96%;height: 250px;" readonly onclick="$(\'.ui-dialog-missions-kml textarea\').select();">'
     + kml + '</Folder></Document></kml>'
@@ -171,4 +209,4 @@ dialog({
         $(this).dialog('close');
     }
 
-});
+});*/
