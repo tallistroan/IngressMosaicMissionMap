@@ -1,0 +1,989 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1472984387512,
+"guid": "93c660dd536f4755b025640a1d57e7f0.1c",
+"title": "Karlsplatz (Stachus) 1 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 909091,
+"medianCompletionTimeMs": 470391,
+"numUniqueCompletedPlayers": 196,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ZCV5yjnSLQy4vdqth5XilDgxbCDis9c_02G3JAIa92nnImDmVAHIhxrY3qhKpGT2mNW_G6JlLPJ3KhaA86Q4",
+"portalTitle": ["Stachus Fountain","Karlsplatz Stachus","Karlsplatz ","Hofnarr Prangerl","Neuhausertor","Brunnen vereist"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [8,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.565815,48.139141
+]
+,[
+11.566211,48.139281
+]
+,[
+11.566291,48.139484
+]
+,[
+11.566595,48.139155
+]
+,[
+11.566778,48.138914
+]
+,[
+11.567037,48.138972
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984394729,
+"guid": "3ef3d97e3d7a41ba89aee295825aefdb.1c",
+"title": "Karlsplatz (Stachus) 2 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 968085,
+"medianCompletionTimeMs": 268558,
+"numUniqueCompletedPlayers": 194,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/mZtbDk6EIwYvZ2nFTeLlgoTKBifWM-l-G2gOfYw55G7xNOlof1hM3XG88TGINtFpQObNe0QCv35CK7wbtq45_A",
+"portalTitle": ["Oberpollinger","Bürgersaal","Gottfried Keller","Augustiner-Bräu Ausschank","Richard Strauss Brunnen","Alte Akademie"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56735,48.138898
+]
+,[
+11.568173,48.138819
+]
+,[
+11.568108,48.138569
+]
+,[
+11.568919,48.138648
+]
+,[
+11.569579,48.138661
+]
+,[
+11.569775,48.138388
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984420665,
+"guid": "bfdee14b430240e18b9c5effa368a689.1c",
+"title": "Karlsplatz (Stachus) 3 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 945946,
+"medianCompletionTimeMs": 203391,
+"numUniqueCompletedPlayers": 193,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/wUfTiBOPBOg_FjLItdZd3wC32LNzSRSo5DnMJutNEC_hb6TZwN8DRn2z-u65xw7_-dBOtpCXDV6wdcJzJNDLkA",
+"portalTitle": ["Landesamt","The Church of Saint Michael: Sankt Michael","St. Michael's Church","Deutsches Jagd- und Fischereimuseum","Wildschweindenkmal","Big Fish Sculpture "],
+"portalTypeNum": [1,2,1,2,1,1],
+"portalObjectiveNum": [1,7,1,7,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.569871,48.138661
+]
+,[
+11.570281,48.138479
+]
+,[
+11.571463,48.138251
+]
+,[
+11.571706,48.138403
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984425634,
+"guid": "a3a10c039f93487ebc7221469cafbeeb.1c",
+"title": "Karlsplatz (Stachus) 4 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 973404,
+"medianCompletionTimeMs": 288692,
+"numUniqueCompletedPlayers": 193,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/FAGCsjBq5vqZJorKPoAvv-_r1PkTKj816uMBKoePxurgbCgXTrAnX3hvAIxVuwNirudww1I0QedhMeMwRE4U",
+"portalTitle": ["Der Hirte","The Expansion of the Church of Our Lady Lane","Cathedral Church of Our Lady: Unserer Lieben Frau Dom und Pfarrkirche","Frauenkirche","Map 4 The Blind Of Munich","Grabmal mit Schädel"],
+"portalTypeNum": [1,1,2,1,1,1],
+"portalObjectiveNum": [1,1,7,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.571798,48.138228
+]
+,[
+11.57283,48.138037
+]
+,[
+11.572745,48.138563
+]
+,[
+11.572769,48.138663
+]
+,[
+11.573349,48.138772
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984429363,
+"guid": "1c2e7f5b63c04742a6265f04af905ced.1c",
+"title": "Karlsplatz (Stachus) 5 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 966667,
+"medianCompletionTimeMs": 214129,
+"numUniqueCompletedPlayers": 189,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/mftIDq4kTc3QPsC2e5-LIjtPEpg5rgi8JekQLkUvetUjwVo4pkD9ZpB0sZd9NZkBb6Hx0zi32p07ZqrGK87e",
+"portalTitle": ["St Benno","Munich Frauenkirche","Frauenplatz 11","Die Kreuzritter ","Grabmal Eder von Spitzel","Sonnenuhr an der Frauenkirche"],
+"portalTypeNum": [1,2,1,1,1,1],
+"portalObjectiveNum": [1,7,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.5739,48.138792
+]
+,[
+11.574508,48.13877
+]
+,[
+11.574532,48.138552
+]
+,[
+11.574155,48.138451
+]
+,[
+11.573748,48.13841
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984432812,
+"guid": "89538a6951c84eff96c45863bfdd9276.1c",
+"title": "Karlsplatz (Stachus) 6 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 972067,
+"medianCompletionTimeMs": 295615,
+"numUniqueCompletedPlayers": 187,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ymLEHqoui0kDkcgMLU2UFyLgdwWeFORjiudaZiSZdDtD2RGU5zZdxFOdGKedJzansL6DYwGCBbjogulJpUSi",
+"portalTitle": ["Maria am Glöckl","Erbaut durch Almofen-Stiftung 1487","Muschelfrau","Landeshauptstadt","Münchner Kindl","Moriskentänzer"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.574062,48.138189
+]
+,[
+11.574397,48.138016
+]
+,[
+11.574141,48.137475
+]
+,[
+11.574592,48.137198
+]
+,[
+11.57487,48.137124
+]
+,[
+11.574875,48.137357
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984453960,
+"guid": "7846020bf2034267ac5b0a9786a64ab2.1c",
+"title": "Karlsplatz (Stachus) 7 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 972678,
+"medianCompletionTimeMs": 251279,
+"numUniqueCompletedPlayers": 192,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/Do1tSBG-sraAKsLN3qphAeAI5DeGb70T6YIbz5JPhDkNRoszWGRzhbpnIpWEAp6-DmBXkO59GVOPC3NYNz3-XQ",
+"portalTitle": ["Dragon","Marienplatz - Glockenspiel","Munich Golden Madonna Statue","Rathaus","Fischbrunnen","Sanct Onuphrius"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.575115,48.137532
+]
+,[
+11.575546,48.137437
+]
+,[
+11.575486,48.13722
+]
+,[
+11.57594,48.137372
+]
+,[
+11.576208,48.137238
+]
+,[
+11.576478,48.136794
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984485992,
+"guid": "36876500a44843479217dc26be66438d.1c",
+"title": "Karlsplatz (Stachus) 8 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 915254,
+"medianCompletionTimeMs": 121637,
+"numUniqueCompletedPlayers": 187,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/V_b4dymYmDWC-twT_DqZ39xbOH8uPHnTGTPfdlHNmq-YlgC-WZfbiUiXJQW0V7-uaUq1SEGhOv27fzyoDaQn",
+"portalTitle": ["Spielzeugmuseum München","Old Town Hall, Munich","Schaustelle","The Green Cat","Altes Rathaus","Interims Audimax"],
+"portalTypeNum": [1,2,2,2,1,2],
+"portalObjectiveNum": [1,7,7,7,1,7],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.576798,48.136797
+]
+,[
+11.576878,48.136661
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984501301,
+"guid": "251c1a5d361d4dccb6930cc3d90d302c.1c",
+"title": "Karlsplatz (Stachus) 9 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 972376,
+"medianCompletionTimeMs": 229462,
+"numUniqueCompletedPlayers": 191,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/EFjiZYGid4WycNNrn-TGlREghoA2PglYioOqZlhw_Gj4xQAgZnQY5B7YrhvArSaGlJWz3fjSNZA-gKIgG0kXSw",
+"portalTitle": ["Two Lions","09.11.1938","Figuren über Eingang","Große","Scholastika","Zerwirkgewölbe"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.577524,48.136749
+]
+,[
+11.577323,48.136922
+]
+,[
+11.577716,48.136904
+]
+,[
+11.578327,48.137347
+]
+,[
+11.578418,48.137415
+]
+,[
+11.578311,48.137576
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984522921,
+"guid": "fdd399ee75744168a9b2b8cf914eabb5.1c",
+"title": "Karlsplatz (Stachus) 10 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 978022,
+"medianCompletionTimeMs": 283556,
+"numUniqueCompletedPlayers": 188,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/7iahEwGAio6tjQoSoCP1FELGHFG3gYN8NeAKl1AOgby4TifTmSFAIxPD9GInGU4HsozWDFfrHxG3c_QlEJ4",
+"portalTitle": ["Wandbild Platz Hotel","Hofbräuhaus am Platzl","Hofbräuhaus","Platzl","Kopf Mit Grausliche Vorderzähnt","KindlStubn"],
+"portalTypeNum": [1,2,1,1,1,1],
+"portalObjectiveNum": [1,7,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.57874,48.137889
+]
+,[
+11.579786,48.137723
+]
+,[
+11.580094,48.137977
+]
+,[
+11.579977,48.138147
+]
+,[
+11.580547,48.138196
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984526459,
+"guid": "40ca6c270cac474786d28a2c0f417d0f.1c",
+"title": "Karlsplatz (Stachus) 11 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 977401,
+"medianCompletionTimeMs": 372355,
+"numUniqueCompletedPlayers": 185,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/r0Vy3Gu4ffMeXSJmBzkHyA0OXXkQHNecSV5dtSbiSraYVLTWskbrcUf_uXU0742ZYSJAAulE8fEYVV0Wy63W",
+"portalTitle": ["Rotkäppchen Brunnen","Pusser's New York Bar","Maria","Hofpfisterei Alte Pfistermühle","Ludwig der Bayer","Google Munich"],
+"portalTypeNum": [1,2,1,1,1,1],
+"portalObjectiveNum": [1,7,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.580943,48.138408
+]
+,[
+11.580299,48.138456
+]
+,[
+11.579417,48.138559
+]
+,[
+11.578346,48.138582
+]
+,[
+11.577653,48.138562
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984528913,
+"guid": "74266d65efd0485b9f50ca260055a72a.1c",
+"title": "Karlsplatz (Stachus) 12 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 977528,
+"medianCompletionTimeMs": 333522,
+"numUniqueCompletedPlayers": 185,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/C3WuqHbCkWgHFIZRAWmDJOXyD_Kv5CjJ7oIHhADRtCtuq9GpF6lMLST9M7TGxLoK1akpMqMR-wOQfWVk9dQo",
+"portalTitle": ["Alois Dallmayr","Alois Dallmayr","Ratskeller","Wandrelief Marienplatz","Marienhof","Dancer"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.577259,48.13847
+]
+,[
+11.577183,48.138268
+]
+,[
+11.576668,48.138064
+]
+,[
+11.576255,48.138118
+]
+,[
+11.575515,48.13831
+]
+,[
+11.575486,48.13895
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984540773,
+"guid": "16846303915e426591891854a44ef663.1c",
+"title": "Karlsplatz (Stachus) 13 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 942857,
+"medianCompletionTimeMs": 365934,
+"numUniqueCompletedPlayers": 183,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/QQY84Ya6_BAIHpiftEwiIxQ2zpSy1aHxMZAhefJjikJQYBxSpOsHnP8GxTZ6LKJCAElBgRo7T30rHzrnL2pW4g",
+"portalTitle": ["Treppe","Eingang Erzbischöfliches Ordinariat","Historische Fassade mit Marienfigur","munich: louis vuitton maison opening","Maximillianstrasse","Laterne auf Sockel"],
+"portalTypeNum": [1,1,1,2,1,1],
+"portalObjectiveNum": [1,1,1,7,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.576098,48.139062
+]
+,[
+11.576757,48.139083
+]
+,[
+11.577399,48.138974
+]
+,[
+11.577573,48.139545
+]
+,[
+11.578339,48.139714
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984549985,
+"guid": "650d80e18c734714af626fa9a17d93ea.1c",
+"title": "Karlsplatz (Stachus) 14 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 959538,
+"medianCompletionTimeMs": 321216,
+"numUniqueCompletedPlayers": 186,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/V0C2A_kuEZq0TjUxfBZWppQstoBSraoBDPF6zfOPEpMtYMXcRdQL5MsdSa-haQhlNVI_ahKe8RMpustO4v8",
+"portalTitle": ["Bayerische Staatsoper","Max-Joseph-Platz","Dramatic Mural Above Golfino ","Residenz","Lion Odeonsplatz","Löwe"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.578686,48.139725
+]
+,[
+11.57805,48.140049
+]
+,[
+11.577356,48.140569
+]
+,[
+11.577259,48.140794
+]
+,[
+11.577626,48.141269
+]
+,[
+11.57772,48.141742
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984579854,
+"guid": "83678c637d6849ad80c07fb6d124c7db.1c",
+"title": "Karlsplatz (Stachus) 15 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 942857,
+"medianCompletionTimeMs": 274247,
+"numUniqueCompletedPlayers": 185,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/fhaF71nsu8wX3C_XqzqWHmLJR-6AlW_bPKxNc5Ba6RPBaZDluPncJwIhFbmto3-zBuiT9-W-3_AgJEQMOyY",
+"portalTitle": ["Schöne und Biest","Palais Preysing","Feldherrnhalle","Theatiner Hof","Maelu","Apple A Day..."],
+"portalTypeNum": [1,2,1,1,2,1],
+"portalObjectiveNum": [1,7,1,1,7,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.577384,48.14177
+]
+,[
+11.577105,48.141708
+]
+,[
+11.576603,48.141206
+]
+,[
+11.576471,48.140597
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984584816,
+"guid": "6b248a54b8ea499b9f02a4688a308381.1c",
+"title": "Karlsplatz (Stachus) 16 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 943503,
+"medianCompletionTimeMs": 267928,
+"numUniqueCompletedPlayers": 186,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/frtJt8qSZ5PHe8NlohMIqLe_7BuaY8LXvDVzfEUEpjb9mBWpkqmYDoRRn6bZvPRGki9siav3hae9AM8Six-W",
+"portalTitle": ["Nespresso House Munich","Girl With Coin","Mozart was here","Maffei 4","Golden Lions Lodenfrey","Nude Art"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.576466,48.140351
+]
+,[
+11.576011,48.140043
+]
+,[
+11.575952,48.139558
+]
+,[
+11.575685,48.13947
+]
+,[
+11.575026,48.139568
+]
+,[
+11.574473,48.139764
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984602034,
+"guid": "bb7cd74e26f641a0b4d668256fbb3eec.1c",
+"title": "Karlsplatz (Stachus) 17 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 952941,
+"medianCompletionTimeMs": 213822,
+"numUniqueCompletedPlayers": 183,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/N76uK3UIg4wfzJRrRzC2k3THD5y4swqiHLrMlMfXK1GBBZOhNjDNTuevjj-69hzIr3WTUA98vpv-dl0sWpaS",
+"portalTitle": ["Loden Frey Gold ","House Art","Maximilian Joseph - Earl of Mo","Michael Jackson Memorial","Statue von Maximilian Emanuel","Gedenktafel"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.573913,48.139753
+]
+,[
+11.573592,48.139778
+]
+,[
+11.573521,48.139963
+]
+,[
+11.573072,48.140061
+]
+,[
+11.572693,48.140134
+]
+,[
+11.572291,48.140081
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984607854,
+"guid": "cc0a2fd4649a4d7c8022483d30626b50.1c",
+"title": "Karlsplatz (Stachus) 18 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 947977,
+"medianCompletionTimeMs": 270990,
+"numUniqueCompletedPlayers": 184,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/HekDyFTTqcclqSbLvj9Ulc8RBX3DA2qitg5Q4FkSQ0YtreQr0dii_42dCbSR-4iFfjWWNGLmwqOCx36YxTv7",
+"portalTitle": ["Lorenz von Westenrieder","Art Structure on a Wall ","Mater Et Decor Carmelli","Der Turm","Jakob Fugger um 1500","Madonna"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.572284,48.140268
+]
+,[
+11.571442,48.14039
+]
+,[
+11.571637,48.140227
+]
+,[
+11.571026,48.139624
+]
+,[
+11.571944,48.139465
+]
+,[
+11.572432,48.139466
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984630789,
+"guid": "19e0ea4cb1004b59a5a61ab1bec2072f.1c",
+"title": "Karlsplatz (Stachus) 19 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 943820,
+"medianCompletionTimeMs": 316414,
+"numUniqueCompletedPlayers": 184,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/BvM1XZRMUHeT6UWkIG5emzysmGmtLkn3vs2_pzsyl3HZu4SN4k0B8K9HqSAOcmQxXY0YGWRLjgvamDP-UVtT1g",
+"portalTitle": ["Map 4 The Blind Of Munich","Frauenkirche","Cathedral Church of Our Lady: Unserer Lieben Frau Dom und Pfarrkirche","Sonnenuhr an der Frauenkirche","Grabmal Eder von Spitzel","Die Kreuzritter "],
+"portalTypeNum": [1,1,2,1,1,1],
+"portalObjectiveNum": [1,1,7,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.572769,48.138663
+]
+,[
+11.572745,48.138563
+]
+,[
+11.573748,48.13841
+]
+,[
+11.574155,48.138451
+]
+,[
+11.574532,48.138552
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984654297,
+"guid": "66ac4bd369d944678080a52f5017e877.1c",
+"title": "Karlsplatz (Stachus) 20 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 902857,
+"medianCompletionTimeMs": 334021,
+"numUniqueCompletedPlayers": 183,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/pkL5y9YmMCEqcgGcS2wMe4o6ZqpaIhb9-3LSANq4WqEDcnw0i9tv1Fz9LcoT2vwAbnuVx8oArwmfE6A2dfhUYw",
+"portalTitle": ["Marienhof","Wandrelief Marienplatz","Ratskeller","Artful House, Anno Domini 1898","Gambrinus","Ehemalige Stadtschreiberei"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.575515,48.13831
+]
+,[
+11.576255,48.138118
+]
+,[
+11.576668,48.138064
+]
+,[
+11.57695,48.137881
+]
+,[
+11.577236,48.137922
+]
+,[
+11.577559,48.137588
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984679236,
+"guid": "d5535d3d47b24434ae5e79309880708a.1c",
+"title": "Karlsplatz (Stachus) 21 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 913793,
+"medianCompletionTimeMs": 229115,
+"numUniqueCompletedPlayers": 182,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/K1v79yQr8XvcX4fV4AyfslmxTnlMMb9pviRICND0kfFU-SniD-s6Tu_BY53XJCInMbslzFzaKQH4INPe99Ak-Q",
+"portalTitle": ["Nackte Mode bei Beck","Sanct Onuphrius","Spielzeugmuseum München","Fischbrunnen","Rathaus","Munich Golden Madonna Statue"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.577179,48.137187
+]
+,[
+11.576478,48.136794
+]
+,[
+11.576798,48.136797
+]
+,[
+11.576208,48.137238
+]
+,[
+11.57594,48.137372
+]
+,[
+11.575486,48.13722
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984683621,
+"guid": "0418aef3274c47488aa27368e4498ef8.1c",
+"title": "Karlsplatz (Stachus) 22 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 926136,
+"medianCompletionTimeMs": 446306,
+"numUniqueCompletedPlayers": 183,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/AlYQQcIf3XaDmUqqVRA4vFYIJDiuf4inw-P95BJs67AbZJWBMv4usnIDee7kkjoOb5Y56KLibNVBJuLeBLY",
+"portalTitle": ["Moriskentänzer","Muschelfrau","Der Taubenmann","Der Hirte","Wildschweindenkmal","St. Michael's Church"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.574875,48.137357
+]
+,[
+11.574141,48.137475
+]
+,[
+11.573369,48.137513
+]
+,[
+11.571798,48.138228
+]
+,[
+11.571463,48.138251
+]
+,[
+11.570281,48.138479
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984711547,
+"guid": "4af9fad7f4434e1bb4ba756c3e4e5d7e.1c",
+"title": "Siegestor München 23 / 24",
+"description": "Das Siegestor wurde 1843 bis 1850 aus Kelheimer Kalkstein errichtet. Am 15. Oktober 1850 übergab König Maximilian II. im Namen seines abgedankten Vaters das Siegestor an die Stadt München.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 951220,
+"medianCompletionTimeMs": 370627,
+"numUniqueCompletedPlayers": 42,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/HYq0iBgQ4jR2m5ltGF6Wu4KUkN1Bd0oy2YG_n5KfH4XN5g85WKMBUI-yYt1qyc-YxiuJdlyHb_TNBjdF0Y0",
+"portalTitle": ["Oberpollinger","Bürgersaal","Gottfried Keller","Augustiner-Bräu Ausschank","Richard Strauss Brunnen","Landesamt"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56735,48.138898
+]
+,[
+11.568173,48.138819
+]
+,[
+11.568108,48.138569
+]
+,[
+11.568919,48.138648
+]
+,[
+11.569579,48.138661
+]
+,[
+11.569871,48.138661
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472984714336,
+"guid": "20255030aa6a4637b1aeb0d66f780ae6.1c",
+"title": "Karlsplatz (Stachus) 24 / 24",
+"description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 938202,
+"medianCompletionTimeMs": 310718,
+"numUniqueCompletedPlayers": 184,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/DPnkHitvjSLWijy716yIwhEcobkSW3OSyBXiTs5GgyrS18SKZuP5ySMVkfu5hWnMaGV-_1Q5YRkCSK3gec5O",
+"portalTitle": ["Oberpollinger","Brunnen vereist","Neuhausertor","Hofnarr Prangerl","Karlsplatz ","Karlsplatz Stachus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 2
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56735,48.138898
+]
+,[
+11.567037,48.138972
+]
+,[
+11.566778,48.138914
+]
+,[
+11.566595,48.139155
+]
+,[
+11.566291,48.139484
+]
+,[
+11.566211,48.139281
+]
+]
+}
+}]}
