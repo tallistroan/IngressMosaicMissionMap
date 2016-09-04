@@ -254,14 +254,15 @@
       });
 
       var missionList = [
-        [1, "bach"]
+        [1, "bach"],
+        [2, "stachus"]
       ];
 
       console.log(missionList);
       var layers = [
         [3, '#8db600'],
         [2, '#ffe135'],
-        [0, '#ff8000']
+        [0, '#663399']
       ];
 
       map.addLayer({
@@ -272,7 +273,7 @@
           "visibility": "none"
         },
         "paint": {
-          "circle-color": "#ff8000",
+          "circle-color": "#663399",
           "circle-radius": 11,
           "circle-blur": 0.3
         },
@@ -367,7 +368,7 @@
                 },
                 "paint": {
                   "line-color": "#663399",
-                  "line-width": 7,
+                  "line-width": 6,
                   "line-dasharray": [1, 1.5]
                 },
                 "filter": ["==", "typeNumMission", 2]
@@ -383,7 +384,7 @@
                 },
                 "paint": {
                   "line-color": "#663399",
-                  "line-width": 7
+                  "line-width": 6
                 },
                 "filter": ["==", "typeNumMission", 1]
               });
@@ -439,20 +440,20 @@
 
     });
 
- /*   map.on("click", function (e) {
-      var clickedFeature = map.queryRenderedFeatures(e.point, {layers: ['cluster-0', 'cluster-1']});
-      map.flyTo({
-        center: clickedFeature[0].geometry.coordinates,
-        zoom: map.getZoom() + 2,
-        speed: 0.6,
-        curve: 1
-      });
-      console.log(map.getZoom());
-    });*/
+    /*   map.on("click", function (e) {
+     var clickedFeature = map.queryRenderedFeatures(e.point, {layers: ['cluster-0', 'cluster-1']});
+     map.flyTo({
+     center: clickedFeature[0].geometry.coordinates,
+     zoom: map.getZoom() + 2,
+     speed: 0.6,
+     curve: 1
+     });
+     console.log(map.getZoom());
+     });*/
     map.on("click", function (e) {
       var clickedFeature = map.queryRenderedFeatures(e.point, {layers: ['unclustered-points']});
-      if(clickedFeature[0].properties.id) {
-        window.location = 'index.html?id='+clickedFeature[0].properties.id;
+      if (clickedFeature[0].properties.id) {
+        window.location = 'index.html?id=' + clickedFeature[0].properties.id;
       }
     });
     var popup = new mapboxgl.Popup({

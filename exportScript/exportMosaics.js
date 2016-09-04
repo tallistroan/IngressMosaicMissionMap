@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Hachinger Bach";
+var mosaicTitle = "Karlsplatz (Stachus)";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "bach";
+var mosaicName = "stachus";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 1;
+var mosaicID = 2;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "Fahrrad empfohlen bzw. als ausgedehnter Spaziergang, Anreise mit S-Bahn bis Station Deisenhofen";
+var mosaicDescription = "machbar zu Fuß, nachts auch mit Fahrrad (wegen Fußgängerzone)";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "https://plus.google.com/115699361489256627368/posts/gqyFLvYBP7Y";
+var mosaicInfoPost = "https://plus.google.com/115699361489256627368/posts/4zFmCozzFNj";
 
 var lines = [];
 var counter = 0;
@@ -100,7 +100,7 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
     }
     counter += 1;
     // save pic for the mission
-    //saveFile(m.data.image, mosaicName+'_'+counter);
+    saveFile(m.data.image, mosaicName+'_'+counter);
 
     // names of the portals
     var portalTitle = m.data.waypoints.map(function (e) {
