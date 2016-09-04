@@ -73,21 +73,20 @@ h4{
 .mapboxgl-ctrl-icon{
     margin:0 !important;
 }
-.mapboxgl-popup-content{
-    max-width: 300px !important;
-    max-height: 300px !important;
+.mapboxgl-popup-close-button {
+    display:none;
 }
-.mapboxgl-popup-content{
+.mapboxgl-popup-content {
+    font:400 15px/22px 'Source Sans Pro',  Sans-serif;
+    padding:0;
+    max-width:300px;
+    max-height:500px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
-#sidebar{
-
-    position: absolute;
-    top: 5.625rem;
-    left: 2.8125rem;
-    bottom: 2.8125rem;
-    width: 30%;
-    color: white;
-    background-color: #333333;
-    opacity: 0.8;
+.mapboxgl-popup-content h4 {
+    background:#663399;
+    color:#fff;
+    padding:2px;
+    border-radius:3px 3px 0 0;
 }

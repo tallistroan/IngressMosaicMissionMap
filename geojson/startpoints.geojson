@@ -34,6 +34,23 @@
           48.139141
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Olympiaturm München",
+        "description": "zu Fuß machbar, Fahrrad muss stellenweise geschoben werden, wer nur die obere Hälfte des Mosaiks (also ohne die Spiegelung im Wasser) machen möchte, kann direkt mit Mission 31 am Königsplatz (=U-Bahn Station) am Portal <a href='https://www.ingress.com/intel?ll=48.145168,11.565107&z=17&pll=48.145168,11.565107'>Colourfull Art @ Königsplatz</a> anfangen",
+        "imagePath": "pics/olyturm.jpg",
+        "info": "https://plus.google.com/+CarstenStemmler/posts/3et7ia9RRvo",
+        "id": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.558117,
+          48.141321
+        ]
+      }
     }
   ]
 }
