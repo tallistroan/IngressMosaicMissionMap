@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "title";
+var mosaicTitle = "Hachinger Bach";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "name";
+var mosaicName = "bach";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 0;
+var mosaicID = 1;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "description";
+var mosaicDescription = "Fahrrad empfohlen bzw. als ausgedehnter Spaziergang, Anreise mit S-Bahn bis Station Deisenhofen";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "---";
+var mosaicInfoPost = "https://plus.google.com/115699361489256627368/posts/gqyFLvYBP7Y";
 
 var lines = [];
 var counter = 0;
@@ -35,6 +35,29 @@ var kml = '<?xml version="1.0" encoding="utf-8" ?><kml xmlns="http://www.opengis
     + '<Style id="lineStyle"><LineStyle><width>2</width><color>ff0055ff</color></LineStyle></Style>'
     + '<Folder><name>' + mosaicTitle + '</name>';
 var kmlCoordDelim = " ";
+
+/*line.push('var ' + mosaicName + '_startMissions = {\n"type":"FeatureCollection",\n"features":[\n');
+ for (var i = 0; i < startPoints.length; i++) {
+ line.push('{"type": "Feature",\n"properties": {\n');
+ // write extra information only once to the file
+ if (i == 0) {
+ line.push('"title": "' + mosaicTitle.replace(/"/g, ' ') + '",\n');
+ line.push('"description": "' + mosaicDescription.replace(/"/g, ' ') + '",\n');
+ line.push('"imagePath": "pics/' + mosaicName+ '.jpg",\n');
+ line.push('"info": "' + mosaicInfoPost + '",\n');
+ line.push('"id": ' + mosaicID + ',\n');
+ }
+ line.push('"missionNumber":' + (i + 1) + '},\n');
+ line.push('"geometry": {\n"type": "Point",\n"coordinates":' + startPoints[i] + '}},')
+ }
+ line.push(']\n};');*/ // end of startMissions
+
+var popupText ='{"type": "Feature",\n"properties": {\n"title": "' + mosaicTitle.replace(/"/g, ' ') + '",\n'+
+                '"description": "' + mosaicDescription.replace(/"/g, ' ') + '",\n'+
+                '"imagePath": "pics/' + mosaicName+ '.jpg",\n'+
+                '"info": "' + mosaicInfoPost + '",\n'+
+                '"id": ' + mosaicID + '\n},';
+
 
 function createOutputString(arr) {
     var all = [],
@@ -77,7 +100,7 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
     }
     counter += 1;
     // save pic for the mission
-    saveFile(m.data.image, mosaicName+'_'+counter);
+    //saveFile(m.data.image, mosaicName+'_'+counter);
 
     // names of the portals
     var portalTitle = m.data.waypoints.map(function (e) {
@@ -140,31 +163,20 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
     line.push(']\n}\n},\n');
     startPoints += '{"type": "Feature","properties": {"mission":'+counter+'},"geometry":{"type": "Point","coordinates":'+
                     waypoints[0].toString()+ '}},';
-    //startPoints.push(waypoints[0])
+    if(counter == 1) {
+        popupText += '"geometry": {\n"type": "Point",\n"coordinates":'+waypoints[0].toString() + '}}';
+    }
 }
 
 startPoints = startPoints.substring(0, startPoints.length-1)+']}';
 line.push(']}'); //end of mission
-/*line.push('var ' + mosaicName + '_startMissions = {\n"type":"FeatureCollection",\n"features":[\n');
-for (var i = 0; i < startPoints.length; i++) {
-    line.push('{"type": "Feature",\n"properties": {\n');
-    // write extra information only once to the file
-    if (i == 0) {
-        line.push('"title": "' + mosaicTitle.replace(/"/g, ' ') + '",\n');
-        line.push('"description": "' + mosaicDescription.replace(/"/g, ' ') + '",\n');
-        line.push('"imagePath": "pics/' + mosaicName+ '.jpg",\n');
-        line.push('"info": "' + mosaicInfoPost + '",\n');
-        line.push('"id": ' + mosaicID + ',\n');
-    }
-    line.push('"missionNumber":' + (i + 1) + '},\n');
-    line.push('"geometry": {\n"type": "Point",\n"coordinates":' + startPoints[i] + '}},')
-}
-line.push(']\n};');*/ // end of startMissions
 
-var html = '<p><a onclick="$(\'.ui-dialog-missions-copy textarea\').select();">Select all</a> and press CTRL+C to copy it.</br>Save the content to a file with the extension .js and include this specific file to the website</p>'
+
+
+var html = '<p><a onclick="$(\'.ui-dialog-missions-copy textarea\').select();">Select all</a> and press CTRL+C to copy it.</br>Save all files:</p>'
     + '<div id="missions">Mission: </div><div id="starts">Startpoints: </div><div id="kml">KML: </div>'
     + '<textarea style="width: 96%;height: 500px;" readonly onclick="$(\'.ui-dialog-missions-copy textarea\').select();">'
-    + createOutputString(lines)
+    + popupText
     + '</textarea>';
 
 dialog({
@@ -190,9 +202,9 @@ var resultString = createOutputString(lines);
 resultString = resultString.substring(0,resultString.length-4)+']}';
 var json_save = "text/json;charset=utf-8," + encodeURIComponent(resultString);
 var starts_save = "text/json;charset=utf-8," + encodeURIComponent(startPoints);
-$('<a href="data:' + kml_save + '" download="mission.kml">download KML</a>').appendTo('#kml');
-$('<a href="data:' + json_save + '" download="mission.geojson">download geojson</a>').appendTo('#missions');
-$('<a href="data:' + starts_save + '" download="starts.geojson">download geojson</a>').appendTo('#starts');
+$('<a href="data:' + kml_save + '" download="'+mosaicName+'.kml">download KML</a>').appendTo('#kml');
+$('<a href="data:' + json_save + '" download="'+mosaicName+'.geojson">download geojson</a>').appendTo('#missions');
+$('<a href="data:' + starts_save + '" download="'+mosaicName+'_start.geojson">download geojson</a>').appendTo('#starts');
 /*
 var textKML = '<p><a onclick="$(\'.ui-dialog-missions-kml textarea\').select();">Select all</a> and press CTRL+C to copy it.</br>Save the content to a file named ' + mosaicName + '.kml</p>'
     + '<textarea style="width: 96%;height: 250px;" readonly onclick="$(\'.ui-dialog-missions-kml textarea\').select();">'
