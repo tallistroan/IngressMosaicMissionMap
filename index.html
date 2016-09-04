@@ -175,6 +175,9 @@
 <div id="map"></div>
 <script>
   $(document).ready(function () {
+    $.ajaxSetup({
+      async: false
+    });
     var obj = {name: 'Bob', occupation: 'Plumber'};
     var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj));
 
@@ -204,6 +207,7 @@
     var startImage = [];
     var startInfo = [];
     var startId = [];
+    var missionFlyTo = [];
 
     // initialize background map
     mapboxgl.accessToken = mapbox_accesstoken;
@@ -214,8 +218,8 @@
       center: [11.57, 48.14],
       zoom: 14,
       minZoom: 10,
-      maxZoom: 18
-      //hash: true,
+      maxZoom: 17,
+      hash: true
       //maxBounds: bounds
     });
 
@@ -249,128 +253,215 @@
         cluster: false
       });
 
+      var missionList = [
+        [1, "bach"]
+      ];
 
-
-
+      console.log(missionList);
+      var layers = [
+        [3, '#8db600'],
+        [2, '#ffe135'],
+        [0, '#ff8000']
+      ];
 
       map.addLayer({
-        "id": "nymphenburg",
-        "type": "line",
-        "source": "nymphenburg",
+        "id": "unclustered-points",
+        "type": "circle",
+        "source": "startPoints",
         "layout": {
-          "line-join": "round",
-          "line-cap": "round"
+          "visibility": "none"
         },
         "paint": {
-          "line-color": "#ff8000",
-          "line-width": 6
-        }
-
+          "circle-color": "#ff8000",
+          "circle-radius": 11,
+          "circle-blur": 0.3
+        },
+        "filter": ["has", "id"]
       });
+
+      layers.forEach(function (layer, i) {
+        map.addLayer({
+          "id": "cluster-" + i,
+          "type": "circle",
+          "source": "startPoints",
+          "layout": {
+            "visibility": "none"
+          },
+          "paint": {
+            "circle-color": layer[1],
+            "circle-radius": 18,
+            "circle-blur": 0.2
+          },
+          "filter": i === 0 ?
+              [">=", "point_count", layer[0]] :
+              ["all",
+                [">=", "point_count", layer[0]],
+                ["<", "point_count", layers[i - 1][0]]]
+        });
+      });
+      // Add a layer for the clusters' count labels
       map.addLayer({
-        "id": "testMissions",
-        "type": "line",
-        "source": "testMissions"
+        "id": "cluster-count",
+        "type": "symbol",
+        "source": "startPoints",
+        "layout": {
+          "text-field": "{point_count}",
+          "text-font": [
+            "DIN Offc Pro Medium",
+            "Arial Unicode MS Bold"
+          ],
+          "text-size": 12,
+          "visibility": "none"
+        }
+      });
+
+      map.addLayer({
+        "id": "singleStart",
+        "type": "circle",
+        "source": "startPoints_unclustered",
+        "layout": {
+          "visibility": "none"
+        },
+        "paint": {
+          "circle-color": "#663399",
+          "circle-radius": 11,
+          "circle-blur": 0.3
+        },
+        "filter": ["has", "id"]
       });
 
       // when no mosaic is selected
-      if(!getQueryVariable("id")) {
-
-        var layers = [
-          [3, '#8db600'],
-          [2, '#ffe135'],
-          [0, '#ff8000']
-        ];
-
-        map.addLayer({
-          "id": "unclustered-points",
-          "type": "circle",
-          "source": "startPoints",
-          "paint": {
-            "circle-color": "#ff8000",
-            "circle-radius": 11,
-            "circle-blur": 0.3
-          },
-          "filter": ["has", "id"]
-        });
-
-        layers.forEach(function (layer, i) {
-          map.addLayer({
-            "id": "cluster-" + i,
-            "type": "circle",
-            "source": "startPoints",
-            "paint": {
-              "circle-color": layer[1],
-              "circle-radius": 18,
-              "circle-blur": 0.2
-            },
-            "filter": i === 0 ?
-                [">=", "point_count", layer[0]] :
-                ["all",
-                  [">=", "point_count", layer[0]],
-                  ["<", "point_count", layers[i - 1][0]]]
-          });
-        });
-        // Add a layer for the clusters' count labels
-        map.addLayer({
-          "id": "cluster-count",
-          "type": "symbol",
-          "source": "startPoints",
-          "layout": {
-            "text-field": "{point_count}",
-            "text-font": [
-              "DIN Offc Pro Medium",
-              "Arial Unicode MS Bold"
-            ],
-            "text-size": 12
-          }
-        });
+      if (!getQueryVariable("id")) {
+        map.setLayoutProperty('unclustered-points', 'visibility', 'visible');
+        map.setLayoutProperty('cluster-0', 'visibility', 'visible');
+        map.setLayoutProperty('cluster-1', 'visibility', 'visible');
+        map.setLayoutProperty('cluster-2', 'visibility', 'visible');
+        map.setLayoutProperty('cluster-count', 'visibility', 'visible');
       }
       // and when a mosaic is selected
       else {
-        map.addLayer({
-          "id": "singleStart",
-          "type": "circle",
-          "source": "startPoints_unclustered",
-          "paint": {
-            "circle-color": "#ff8000",
-            "circle-radius": 11,
-            "circle-blur": 0.3
-          },
-          "filter": ["==", "id", parseInt(getQueryVariable("id"))]
+        var currentID = parseInt(getQueryVariable("id"));
+        console.log("currentID-thingy -->" + missionList[currentID - 1][1]);
+        map.setLayoutProperty('singleStart', 'visibility', 'visible');
+        map.setFilter('singleStart', ["==", "id", currentID]);
+
+        map.addSource("selectedMission", {
+          type: "geojson",
+          data: "./geojson/" + missionList[currentID - 1][1] + ".geojson"
+        });
+        map.addSource("selectedStart", {
+          type: "geojson",
+          data: "./geojson/" + missionList[currentID - 1][1] + "_start.geojson",
+          cluster: false
+        });
+        $.when(iterateMissionCoordinates(missionList[currentID - 1][1] + '_start'))
+            .done(function () {
+              //console.log(map.fitBounds(map.getBounds('selectedMission')));
+              map.addLayer({
+                "id": "selectedMissionLayerNonSeq",
+                "type": "line",
+                "source": "selectedMission",
+                "layout": {
+                  "line-join": "round",
+                  "line-cap": "round"
+                },
+                "paint": {
+                  "line-color": "#663399",
+                  "line-width": 7,
+                  "line-dasharray": [1, 1.5]
+                },
+                "filter": ["==", "typeNumMission", 2]
+              });
+
+              map.addLayer({
+                "id": "selectedMissionLayerSeq",
+                "type": "line",
+                "source": "selectedMission",
+                "layout": {
+                  "line-join": "round",
+                  "line-cap": "round"
+                },
+                "paint": {
+                  "line-color": "#663399",
+                  "line-width": 7
+                },
+                "filter": ["==", "typeNumMission", 1]
+              });
+
+              map.addLayer({
+                "id": "selectedStartLayer",
+                "type": "symbol",
+                "source": "selectedStart",
+                "layout": {
+                  "text-field": "{mission}",
+                  "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                  "text-offset": [0, 0],
+                  "text-anchor": "center",
+                  "text-size": 20
+                },
+                "paint": {
+                  "text-color": "#000000",
+                  "text-halo-color": "#ffffff",
+                  "text-halo-width": 2
+                }
+              });
+
+              map.jumpTo({
+                center: missionFlyTo,
+                zoom: 14,
+                speed: 0.6,
+                curve: 1
+              });
+            });
+        var popupMission = new mapboxgl.Popup({
+          closeButton: false,
+          closeOnClick: false,
+          anchor: "left"
+        });
+        // TODO: Work on the hover feature for mission paths
+        map.on('mousemove', function (e) {
+
+          var missionPath = map.queryRenderedFeatures(e.point, {layers: ['selectedMissionLayerSeq', 'selectedMissionLayerNonSeq']});
+          //map.setPaintProperty(missionPath[0].layer.id, 'line-width', 7);
+
+          if (!missionPath.length) {
+            popupMission.remove();
+            //map.setPaintProperty(missionPath[0].layer.id, 'line-width', 4);
+            return;
+          }
+          // popup on mouse coordinate
+          popupMission.setLngLat([JSON.stringify(e.lngLat.lng), JSON.stringify(e.lngLat.lat)])
+              .setHTML(missionPath[0].properties.title)
+              .addTo(map);
         });
       }
 
 
-      map.addLayer({
-        "id": "nymphenburg_start",
-        "type": "symbol",
-        "source": "nymphenburg_start",
-        "layout": {
-          "text-field": "{mission}",
-          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-          "text-offset": [0, 0],
-          "text-anchor": "center",
-          "text-size": 20
-        },
-        "paint": {
-          "text-color": "#000000",
-          "text-halo-color": "#ffffff",
-          "text-halo-width": 2
-        },
-        "filter": ["==", "mission", 1]
-      });
+    });
 
+ /*   map.on("click", function (e) {
+      var clickedFeature = map.queryRenderedFeatures(e.point, {layers: ['cluster-0', 'cluster-1']});
+      map.flyTo({
+        center: clickedFeature[0].geometry.coordinates,
+        zoom: map.getZoom() + 2,
+        speed: 0.6,
+        curve: 1
+      });
+      console.log(map.getZoom());
+    });*/
+    map.on("click", function (e) {
+      var clickedFeature = map.queryRenderedFeatures(e.point, {layers: ['unclustered-points']});
+      if(clickedFeature[0].properties.id) {
+        window.location = 'index.html?id='+clickedFeature[0].properties.id;
+      }
     });
     var popup = new mapboxgl.Popup({
       closeButton: false,
       closeOnClick: false
     });
     map.on('mousemove', function (e) {
-      var features_startPoints = map.queryRenderedFeatures(e.point, {layers: ['singleStart', 'unclustered-points', 'cluster-1', 'cluster-2']});
-      console.log(features_startPoints);
-      // Change the cursor style as a UI indicator
-      map.getCanvas().style.cursor = (features_startPoints.length) ? 'pointer' : '';
+      var features_startPoints = map.queryRenderedFeatures(e.point, {layers: ['singleStart', 'unclustered-points', 'cluster-0', 'cluster-1', 'cluster-2']});
+      //console.log(features_startPoints);
 
       if (!features_startPoints.length) {
         popup.remove();
@@ -379,27 +470,19 @@
 
       var feature_cluster = features_startPoints[0];
 
-      /*map.flyTo({
-        center: feature_cluster.geometry.coordinates,
-        zoom: 17,
-        speed: 0.4,
-        curve: 1
-      });*/
-
       if (feature_cluster.properties.point_count) {
         $.when(iterateMissionsPopup(feature_cluster))
             .done(function () {
               // avoid creation of a new popup when the mouse position is slightly changed,
-              // and the asnc calls create double entries in the mission arrays.
               // it is also useful to avoid bad popup behaviour on mobile devices
-              if(startTitle.length === feature_cluster.properties.point_count) {
-                console.log(startTitle);
+              if (startTitle.length === feature_cluster.properties.point_count) {
+                //console.log(startTitle);
                 var missionString = "";
-                for(var i = 0; i< startTitle.length; i++){
-                  missionString += '</br><a href="index.html?id='+startId[i]+'">'+startTitle[i]+'</a>';
+                for (var i = 0; i < startTitle.length; i++) {
+                  missionString += '</br><a href="index.html?id=' + startId[i] + '">' + startTitle[i] + '</a>';
                 }
               }
-              else if(startTitle.length == 0){
+              else if (startTitle.length == 0) {
                 missionString = "</br>Zoome für mehr Details";
               }
               popup.setLngLat(feature_cluster.geometry.coordinates)
@@ -411,9 +494,6 @@
               startInfo = [];
               startId = [];
             })
-            .always(function () {
-
-            });
       }
       else {
         popup.setLngLat(feature_cluster.geometry.coordinates)
@@ -423,8 +503,6 @@
     });
 
     function iterateMissionsPopup(feature) {
-
-      //var missions = "";
       $.getJSON('./geojson/startpoints.geojson',
           function (points) {
             var result = points.features;
@@ -437,52 +515,17 @@
                 startInfo.push(result[i].properties.info);
                 startId.push(result[i].properties.id);
               }
-              console.log(result[i].properties.title);
-              console.log("mouseoverFeature --> " + feature.geometry.coordinates[0].toFixed(4));
-              console.log("origMissionCoord --> " + result[i].geometry.coordinates[0].toFixed(4));
             }
-            //console.log("missionen--> " + missions);
-
           });
     }
 
-    /*map.on('mousemove', function (e) {
-     var features = map.queryRenderedFeatures(e.point, {layers: ['cluster-1']});
-     console.log(features);
-     // Change the cursor style as a UI indicator.
-     //map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-
-     if (!features.length) {
-     popup.remove();
-     return;
-     }
-
-     var feature = features[0];
-
-     // Populate the popup and set its coordinates
-     // based on the feature found.
-     if (feature.properties.point_count) {
-     var missions = "";
-     $.getJSON('./geojson/startpoints.geojson',
-     function (data) {
-     var result = data.features;
-     for (var i = 0; i < result.length; i++) {
-     if( feature.geometry.coordinates[0].toFixed(4) === result[i].geometry.coordinates[0].toFixed(4) &&
-     feature.geometry.coordinates[0].toFixed(4) === result[i].geometry.coordinates[0].toFixed(4))
-     missions += result[i].properties.title +"  ";
-
-     console.log(result[i].properties.title);
-     console.log("mouseoverFeature --> "+feature.geometry.coordinates[0].toFixed(4));
-     console.log("origMissionCoord --> "+result[i].geometry.coordinates[0].toFixed(4));
-     }
-     console.log("missionen--> " + missions);
-     popup.setLngLat(feature.geometry.coordinates)
-     .setHTML("Hier starten die Missionen: " + missions)
-     .addTo(map);
-     });
-
-     }
-     });*/
+    function iterateMissionCoordinates(mission_start) {
+      $.getJSON('./geojson/' + mission_start + '.geojson',
+          function (points) {
+            var result = points.features;
+            missionFlyTo = result[0].geometry.coordinates;
+          });
+    }
   });
 
 
@@ -1199,22 +1242,22 @@
    }
    }
    */
-   /**
+  /**
    * returns the value of id, that is provided, when a mission is selected in the menu or from the overview page
    * @param variable
    * @returns value of id
    */
-   function getQueryVariable(variable) {
-   var query = window.location.search.substring(1);
-   var vars = query.split("&");
-   for (var i = 0; i < vars.length; i++) {
-   var pair = vars[i].split("=");
-   if (pair[0] == variable) {
-   return pair[1];
-   }
-   }
-   return (false);
-   }
+  function getQueryVariable(variable) {
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split("=");
+      if (pair[0] == variable) {
+        return pair[1];
+      }
+    }
+    return (false);
+  }
 </script>
 <script src="js/foundation.min.js"></script>
 <script>

@@ -1,0 +1,293 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1472879706870,
+"guid": "a06fd2dd2ef3468cab86721fea4e7031.1c",
+"title": "Hachinger Bach 1 / 3",
+"description": "Wanderung oder Radtour von der Quelle bis nach Berg am Laim.Bahnhof Deisenhofen bis Heimathaus Taufkirchen.Start Teil 1 S-Bahn Deisenhofen. Der Hachinger Bach ist nicht durchgängig zugänglich!",
+"author":"eeepee",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 3463376,
+"numUniqueCompletedPlayers": 5,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/r12sFTkbCKzGmn80E5E3MGxHR6DlALgSqyTDOe3arwOTRCcvSJn2N6F76oRA4DFej8tYXW0qEzWJXZii5z8",
+"portalTitle": ["S-Bahnhof Deisenhofen","Schiele Wiese ","Schnecke in  der Bahnhofstraße ","Dorfplatz Deisenhofen","Brunnen Dorfplatz Deisenhofen","Maibaum Deisenhofen","Gleisental Laterne","Musikerbrunnen","Maibaum Oberhaching","Brunnen","St. Stephan Church","Reh an der Schule","Fischmosaik","Jagdszene","Old Farmhouse Am Kirchplatz","Maibaum Furth","Marterl mit Madonna","Malerei an der Bäckerei","Kriegerdenkmal","Maibaum Taufkirchen","St.Johannes der Täufer","Historische Leichenhalle","Bachbewohner","Heimathaus Taufkirchen"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 1
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.583667,48.02007
+]
+,[
+11.585059,48.019875
+]
+,[
+11.586091,48.019221
+]
+,[
+11.589372,48.018468
+]
+,[
+11.590524,48.018448
+]
+,[
+11.591407,48.018943
+]
+,[
+11.593719,48.024164
+]
+,[
+11.595365,48.025532
+]
+,[
+11.595863,48.025751
+]
+,[
+11.596248,48.025954
+]
+,[
+11.596646,48.02587
+]
+,[
+11.597257,48.025995
+]
+,[
+11.596844,48.026173
+]
+,[
+11.596059,48.026148
+]
+,[
+11.596162,48.026315
+]
+,[
+11.600937,48.031332
+]
+,[
+11.614828,48.036176
+]
+,[
+11.618903,48.043012
+]
+,[
+11.618385,48.043715
+]
+,[
+11.618061,48.043781
+]
+,[
+11.617186,48.043881
+]
+,[
+11.616634,48.043968
+]
+,[
+11.616246,48.043957
+]
+,[
+11.617453,48.046206
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472879713585,
+"guid": "7bafed9a91cc4ef7bc99ddb27fccec48.1c",
+"title": "Hachinger Bach 2 / 3",
+"description": "Wanderung oder Radtour von der Quelle bis nach Berg am Laim.Heimathaus Taufkirchen bis Perlach.Start Teil 1 S-Bahn Deisenhofen. Der Hachinger Bach ist nicht durchgängig zugänglich!",
+"author":"eeepee",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 5195962,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Yw-JVx1o8xc0lNHQZ1ua_J7OpydumtVyoN-RhC33cEPbBRJ2NgkDLpyeaoURapVJPBtZRRkuESWWHrqDwBpH",
+"portalTitle": ["Infotafel über die Geschichte des Hachinger Bachs","Geraubte Madonna","Maria mit Kind Relief","Unterhaching Centre Sculpture","Hofheiliger in Unterhaching","Lüftlmalerei am Keglhof","Obermühle Unterhaching","Gasthaus zur Post","Madonna mit Kind an Wand","Madonna mit Kind","Maibaum Unterhaching","Wasserspiel","Martl","Ehem. Gutshof","Stone Dragon","Kirche St. Georg Unterbiberg","INRI-Säule Neubiberg","Dorfbrunnen Unterbiberg","Paradiesgarten Unterbiberg","Sonne und Mond INRI","Gerätehaus Feuerwehr UBB","Vogelhäuschen Unterbiberg","Villa-Anna","Salamander in Perlach","Schäffler","Protestantisches Pfarramt Perlach"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 1
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.617301,48.046515
+]
+,[
+11.616916,48.046991
+]
+,[
+11.619081,48.056146
+]
+,[
+11.619874,48.05682
+]
+,[
+11.619518,48.057094
+]
+,[
+11.619427,48.057314
+]
+,[
+11.619105,48.058246
+]
+,[
+11.618827,48.058693
+]
+,[
+11.619124,48.058814
+]
+,[
+11.618451,48.060352
+]
+,[
+11.618575,48.060761
+]
+,[
+11.618722,48.065812
+]
+,[
+11.622028,48.081863
+]
+,[
+11.62386,48.08196
+]
+,[
+11.625115,48.081689
+]
+,[
+11.625778,48.081426
+]
+,[
+11.626161,48.081533
+]
+,[
+11.625889,48.081665
+]
+,[
+11.626273,48.081783
+]
+,[
+11.626044,48.082001
+]
+,[
+11.626581,48.082327
+]
+,[
+11.626268,48.082853
+]
+,[
+11.628015,48.092656
+]
+,[
+11.628063,48.092996
+]
+,[
+11.628866,48.096765
+]
+,[
+11.629289,48.097252
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1472879737949,
+"guid": "e9e3dd9263b948a385753f0fff535044.1c",
+"title": "Hachinger Bach 3 / 3",
+"description": "Wanderung oder Radtour von der Quelle bis nach Berg am Laim.Perlach bis Berg am Laim, U-Bahn Josephsburg.Start Teil 1 S-Bahn Deisenhofen. Der Hachinger Bach ist nicht durchgängig zugänglich!",
+"author":"eeepee",
+"authorTeam": "R",
+"ratingE6": 800000,
+"medianCompletionTimeMs": 3637894,
+"numUniqueCompletedPlayers": 9,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/5kNofBTbk6D5c9vZks_zIuvHl1JhdKqx6zY92mROjckYPlaGLfe6tSYNGPIebb0eA6OESh2jstF-dOFYbEM",
+"portalTitle": ["St. Paulus-Kirche in Perlach","Perlacher Hof","Thurnerhaus","Beim Doll Perlach","Spitzhelm Eckhaus","Ehemaliges Gasthaus Zum Bräu","Geschichtsbrunnen Pfanzeltplatz","Schulhaus Perlach","Heiligenfigur beim Schäftlmaier","Marienstatue Pfanzeltplatz","Perlach Kriegerdenkmal","Maibaum at Pfanzeltplatz Perlach","Der Pfeiffer seit 1538","Eingang Zum Perlacher Naturlehrpfad","Infotafel Naturlehrpfad","FC Perlach","Der Mann der mit dem Fischlein spricht.","Eingang Ostpark","Hundespielwiese","Farmers Truck","Rodelhügel am Hachinger Bach","The Two Women Mural","U-Bahnhof Josephsburg"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 1
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.629441,48.097403
+]
+,[
+11.629953,48.098399
+]
+,[
+11.629776,48.098784
+]
+,[
+11.630249,48.099278
+]
+,[
+11.630014,48.099385
+]
+,[
+11.63048,48.099787
+]
+,[
+11.630699,48.099987
+]
+,[
+11.630746,48.100327
+]
+,[
+11.630729,48.100674
+]
+,[
+11.631022,48.100947
+]
+,[
+11.630806,48.10109
+]
+,[
+11.630861,48.101288
+]
+,[
+11.630162,48.102439
+]
+,[
+11.630399,48.103227
+]
+,[
+11.630466,48.103913
+]
+,[
+11.633312,48.104299
+]
+,[
+11.633877,48.104946
+]
+,[
+11.633986,48.110322
+]
+,[
+11.634049,48.111183
+]
+,[
+11.632951,48.118466
+]
+,[
+11.633521,48.121281
+]
+,[
+11.634548,48.125001
+]
+,[
+11.634906,48.127049
+]
+]
+}
+}]}

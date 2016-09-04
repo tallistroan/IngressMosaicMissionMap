@@ -72,6 +72,23 @@
           48.141321
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Hachinger Bach",
+        "description": "Fahrrad empfohlen bzw. als ausgedehnter Spaziergang, Anreise mit S-Bahn bis Station Deisenhofen",
+        "imagePath": "pics/bach.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/gqyFLvYBP7Y",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.583667,
+          48.02007
+        ]
+      }
     }
   ]
 }
