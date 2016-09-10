@@ -1,0 +1,214 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473439915496,
+"guid": "40f107df98744ad394c88e03c9bf4d0e.1c",
+"title": "Türkenfeld 1/5",
+"description": "Die erste urkundliche Erwähnung von Türkenfeld stammt aus den Breves Notatiae von 749 als 'Duringueld'.",
+"author":"Deckname",
+"authorTeam": "R",
+"ratingE6": 750000,
+"medianCompletionTimeMs": 1121830,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ua1bLsCucGODYOIfifdwCLLqw9kpgrbCiZqmVCXf6Y2K_f2XfcLKixTNnIasuWHdf-iAqokObUgkt9JITIDD",
+"portalTitle": ["Türkenfeld Bahnhof","Alter Bahnhof Türkenfeld","Gasthaus Eisenreich","Hirschgeweih","Türkenfelder Metallskulptur","Steckerleisbär"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 22
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.076893,48.104563
+]
+,[
+11.074078,48.10469
+]
+,[
+11.076376,48.104995
+]
+,[
+11.07781,48.105315
+]
+,[
+11.081364,48.108311
+]
+,[
+11.082342,48.108587
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473439918226,
+"guid": "9c728ec534bd4d5289866920476cdab0.1c",
+"title": "Türkenfeld 2/5",
+"description": "Die Bezeichnung geht zurück auf den Personennamen 'Durinc' und wandelte sich erst unter Einfluss der Türkenkriege zu Türkenfeld.",
+"author":"Deckname",
+"authorTeam": "R",
+"ratingE6": 703704,
+"medianCompletionTimeMs": 459793,
+"numUniqueCompletedPlayers": 28,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/9njBf2ji-fl04rM9u0vJLenKEe15XkNsFQnXQ8k2wMEZBnyuV76yCSnUlrrPjtGN6C0_e0H7rPTnWKS2wOAu",
+"portalTitle": ["Türkenfelder Kriegerdenkmal","Maibaum Türkenfeld","Rathaus Türkenfeld","Gasthof Drexl","Brunnen Türkenfeld","Türkenfelder Blatt"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 22
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.084113,48.10895
+]
+,[
+11.08474,48.108911
+]
+,[
+11.084943,48.1095
+]
+,[
+11.08538,48.108842
+]
+,[
+11.085459,48.109076
+]
+,[
+11.0858,48.109326
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473439921349,
+"guid": "e9a745b396cd491cbe0f5a23b867886d.1c",
+"title": "Türkenfeld 3/5",
+"description": "Die Siedlungsgeschichte reicht bis ins Neolithikum zurück, aus dem ein Hockergrab mit vermutlich schnurkeramischen Grabbeigaben stammt.",
+"author":"Deckname",
+"authorTeam": "R",
+"ratingE6": 615385,
+"medianCompletionTimeMs": 1151026,
+"numUniqueCompletedPlayers": 27,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/8KWUgqMtdLd8_GDlQ61Fr2QF5r7ggNthSEuJQO1vjpFsoEXIRRB8REvs2AWASpLimuif37riTuMo2VDO__liig",
+"portalTitle": ["VW-Bus an der Wand","Roboter","Jesus am Kreuz","Jesuswirtschaft","Mariensäule","Geigenskulptur"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 22
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.085402,48.111098
+]
+,[
+11.085512,48.111422
+]
+,[
+11.083615,48.113105
+]
+,[
+11.091133,48.115354
+]
+,[
+11.086713,48.10826
+]
+,[
+11.086249,48.108464
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473439923924,
+"guid": "4db95fa769d24ee48bddc7b4d8d8c6d6.1c",
+"title": "Türkenfeld 4/5",
+"description": "Aus der Bronze- bzw. Hallstattzeit stammen rund 15 Grabhügel. Eine wahrscheinlich zerstörte Viereckschanze aus der La-Tène-Zeit liegt westlich von Zankenhausen.",
+"author":"Deckname",
+"authorTeam": "R",
+"ratingE6": 541667,
+"medianCompletionTimeMs": 1280046,
+"numUniqueCompletedPlayers": 25,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/G723S81rthT-dkwuIF2GHCejSIfQxuLTmVLBykRMQdpROKpOgvGLJVi0maSCsCxMD52lJUYXkyjBxBgAg9E",
+"portalTitle": ["Betschuppen","Bärenskulptur","Wegkreuz","Sportgaststätte Türkenfeld","Wegekreuz","Lourdeskapelle Türkenfeld"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 22
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.086378,48.104569
+]
+,[
+11.082999,48.101196
+]
+,[
+11.081834,48.10238
+]
+,[
+11.080526,48.100919
+]
+,[
+11.073265,48.101211
+]
+,[
+11.071138,48.100508
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473439927487,
+"guid": "413654585e234bec9ac26f1ca47044bb.1c",
+"title": "Türkenfeld 5/5",
+"description": "Aus dem Frühmittelalter finden sich Reihengräberfelder nördlich von Türkenfeld und Peutenmühle sowie die Abschnittsbefestigung im Burgholz östlich von Burgholz.",
+"author":"Deckname",
+"authorTeam": "R",
+"ratingE6": 434783,
+"medianCompletionTimeMs": 1185148,
+"numUniqueCompletedPlayers": 24,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/Jy4uMJ8mPrJo1K2SqG7FDvNNobSU2_-x2KdXlr_-B2_-oJ0K-kMnERsvnnKEIXlsftwMXXZ48QQjSbyJHyuv",
+"portalTitle": ["INRI","Kriegerdenkmal Zankenhausen","Kirche Zankenhausen","Mariensäule","Maibaum Zankenhausen","Kapelle"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 22
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.109938,48.097811
+]
+,[
+11.105813,48.102105
+]
+,[
+11.107013,48.10224
+]
+,[
+11.106973,48.102471
+]
+,[
+11.107882,48.102949
+]
+,[
+11.113434,48.108404
+]
+]
+}
+}]}

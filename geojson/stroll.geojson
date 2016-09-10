@@ -1,0 +1,1031 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473225326081,
+"guid": "6befcdf45a2d4c53b12513ff81ef585a.1c",
+"title": "01-24 MUNICH PORTAL HUNTER STROLL",
+"description": "24 hexagonal Missions Mosaic iin the Heart of Munich. Splttable in 4 single line Mosaics of 6. All Missions have in common that the track follows a heagonal shape. Hacks and easy passphrases only!",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 943662,
+"medianCompletionTimeMs": 343030,
+"numUniqueCompletedPlayers": 71,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/l4Rr7u9kLJDC6LvoPCe9ioxC7qD5fMa-1F3JWgo5Gxta0Y11VfWjWaV3CH5xUvoGuKqq-cGFDYSK9EwwMM3A",
+"portalTitle": ["Moriskentänzer","Dragon","Marienplatz - Glockenspiel","Rathaus","Fischbrunnen","Munich Golden Madonna Statue"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.574875,48.137357
+]
+,[
+11.575115,48.137532
+]
+,[
+11.575546,48.137437
+]
+,[
+11.57594,48.137372
+]
+,[
+11.576208,48.137238
+]
+,[
+11.575486,48.13722
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225363437,
+"guid": "33fecb99aa764b40be5ed0f80e2e3cf5.1c",
+"title": "02-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Kirche St. Peter (“Church of St. Peter”) is one of Munich’s landmarks, the oldest parish church in the city, and is known affectionately by the locals as Alter Peter (“Old Peter”).",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 931034,
+"medianCompletionTimeMs": 396851,
+"numUniqueCompletedPlayers": 61,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/iwKdRO4NpKhVwm7q7pVX7wAhVqQgNTLLlenSuaC2joR5hgPvkcX74HICwpPW0GirQSeR_IN7YAmvhBGGy1yBYQ",
+"portalTitle": ["Wallflowers","Sanct Onuphrius","Altes Rathaus","Der Alte Peter vom Viktualienm","Grabsteinwand","Alter Peter Munich"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.575896,48.13673
+]
+,[
+11.576478,48.136794
+]
+,[
+11.576878,48.136661
+]
+,[
+11.5765,48.136291
+]
+,[
+11.575942,48.136302
+]
+,[
+11.57543,48.136539
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225403392,
+"guid": "35c6db0fddc649baabb48f0a031f4c81.1c",
+"title": "03-24 MUNICH PORTAL HUNTER STROLL",
+"description": "At the top of the 85-meter-high (255 feet) tower on the city hall is an observation deck that can be accessed with an elevator and offers a grandiose view of the roofs of the city.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 887097,
+"medianCompletionTimeMs": 590968,
+"numUniqueCompletedPlayers": 61,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/xjE2TdygAuS1vg7ZTgh8WNJ_x_FpAdSeut6aixDmelEVy0oPZuYuvqm0ID8W0-Z0rvmwgKhLbgM7A5zUpdCd",
+"portalTitle": ["Christoph  und das Christuskind","Marienhof","Wandrelief Marienplatz","Ratskeller","Rathaus Tablo","I am the Justice"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.575,48.137777
+]
+,[
+11.575515,48.13831
+]
+,[
+11.576255,48.138118
+]
+,[
+11.576668,48.138064
+]
+,[
+11.576278,48.137889
+]
+,[
+11.575576,48.13778
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225436503,
+"guid": "c4cbd188204e4880b8e500e81e350cee.1c",
+"title": "04-24 MUNICH PORTAL HUNTER STROLL",
+"description": "Both onion domes of the Gothic cathedral and city parish church known as the Frauenkirche (full name: “Cathedral of Our Dear Lady”) are an unmistakable symbol of the city of Munich.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 892857,
+"medianCompletionTimeMs": 486872,
+"numUniqueCompletedPlayers": 57,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/A29S2xZ99TmjjU64kULIf9vtgEWG8hKSeLc1HNj2SwaHsQw_nR0TsYwlA2swy4QRVclxbx06ql1Y-SUCvEw6",
+"portalTitle": ["Grabmal mit Schädel","St Benno","Frauenplatz 11","Grabmal Eder von Spitzel","Sonnenuhr an der Frauenkirche","Map 4 The Blind Of Munich"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.573349,48.138772
+]
+,[
+11.5739,48.138792
+]
+,[
+11.574508,48.13877
+]
+,[
+11.574155,48.138451
+]
+,[
+11.573748,48.13841
+]
+,[
+11.572769,48.138663
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225451904,
+"guid": "8054e630bb234b20b13470562d3ed8d6.1c",
+"title": "05-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Old Town Hall, until 1874 the domicile of the municipality, serves today as a building for representative purposes for the city council in Munich.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 887097,
+"medianCompletionTimeMs": 556812,
+"numUniqueCompletedPlayers": 63,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/Ds9CNPEptF39efxIDujDT_8unRI9PVEXZdZFhc3ldYcdF-lLVdZ2ttpR6oj4WfsmuecWF3VKMWcTM2b8MK1p",
+"portalTitle": ["Sanct Onuphrius","Spielzeugmuseum München","09.11.1938","Figuren über Eingang","Two Lions","Altes Rathaus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.576478,48.136794
+]
+,[
+11.576798,48.136797
+]
+,[
+11.577323,48.136922
+]
+,[
+11.577716,48.136904
+]
+,[
+11.577524,48.136749
+]
+,[
+11.576878,48.136661
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225456639,
+"guid": "96007e9d4a564c46aeac8a65a95ff74a.1c",
+"title": "06-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The large taproom features a quaint tavern environment with a house band every day. On the second floor is the stylish Bräustüberl public house",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 910714,
+"medianCompletionTimeMs": 496003,
+"numUniqueCompletedPlayers": 58,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/eYX-w8OHOorOAa13Qf9zFX_ys-wGkPoXE0WSq8MZ0AmxTRgujzPMyW1aDH6MlyXXUUW9KBeoe5T8IYojDwfF",
+"portalTitle": ["Wandbild Platz Hotel","Hof","Römerschädl","Kopf Mit Grausliche Vorderzähnt","Platzl","Hofbräuhaus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.57874,48.137889
+]
+,[
+11.578955,48.138152
+]
+,[
+11.579754,48.138298
+]
+,[
+11.579977,48.138147
+]
+,[
+11.580094,48.137977
+]
+,[
+11.579786,48.137723
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225480197,
+"guid": "ead023dd7baf47578383a015c72becd5.1c",
+"title": "07-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Isartor at the Isartorplatz in Munich is one of four main gates of the medieval city wall. It served as a fortification for the defence &is the most easterly of Munich's three remaining gates.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 857143,
+"medianCompletionTimeMs": 799839,
+"numUniqueCompletedPlayers": 51,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/rF7hYo7HG7R4p0Zz7w4Yw5Da5LecrEEj4mNcK_aV196RHW6va6RKpfF6igocx4ePIxj9FQ_AAUo6QOZB0KA",
+"portalTitle": ["Fundamente Zwingermauer 1430-1472","Bayer. Oktoberfest u. Brauereimuseum","Riesenlöffel Maggi","Alpha Beta Sigma","Torbräu","Isartor"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.580923,48.134895
+]
+,[
+11.580309,48.13527
+]
+,[
+11.580697,48.135498
+]
+,[
+11.581746,48.136096
+]
+,[
+11.581482,48.135502
+]
+,[
+11.581609,48.135257
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225509155,
+"guid": "780d42de42b4404790bb1c58c555bfa7.1c",
+"title": "08-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Victuals Market, only a few steps from the Marienplatz, is Munich's most popular open air market. In the summer, you can quench your thirst from one of the many drinking fountains in the market.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 905660,
+"medianCompletionTimeMs": 642303,
+"numUniqueCompletedPlayers": 54,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/lo-42wMFj-rXVxB-SmbRtZiTgdFTAzomsarYAErmfIaCRgKfXAaQB9x1vTJC47EgPypXhp-KDMq1y0ybN8I",
+"portalTitle": ["Sculpture of Ida Schumacher","Münchener Schauspielerin Liesl Karlstadt Brunnen","Langweiliger Brunnen","Maibaum Viktualienmarkt","Karl Valentin Sculpture","Viktualienmarkt"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.576514,48.134955
+]
+,[
+11.576448,48.135165
+]
+,[
+11.576012,48.135505
+]
+,[
+11.576076,48.135108
+]
+,[
+11.575528,48.135009
+]
+,[
+11.577195,48.134505
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225542618,
+"guid": "7cc365d1d2e541ca999f3c44e45a5170.1c",
+"title": "09-24 MUNICH PORTAL HUNTER STROLL",
+"description": "Together with the Synagogue and the Jewish Community Center the Jewish Museum Munich forms part of the Jewish Center at St.-Jakobs-Platz",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 854167,
+"medianCompletionTimeMs": 671680,
+"numUniqueCompletedPlayers": 49,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/Vd85UmRuAI0PprgZhlYGYMX-DaNhAljE5x7pN7p2hF_wojLpdkDZ86aNl6ifAIQ8xQ7SNCv37uboatAFIlZX",
+"portalTitle": ["Eulenbrunnen","Luftschutzbunker An St.Jakobs Platz","Christophorus with Child","Betendes Mädchen ","St. Jakob am Anger","Synagoge"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.573483,48.134409
+]
+,[
+11.573633,48.133832
+]
+,[
+11.573302,48.133452
+]
+,[
+11.573031,48.133766
+]
+,[
+11.572096,48.134252
+]
+,[
+11.572833,48.134614
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225563477,
+"guid": "217bee38b04c42a2b6b8064f832759c7.1c",
+"title": "10-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The late Baroque Asam Church is located on Sendlingerstraße just a few minutes’ walk away from the Sendlinger Tor (Sendling Gate)",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 872340,
+"medianCompletionTimeMs": 598263,
+"numUniqueCompletedPlayers": 51,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/TIgyNxN3GXSyQHBM-KZj43zE1nQxhtHo5G9RQ-D0wm8mI5UCREz1rdins3jJ3bwH3PuOi8TlqrCdRk98KQyRBg",
+"portalTitle": ["Building Corner Sculpture","Heiliger im Hof","Big foot","Runder Brunnen ","Frau mit Schwert und Waage","Asamkirche"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56952,48.134881
+]
+,[
+11.569317,48.135121
+]
+,[
+11.569588,48.135408
+]
+,[
+11.570174,48.135294
+]
+,[
+11.569968,48.135028
+]
+,[
+11.569675,48.135091
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225598377,
+"guid": "5c2b6f38a1ee43218c2fc813f16baa4a.1c",
+"title": "11-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Sendlinger Tor (from German: Sendling Gate) is a city gate at the southern extremity of the historic old town area of Munich. It served as a fortification for the defence",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 911111,
+"medianCompletionTimeMs": 451117,
+"numUniqueCompletedPlayers": 49,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/qkzVuK2bTAsCqz0Plsn5rKlhNhyQdMd2EDT2aEG-6-BdxJIhSwlN4NqzRyTFVUG1OAY9rinUMBnOOqOnYtFlOg",
+"portalTitle": ["Balkon Um Zum Volk Zu Sprechen","Altbauerker","Kreuz am Sendlinger Tor ","AIDS Denkmal ","Auffliegende Vögel","Sendlinger Tor"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.568423,48.134483
+]
+,[
+11.568322,48.134226
+]
+,[
+11.567855,48.133866
+]
+,[
+11.56748,48.133846
+]
+,[
+11.567254,48.134534
+]
+,[
+11.567604,48.134108
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225635153,
+"guid": "15e49813574b4d12a0963cea1c120159.1c",
+"title": "12-24 MUNICH PORTAL HUNTER STROLL",
+"description": "Stachus is a large square in central Munich. The square was officially named Karlsplatz in 1797 after the unpopular Charles Theodore, Elector of Bavaria.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 877551,
+"medianCompletionTimeMs": 659129,
+"numUniqueCompletedPlayers": 53,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/a04y5wsEC2dEep4QQuq0z6hW4CQgXeEXCHtmilXVT945pGVJreKNQAkLSNEzxHi953w34UA9473noE1Ivg-Q_g",
+"portalTitle": ["Maria","Oberpollinger","Neuhausertor","Hofnarr Prangerl","Stachus Fountain","Karlsplatz Stachus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.567221,48.139173
+]
+,[
+11.56735,48.138898
+]
+,[
+11.566778,48.138914
+]
+,[
+11.566595,48.139155
+]
+,[
+11.565815,48.139141
+]
+,[
+11.566211,48.139281
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225649649,
+"guid": "93676c0f25224000bd58a7e4573275b1.1c",
+"title": "13-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Old Botanical Garden is located on Lenbachplatz in Munich in the district part Königsplatz the Maxvorstadt and is now a park",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 926829,
+"medianCompletionTimeMs": 1039044,
+"numUniqueCompletedPlayers": 43,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/pzxEmVCmDkr8ni6d7VSfU9idFDeRtT-eFRTwCMo68oDdGfZf9bs-SINBsX3e_VqKfs1Wm_jxIEPIU6eJolXM0A",
+"portalTitle": ["Farbenfrohe Parkbank","Umweltmammutbaum","Lanovod","Testa Scolpita","Park Cafe","Alter Botanischer Garten"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.563683,48.141481
+]
+,[
+11.563264,48.141708
+]
+,[
+11.563205,48.142501
+]
+,[
+11.564257,48.142388
+]
+,[
+11.564491,48.142162
+]
+,[
+11.565055,48.142232
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225677739,
+"guid": "13a8a15448814b6aa82d15fe7613affb.1c",
+"title": "14-24 MUNICH PORTAL HUNTER STROLL",
+"description": "Königsplatz (King's Square) is a square in Munich, Germany. Built in the style of European Neo-Classicism in the 19th century, it is a center of cultural life",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 846154,
+"medianCompletionTimeMs": 999239,
+"numUniqueCompletedPlayers": 41,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/FrLYEzVZ6OBIu2NYSTYuYR33p-FDnOrzpAkyIJfNK_1NnWr6xIBxFk88eMi73MISvxHC7FIUliXtha7Fzuy1IQ",
+"portalTitle": ["Pferdestatue","Detail: Lion","Propyläen","Propyläen","Glyptothek","Colourfull Art @ Königsplatz"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.563279,48.1461
+]
+,[
+11.563734,48.146055
+]
+,[
+11.564063,48.146129
+]
+,[
+11.56438,48.146034
+]
+,[
+11.565614,48.146215
+]
+,[
+11.565107,48.145168
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225694423,
+"guid": "262226cc3bcc47e489ca421486c458d2.1c",
+"title": "15-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Alte Pinakothek is one of the oldest and most important galleries in the world. More than 800 masterpieces by European artists bring to life the development of art",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 868421,
+"medianCompletionTimeMs": 1137100,
+"numUniqueCompletedPlayers": 39,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/eLBjiicC4Z5AEPhW6QVnMeyrkVELh-MhOmVt744uGdbZMksBxLiV-NH2yLnh6RbdM8i8-b-DIYfWntNlCtJILw",
+"portalTitle": ["Trojanisches Pferd","Eduardo Paolozzi Statue","Rossebändiger","Doppelsäule 23/70","Cubismus An Der Pinakothek","Alte Pinakothek"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.570472,48.14751
+]
+,[
+11.568669,48.147983
+]
+,[
+11.568799,48.148373
+]
+,[
+11.569882,48.149192
+]
+,[
+11.570967,48.148877
+]
+,[
+11.570969,48.148001
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225713808,
+"guid": "733c49fe839d4574b50996659675d5df.1c",
+"title": "16-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Ludwigstraße in Munich is one of the city's four royal avenues next to the Brienner Straße, the Maximilianstraße and the Prinzregentenstraße",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 863636,
+"medianCompletionTimeMs": 1278894,
+"numUniqueCompletedPlayers": 44,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/JwdLAeMsRD54VNg1QUFYtZo5uKNgsAFdTzK3pxbfG3wgmXlnj35XSRpMRt5eeM3s50wDydYKIimrr4CbSuWG",
+"portalTitle": ["Statuen St Ludwig","Ludwigskirche in Munich","Leo Von Klenze Brunnen","Wunden der Erinnerung ","LMU Bibliothek Hintereingang","Lungo Ludwigstrasse"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.58126,48.149196
+]
+,[
+11.580952,48.148899
+]
+,[
+11.580656,48.148656
+]
+,[
+11.580304,48.149114
+]
+,[
+11.580235,48.14955
+]
+,[
+11.580813,48.149968
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225763852,
+"guid": "6e9a81b5ae4b4d00a9159d1e78836455.1c",
+"title": "17-24 MUNICH PORTAL HUNTER STROLL",
+"description": "Basilica in Italianate High Baroque which had a major influence on Southern German baroque architecture.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 813953,
+"medianCompletionTimeMs": 836876,
+"numUniqueCompletedPlayers": 45,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/dM08Dy-lcBnnEl-09Jmq9ZACPNfWhhROEIq5hdKhruT8QhNe_5mEqWNrYdY7_-BLM56rrZ47KQFbMa7r_JIY",
+"portalTitle": ["Schöne und Biest","Lion Odeonsplatz","Viscardigasse","Wellen aus Stein","'Weha 2' Bronzeguss","Theatinerkirche"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.577384,48.14177
+]
+,[
+11.577626,48.141269
+]
+,[
+11.577219,48.141341
+]
+,[
+11.576441,48.141674
+]
+,[
+11.576789,48.141915
+]
+,[
+11.577121,48.141991
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225781768,
+"guid": "38fce53ded95452bb5ff45656e3aa304.1c",
+"title": "18-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Odeonsplatz is a large square in central Munich which was developed in the early 19th century by Leo von Klenze and is at the southern end of the Ludwigstraße, developed at the same time",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 761905,
+"medianCompletionTimeMs": 529405,
+"numUniqueCompletedPlayers": 43,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/UWngQ-n1xWKRi567tNEm65YsNir1HPYDCrCqsk0--HgzxZAcCEvRtesU-KM4b_iqvH8zqe1LIo9VId5Yj9iPBQ",
+"portalTitle": ["Mickriger Brunnen","Reconstructum 1950","Sleeping Stone","Bayerisches Staatsministerium Der Finanzen","Griechische Göttin mit Harfe","Maria mit Jesuskind am Odeonsplatz"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.57684,48.142488
+]
+,[
+11.576816,48.142689
+]
+,[
+11.57736,48.14441
+]
+,[
+11.577565,48.143987
+]
+,[
+11.577812,48.143786
+]
+,[
+11.577512,48.143045
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225799197,
+"guid": "09532eba2a374a7c89b3a73e08650785.1c",
+"title": "19-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Residenz (palace) in Munich’s city center was once the city castle of the Bavarian dukes, princes, and emperors",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 717949,
+"medianCompletionTimeMs": 660866,
+"numUniqueCompletedPlayers": 42,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ZsDr40i0QAb8rD3aOaMj9owo6C4-zOGC9Cvla9PC0NeVaSZWI8I1t9THC3LEBZBPguH829m8iQEzY-eR4ug-ig",
+"portalTitle": ["Nespresso House Munich","Apple A Day...","Theatiner Hof","Viscardigasse","Lion Odeonsplatz","Residenz"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.576466,48.140351
+]
+,[
+11.576471,48.140597
+]
+,[
+11.576603,48.141206
+]
+,[
+11.577219,48.141341
+]
+,[
+11.577626,48.141269
+]
+,[
+11.577259,48.140794
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225813970,
+"guid": "e36508a4190c4822a3950e0a6a59440b.1c",
+"title": "20-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The garden was built in 1613–1617 by Maximilian I, Elector of Bavaria as an Italian style Renaissance garden. In the center of the garden is a pavilion for the goddess Diana.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 794872,
+"medianCompletionTimeMs": 838732,
+"numUniqueCompletedPlayers": 42,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/c5FB2tP_t4OrVjlniyVaPAt7QK4rdr7GoeIUo_mddnTmLIMmYs0whpdzxxTy8L_U_pyj5UhfLBy-w6wPi8LZ5A",
+"portalTitle": ["Fountain of a Woman Thinking","Deutsches Theatermuseum","Theatermuseum","Lowrider Parasol","Northwestern fountain at Hofgarten","Brunnen im Hofgarten"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.578668,48.143194
+]
+,[
+11.579872,48.143809
+]
+,[
+11.581512,48.143446
+]
+,[
+11.580401,48.142585
+]
+,[
+11.579604,48.143308
+]
+,[
+11.580662,48.143077
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225832444,
+"guid": "fc167bd6f1564cebac74b26185c5b41c.1c",
+"title": "21-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Haus der Kunst (literally House of Art) is a non-collecting art museum in Munich, Germany. It is located at Prinzregentenstrasse 1 at the southern edge of the Englischer Garten",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 648649,
+"medianCompletionTimeMs": 928331,
+"numUniqueCompletedPlayers": 40,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/HGAdEHqCazqSLSRG_Wstcu733DAbsQTimoZyhllfVUZxblZ6NDokrTyQO8_w92VORBmDqwfjB7radGnMq0si",
+"portalTitle": ["Eisbachwelle","Art - Gallery @ Bezirk Oberbayern","Christophorus-Skulptur","Haus der Kunst","P1","Haus Der Kunst. ( House Of Art) "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.587689,48.143404
+]
+,[
+11.58644,48.14328
+]
+,[
+11.585993,48.143405
+]
+,[
+11.584499,48.144369
+]
+,[
+11.585258,48.144587
+]
+,[
+11.585638,48.143783
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225836242,
+"guid": "b49ab467b2124c12929d5e16ae48ea48.1c",
+"title": "22-24 MUNICH PORTAL HUNTER STROLL",
+"description": "The Bavarian National Museum (Bayerisches Nationalmuseum) in Munich is one of the most important museums of decorative arts in Europe",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 785714,
+"medianCompletionTimeMs": 480468,
+"numUniqueCompletedPlayers": 44,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/kbms1YN6b8fUnzhRDiR3WXeIAU_fzxjX2FRzJICg3-CphjldkRP6P-sRlFxU1dRFxp7yQPvaPKEjVsk1vDc",
+"portalTitle": ["Wirtschaftsministerium","Brunnen Am Ministerium","Restaurant Bayrisches Nationalmuseum","Fabelwesen: Vogel mit Frauenkopf","Frau und Löwe","Bayerisches Nationalmuseum Haupteingang"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.590989,48.14234
+]
+,[
+11.590014,48.142528
+]
+,[
+11.589711,48.142982
+]
+,[
+11.590259,48.143019
+]
+,[
+11.590605,48.142979
+]
+,[
+11.590955,48.142902
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225869009,
+"guid": "fb2665b14a9a428bb488a2f6689dafd5.1c",
+"title": "23-24 MUNICH PORTAL HUNTER STROLL",
+"description": "Many museums can be found along the Prinzregenten avenue, such as the Bayerisches Nationalmuseum, the Schackgalerie (by Max Littmann, 1907) and the Villa Stuck.",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 725000,
+"medianCompletionTimeMs": 968306,
+"numUniqueCompletedPlayers": 42,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/AJz12ueikAVpz1mxYmSyvQ_5yqc4mETqros6YJLPumUVuPDHATThCNXw9s4DX-Yh7ah_67TsUv8IOS_sHt0",
+"portalTitle": ["Käfer","Löwenkopf","Maria Mit Kind","Munich, Museum Villa Stuck","Amazone","Friedensengel"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.602038,48.140429
+]
+,[
+11.601311,48.140959
+]
+,[
+11.600098,48.140439
+]
+,[
+11.59982,48.140627
+]
+,[
+11.599442,48.140735
+]
+,[
+11.596962,48.141344
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473225903636,
+"guid": "3961226cd70a45dfa41ac886ddb5ced3.1c",
+"title": "24-24 MUNICH PORTAL HUNTER STROLL",
+"description": "Sailing ships, models of atoms, windmills, space probes, diesel locomotives, industrial robots, organs, lifeboats,...this abundance of technical achievement can be found in the Deutsches Museum",
+"author":"UPafus",
+"authorTeam": "E",
+"ratingE6": 609756,
+"medianCompletionTimeMs": 943110,
+"numUniqueCompletedPlayers": 38,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/l0Z6cZIb5GGVq_Wk7Rbgre8rHeylydEIdVg-o-T7BeuJrmIRrXCE07DVEScqaEPuNJcKSy6JGXwa9KpGymeU",
+"portalTitle": ["Turbine outside the Deutsches","Löwe am Deutschen Museum","Bibliothek des Deutschen Museum","Runner of a Pelton Turbine","Planetenweg - Merkur","Museumsinsel Sonnenuhr"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 12
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.583961,48.129914
+]
+,[
+11.58357,48.130309
+]
+,[
+11.583995,48.130624
+]
+,[
+11.58417,48.130098
+]
+,[
+11.584455,48.129955
+]
+,[
+11.584215,48.129918
+]
+]
+}
+}]}

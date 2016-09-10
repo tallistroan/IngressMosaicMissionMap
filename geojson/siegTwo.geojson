@@ -1,0 +1,1034 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473058796380,
+"guid": "09c39e79c9914c4e8a04ba698f52f99e.1c",
+"title": "Siegestor München 01",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 956522,
+"medianCompletionTimeMs": 499707,
+"numUniqueCompletedPlayers": 24,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/rOYHqhP9GIELeSzdnhSSnu8fqXbYvHsuif1jvzuR2mKcfuy96KAfNPtvupgHXqrItomeNX3iqbw8EYp6kMWE",
+"portalTitle": ["Siegestor und Quadriga","Die Quadriga  schwebt über dem Siegestor","Bambi Ride","Holy Boris","Trachten Cow","Allianz Relief"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.582108,48.152297
+]
+,[
+11.582197,48.1525
+]
+,[
+11.582862,48.153329
+]
+,[
+11.583126,48.153873
+]
+,[
+11.583319,48.154103
+]
+,[
+11.583764,48.154914
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058804134,
+"guid": "c1a957e052d54cd1918a72c0f2762a42.1c",
+"title": "Siegestor München 02",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 482869,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/laj5R-lnSoJypTQuDtpB7-2GBcdgEJ_p1ALvHhIbyrndgy08Gk4oBP4K3hNveFisgRN3GQ5Ttq2B4ZmlrAiZ",
+"portalTitle": ["Asado Metall Statue","Säulen an der Giselastraße","The Walking Man","Altbau An Der Leopoldstraße ","Kisskaltplatz","Muh Sagt Die Kuh"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.583808,48.155363
+]
+,[
+11.584086,48.155631
+]
+,[
+11.584201,48.156384
+]
+,[
+11.584719,48.157372
+]
+,[
+11.586405,48.156937
+]
+,[
+11.587457,48.156962
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058819870,
+"guid": "58a38488ff41440b98f6365e07684366.1c",
+"title": "Siegestor München 03",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1111208,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/XMF3_e1NlujImL48KA5I4R8Z61_jB6nAXHP0kyJRJdiMTjIzPTRSkmmWiw9SDg7ZHmKb02vPUzIwMEkOqBVQ",
+"portalTitle": ["Woman With Dish ","Information Map","Südteil Infotafel","Schwanensee im Englischen Garten","Statue Am See","Eingang Restaurant Seehaus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.588797,48.156788
+]
+,[
+11.590601,48.156561
+]
+,[
+11.595805,48.156183
+]
+,[
+11.596143,48.157943
+]
+,[
+11.59799,48.158986
+]
+,[
+11.598571,48.160635
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058836596,
+"guid": "7c53443d4e48456cad58f2dc3572e442.1c",
+"title": "Siegestor München 04",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 844416,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/-ACreD7E-JMS3TCVyPi6dt88uCRyjAjhBLU8Jt-euXSvZRuvqzLfywhrQ-WJzUjS1HHjKac-rXQ9kGNwjr94",
+"portalTitle": ["Denkmal Seehaus","Seehaus am Kleinhesseloher See","Kleinhesseloher See (im Sommer","Englischer Garten München","Maria mit Kind","St. Sylvester"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.598556,48.160955
+]
+,[
+11.598022,48.16121
+]
+,[
+11.594664,48.161069
+]
+,[
+11.592445,48.159785
+]
+,[
+11.59263,48.161218
+]
+,[
+11.592514,48.161579
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058843681,
+"guid": "9b2598e121414863900354789759fdb0.1c",
+"title": "Siegestor München 05",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 643252,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/5OX9joVaCrLIbL_9XOkESF_B4Ozk_6E08DqAsGJOtZqIYpfCPwITmleaD9kqoxNCfTUUFhuuYlnrzKmRtCFN",
+"portalTitle": ["Engelstor Grundschule","Fox","Münchner Lach- und Schiess-Gesellschaft","M.Z.","Heiliger Bimmbam","Mirror of No Reflection"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.59184,48.161867
+]
+,[
+11.591286,48.162071
+]
+,[
+11.590743,48.162014
+]
+,[
+11.589493,48.162293
+]
+,[
+11.588299,48.16227
+]
+,[
+11.587495,48.162348
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058847733,
+"guid": "cc685b90cfc04729b6fa149e455ea752.1c",
+"title": "Siegestor München 06",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 325110,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/3WZjsvx60Xvn5BKKIwBJr0O-3_EZxxk_lnHmTSnruUmxmHiMJ6-EHt6Cw6AcftLAYkXVAz5-mMEqGB-9lMOE",
+"portalTitle": ["Münchner Freiheit","Skulptur Seelenfeuer","MF Sculpture","Freiheitsbrunnen","Monaco Franze","Hippo in Schwabing"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.586614,48.16219
+]
+,[
+11.586674,48.162659
+]
+,[
+11.586644,48.162932
+]
+,[
+11.586646,48.163197
+]
+,[
+11.587323,48.163416
+]
+,[
+11.587342,48.163675
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058850824,
+"guid": "b22159ad844c4244a8d520259e436a77.1c",
+"title": "Siegestor München 07",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 730527,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/c_rF_3-dyxezuK-tHfqt-2bo-JzyLEXL-0LgHwa7F-UMEyrgfe5hr0L4VTqPKXbzk6f0uzXHfyTRWfhntB0",
+"portalTitle": ["Hausbewacher","Friedenstaube","Erlöserkirche","Steinrelief","Steinrelief II","Confines Ove"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.588438,48.164496
+]
+,[
+11.587761,48.164502
+]
+,[
+11.587641,48.164821
+]
+,[
+11.586161,48.165309
+]
+,[
+11.584567,48.16564
+]
+,[
+11.582955,48.165823
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058859425,
+"guid": "f1fba131ddd6436794977cc5632c474a.1c",
+"title": "Siegestor München 08",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 950000,
+"medianCompletionTimeMs": 454435,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/-2OOt5ZdgSs1YB5dPgCTKexV0IzQQ1LpEHutgF3pIhBAxWKX288mH5CRWrV5X7tYGw72lpSSbzEpnKVkodB-",
+"portalTitle": ["Märchentor","Früchte Und Blumen","PH H AG","Tennisspielerin","Ellipsen","Fakultät für Architektur"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.581036,48.166222
+]
+,[
+11.580916,48.164995
+]
+,[
+11.580853,48.164666
+]
+,[
+11.580827,48.164475
+]
+,[
+11.580812,48.164148
+]
+,[
+11.581016,48.163885
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058864961,
+"guid": "a3b6ff05f0bc4089ae97bd1457b7ee00.1c",
+"title": "Siegestor München 09",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 947368,
+"medianCompletionTimeMs": 520323,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/X0Bhnxj0OZ5Owsuluh7f3CdGcR0TRYFfEB0Q8uyPIene_9KpIBsDbMXFD59GcJeR-NVAwKRjouJfMdQtgnwz",
+"portalTitle": ["House of Angels","Die Doppellöwen","Alte Säule","Venusmuschel","Pirate Ship","Neuer Kirchturm"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.581899,48.163919
+]
+,[
+11.580358,48.162778
+]
+,[
+11.579791,48.162338
+]
+,[
+11.580101,48.162124
+]
+,[
+11.58011,48.161874
+]
+,[
+11.580233,48.161523
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058868178,
+"guid": "573f8b1d43154268b7a79417d8af4b69.1c",
+"title": "Siegestor München 10",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 947368,
+"medianCompletionTimeMs": 525066,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/VyIFxFIXwrnUfbs35A1i2DFKAf_Cq_Dxebjhx_d8xQDteo8AM_DK5a1rkRTYlNLgF_VCpBlC5ge43TgNsiqiaQ",
+"portalTitle": ["Sancta Ursula Protege Nos Bell","Gebäude auf Hohenzollernstrasse","egger`s Schwabing","Peace Statue","Kind & Hund Brunnen","God of Night and Day Mural"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.580744,48.161145
+]
+,[
+11.580069,48.160057
+]
+,[
+11.579895,48.159911
+]
+,[
+11.5802,48.158561
+]
+,[
+11.580069,48.158353
+]
+,[
+11.580155,48.158029
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058877313,
+"guid": "cf8d407bd976431e8a5d7aa7c7de8b10.1c",
+"title": "Siegestor München 11",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 718400,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/0yDifHXgKMAqNbYae_hB11tGmlhHhqwaqjCPI7chvcut_pz0l9lIBSNvNBK9YDoi07Y7i9tkGUQ50gpoIPM",
+"portalTitle": ["Knappschafts-Lore","Die schönen Hausfassaden am Le","Säulen Halter","MUC - Schlosseingang","ARRI München","Putto"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.579655,48.157558
+]
+,[
+11.579912,48.157455
+]
+,[
+11.579675,48.155522
+]
+,[
+11.578392,48.154569
+]
+,[
+11.577825,48.153246
+]
+,[
+11.577271,48.152
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473058914377,
+"guid": "057feda67d0043d4997ddbc00123e1a5.1c",
+"title": "Siegestor München 12",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 944444,
+"medianCompletionTimeMs": 582197,
+"numUniqueCompletedPlayers": 21,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/PdZAcwvz6VJFgkYjEh8MypQjz9yYj0wF2wgg7iYS6gB8fm4xzL_x16JtMtGjnpyAFB3vA64_UnevQPN13Ww",
+"portalTitle": ["Graubart","Hero Mural","Vernetztes Relief","Schelling-Salon","Ritterwappen ","Chatterbox"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.57616,48.150702
+]
+,[
+11.576165,48.150365
+]
+,[
+11.575862,48.150264
+]
+,[
+11.573249,48.151109
+]
+,[
+11.573076,48.15051
+]
+,[
+11.57213,48.149498
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059004310,
+"guid": "178c76b521c04d3283f46101a68139f2.1c",
+"title": "Siegestor München 13",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 443255,
+"numUniqueCompletedPlayers": 19,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/qtJqMjt4S0F6NABEZAms-lNkxD1Abg3f0hFR1R5IFRFBRbeY6rt47aIJURdvvJKcdxWQQ37bhxPuRDNQcUvQ",
+"portalTitle": ["Kontinente","Aglaia","Miracolo","Henry Moore","Steinlöwen ","Steinzirkel an der Technischen Uni München"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.571759,48.149176
+]
+,[
+11.571456,48.149409
+]
+,[
+11.570948,48.149591
+]
+,[
+11.570128,48.149716
+]
+,[
+11.569028,48.149682
+]
+,[
+11.56904,48.149308
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059009347,
+"guid": "18a1fdbc67e44eb085e7a0a547630284.1c",
+"title": "Siegestor München 14",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 937500,
+"medianCompletionTimeMs": 501986,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/H_altbj2pTL32e4yCBBbOp-Oa7IF-EMe59CXm-PeuIhlCVcZmcWiCG-LvKykdVHtB233xy5zupLUEdkoDvOxLw",
+"portalTitle": ["Man","Steinflamme","SMAEK","Armless Man","Walk of Fame","München Barer Straße"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56841,48.148413
+]
+,[
+11.568114,48.147872
+]
+,[
+11.568459,48.147192
+]
+,[
+11.568797,48.147194
+]
+,[
+11.569802,48.146882
+]
+,[
+11.570106,48.146217
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059027153,
+"guid": "2713f87deeb44eb3b0b85295fd4f4c2d.1c",
+"title": "Siegestor München 15",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 937500,
+"medianCompletionTimeMs": 354955,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/U4NI4w-f3uysbny8SdFSG2DVGN1eLxtePaZSoomx75Wn7awSvSSaC2Rpf1vADO9JL7jrOp5eTifPiy0GwcSn",
+"portalTitle": ["'Never Ever'","Glücksspiellöwe","Amerika Haus","Staatssammlung für Antropologie und Paläoanatomie","Palais Near Karolinenplatz ","Kinderlein"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56981,48.145994
+]
+,[
+11.568892,48.145165
+]
+,[
+11.568331,48.144466
+]
+,[
+11.568641,48.144054
+]
+,[
+11.569566,48.143862
+]
+,[
+11.569804,48.143572
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059042270,
+"guid": "cd036aea3597430882b417b7e3295701.1c",
+"title": "Siegestor München 16",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 556052,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/V3E6Z712V6yn1FXIdJbBCOEHpLkIDAYYink-H9Dq2AHEuhjV9TAKXoQW-jm3lLP-J4OmfAoHNAH2Qq0qUb8B",
+"portalTitle": ["Wittelsbacherbrunnen","Pettenkofer Statue","Justus Liebig Statue","Karl-Amadeus-Hartmann-Brunnen","Schöpfer dieser Anlage","Statue von Friedrich Schiller"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.569307,48.141287
+]
+,[
+11.570846,48.141833
+]
+,[
+11.571465,48.142036
+]
+,[
+11.571893,48.142185
+]
+,[
+11.572658,48.142428
+]
+,[
+11.573206,48.14258
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059079025,
+"guid": "6daa707e942e422c9aec1e10b019bcff.1c",
+"title": "Siegestor München 17",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 411635,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/W1u8H8nf6BOxr07L1p7p26kLIAjUNhVYlSjECkPjZzrjLAAIMZCYB8vA4mIpwt9X-4S7fK4uo0EvwIROK5Di",
+"portalTitle": ["Platz der Opfer des Nationalsozialismus","Fackel am Platz der Opfer","Prinzregent Luitpold ","Café Luitpold","Skulptur Amiraplatz","Bayerisches Staatsministerium Kultus Wissenschaft Und Kunst"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.573971,48.142877
+]
+,[
+11.573927,48.143113
+]
+,[
+11.574602,48.143068
+]
+,[
+11.574873,48.142998
+]
+,[
+11.575476,48.142376
+]
+,[
+11.575426,48.142119
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059085565,
+"guid": "75b535c38d0d4e33a7300b8363068ed1.1c",
+"title": "Siegestor München 18",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 381872,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/Vx90h3op1AITJ1DAJ-ob0l0tMsaDiCm6KayEvKcpBuG41fSyjukaUQq12npfvHlP3cIc2mwV_oKsSoQPPcPV",
+"portalTitle": ["Griechische Kirche Zum Erlöser","Archbishop's Palace in Munich","Kurt Eisner Denkmal","Nude Art","Golden Lions Lodenfrey","Maffei 4"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.574892,48.14142
+]
+,[
+11.574542,48.140662
+]
+,[
+11.573965,48.140259
+]
+,[
+11.574473,48.139764
+]
+,[
+11.575026,48.139568
+]
+,[
+11.575685,48.13947
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059099926,
+"guid": "d70e09c029b9455b88efdfd43dcaaa5f.1c",
+"title": "Siegestor München 19",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 547727,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/O54QgaoHHy4x2-8Km6oggbARnd0iLlL4dTmHq9Nsoz69uhqtV5A39JKTtQ-sPFkhioiMs1HdYs7hPFMH2r0qiw",
+"portalTitle": ["Mozart was here","Girl With Coin","Nespresso House Munich","Apple A Day...","Theatiner Hof","Feldherrnhalle"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.575952,48.139558
+]
+,[
+11.576011,48.140043
+]
+,[
+11.576466,48.140351
+]
+,[
+11.576471,48.140597
+]
+,[
+11.576603,48.141206
+]
+,[
+11.577105,48.141708
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059102023,
+"guid": "415b83cc962b4067aa4cbe41ade2f4e0.1c",
+"title": "Siegestor München 20",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 358439,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/GXmVrTCranbqLgFifxIlE3KbJ1HLHh0IThBkWcCDsxxpfwazQGjcaYM23c7hBGjprJClkWRxj0n7hp3olcguKA",
+"portalTitle": ["Theatinerkirche","Schöne und Biest","Löwe","Hofgarten","Hofgarten, München","Infotafel Englischer Garten - Südlicher Teil"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.577121,48.141991
+]
+,[
+11.577384,48.14177
+]
+,[
+11.57772,48.141742
+]
+,[
+11.578185,48.142454
+]
+,[
+11.578542,48.142322
+]
+,[
+11.581142,48.141836
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059117202,
+"guid": "eaeff877781b4d5e9be912770530b414.1c",
+"title": "Siegestor München 21",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 384158,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/D5f61eCMAX9UILwPA6uctWz_o7TZQmtYJDMBo1ePIk1m8SZ85Qw2sFw55BewRSF1UEQjJIx2u3DW9rRXdNQP",
+"portalTitle": ["Bayerns Heer seinen Toten","Hofbrunnwerk im Hofgarten","Plumpsklo on a Statue ","München, Fjodor-Iwanowitsch-Tj","Monument of Confucius in a Par","Monument of Frédéric Chopin in"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.5819,48.142157
+]
+,[
+11.582097,48.143316
+]
+,[
+11.582389,48.143533
+]
+,[
+11.580818,48.143894
+]
+,[
+11.580594,48.144045
+]
+,[
+11.580286,48.144161
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059127986,
+"guid": "2aae1e8178974b43810b00325129463f.1c",
+"title": "Siegestor München 22",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 509221,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/qS_1wRuZNzSsnMuIJBQyPpewm76wWaWj9qkcwYMwtjcuthbMQDgGec-Cem976NcWmM_qJ7TOm1MU4zmLn2J9",
+"portalTitle": ["Mother and Child","Gg. Fvchs","TFE Symbol","Hirsch Abstraktion ","Kavalleriepferd Statue","Bayrisches Hauptstaatsarchiv"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.580185,48.145159
+]
+,[
+11.581342,48.144921
+]
+,[
+11.581898,48.145486
+]
+,[
+11.581866,48.14568
+]
+,[
+11.580602,48.145975
+]
+,[
+11.580232,48.146113
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059143561,
+"guid": "cfef9f49747b410ab8b6c1de0af544d8.1c",
+"title": "Siegestor München 23",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 348955,
+"numUniqueCompletedPlayers": 20,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/YuPXwh2u0EtBQPceuAtEWrUplC03eZiDuKhmvn2ACrp08G3amfZj3c1Olj3NhIinC6R8HoEQwEI4zwBUSP4",
+"portalTitle": ["Bayrisches Landessozialgericht ","Ludwigstraße Ecke Theresienstraße","Homer at the Bavarian State Library","Grosse Tür","Leo Von Klenze Brunnen","Wunden der Erinnerung "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.579113,48.146307
+]
+,[
+11.5798,48.146893
+]
+,[
+11.580142,48.147573
+]
+,[
+11.580088,48.148474
+]
+,[
+11.580656,48.148656
+]
+,[
+11.580304,48.149114
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473059159946,
+"guid": "fc3440f65fb04a0e8982c37008036930.1c",
+"title": "Siegestor München 24",
+"description": "Viel Spaß beim Spielen des Mosaik.",
+"author":"FreelancerFox",
+"authorTeam": "R",
+"ratingE6": 937500,
+"medianCompletionTimeMs": 416538,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/79_GP6gxOuIbG5_2Q3yXLtLjiPG13XMaTP9HmU7QCfui2W4wvgmDELkfpRb5PtDsKyF4PD9lVtkE5zLNlzv-_A",
+"portalTitle": ["Lungo Ludwigstrasse","Universitätsbrunnen","Sophie Scholl Flugblätter","Geschwister Scholl Mahnung","Grantiger Deife","Serious Lantern","Siegestor und Quadriga"],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 10
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.580813,48.149968
+]
+,[
+11.58098,48.150691
+]
+,[
+11.580557,48.150777
+]
+,[
+11.580695,48.151057
+]
+,[
+11.581329,48.151474
+]
+,[
+11.581717,48.152194
+]
+,[
+11.582108,48.152297
+]
+]
+}
+}]}

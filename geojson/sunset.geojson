@@ -1,0 +1,515 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473449865265,
+"guid": "9f5adb15ed1743079d263508b7f9dffa.1c",
+"title": "Sunset at the lake 1/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 735632,
+"numUniqueCompletedPlayers": 20,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/vddpQ7ek8-7R7_-P6qMM40b6X8lun3YxDp9GTUQ1JqqAdL-5ElsImsLDCg37T2iboXEh-FXhdmOCJT7Mttr1Nw",
+"portalTitle": ["Bahnhof Wessling","Bahnhofstraße Alte Bibliothek","Skulptur Stier","Old Turret","Heilige Maria","Wesslinger Kirchturm"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,2],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.251291,48.077323
+]
+,[
+11.250857,48.077006
+]
+,[
+11.249319,48.076057
+]
+,[
+11.248601,48.07609
+]
+,[
+11.249843,48.075658
+]
+,[
+11.248195,48.075627
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449870564,
+"guid": "92534c4adaa64e1d8cf8f2342e958fed.1c",
+"title": "Sunset at the lake 2/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 950000,
+"medianCompletionTimeMs": 583210,
+"numUniqueCompletedPlayers": 19,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/dgspaqQOjdGr_Q07LiHO5Ml3QWbLzjUjoDw2Eqn_xOFeAdSRNxtUrfaqiVAW1MF3czkWGeSzTnNIJ_CRTeE",
+"portalTitle": ["Wesslinger Kirchturm","Fahrschule U-Drive","Schild am Wesslinger See","Wandbild","Wooden Sculpture","Wooden Lady"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,2],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.248195,48.075627
+]
+,[
+11.248092,48.074214
+]
+,[
+11.248744,48.074047
+]
+,[
+11.247777,48.073612
+]
+,[
+11.248313,48.073339
+]
+,[
+11.248116,48.072998
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449873648,
+"guid": "8b39a0f5da27494b8c98efe804a3b740.1c",
+"title": "Sunset at the lake 3/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 947368,
+"medianCompletionTimeMs": 439378,
+"numUniqueCompletedPlayers": 19,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/F5bnveLtG3rfLtG7Osi974QDitGJS7NbYQqJyg1uKddLg81zT78aDx8JUSm9y8DJhOviDwfGGJyEDjzwkzJcXA",
+"portalTitle": ["Wooden Lady","Nixe am Weßlinger See ","Nixe Weisungen","Karl Haug Memorial","Sleepy Head","Maibaum"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,2,2],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.248116,48.072998
+]
+,[
+11.247771,48.072693
+]
+,[
+11.247499,48.072361
+]
+,[
+11.247134,48.071982
+]
+,[
+11.247161,48.071418
+]
+,[
+11.247481,48.071185
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449898164,
+"guid": "c11f011ff1c14b0eb5bd273096a08616.1c",
+"title": "Sunset at the lake 4/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 569187,
+"numUniqueCompletedPlayers": 19,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/drWmzZlzJ2GkAUlD7dxfpC5pn1xi9FaT3Ev5LjtlWHGIbF_k_GJtbHKn8rmUgmnLW0xv9ffg4XM9aU2ODK4R",
+"portalTitle": ["Sleepy Head","Maibaum","Mariä Himmelfahrt","Christus Kreuz","Pfarrstadl Wessling","Das Waschhaus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,2,2],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.247161,48.071418
+]
+,[
+11.247481,48.071185
+]
+,[
+11.247297,48.070721
+]
+,[
+11.245928,48.070317
+]
+,[
+11.247584,48.070425
+]
+,[
+11.247923,48.070564
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449907913,
+"guid": "b3ac7b3646674293a2baa2f9dfb3a6d7.1c",
+"title": "Sunset at the lake 5/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1142416,
+"numUniqueCompletedPlayers": 19,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/MMfw0VP8U5NMXWquAy3EDV3SAtAkkzuGJscloJIkNdNJobYhpY-o3Z-zKWAqVxgd_s1mTwpCHLvanPmCvcpX",
+"portalTitle": ["Pfarrstadl Wessling","Das Waschhaus","Spielplatz Pfarrwiese","Alzheimergassl","Villa am See","Spiegelskulptur"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,2],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.247584,48.070425
+]
+,[
+11.247923,48.070564
+]
+,[
+11.248424,48.069905
+]
+,[
+11.250554,48.071332
+]
+,[
+11.251242,48.071591
+]
+,[
+11.25387,48.071733
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449913215,
+"guid": "372ed156d05d4d73a5345b2ae3762e10.1c",
+"title": "Sunset at the lake 6/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 944444,
+"medianCompletionTimeMs": 1460269,
+"numUniqueCompletedPlayers": 18,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ut2OH32wZglp3e51kkAA3FR5vh09f2g5aGTfHG1gJL9YzJxQvqgVST1QVBG8cC-7LzBJEmtpjwUQTYSrun2-",
+"portalTitle": ["Spiegelskulptur","Wunschblume","Skulptur 'Der Wächter'","Maibaum Wessling","Bahnhofstraße Alte Bibliothek","Bahnhof Wessling"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.25387,48.071733
+]
+,[
+11.253413,48.074892
+]
+,[
+11.252002,48.075264
+]
+,[
+11.252893,48.077287
+]
+,[
+11.250857,48.077006
+]
+,[
+11.251291,48.077323
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449917562,
+"guid": "b6c18fa21e1f4d82a32cc1ae2c322c76.1c",
+"title": "Sunset at the lake 7/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 941176,
+"medianCompletionTimeMs": 1746826,
+"numUniqueCompletedPlayers": 17,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/SZXTsREoCvJBqeLrAbOSDotN-zV6pO_KHhxMmYwd777poocuFPgIzNY_jwmqfwK0C4UnkltHFfiM3HkNybY",
+"portalTitle": ["Bahnhof Wessling","Bahnhofstraße Alte Bibliothek","Skulptur Stier","Old Turret","Heilige Maria","Wesslinger Kirchturm"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [3,3,4,3,3,1],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.251291,48.077323
+]
+,[
+11.250857,48.077006
+]
+,[
+11.249319,48.076057
+]
+,[
+11.248601,48.07609
+]
+,[
+11.249843,48.075658
+]
+,[
+11.248195,48.075627
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449923513,
+"guid": "e80bf49f380d46f58eabeceecaefdef9.1c",
+"title": "Sunset at the lake 8/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 823529,
+"medianCompletionTimeMs": 1643229,
+"numUniqueCompletedPlayers": 14,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/3WVgudL1tS1VEfZyoCffs_MbOM5N2gao-Mkzo8PKJZwzhrcXuxej_hmciH1GQZ_KWY10E4ca8-BK9vk_SaFzWg",
+"portalTitle": ["Wesslinger Kirchturm","Fahrschule U-Drive","Schild am Wesslinger See","Wandbild","Wooden Sculpture","Wooden Lady"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [4,3,3,4,3,1],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.248195,48.075627
+]
+,[
+11.248092,48.074214
+]
+,[
+11.248744,48.074047
+]
+,[
+11.247777,48.073612
+]
+,[
+11.248313,48.073339
+]
+,[
+11.248116,48.072998
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449929228,
+"guid": "c0f69260cbf8454a9d318dfc10b908ee.1c",
+"title": "Sunset at the lake 9/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 857143,
+"medianCompletionTimeMs": 800764,
+"numUniqueCompletedPlayers": 14,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/1mxUU7wWOYUGl5ats2VEmxDVYCJqKuvU_fR_ITotRhYY84JwfJOqondT2H7udGZxap13jgcRQzfdQkqhfl0K7Q",
+"portalTitle": ["Wooden Lady","Nixe am Weßlinger See ","Nixe Weisungen","Karl Haug Memorial","Sleepy Head","Maibaum"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [3,4,3,3,1,1],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.248116,48.072998
+]
+,[
+11.247771,48.072693
+]
+,[
+11.247499,48.072361
+]
+,[
+11.247134,48.071982
+]
+,[
+11.247161,48.071418
+]
+,[
+11.247481,48.071185
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449934891,
+"guid": "14d2ef3b94e44a1db43c9fd663a0c6be.1c",
+"title": "Sunset at the lake 10/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 928571,
+"medianCompletionTimeMs": 891687,
+"numUniqueCompletedPlayers": 14,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/nLslOKOpWg4KMqNgMd5XvCvh9rnF9WunYOh2YAne36R8HiNLUfwap7HXobHdZFVhytgE7yoNxraxAp5Onyss9Q",
+"portalTitle": ["Sleepy Head","Maibaum","Mariä Himmelfahrt","Christus Kreuz","Pfarrstadl Wessling","Das Waschhaus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [4,3,3,4,1,1],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.247161,48.071418
+]
+,[
+11.247481,48.071185
+]
+,[
+11.247297,48.070721
+]
+,[
+11.245928,48.070317
+]
+,[
+11.247584,48.070425
+]
+,[
+11.247923,48.070564
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449939674,
+"guid": "f6f233fe3a3046b0a85e177075626f68.1c",
+"title": "Sunset at the lake 11/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1589599,
+"numUniqueCompletedPlayers": 14,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/jCjdzZdWUHfsb4h7mbMRcXMZrz_WTk4tohkgPHWeZSEJchWCWtt-P3aHQvR9zofdPI5xoJPS08EggoFTZ-SHmg",
+"portalTitle": ["Pfarrstadl Wessling","Das Waschhaus","Spielplatz Pfarrwiese","Alzheimergassl","Villa am See","Spiegelskulptur"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [3,3,4,3,3,1],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.247584,48.070425
+]
+,[
+11.247923,48.070564
+]
+,[
+11.248424,48.069905
+]
+,[
+11.250554,48.071332
+]
+,[
+11.251242,48.071591
+]
+,[
+11.25387,48.071733
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473449944495,
+"guid": "ea55fd906b764f1bb9c2a17464533f10.1c",
+"title": "Sunset at the lake 12/12",
+"description": "Erkunde den Wesslinger See und mache ein schönes Bild mit Sonnenuntergang am See. Die Missionsreihe besteht aus zwei Runden um den Wesslinger See: Hack&Capture und Link&Field. Endportal = Startportal.",
+"author":"RunningWild",
+"authorTeam": "R",
+"ratingE6": 928571,
+"medianCompletionTimeMs": 1788348,
+"numUniqueCompletedPlayers": 14,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/APVgSHgHiAeWRFMvhjPwq4V6wbqX4EKelANz8Ib0IvBLnio5EFD5L5AQ6qt9wUVTEQ7Yy8YHhs7Zk8gW-Wor",
+"portalTitle": ["Spiegelskulptur","Wunschblume","Skulptur 'Der Wächter'","Maibaum Wessling","Bahnhof Wessling","Bahnhofstraße Alte Bibliothek"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [4,3,3,4,3,1],
+"id": 27
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.25387,48.071733
+]
+,[
+11.253413,48.074892
+]
+,[
+11.252002,48.075264
+]
+,[
+11.252893,48.077287
+]
+,[
+11.251291,48.077323
+]
+,[
+11.250857,48.077006
+]
+]
+}
+}]}

@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Karlsplatz (Stachus)";
+var mosaicTitle = "Reswue is for dating";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "stachus";
+var mosaicName = "reswue";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 2;
+var mosaicID = 52;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "machbar zu Fuß, nachts auch mit Fahrrad (wegen Fußgängerzone)";
+var mosaicDescription = "Anreise bis Weilheim von München aus mit Zug oder Auto möglich, für die einzelnen Missionen teilweise Fahrrad hilfreich";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "https://plus.google.com/115699361489256627368/posts/4zFmCozzFNj";
+var mosaicInfoPost = "https://plus.google.com/100134537804155218602/posts/BfKNAnJmGcf";
 
 var lines = [];
 var counter = 0;
@@ -159,10 +159,10 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
     line.push(wp.toString()/*.substring(0, waypoints.toString().length-1)*/);
     //line.push.apply(line, waypoints);
     lines.push(line);
-
+    // TODO Handle the case, when the first portal of the mosaic is not longer available
     line.push(']\n}\n},\n');
-    startPoints += '{"type": "Feature","properties": {"mission":'+counter+'},"geometry":{"type": "Point","coordinates":'+
-                    waypoints[0].toString()+ '}},';
+        startPoints += '{"type": "Feature","properties": {"mission":' + counter + '},"geometry":{"type": "Point","coordinates":' +
+            waypoints[0].toString() + '}},';
     if(counter == 1) {
         popupText += '"geometry": {\n"type": "Point",\n"coordinates":'+waypoints[0].toString() + '}}';
     }

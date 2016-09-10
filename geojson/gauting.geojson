@@ -1,0 +1,269 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473448036243,
+"guid": "12b28ca5bbfe42a08607c0cff730cbed.1c",
+"title": "Gauting 1",
+"description": "Kleine Capture or Upgrade Runde durch Gauting",
+"author":"DonPhilippe",
+"authorTeam": "E",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 707438,
+"numUniqueCompletedPlayers": 5,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/DBvcdmAUGwHq8crb0woFzLi7kXEsWsbv8tbwBfdE_eFwNsIsA1F00bhC4kf8aklzVbKDV01itkN4YNaZ32-KhQ",
+"portalTitle": ["OVT Painting - Gauting Railway Station","NEREIDE 1971","Post Gauting","Bahnhofshäuschen Gauting","WW Memorial Gauting","Wasserspeier "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,8],
+"id": 25
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.375993,48.070713
+]
+,[
+11.376222,48.071812
+]
+,[
+11.377562,48.071391
+]
+,[
+11.376754,48.070449
+]
+,[
+11.377341,48.069223
+]
+,[
+11.378164,48.068511
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473448040015,
+"guid": "28deba99272348ac9ade4eefe6e605f0.1c",
+"title": "Gauting 2",
+"description": "Einmal durch Gauting",
+"author":"DonPhilippe",
+"authorTeam": "E",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 1573784,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/PbmTdVOPg1n931Hd3Kg0xfESn_UtD-KDtZdjgEv57v8tlayiI7oNYrxui8URaT2HvFHY1IF4F3Nmejr96qU",
+"portalTitle": ["Wasserspeier ","Katholische Kirche Hangstraße","Townhouse Gauting, Rathaus Gauting","Mahnmal Zur Versöhnung","AXA, Hauptplatz 4","Red Dragon"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,8],
+"id": 25
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.378164,48.068511
+]
+,[
+11.378758,48.067945
+]
+,[
+11.378715,48.067042
+]
+,[
+11.379411,48.066899
+]
+,[
+11.38037,48.06704
+]
+,[
+11.380651,48.067001
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473448043392,
+"guid": "459e8c33d36d4054abdda1f86a6e6db1.1c",
+"title": "Gauting 3",
+"description": "Mission 3",
+"author":"DonPhilippe",
+"authorTeam": "E",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 266190,
+"numUniqueCompletedPlayers": 5,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/-KQg6o8Eihf5hr2OSYRyK4hYtIDhUxJ_R3uvQUFqxLRq96BQl-E1s_hN7VEGKcU4Dgn0AQ6SZfrTfTAHiLoa",
+"portalTitle": ["Red Dragon","Hydro Electric Power Station","Sankt Johannes Nepomuk","St. Benedikt Katholische Kirche Gauting","Brunnen St. Benedikt","Brunnen Gauting - Ecke Leutstettenerstr"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,8],
+"id": 25
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.380651,48.067001
+]
+,[
+11.38043,48.066485
+]
+,[
+11.381018,48.066327
+]
+,[
+11.381868,48.066418
+]
+,[
+11.382148,48.0664
+]
+,[
+11.382023,48.065952
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473448046677,
+"guid": "a47aa971c4c8429b99ab201b53e310f9.1c",
+"title": "Gauting 4",
+"description": "Welche Mission kommt als Nächstes?",
+"author":"DonPhilippe",
+"authorTeam": "E",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 831607,
+"numUniqueCompletedPlayers": 5,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/I1bWhaw8TMLG4hqWCL29mp_bablueiOqpquqxEMsA2VNr-wesgu8ykrKebcwGDEzfsKvvBOY-T8EhBdXYI5A",
+"portalTitle": ["Brunnen Gauting - Ecke Leutstettenerstr","Fontäne Gauting","Mauergemälde Gauting","Playground in Gauting","Wegweiser Schlosspark Fußberg","Verwitterte Statue"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,8],
+"id": 25
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.382023,48.065952
+]
+,[
+11.383251,48.065993
+]
+,[
+11.384895,48.066296
+]
+,[
+11.386199,48.067504
+]
+,[
+11.387107,48.069648
+]
+,[
+11.387467,48.069775
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473448050310,
+"guid": "1a214abe99ae44629e4cf8a6b0b588d3.1c",
+"title": "Gauting 5",
+"description": "Capture or Upgrade",
+"author":"DonPhilippe",
+"authorTeam": "E",
+"ratingE6": 750000,
+"medianCompletionTimeMs": 269833,
+"numUniqueCompletedPlayers": 5,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/h71rx8vdYfwjqdEboUYpvU4GhzBhPo63fs7yJgKYOb4_xk_L7_PwjdE7M04tgFl4BmQ6dAdh0CbKkqEvl21x",
+"portalTitle": ["Verwitterte Statue","Neptun Brunnen ","Schloss Fußberg","Steinerne SITZBANK","Grabmal Der Hegeso","Wegweiser Schlosspark Fußberg"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,8],
+"id": 25
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.387467,48.069775
+]
+,[
+11.387846,48.069891
+]
+,[
+11.387906,48.070126
+]
+,[
+11.387512,48.070533
+]
+,[
+11.388138,48.070515
+]
+,[
+11.387107,48.069648
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473448053886,
+"guid": "9203f0d1a1ac4964891c12842e1badea.1c",
+"title": "Gauting 6",
+"description": "letzte Runde bis zum Bahnhof",
+"author":"DonPhilippe",
+"authorTeam": "E",
+"ratingE6": 800000,
+"medianCompletionTimeMs": 1435689,
+"numUniqueCompletedPlayers": 5,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2WdIcm41xXr_ZCEfFZudcWs_yAUunHzXoVGgCFO3xosvEAQb8_wQWEi-c7TlTWrf8MYG8vO1yOVgZ99kbgnicA",
+"portalTitle": ["Wegweiser Schlosspark Fußberg","Golden Wood Skulptur","Flowerly Electric ","Bosco Kulturhaus Gauting","Wandmalerei Shield","Katholische Kirche Hangstraße","Wasserspeier ","WW Memorial Gauting","Bahnhofshäuschen Gauting","OVT Painting - Gauting Railway Station"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,2,2,2,1,1,1,1,1,1],
+"id": 25
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.387107,48.069648
+]
+,[
+11.38335,48.068165
+]
+,[
+11.382131,48.068634
+]
+,[
+11.379716,48.067903
+]
+,[
+11.379462,48.067541
+]
+,[
+11.378758,48.067945
+]
+,[
+11.378164,48.068511
+]
+,[
+11.377341,48.069223
+]
+,[
+11.376754,48.070449
+]
+,[
+11.375993,48.070713
+]
+]
+}
+}]}

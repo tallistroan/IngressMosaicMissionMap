@@ -1,0 +1,300 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473437884603,
+"guid": "fd959d1aa9754108add30b27cfe00153.1c",
+"title": "Englischer Garten und Hirschau 1 / 4",
+"description": "Durch den östlichen englischen Garten; von den Surfern am Eisbach über den Tucherpark zum Seehaus. Mit dem Fahrrad oder als ausgedehnter Spaziergang.Teil 1 und 4, sowie 2 und 3 sind Rundtouren.",
+"author":"eeepee",
+"authorTeam": "R",
+"ratingE6": 833333,
+"medianCompletionTimeMs": 2429260,
+"numUniqueCompletedPlayers": 14,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/UhfSdWyQ98J7u-EvP1N0anZZBp1E6o9z8FBwzXpgSuL2iEQ6ZSfR0izu7DYFNfzifpy-5q9oetULa2e89pyF",
+"portalTitle": ["Eisbachwelle","Rumford-Denkmal","Playground","Kleine Welle","Bank Im Park","Von Sckell Denkmal","Skulptur Eisenhammer","Schwan mit Kind","Hunde","Ying-Yang Fountain","Statue Am See","Andenken des Biedermannes","Bierbrunnen","Eingang Restaurant Seehaus"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 17
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.587689,48.143404
+]
+,[
+11.588891,48.143802
+]
+,[
+11.588913,48.144915
+]
+,[
+11.592412,48.147998
+]
+,[
+11.592671,48.150425
+]
+,[
+11.593974,48.151309
+]
+,[
+11.596686,48.152893
+]
+,[
+11.597368,48.153603
+]
+,[
+11.597292,48.15381
+]
+,[
+11.598111,48.154208
+]
+,[
+11.59799,48.158986
+]
+,[
+11.597701,48.159859
+]
+,[
+11.597894,48.160387
+]
+,[
+11.598571,48.160635
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473437896307,
+"guid": "31ea7caa6aea46d48e6db34a4c3a43c4.1c",
+"title": "Englischer Garten und Hirschau 2 / 4",
+"description": "Vom Seehaus durch die Hischau am Oberföhriger Wehr vorbei zum Aumeister. Mit dem Fahrrad oder als ausgedehnter Spaziergang.Teil 1 und 4, sowie 2 und 3 sind Rundtouren.",
+"author":"eeepee",
+"authorTeam": "R",
+"ratingE6": 933333,
+"medianCompletionTimeMs": 2585840,
+"numUniqueCompletedPlayers": 14,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/1jUqiaj03w2jS5QsY6nE-jwI3oCuq-Om8UNGZGIIPZ5Za8Wb28U_pXwzXat-RQvHkuYPi9sLp5Y5rj7vBFHd",
+"portalTitle": ["Denkmal Seehaus","Hirschau","Boat Play ","Wood Art at Beergarden","Englischer Garten - Nord","Isarstauwehr","Park Map","Brücke","Hidden Church","Für Ruhige Nerven","Die Netten Kollegen ","Spendenklotz Der 2.","Spendenklotz","Vogel Pavion","Aumeister-Alm"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 17
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.598556,48.160955
+]
+,[
+11.602013,48.161949
+]
+,[
+11.602742,48.162437
+]
+,[
+11.607715,48.166976
+]
+,[
+11.609615,48.166937
+]
+,[
+11.615467,48.168848
+]
+,[
+11.615644,48.169475
+]
+,[
+11.61365,48.1731
+]
+,[
+11.614187,48.173285
+]
+,[
+11.614094,48.173832
+]
+,[
+11.614963,48.174493
+]
+,[
+11.620317,48.17756
+]
+,[
+11.62219,48.179732
+]
+,[
+11.622605,48.182158
+]
+,[
+11.620109,48.185646
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473437907364,
+"guid": "57789627267a41edaca6ae0ba9802f2e.1c",
+"title": "Englischer Garten und Hirschau 3 / 4",
+"description": "Vom Aumeister durch die Hirschau am Amphittheater vorbei zum Seehaus. Mit dem Fahrrad oder als ausgedehnter Spaziergang.Teil 1 und 4, sowie 2 und 3 sind Rundtouren.",
+"author":"eeepee",
+"authorTeam": "R",
+"ratingE6": 866667,
+"medianCompletionTimeMs": 4244786,
+"numUniqueCompletedPlayers": 15,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/EOnzBXv1-QxGuLRM7Gb-1OCh5ELhZedahkWZSkqwlAF6FZqI9XYQOyum42nB5OskWh8Mzx5BI5Vj-AGNE2Tr",
+"portalTitle": ["Aumeister - Wirtschaft","Pavillon Am Teich Im Englischen Garten","Wegweiser Nordteil","Brücke","Übersicht Mit Graffiti","Amphitheater","Historische Bank Am Aphiteather","In Gedenken An Mum","Weitblick Bank","Reitlehrer Yves","Hedwigs Bank","Eine Bank Für Helmut","Für Bettina Eine Bank","Bank Der Loewe Stiftung","Bank Hund Helfen Heilen Stiftung","Tor Zur Vogelschutz Insel","Mini-Hofbräuhaus","Kleinhesseloher See Bootsverle"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 17
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.620048,48.185903
+]
+,[
+11.617211,48.177308
+]
+,[
+11.61671,48.177412
+]
+,[
+11.61365,48.1731
+]
+,[
+11.612884,48.173449
+]
+,[
+11.612093,48.173598
+]
+,[
+11.612055,48.173348
+]
+,[
+11.612827,48.17225
+]
+,[
+11.612886,48.17058
+]
+,[
+11.612518,48.169509
+]
+,[
+11.612017,48.169132
+]
+,[
+11.611641,48.169029
+]
+,[
+11.611039,48.168929
+]
+,[
+11.610742,48.16879
+]
+,[
+11.610581,48.168521
+]
+,[
+11.61019,48.167981
+]
+,[
+11.608158,48.167966
+]
+,[
+11.598033,48.161026
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473437917662,
+"guid": "1e19aab731394b4badd4c7a6fc473bd3.1c",
+"title": "Englischer Garten und Hirschau 4 / 4",
+"description": "Vom Seehaus über den Kleinhesseloher See, dem Chinesischen Turm und Monopteros zum Haus der Kunst. Mit dem Fahrrad oder als Spaziergang.Teil 1 und 4, sowie 2 und 3 sind Rundtouren.",
+"author":"eeepee",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 3880237,
+"numUniqueCompletedPlayers": 14,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/cLTM_aRgMS8CbOX8On_6SjfT3XsFROJlJ2sxY_kpSfnZt-PT9lwT5KXMYbzquDwOTaWM4o2dzryQTvAJFao",
+"portalTitle": ["Seehaus am Kleinhesseloher See","Kleinhesseloher See (im Sommer","Englischer Garten München","Kreisskulptur Am Spielplatz","Information Map","Goldene Kartoffel","Golden Potatoe","Rumford-Haus","Historisches Karussell am Chinesischen Turm","Heiliger St. Florian","Chinesischer Turm","Gaststätte am Chinesischen Turm","Oak Tree Stone","Monopteros Englischer Garten","Englischer Garten München","Brückengeländer","Japanese teahouse","Teil der Berliner Mauer","Haus der Kunst","Haus Der Kunst. ( House Of Art) "],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 17
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.598022,48.16121
+]
+,[
+11.594664,48.161069
+]
+,[
+11.592445,48.159785
+]
+,[
+11.592381,48.159212
+]
+,[
+11.590601,48.156561
+]
+,[
+11.591484,48.154564
+]
+,[
+11.591451,48.154046
+]
+,[
+11.591865,48.153879
+]
+,[
+11.592607,48.153256
+]
+,[
+11.592757,48.152154
+]
+,[
+11.591939,48.152416
+]
+,[
+11.591907,48.152058
+]
+,[
+11.591982,48.150302
+]
+,[
+11.591011,48.1499
+]
+,[
+11.590555,48.148056
+]
+,[
+11.587817,48.145745
+]
+,[
+11.585988,48.145362
+]
+,[
+11.584153,48.1452
+]
+,[
+11.584499,48.144369
+]
+,[
+11.585638,48.143783
+]
+]
+}
+}]}

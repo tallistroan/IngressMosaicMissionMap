@@ -1,0 +1,1031 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473502386509,
+"guid": "763159bee87f4e578fa208ec56b95cd3.1c",
+"title": "Stadtwappen Dachau (1 / 24) - Bahnhof",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 948276,
+"medianCompletionTimeMs": 707601,
+"numUniqueCompletedPlayers": 58,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/4Uwq7338UtDOAUnL6VDuoVHTlt7xsQZDTeywsmo24Bano0mQyHeh6jJQeGRfyTFtgbiv2L2RlbmdVSabDwEh",
+"portalTitle": ["S-Bahnhof Dachau","Steintafel","Weg des Erinnerns 1 - Die Gefangenen des KZ Dachau","Holy Maria","Die starken Sparmänner","Steinbockgemälde"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.444106,48.254208
+]
+,[
+11.443793,48.254865
+]
+,[
+11.443479,48.254934
+]
+,[
+11.442808,48.254112
+]
+,[
+11.440833,48.252762
+]
+,[
+11.440879,48.253049
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502389873,
+"guid": "9fe8a72352f74993bf4444d50e8b1b5e.1c",
+"title": "Stadtwappen Dachau (2 / 24) - Münchner Straße",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 982143,
+"medianCompletionTimeMs": 517278,
+"numUniqueCompletedPlayers": 56,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/GbIOQ2mAe_oq2mu1RKUM-02H_x4ZSjkggiXcCdk76lgiw8_FQ2vALyBYNC6v3fl1tZa1ujUvqThT0Lko54QDYw",
+"portalTitle": ["Hundewasser Dachau","Stockmann-Haus","Bricks Sculpture","Lookout","Das wunderschöne Wasserrad","Brunnen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.439942,48.253892
+]
+,[
+11.439509,48.25419
+]
+,[
+11.440578,48.254621
+]
+,[
+11.440498,48.254845
+]
+,[
+11.44004,48.255502
+]
+,[
+11.439784,48.255277
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502409546,
+"guid": "3603e476d62044abb0bad6f9accfc0f1.1c",
+"title": "Stadtwappen Dachau (3 / 24) - Stadtmitte",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 875000,
+"medianCompletionTimeMs": 751622,
+"numUniqueCompletedPlayers": 56,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/eSbd3P9IL25O8ovwEVagYU3hUnxRyy0JeCqCB6gFqqKSlCDi5Bfw3fKB7UUpS81-Q9scB3qWDROnwdHsauLaZA",
+"portalTitle": ["Das wunderschöne Wasserrad","Dinosaurierrücken","Brunnen an der Sparkasse","Museumsverein Dachau e.V.","Portal der Träume","Waschweiber "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,3],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.44004,48.255502
+]
+,[
+11.439394,48.255634
+]
+,[
+11.439512,48.255159
+]
+,[
+11.438801,48.254377
+]
+,[
+11.438195,48.254857
+]
+,[
+11.438054,48.25468
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502412525,
+"guid": "9ba34a2a5cef4672845ec808ecdedbfb.1c",
+"title": "Stadtwappen Dachau (4 / 24) - Herzog-Albrecht-Str.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 870370,
+"medianCompletionTimeMs": 623521,
+"numUniqueCompletedPlayers": 55,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/A0cy12WnYZM0CsZwcF1tmqHZo0Wenie8Y5GRxCUq9LpLG2-ivuBVxj7FG4ByVRvJEZGm0C2alauuoJQUP59M4A",
+"portalTitle": ["Portal der Träume","Waschweiber ","Kreuz des XM-Gottes","Friedenskirche","Neuapostolische Kirche","Stadtbücherei"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.438195,48.254857
+]
+,[
+11.438054,48.25468
+]
+,[
+11.43692,48.254419
+]
+,[
+11.435341,48.254367
+]
+,[
+11.436907,48.254929
+]
+,[
+11.43643,48.255708
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502418261,
+"guid": "2e89104141f34cac82fec0256de603f2.1c",
+"title": "Stadtwappen Dachau (5 / 24) - Ludwig-Thoma-Str.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 927273,
+"medianCompletionTimeMs": 779446,
+"numUniqueCompletedPlayers": 56,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/FRxam24rus_6zgWxH14QI5oz-GE4TOjXZN3irabUL7A675IfAkgF3oh6ntKzN2m92ZzM3b63RDszMzODRDN8",
+"portalTitle": ["Stadtbücherei","Little Children Statue","St. Christophorus","Brunnen","Man Sculpture","Ludwig Thoma Denkmal"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.43643,48.255708
+]
+,[
+11.436606,48.256456
+]
+,[
+11.435848,48.256685
+]
+,[
+11.435424,48.257597
+]
+,[
+11.437437,48.259933
+]
+,[
+11.437851,48.259999
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502422354,
+"guid": "f357a6c65b08415d9c194e6754400f8d.1c",
+"title": "Stadtwappen Dachau (6 / 24) - Konrad-Adenauer-Str.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 927273,
+"medianCompletionTimeMs": 779271,
+"numUniqueCompletedPlayers": 57,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ByZZiXmiOD9ubK_5ks8WI5QiUp0gTvEs5JAij-vLND743qgW5RreK1_EEBPpuKH56KQOvaJXcUKXx6DIeSN90w",
+"portalTitle": ["Ludwig Thoma Denkmal","Mystic Smurf Artefact","Space Center DAH","Warzenschwein Hetzel","Wandstatue","Chefkoch"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.437851,48.259999
+]
+,[
+11.438227,48.261641
+]
+,[
+11.438463,48.262519
+]
+,[
+11.437851,48.262847
+]
+,[
+11.437444,48.26294
+]
+,[
+11.436892,48.261004
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502439558,
+"guid": "3c5b233ccfd54db3819738d5bcb77fb4.1c",
+"title": "Stadtwappen Dachau (7 / 24) - Altstadt Nord-West",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 945455,
+"medianCompletionTimeMs": 338175,
+"numUniqueCompletedPlayers": 56,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/V6m36uJvldtVkDTGtAyngKmgDpichZAL4Sk4baz63hhzGZEq2x4d8KVSNMM6D82Cce6QqNkPrKNEjDPgwEo",
+"portalTitle": ["Chefkoch","Freisinger Gemälde","Freisinger Tor","Little Soldier ","Kunsthaus","Florians Brunnen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.436892,48.261004
+]
+,[
+11.436382,48.26102
+]
+,[
+11.436268,48.260823
+]
+,[
+11.435286,48.260583
+]
+,[
+11.434842,48.260669
+]
+,[
+11.434337,48.260351
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502444847,
+"guid": "ff93c2fa41df45aab1a3c2662a7c9879.1c",
+"title": "Stadtwappen Dachau (8 / 24) - Altstadt",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 961538,
+"medianCompletionTimeMs": 363387,
+"numUniqueCompletedPlayers": 54,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/dGMt_kMFJ9eiBslqfstjZNj-uAkBT37JJQwlzMEvYANeuuoUtXD-mj03Jd-Lia2m4ZAKDDeUB4xAyLcOWlsE",
+"portalTitle": ["Florians Brunnen","Maria Painting","Commerzbank","Hergl","Opfer Des Faschismus","Dachauer Adventskalender"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.434337,48.260351
+]
+,[
+11.434545,48.260064
+]
+,[
+11.436063,48.26056
+]
+,[
+11.436101,48.260319
+]
+,[
+11.435286,48.259727
+]
+,[
+11.435285,48.259451
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502453805,
+"guid": "9c8ece3d3ad843c5972d367e6fd7f356.1c",
+"title": "Stadtwappen Dachau (9 / 24) - Rathaus",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 921569,
+"medianCompletionTimeMs": 301611,
+"numUniqueCompletedPlayers": 52,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/DW4TqLLUDKIk4mqRzUkhonHAYpsQUm0dpC4W1IksEK7sUOebbNDCvAkF1-g-zpUP68UXNN7D8R2_sxRHd91Q",
+"portalTitle": ["Dachauer Adventskalender","Blacksmith Statue","Dachau City Gate","Lady with Child","Carolvs Theodorvs Elector","Der kleine Markus im Blumenbeet"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.435285,48.259451
+]
+,[
+11.435327,48.259225
+]
+,[
+11.434952,48.259295
+]
+,[
+11.434984,48.259116
+]
+,[
+11.434975,48.258831
+]
+,[
+11.434559,48.25942
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502457903,
+"guid": "c0cf353050b8454e971e21f7a2b23fdf.1c",
+"title": "Stadtwappen Dachau (10 / 24) - Schloßgasse",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 923077,
+"medianCompletionTimeMs": 424037,
+"numUniqueCompletedPlayers": 53,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/633ToUtj4nNnGRspA50XI0WgN90yKqAGNlPqTRV2yT1xIHF3qdcPukCFzXVxzgj--LYY3RkHTDgZm1Dkj1U",
+"portalTitle": ["Der kleine Markus im Blumenbeet","MVD München ","Bezirksmuseum","Zweigericht","Dachauer Buntwand","Schlossbergbrauerei"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.434559,48.25942
+]
+,[
+11.434336,48.25914
+]
+,[
+11.434444,48.258888
+]
+,[
+11.434185,48.258828
+]
+,[
+11.43365,48.25893
+]
+,[
+11.431893,48.259082
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502462898,
+"guid": "5f7e745a1a14437794822cd1c95db626.1c",
+"title": "Stadtwappen Dachau (11 / 24) - Schloss",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 880000,
+"medianCompletionTimeMs": 537578,
+"numUniqueCompletedPlayers": 52,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ErcRqWURHjKMXoB7_R2FlZZObEQzv-BwudRWM8uQwEB3rgrra-OgLfNQSdoYu4ZgoXX0fc688wdaVL1Ozefm",
+"portalTitle": ["Schlossbergbrauerei","Vergessener Spielplatz","Wasserturm","Castle Playground ","Garden Administration","Westbrunnen im Schlosspark"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.431893,48.259082
+]
+,[
+11.431866,48.258769
+]
+,[
+11.431484,48.25851
+]
+,[
+11.431943,48.258314
+]
+,[
+11.431691,48.257999
+]
+,[
+11.431456,48.257799
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502469459,
+"guid": "3ca0fd7f09a14e74b1ef45100d491d9e.1c",
+"title": "Stadtwappen Dachau (12 / 24) - Schloßgarten",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 941176,
+"medianCompletionTimeMs": 483816,
+"numUniqueCompletedPlayers": 52,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/1zTzi2rRmE9wsnTBpE7AkH2-RpArnkrxVDS-jAm84b5-z_zTbTHCmfZbkLOGPS4tx6RFS_JOR5-dlmKK70A",
+"portalTitle": ["Westbrunnen im Schlosspark","Infoschild Schloss und Hofgarten Dachau","Alpenblick im Schlossgarten","Ancient Weatherstation","Hauptbrunnen im Schlosspark","Dachau Palace"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.431456,48.257799
+]
+,[
+11.431506,48.25733
+]
+,[
+11.431798,48.257076
+]
+,[
+11.431999,48.257964
+]
+,[
+11.43271,48.258151
+]
+,[
+11.433128,48.258384
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502477048,
+"guid": "46decfd26b004ecda9b433e7cc5cccf1.1c",
+"title": "Stadtwappen Dachau (13 / 24) - Apotheken",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 940000,
+"medianCompletionTimeMs": 586303,
+"numUniqueCompletedPlayers": 51,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/tNoPNl7u5SGC2m1XGbdRctH8yurnjJfa2PVoZVJfqVvfdcoPq3Mor5p8QvUi5CTTiMsyynyxMrsGL27WsPoz",
+"portalTitle": ["Dachau Palace","Dachauer Altstadtkirche","Kulturschranne","Der gemeine Froschpiekser","Rückkirche","Glocken"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.433128,48.258384
+]
+,[
+11.434584,48.259711
+]
+,[
+11.434254,48.259806
+]
+,[
+11.433794,48.259676
+]
+,[
+11.434022,48.259532
+]
+,[
+11.433487,48.259671
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502494952,
+"guid": "f7dcd7948c394339b983349f6e9808fc.1c",
+"title": "Stadtwappen Dachau (14 / 24) - Statuen Altstadt",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 895833,
+"medianCompletionTimeMs": 356959,
+"numUniqueCompletedPlayers": 49,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/jpSV51g9taDUy4Iko3YJ00flKaN7PEIv87QtOFbyvc42SYK9JAHUhqvcFQ7Q68idFv1GLHqPYMTigWNn6RMg",
+"portalTitle": ["Maria Painting","Marien Statue ","Gustaf Florian Springer Memorial","Wasserbrunnen Wieninger","Augsburger Tor","Maria Wandfigur"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.434545,48.260064
+]
+,[
+11.433819,48.260321
+]
+,[
+11.433306,48.26008
+]
+,[
+11.432923,48.260012
+]
+,[
+11.432677,48.260189
+]
+,[
+11.432322,48.260132
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502500485,
+"guid": "09592616375e441aaf86b04493f7aa32.1c",
+"title": "Stadtwappen Dachau (15 / 24) - Gottesackerstr.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 958333,
+"medianCompletionTimeMs": 414407,
+"numUniqueCompletedPlayers": 49,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/4JHlyTVT9Ote1bJM6ZPefr6Hq9a8CPUOk-4Mwx1YFt9uNfiYndqeMJRIm4dcoQ-Hn2_a9J3AMu8rzw_IzUZM",
+"portalTitle": ["Augsburger Tor","Statue des unglaublichen Mike","Kreuzigungsweg taferl","Ehrengedenken Den Gefallenen 1945","Friedhofskapelle","Dachauer Wallart"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.432677,48.260189
+]
+,[
+11.432811,48.260577
+]
+,[
+11.433665,48.261064
+]
+,[
+11.433721,48.261297
+]
+,[
+11.434019,48.261198
+]
+,[
+11.431671,48.260559
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502502736,
+"guid": "50d886f9fe524995b27222648c96fb48.1c",
+"title": "Stadtwappen Dachau (16 / 24) - Mittermayerstr.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 958333,
+"medianCompletionTimeMs": 763577,
+"numUniqueCompletedPlayers": 49,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/6uyfkydot_jD7J-_Ad405yTweTRyuyhMSkOshYaFnQd5_exoAg2O75oAnXR7PIx_2hITir0GcsIXClLU_tJT",
+"portalTitle": ["Dachauer Wallart","Ureinwohnerin Bayerns","Heiliger Lukas","Frau mit Herz aus Gold","Steinbrunnen Rathausapotheke ","Maria Mit Dem Kind 1886"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.431671,48.260559
+]
+,[
+11.432257,48.261034
+]
+,[
+11.432167,48.261534
+]
+,[
+11.431905,48.262011
+]
+,[
+11.433442,48.262978
+]
+,[
+11.437946,48.263979
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502518298,
+"guid": "31ac302328e04769b7d06aef526a9244.1c",
+"title": "Stadtwappen Dachau (17 / 24) - Etzenhausen",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 942308,
+"medianCompletionTimeMs": 757245,
+"numUniqueCompletedPlayers": 53,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ze8SqFosQs7tvvNXz5WYsUCx4sXtDf_w2bcPPE2XSfxjVwUCvrTQ0UD-V4W_4IVxchrJ6NdO1ybzDifIt3Si",
+"portalTitle": ["Maria Mit Dem Kind 1886","Mighty Murat Mural","Graffiti-Wall Dachau - Rasta DJ","Pilot mit übergroßem Kinn","Bahnhof Dachau Stadt","Herr Jesus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [8,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.437946,48.263979
+]
+,[
+11.438539,48.264824
+]
+,[
+11.439076,48.264968
+]
+,[
+11.439641,48.265329
+]
+,[
+11.439827,48.266418
+]
+,[
+11.438601,48.266892
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502521164,
+"guid": "db22d7d4402342a1aab4cd7c824cd4dc.1c",
+"title": "Stadtwappen Dachau (18 / 24) - E.-Ollenhauer-Str.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 941176,
+"medianCompletionTimeMs": 1212537,
+"numUniqueCompletedPlayers": 51,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/exIGeMV2xR5OP4UDDdrznG0HqHzY5sYcjKO2ZmU45nSt3mgu7_VDP3EbJDB2gwQaXHhNcS6QckdDfmnJ8o_3",
+"portalTitle": ["Herr Jesus","Powernode Station","Christus Figur","Blauer Balkon","3D Gitter ","Weg des Erinnerns 5 und 6"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [8,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.438601,48.266892
+]
+,[
+11.4483,48.265989
+]
+,[
+11.449946,48.266398
+]
+,[
+11.452313,48.266075
+]
+,[
+11.453894,48.265838
+]
+,[
+11.454357,48.266
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502537450,
+"guid": "37b5693a78214540b393fe283282383f.1c",
+"title": "Stadtwappen Dachau (19 / 24) - Theodor-Heuss-Str.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 903846,
+"medianCompletionTimeMs": 703844,
+"numUniqueCompletedPlayers": 52,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/aL8fAoeqCkBoGbZGLEae4Agg9MnR_546bPtl0-swvhl9kIxCqMBf3lhi-t_zS-oegc9CXyz1MmSAiRbJao4",
+"portalTitle": ["3D Gitter ","Denkmal","Klettergerüst","Clown","Kunst und Energie","Hugging Bears Statue"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.453894,48.265838
+]
+,[
+11.454473,48.265275
+]
+,[
+11.454905,48.263785
+]
+,[
+11.45492,48.263375
+]
+,[
+11.455843,48.25907
+]
+,[
+11.45866,48.259476
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502552819,
+"guid": "1e9485de0ba449e5928f65e20ba7a568.1c",
+"title": "Stadtwappen Dachau (20 / 24) - Sudetenlandstr.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 920000,
+"medianCompletionTimeMs": 463113,
+"numUniqueCompletedPlayers": 51,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/r92WSZA3rl2YIvQUeuDvKcLgrKalUaWD9S3RlKixDMnMmoEKZzJUcA-f3Fe3mNYO-0vqo2ElAR96Bcf3Y5o",
+"portalTitle": ["Hugging Bears Statue","Brunnen A. Haus","RIP Graffiti","Wooden Snake","Familienbildnis","Geschichtserzählung"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.45866,48.259476
+]
+,[
+11.45919,48.259785
+]
+,[
+11.461829,48.259155
+]
+,[
+11.462012,48.259327
+]
+,[
+11.463426,48.259462
+]
+,[
+11.463576,48.259919
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502557286,
+"guid": "fff06ea35ab244e7b6993ea8bc57419a.1c",
+"title": "Stadtwappen Dachau (21 / 24) - Wuerm",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 897959,
+"medianCompletionTimeMs": 374464,
+"numUniqueCompletedPlayers": 49,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/-7OmkS5YN48iZ_VZwP3qOEBByTWlzHcmyNMrSeOdwc8pYBS9ReiIdQXoKX295uvFYEEZaNquNAq5roeUCFU",
+"portalTitle": ["Geschichtserzählung","Felsbrunnen Würmstraße","Kunstfassade","Church Heilig Kreuz","Heiliges Kreuz ","Menschen Brunnen Dachau "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.463576,48.259919
+]
+,[
+11.463981,48.259803
+]
+,[
+11.464247,48.261668
+]
+,[
+11.464064,48.262654
+]
+,[
+11.463694,48.262784
+]
+,[
+11.46348,48.263149
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502560392,
+"guid": "1881555788d74d81b5fd174cd6d8638f.1c",
+"title": "Stadtwappen Dachau (22 / 24) - Dachau Nord-Ost",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 884615,
+"medianCompletionTimeMs": 1054061,
+"numUniqueCompletedPlayers": 51,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/e_icg3hHgQYPMxdYPq6hoWfRIUaysPPMvgt1qgSpKIobWCBaFP_0aJpX4DgTHNrI2oDnhqvh059VynmQ1Squ",
+"portalTitle": ["Menschen Brunnen Dachau ","Sad Clown","Speared Car","Kriegsdenkmal","Metal Ant","Building a Wall"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.46348,48.263149
+]
+,[
+11.467739,48.2627
+]
+,[
+11.468627,48.262847
+]
+,[
+11.47122,48.266003
+]
+,[
+11.46896,48.26673
+]
+,[
+11.467556,48.266679
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502562534,
+"guid": "98c6dc3bfd4645cf81b055c441fcc8b1.1c",
+"title": "Stadtwappen Dachau (23 / 24) - Pater-Roth-Str.",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 882353,
+"medianCompletionTimeMs": 812705,
+"numUniqueCompletedPlayers": 50,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/64z-DzONzr2KT631V4KF-VPafgKNxQuVtRzJdR_Cwud-uRBkox6bKtnP3rxdCCz51qT9CopKPPM8gV3u0VNVfQ",
+"portalTitle": ["Building a Wall","Weg des Erinnerns 11 - Die Wirtschaftsbetriebe des KZ Dachau","Turtle Playground","Weg des Erinnerns 9 - SS-Siedlung am 'Theodor-Eicke-Platz'","Elefanten-Statuen","Lama Statuen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.467556,48.266679
+]
+,[
+11.465767,48.267205
+]
+,[
+11.464343,48.266712
+]
+,[
+11.463951,48.26689
+]
+,[
+11.464311,48.266161
+]
+,[
+11.464317,48.265276
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473502566625,
+"guid": "9b6deb0cb029402290ba32ff5557ffcd.1c",
+"title": "Stadtwappen Dachau (24 / 24) - Dachau Ost",
+"description": "Zeig allen, dass du Dachau wirklich besucht hast! (Start: Bahnhof)Show everyone that you've been to Dachau! (Start: Train Station)In rememberance of liberation Dachau's concentration camp.",
+"author":"Tr1gg3rH4ppy",
+"authorTeam": "R",
+"ratingE6": 811321,
+"medianCompletionTimeMs": 1018460,
+"numUniqueCompletedPlayers": 52,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/xepDiRxdgasHaKDmAwjVDMasAbSImXUN3t52Q5AwLnvuTx2rAE0_KYz1Tf4OAJzshBUC5jxGIGFoawi8jPq95w",
+"portalTitle": ["Weg des Erinnerns 11 - Die Wirtschaftsbetriebe des KZ Dachau","Turtle Playground","Elefanten-Statuen","Weg des Erinnerns 9 - SS-Siedlung am 'Theodor-Eicke-Platz'","Das SS Übungslager","Weg des Erinnerns 7 - SS-Siedlung an der 'Straße der SS'"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 39
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.465767,48.267205
+]
+,[
+11.464343,48.266712
+]
+,[
+11.464311,48.266161
+]
+,[
+11.463951,48.26689
+]
+,[
+11.463411,48.26696
+]
+,[
+11.461711,48.266948
+]
+]
+}
+}]}

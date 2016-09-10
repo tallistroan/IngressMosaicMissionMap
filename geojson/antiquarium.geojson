@@ -1,0 +1,989 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473498255115,
+"guid": "0d5f0eb7f4074418a202f1b00e24cf63.1c",
+"title": "Antiquarium München 1 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 915254,
+"medianCompletionTimeMs": 480542,
+"numUniqueCompletedPlayers": 118,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/NAmgrWbeO08ELuXQutnQ1Ea5ry5sBSNtyOVIroopowVcIKZswuzkXi-WH0mUjg1UGB8sFlkxJRHUjZGVxFJh",
+"portalTitle": ["Löwe","Schöne und Biest","Feldherrnhalle","Theatinerkirche","Hofgarten","Hofgarten, München"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [8,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.57772,48.141742
+]
+,[
+11.577384,48.14177
+]
+,[
+11.577105,48.141708
+]
+,[
+11.577121,48.141991
+]
+,[
+11.578185,48.142454
+]
+,[
+11.578542,48.142322
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498271089,
+"guid": "c61dec1ea8464d648792d8980f65b012.1c",
+"title": "Antiquarium München 2 / 24",
+"description": "as Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 956140,
+"medianCompletionTimeMs": 327939,
+"numUniqueCompletedPlayers": 119,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/foLm_NE0ryDvpKtA5X02zEqtxYf1qSHw-LYP03FSHEVVEZGO4F9BhkTXqyI3ttges9TFD5fmVNOj6c2o4szr-Q",
+"portalTitle": ["Residenz München ","Lowrider Parasol","Hofgarten","Dianatempel im Hofgarten","Brunnen im Hofgarten","Northwestern fountain at Hofgarten"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.579525,48.141957
+]
+,[
+11.580401,48.142585
+]
+,[
+11.579427,48.14277
+]
+,[
+11.580019,48.142981
+]
+,[
+11.580662,48.143077
+]
+,[
+11.579604,48.143308
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498270678,
+"guid": "8d84cf8763524fc19f1ad8fcc848757f.1c",
+"title": "Antiquarium München 3 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 947826,
+"medianCompletionTimeMs": 648892,
+"numUniqueCompletedPlayers": 121,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/_gYoNz4FoGkkIzhpEbtp27aBg78-r-MNSY8s3i5qG0cu5Hk_Z8sKmcBjkS1vNKBxS68EuoxyDCZGlCp8BaE",
+"portalTitle": ["Fountain of a Woman Thinking","Denkmal für König Ludwig I. vo","Griechische Göttin mit Harfe","Bayerisches Staatsministerium Der Finanzen","Two Lions","Bayerisches Sozialgericht"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.578668,48.143194
+]
+,[
+11.577828,48.143564
+]
+,[
+11.577812,48.143786
+]
+,[
+11.577565,48.143987
+]
+,[
+11.578368,48.144872
+]
+,[
+11.578611,48.145555
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498306855,
+"guid": "01ac695d14334c6bb9170f7a2485e522.1c",
+"title": "Antiquarium München 4 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 964912,
+"medianCompletionTimeMs": 424593,
+"numUniqueCompletedPlayers": 121,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/iEFaTQ-F5gWE9IdMqlYTqyv9W9W3Uags2vmcisWeujMQzI1o0t2qAHEK5kQO9fooKClKUUigIfQKmNb8KggG",
+"portalTitle": ["Bayrisches Landessozialgericht ","Wohnhaus der Kaiserin Sissi","Schmeller-Haus","Leonardo Hotel","Deutsche Post Office","Gustav Landauer "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.579113,48.146307
+]
+,[
+11.578338,48.147242
+]
+,[
+11.578116,48.147139
+]
+,[
+11.576529,48.147608
+]
+,[
+11.576852,48.147658
+]
+,[
+11.576796,48.148033
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498309888,
+"guid": "4a3163b4c03546a8b8c132358de169f8.1c",
+"title": "Antiquarium München 5 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 946903,
+"medianCompletionTimeMs": 239998,
+"numUniqueCompletedPlayers": 121,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/44s5R07gCktX11nhQ3nRB8z11r2etNj0-Un3_41QUIINJy5x8hT8WR_SxCt7eJ8TAE0wMCScg9whl87IPAg",
+"portalTitle": ["Fremdspracheninstitut","BFS Sprache","Kopf der Athene","Internationales Begegnungszentrum","Folk, Munich","Nudo Pastabar"],
+"portalTypeNum": [1,1,1,1,2,2],
+"portalObjectiveNum": [1,1,1,1,7,7],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.577172,48.148197
+]
+,[
+11.577378,48.148472
+]
+,[
+11.57738,48.148522
+]
+,[
+11.577513,48.148639
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498321900,
+"guid": "ccff7fdeef354f49aba149d571cec6b3.1c",
+"title": "Antiquarium München 6 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 965217,
+"medianCompletionTimeMs": 277874,
+"numUniqueCompletedPlayers": 121,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/7ESoIcFxZZfTUzK1q6nyQ3n05XblSjPbCNlJ-8J96MN3m2-pgAE7nuo_SCxfCHYzdojutTjYb00Uk5foAWw",
+"portalTitle": ["Maria und Jesus","Maria with child","Fakultät für Physik","Words' Worth","Lost Weekend","Wunden der Erinnerung "],
+"portalTypeNum": [1,1,1,2,2,1],
+"portalObjectiveNum": [1,1,1,7,7,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.577861,48.149566
+]
+,[
+11.57791,48.149802
+]
+,[
+11.579429,48.149373
+]
+,[
+11.580304,48.149114
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498329993,
+"guid": "6977f7281d304ff9bc61bdc5a0a88358.1c",
+"title": "Antiquarium München 7 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 936937,
+"medianCompletionTimeMs": 416919,
+"numUniqueCompletedPlayers": 121,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/tljynsohlQnR8msHOPu54X8m66Zr3beCrcWqb6EcY4HpRJCqc9wLkbC1vs9ysqvCQKikGyQrpiavV2Hgt_U",
+"portalTitle": ["Lungo Ludwigstrasse","Universitätsbrunnen","Sophie Scholl Flugblätter","Geschwister Scholl Mahnung","Grantiger Deife","Anno 1899"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.580813,48.149968
+]
+,[
+11.58098,48.150691
+]
+,[
+11.580557,48.150777
+]
+,[
+11.580695,48.151057
+]
+,[
+11.581329,48.151474
+]
+,[
+11.580484,48.15172
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498335700,
+"guid": "5f78ae5ad31b4a358d9ae1c7d4fb3b51.1c",
+"title": "Antiquarium München 8 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 946429,
+"medianCompletionTimeMs": 267321,
+"numUniqueCompletedPlayers": 119,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/87ULxOM0-ibpj9p6Fe8DCfAqPdzU4j766Rs_dkvgQqH0D6Ie5hsWgtEIDrk17cEgt-28aiw_0qQBXivclxs",
+"portalTitle": ["Lateinischer Spruch","Red Hot. Long Drinks and Short Ribs.","LMU Eingang Amalienstraße","Der verrückte Eismacher","Faces","Thiën Hom"],
+"portalTypeNum": [1,2,1,2,1,1],
+"portalObjectiveNum": [1,7,1,7,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.579794,48.151809
+]
+,[
+11.579194,48.151202
+]
+,[
+11.578873,48.150732
+]
+,[
+11.578459,48.150446
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498353481,
+"guid": "9ee664b534f94aaf82863f8f6b0f05ed.1c",
+"title": "Antiquarium München 9 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 955752,
+"medianCompletionTimeMs": 319565,
+"numUniqueCompletedPlayers": 121,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ClEaRuSFfqC0mnr5JCXluJXXDNFpM7-Z1D_S-i1usGUGb-btqbpk22yHL9pVW8uU0mdln1PeoD6ux5GWJtaB",
+"portalTitle": ["Maria with child","Optik Bartholomä","Kunstvolle Fassade Schellingstraße","Hero Mural","Vernetztes Relief","Graubart"],
+"portalTypeNum": [1,2,1,1,1,1],
+"portalObjectiveNum": [1,7,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.57791,48.149802
+]
+,[
+11.576923,48.15007
+]
+,[
+11.576165,48.150365
+]
+,[
+11.575862,48.150264
+]
+,[
+11.57616,48.150702
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498359398,
+"guid": "bca899749b33474781eefee04279e68c.1c",
+"title": "Antiquarium München 10 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 954545,
+"medianCompletionTimeMs": 574442,
+"numUniqueCompletedPlayers": 118,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/mDdL58s-QsHUNQbiMsAJw36EY569ItJ3-14kQfyGnUirrw0pkCAJsqQYGMRm2Q7dG7L_CiEjb-uBWM_DHNozjA",
+"portalTitle": ["Tumult","Siegel in der Blütenstraße","Nia. Chaussures","Apartment","Schelling-Salon","Ritterwappen "],
+"portalTypeNum": [1,1,2,2,1,1],
+"portalObjectiveNum": [1,1,7,7,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.576083,48.151896
+]
+,[
+11.57553,48.15198
+]
+,[
+11.573249,48.151109
+]
+,[
+11.573076,48.15051
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498379424,
+"guid": "52e3f3ab4d62467f887a3408f96103f3.1c",
+"title": "Antiquarium München 11 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 955357,
+"medianCompletionTimeMs": 412112,
+"numUniqueCompletedPlayers": 119,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/HWE81BX6o8qFMMIaBteUbqMI0t2u6hfqyPBAnVkHFHz0T2l1Y3BdCRNoH1dRsWxQSFgYujxxllXS2n_peMU",
+"portalTitle": ["Chatterbox","Kontinente","Aglaia","Kunstareal","Pinakothek der Moderne","Alte Pinakothek"],
+"portalTypeNum": [1,1,1,2,1,1],
+"portalObjectiveNum": [1,1,1,7,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.57213,48.149498
+]
+,[
+11.571759,48.149176
+]
+,[
+11.571456,48.149409
+]
+,[
+11.571462,48.147916
+]
+,[
+11.570969,48.148001
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498386357,
+"guid": "c7062d86a8ce4af4bbf731aeefffd89c.1c",
+"title": "Antiquarium München 12 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 920354,
+"medianCompletionTimeMs": 380055,
+"numUniqueCompletedPlayers": 118,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/7UWoLAPQQvYGaybwYewOfnhNervotdRAk0owKRAFyU8gVf8o08XMOzwn4Pn8wwYwYl6fKLuuh3YSUGLEpmAI",
+"portalTitle": ["Cubismus An Der Pinakothek","Statue An Der Alten Pinakothek","Streitwagen Kunstwerk","Doppelsäule 23/70","Steinzirkel an der Technischen Uni München","Cafe Vorhoelzer"],
+"portalTypeNum": [1,1,1,1,1,2],
+"portalObjectiveNum": [1,1,1,1,1,7],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.570967,48.148877
+]
+,[
+11.570485,48.1489
+]
+,[
+11.569825,48.148847
+]
+,[
+11.569882,48.149192
+]
+,[
+11.56904,48.149308
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498402368,
+"guid": "427a19f340e64dd7a4b0dfde187f41a1.1c",
+"title": "Antiquarium München 13 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 927273,
+"medianCompletionTimeMs": 240996,
+"numUniqueCompletedPlayers": 117,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ECgdSFwJkeW5TLgCAMqN248fgDeLQCpf1wIrgleElACnLggnfAF3mwvVgr9OdonG7BpmGb2JA1Q39HvUt0-oVA",
+"portalTitle": ["Rossebändiger","Man","Eduardo Paolozzi Statue","Steinflamme","Armless Man","SMAEK"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.568799,48.148373
+]
+,[
+11.56841,48.148413
+]
+,[
+11.568669,48.147983
+]
+,[
+11.568114,48.147872
+]
+,[
+11.568797,48.147194
+]
+,[
+11.568459,48.147192
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498424208,
+"guid": "d4cfb1aa898c4a2d9ee414d30a7ccf57.1c",
+"title": "Antiquarium München 14 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 956140,
+"medianCompletionTimeMs": 367284,
+"numUniqueCompletedPlayers": 120,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/h_oveHjXkeT5oWL2tULL3qIVI3Uhh9kYP91R4NzVFcdM2oyT7ekw2fSvzpl84NoIdYxVd-b1dhzVglB44h21",
+"portalTitle": ["Mensa Arcisstraße","Erdbeben","Mensch","Alle Hände Nuch Drann ?","Musikhochschule München","MUC - Musik und Theater"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.567649,48.147216
+]
+,[
+11.566749,48.147065
+]
+,[
+11.566726,48.146474
+]
+,[
+11.566341,48.146443
+]
+,[
+11.567362,48.146303
+]
+,[
+11.567069,48.145839
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498428357,
+"guid": "61730c77b1434e6e9f3743f55381c9cd.1c",
+"title": "Antiquarium München 15 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 946903,
+"medianCompletionTimeMs": 287429,
+"numUniqueCompletedPlayers": 119,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/tZ0Y3FPjjd9i1Cv03ArRB3atCaTMhmAbkJn3mq-toLO10ewduQFUXBlayRAbgUjQKvuv2L5ldV43njGMJByk",
+"portalTitle": ["MUC Parteizentrum","Little Delphi","Roemer","Glyptothek","Königsplatz","Antikensammlung"],
+"portalTypeNum": [1,1,1,1,2,1],
+"portalObjectiveNum": [1,1,1,1,7,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.566807,48.145473
+]
+,[
+11.566006,48.146146
+]
+,[
+11.566047,48.146207
+]
+,[
+11.565614,48.146215
+]
+,[
+11.565154,48.14544
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498433486,
+"guid": "33478b846d3d4d90958df48f25ca5c45.1c",
+"title": "Antiquarium München 16 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 907407,
+"medianCompletionTimeMs": 323143,
+"numUniqueCompletedPlayers": 116,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/239mBLWQKVv71d9rFyf3d7vtgGoxmcjSb2wGu1KDEsSw9twyeqCS5kZ_S4m6emlGGq__btGzvTcvQ0NDDEc-",
+"portalTitle": ["Propyläen","Propyläen","Pavillons Kandinsky","Detail: Lion","Kurfürst Maximilian I Von Bayern","Ioanne Philippo"],
+"portalTypeNum": [1,1,2,1,1,1],
+"portalObjectiveNum": [1,1,7,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56438,48.146034
+]
+,[
+11.564063,48.146129
+]
+,[
+11.563734,48.146055
+]
+,[
+11.562996,48.144863
+]
+,[
+11.562887,48.144635
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498449862,
+"guid": "793d0846b7134dd8be7af36b53c35e53.1c",
+"title": "Antiquarium München 17 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 945946,
+"medianCompletionTimeMs": 217211,
+"numUniqueCompletedPlayers": 117,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/D9gqLMSawLX71v-ufWcCqY886Ws5otN0yVYm-EWIP1RnW3yCyI1DZ1xJDSZVxIDe3NWVQqnGGwff-rIODT6N",
+"portalTitle": ["Man with Goose","Grundrechte I","Grundrechte II","Thomas Wimmer zum Gedenken","Hier Lernt Man Was","Städtische Meister Und Berufsschule"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.562845,48.144042
+]
+,[
+11.562538,48.144051
+]
+,[
+11.562297,48.143733
+]
+,[
+11.562356,48.143263
+]
+,[
+11.562028,48.143365
+]
+,[
+11.561898,48.143068
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498455828,
+"guid": "3204bcdf6b244a879194caf6f04b49a3.1c",
+"title": "Antiquarium München 18 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 946903,
+"medianCompletionTimeMs": 466859,
+"numUniqueCompletedPlayers": 118,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ylkae1FExuBFckA_QeLlE5NxSwSF_PXVWvEFfnxPZi71QAv-LQUqnH6YpX7tJK--wyPZDJEjbu7OHfwhWD_L",
+"portalTitle": ["Luisengymnasium","The Ring","Lanovod","Bad Guy","Alter Botanischer Garten","Relief am Kunstpavillon"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.561609,48.142554
+]
+,[
+11.561934,48.142282
+]
+,[
+11.563205,48.142501
+]
+,[
+11.564499,48.142664
+]
+,[
+11.565055,48.142232
+]
+,[
+11.565555,48.141769
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498471000,
+"guid": "b4fee290ae82449b9953a91d0a4dc6e9.1c",
+"title": "Antiquarium München 19 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 945455,
+"medianCompletionTimeMs": 329183,
+"numUniqueCompletedPlayers": 115,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/j7ytmhepTTkeSXjoMs9k-zrx_rH17HfadbqM4ff3HyjgBy14nsjxk6cLa3PrIlXlrgeKTcK1FMy4yrueybcw",
+"portalTitle": ["Neptunbrunnen","Oberlandesgericht München","Farbenfrohe Parkbank","Umweltmammutbaum","Baum-Magnolie","Gelbholzbaum"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.565226,48.141233
+]
+,[
+11.563713,48.141226
+]
+,[
+11.563683,48.141481
+]
+,[
+11.563264,48.141708
+]
+,[
+11.56287,48.14183
+]
+,[
+11.562297,48.141968
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498492143,
+"guid": "af1dc41b4896413ab0e80a9ebd17d3ee.1c",
+"title": "Antiquarium München 20 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 909091,
+"medianCompletionTimeMs": 471431,
+"numUniqueCompletedPlayers": 118,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/of3ImS9qZPXh-BpWNL1xXAeZDt77hfldzajCQV8yNLdFqjd7KmN6CkHH4O1lIsaP17_VqPL2VEVi1X7-20U",
+"portalTitle": ["The Cyborg","Hermann Tietzes Kaufhaus","München Hauptbahnhof","Karstadt am Hauptbahnhof","Historische Fassade 'Der Lehnsherr'","Brunnen in der Schützenstraße"],
+"portalTypeNum": [1,1,2,1,1,1],
+"portalObjectiveNum": [1,1,7,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.561096,48.141791
+]
+,[
+11.561383,48.140706
+]
+,[
+11.561487,48.140248
+]
+,[
+11.562058,48.140096
+]
+,[
+11.562409,48.139891
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498507985,
+"guid": "aa068198daa6405faad74d377500449a.1c",
+"title": "Antiquarium München 21 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 898148,
+"medianCompletionTimeMs": 510008,
+"numUniqueCompletedPlayers": 115,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/OqqSAhWay06y5f5u20B_KmyOAz0xNR-co2dq2bpajiLrtAh_tysHkCTTXFU3UVllwTHLllso01Vb5phCzcEF",
+"portalTitle": ["Justizpalast Vordereingang","Stachus Fountain","Karlsplatz Stachus","Karlsplatz ","Hofnarr Prangerl","Neuhausertor"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.564494,48.140181
+]
+,[
+11.565815,48.139141
+]
+,[
+11.566211,48.139281
+]
+,[
+11.566291,48.139484
+]
+,[
+11.566595,48.139155
+]
+,[
+11.566778,48.138914
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498523432,
+"guid": "fefdea5088dd43ba85719519e640bf73.1c",
+"title": "Antiquarium München 22 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 916667,
+"medianCompletionTimeMs": 277615,
+"numUniqueCompletedPlayers": 115,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/-Osu1Xde0ubXkE_GkkZtffkfGGIWBkBHegohXox1EIZgvOjOeUxNgbayEshFrXdCN2fqX9leUmq551ZQSXc6",
+"portalTitle": ["Brunnen vereist","Maria","Brücke","Steindruck München","Künstler Haus bei Nacht","Schlafendes Eichhörnchen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.567037,48.138972
+]
+,[
+11.567221,48.139173
+]
+,[
+11.56759,48.139506
+]
+,[
+11.568212,48.140114
+]
+,[
+11.567852,48.140312
+]
+,[
+11.56854,48.140609
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498535265,
+"guid": "5025e118344d4bda8f2f8e3ecb12f66f.1c",
+"title": "Antiquarium München 23 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 929825,
+"medianCompletionTimeMs": 533740,
+"numUniqueCompletedPlayers": 118,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/Z-c787RU5FdWfbfMslQFA0l_g26WDQZyzG053TAVRnJg_hqnXI7WDqz0LhyiQuHVrIaJhjcn21Dbol5F6xiQLQ",
+"portalTitle": ["Wittelsbacherbrunnen","Pettenkofer Statue","Justus Liebig Statue","Karl-Amadeus-Hartmann-Brunnen","Schöpfer dieser Anlage","Statue von Friedrich Schiller"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.569307,48.141287
+]
+,[
+11.570846,48.141833
+]
+,[
+11.571465,48.142036
+]
+,[
+11.571893,48.142185
+]
+,[
+11.572658,48.142428
+]
+,[
+11.573206,48.14258
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473498544146,
+"guid": "664e785b407d4be898d87b4c3e9684e6.1c",
+"title": "Antiquarium München 24 / 24",
+"description": "Das Antiquarium wurde ab 1568 zur Aufnahme der herzoglichen Antikensammlung und Bibliothek als Erweiterung der Münchner Residenz errichtet und wenig später zu einem Festsaal umgestaltet.",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 929204,
+"medianCompletionTimeMs": 432370,
+"numUniqueCompletedPlayers": 118,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/CLcsGkaG9MOgfuKSpwur42vyzmuQZ9r-xqVJYJGthloa49QDjFwbxNK6FziaErwZvIvwgsklCnC_g31t_X9n7Q",
+"portalTitle": ["Platz der Opfer des Nationalsozialismus","Fackel am Platz der Opfer","Prinzregent Luitpold ","Door Guardian","Reconstructum 1950","Maria mit Jesuskind am Odeonsplatz"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 36
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.573971,48.142877
+]
+,[
+11.573927,48.143113
+]
+,[
+11.574602,48.143068
+]
+,[
+11.575746,48.142934
+]
+,[
+11.576816,48.142689
+]
+,[
+11.577512,48.143045
+]
+]
+}
+}]}

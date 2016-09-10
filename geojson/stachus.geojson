@@ -902,48 +902,48 @@
 }
 },
 
-{"type": "Feature",
-"properties":{
-"time": 1472984711547,
-"guid": "4af9fad7f4434e1bb4ba756c3e4e5d7e.1c",
-"title": "Siegestor München 23 / 24",
-"description": "Das Siegestor wurde 1843 bis 1850 aus Kelheimer Kalkstein errichtet. Am 15. Oktober 1850 übergab König Maximilian II. im Namen seines abgedankten Vaters das Siegestor an die Stadt München.",
-"author":"DestinationMuc",
-"authorTeam": "R",
-"ratingE6": 951220,
-"medianCompletionTimeMs": 370627,
-"numUniqueCompletedPlayers": 42,
-"typeNumMission": 2,
-"image": "https://lh3.googleusercontent.com/HYq0iBgQ4jR2m5ltGF6Wu4KUkN1Bd0oy2YG_n5KfH4XN5g85WKMBUI-yYt1qyc-YxiuJdlyHb_TNBjdF0Y0",
-"portalTitle": ["Oberpollinger","Bürgersaal","Gottfried Keller","Augustiner-Bräu Ausschank","Richard Strauss Brunnen","Landesamt"],
-"portalTypeNum": [1,1,1,1,1,1],
-"portalObjectiveNum": [1,1,1,1,1,1],
-"id": 2
-},
-"geometry": {
-"type": "LineString",
-"coordinates": [
-[
-11.56735,48.138898
-]
-,[
-11.568173,48.138819
-]
-,[
-11.568108,48.138569
-]
-,[
-11.568919,48.138648
-]
-,[
-11.569579,48.138661
-]
-,[
-11.569871,48.138661
-]
-]
-}
-},
+  {"type": "Feature",
+    "properties":{
+      "time": 1473457658906,
+      "guid": "79ae4c1107f54b73b93323c865639bf2.1c",
+      "title": "Karlsplatz (Stachus) 23 / 24",
+      "description": "Der Karlsplatz liegt an einer Stelle, über die im Mittelalter die Salzstraße führte, die Herzog Heinrich der Löwe von Föhring nach München verlegt hatte.",
+      "author":"DestinationMuc",
+      "authorTeam": "R",
+      "ratingE6": 917582,
+      "medianCompletionTimeMs": 174296,
+      "numUniqueCompletedPlayers": 190,
+      "typeNumMission": 2,
+      "image": "https://lh3.googleusercontent.com/D9i6Aw2TicnKopw2kWUORVTd6pBWCrzm0P-q05Lw4SM2RbbyivcbtOL2IYXgtbMg_OqRq0nJ4QCXEaqQkPo",
+      "portalTitle": ["Alte Akademie","Landesamt","Richard Strauss Brunnen","Augustiner-Bräu Ausschank","Bürgersaal","Gottfried Keller"],
+      "portalTypeNum": [1,1,1,1,1,1],
+      "portalObjectiveNum": [1,1,1,1,1,1],
+      "id": 34
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          11.569775,48.138388
+        ]
+      ,[
+          11.569871,48.138661
+        ]
+      ,[
+          11.569579,48.138661
+        ]
+      ,[
+          11.568919,48.138648
+        ]
+      ,[
+          11.568173,48.138819
+        ]
+      ,[
+          11.568108,48.138569
+        ]
+      ]
+    }
+  },
 
 {"type": "Feature",
 "properties":{
