@@ -1,0 +1,19 @@
+{"type": "FeatureCollection","features": [{"type": "Feature","properties": {"mission":1},"geometry":{"type": "Point","coordinates":[
+11.386416,48.134245
+]
+}},{"type": "Feature","properties": {"mission":2},"geometry":{"type": "Point","coordinates":[
+11.384924,48.134353
+]
+}},{"type": "Feature","properties": {"mission":3},"geometry":{"type": "Point","coordinates":[
+11.386416,48.134245
+]
+}},{"type": "Feature","properties": {"mission":4},"geometry":{"type": "Point","coordinates":[
+11.384924,48.134353
+]
+}},{"type": "Feature","properties": {"mission":5},"geometry":{"type": "Point","coordinates":[
+11.368152,48.129908
+]
+}},{"type": "Feature","properties": {"mission":6},"geometry":{"type": "Point","coordinates":[
+11.364384,48.129038
+]
+}}]}

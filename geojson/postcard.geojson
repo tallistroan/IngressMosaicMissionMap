@@ -1,0 +1,1031 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473513789370,
+"guid": "c7958ac4f63146a899a9ac09af867e96.1c",
+"title": "Schleissheim Postcard  1/24",
+"description": "Starting point of the Schleissheim Postcard Mission Banner.The Missions will lead you through most of Oberschleissheim.Possible on foot. Bike recommended.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 937500,
+"medianCompletionTimeMs": 982638,
+"numUniqueCompletedPlayers": 35,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ks88VWXu24aAwkOeEyARPZefmWd1tXPgg0hgOuNTEy-vbbiMJIK9t4cDyiDixANcIIlapKoZgcDIJAwtShLT",
+"portalTitle": ["Train Station Oberschleißheim","Bahnhof Oberschleißheim","Hirtenjungbrunnen","Wappen OSH","Bücherbörse","Phönix Brunnen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.557779,48.257227
+]
+,[
+11.558071,48.25821
+]
+,[
+11.557588,48.258329
+]
+,[
+11.557583,48.257949
+]
+,[
+11.557108,48.258174
+]
+,[
+11.556493,48.260324
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513798377,
+"guid": "752525defbf0428faac35b03bbef3354.1c",
+"title": "Schleissheim Postcard 2/24",
+"description": "Second Mission of the 'Schleissheim Postcard' Mission Banner.Just getting started.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 906250,
+"medianCompletionTimeMs": 657714,
+"numUniqueCompletedPlayers": 34,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/xMouCPuh15ss6gcB-5BvKWuThJhJ1k6wOYHvgfYCLS-_1rVpYfgmKXxlQeHR9rqehOIhXwZ-gxS14Qw-wayA",
+"portalTitle": ["Hirtenjungbrunnen","Bahnhof Oberschleißheim","Wappen OSH","Bücherbörse","Brunnen Raiffeisenbank Oberschleissheim","Fohlengarten Statue"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.557588,48.258329
+]
+,[
+11.558071,48.25821
+]
+,[
+11.557583,48.257949
+]
+,[
+11.557108,48.258174
+]
+,[
+11.556771,48.257975
+]
+,[
+11.554003,48.256171
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513805538,
+"guid": "ca90a2445d594ab68c0eaa768103dbe6.1c",
+"title": "Schleissheim Postcard 3/24",
+"description": "Number 3 in the Schleissheim Postcard Mission Series. This time you will have to find the next waypoint with based on the clues.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 781250,
+"medianCompletionTimeMs": 668965,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 3,
+"image": "https://lh3.googleusercontent.com/FAL0mmLFBjSCiITlj8CMw1xfUVzBmWQhkI10i8Yi2rYnp8yOZxHNYN4ZEGc2vKERubvWDTXeqLY2elS65pVtzw",
+"portalTitle": ["小動物吊燈","","","","",""],
+"portalTypeNum": [1,0,0,0,0,0],
+"portalObjectiveNum": [1,0,0,0,0,0],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.553267,48.255884
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513808887,
+"guid": "c891bf8914a44e85bb426e8e364d52f9.1c",
+"title": "Schleissheim Postcard 4/24",
+"description": "Number 4 in the Schleissheim Postcard  Series.  This time hack only.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 812500,
+"medianCompletionTimeMs": 542646,
+"numUniqueCompletedPlayers": 34,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/OGqaUjN_fzM-dMN77rbtQEcne9ANTw0ab__gx7qBJDjL_mo-u-D-yxPgDBVpR3V_W1NiueYgoHCkRgbuqU7F",
+"portalTitle": ["Happy Mural Wall","Fohlengarten Statue","小動物吊燈","Maibaum Oberschleissheim","Versteinerter Resonator","Artsy Graffiti Underpass"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.55414,48.255288
+]
+,[
+11.554003,48.256171
+]
+,[
+11.553267,48.255884
+]
+,[
+11.553574,48.254926
+]
+,[
+11.554046,48.254535
+]
+,[
+11.555864,48.25387
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513814361,
+"guid": "3f2eb07e7d7547139622d6de410459ca.1c",
+"title": "Schleissheim Postcard 5/24",
+"description": "Number 5 in the Schleissheim Postcard Series. Time to switch to the other side of the rails.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 857143,
+"medianCompletionTimeMs": 515758,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ntrWRDZqqm9ZIdw19dZga5XHLc4Lc5UyFbS2TBjTnSfFAKapg09Y8fRaFeQFPiwgmCvBYbrz9LrKQ1bL8bw",
+"portalTitle": ["Spielplatz Blumenstraße","Symbol an Hauswand","Hear me Roar","Blauer Karpfen","Brunnhaus Schleißheim","Wegkreuz Eigenheimstrasse"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,8,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.556296,48.252463
+]
+,[
+11.557589,48.251718
+]
+,[
+11.557367,48.251425
+]
+,[
+11.557252,48.25095
+]
+,[
+11.558458,48.250474
+]
+,[
+11.55852,48.250899
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513819672,
+"guid": "d50fda43b18442e9950062fc0dc63598.1c",
+"title": "Schleissheim Postcard 6/24",
+"description": "Number 6 in the Schleissheim Postcard Series. First Row completed, three to go.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 896552,
+"medianCompletionTimeMs": 274685,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/kkaB_WVmkWQKfzI78aD9egBgKGRIOQs2ExJjVJkUYSjtWs5_tkAIdg0xZuUiTuGYScQ0REwVZfjHcxRThOB8",
+"portalTitle": ["Pfarrhaus Patrona Bavariae","Heiligen Statue","Slius Brunnen","Kirche Maria Patrona Bavariae","Gebr Ulrich Apoloa Glocke","Marienbildnis"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.559643,48.252156
+]
+,[
+11.560165,48.252052
+]
+,[
+11.560511,48.252158
+]
+,[
+11.560149,48.252427
+]
+,[
+11.560145,48.252613
+]
+,[
+11.560632,48.252878
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513830523,
+"guid": "34949098154642c991ee4c9bd68d00e8.1c",
+"title": "Schleissheim Postcard 7/24",
+"description": "Number 7  in the Schleissheim Postcard Series. Time to open up a new  row.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 750000,
+"medianCompletionTimeMs": 381103,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/QpmsAHp46Y40aJAUnAMdMr1_pgtUC84pKRLtnByAbeCD8e9hDuEPxl6A1dLFcl13gx4XSuQZNmuMM6h8qd7m",
+"portalTitle": ["Wildfang Bronzeskulptur","Marienbildnis","Gebr Ulrich Apoloa Glocke","Kirche Maria Patrona Bavariae","Slius Brunnen","Heiligen Statue","Pfarrhaus Patrona Bavariae"],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56102,48.253709
+]
+,[
+11.560632,48.252878
+]
+,[
+11.560145,48.252613
+]
+,[
+11.560149,48.252427
+]
+,[
+11.560511,48.252158
+]
+,[
+11.560165,48.252052
+]
+,[
+11.559643,48.252156
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513876205,
+"guid": "03cf892fa504445eb04518b9e64f706c.1c",
+"title": "Schleissheim Postcard 8/24",
+"description": "Number 8 in the Schleissheim Postcard Series.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 714286,
+"medianCompletionTimeMs": 362256,
+"numUniqueCompletedPlayers": 32,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/CjSFeIrySCt3Qtet7sv8XTHZrOZIvni-N_nrMV3j4ZrUegD-StrTCzU7ac1vr2TSO53fdKVZbHl3IK_7Ux-J",
+"portalTitle": ["Marienbildnis","Gebr Ulrich Apoloa Glocke","Kirche Maria Patrona Bavariae","Heiligen Statue","Slius Brunnen","TV Schleißheim e.V."],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.560632,48.252878
+]
+,[
+11.560145,48.252613
+]
+,[
+11.560149,48.252427
+]
+,[
+11.560165,48.252052
+]
+,[
+11.560511,48.252158
+]
+,[
+11.562414,48.252734
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513880297,
+"guid": "721269349a454df8a58ba617ccd36e5b.1c",
+"title": "Schleissheim Postcard 9/24",
+"description": "Number 9 in the Schleissheim Postcard Mission Series.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 862069,
+"medianCompletionTimeMs": 376908,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/j9QdbisCaIC1qx4K_8A17F61dbJdmySnzdM8E0LHKl0BJRcs__W8bvETcgTt5je5rht_NqrNzZSXcoHhZD-J",
+"portalTitle": ["Neuapostolische Kirche","Rathaus Oberschleissheim","Baum an der Wand","Prinz Regent Luitpold Denkmal","Schleißheim Map","Mosaik Schlossverwaltung "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,2,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.561706,48.25166
+]
+,[
+11.562311,48.251379
+]
+,[
+11.561427,48.25122
+]
+,[
+11.56179,48.250763
+]
+,[
+11.560475,48.250353
+]
+,[
+11.560799,48.250251
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513887574,
+"guid": "f75e35be326c4a67af0e40fbae45cca4.1c",
+"title": "Schleissheim Postcard 10/24",
+"description": "The tenth Mission of the Schleissheim Postcard Mosaic Mission.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 785714,
+"medianCompletionTimeMs": 492820,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/prr9kAfGUBGZYXUqKJAN2irD0AXgV3fDkvTT2oeXLbOKRbIoOp2uV44L-YEr64CGmDAUgA_mmBRHFT1YMd0",
+"portalTitle": ["Brunnhaus Schleißheim","Wegkreuz Eigenheimstrasse","Symbol an Hauswand","Hear me Roar","Blauer Karpfen","Schleißheim "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [8,1,1,1,1,2],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.558458,48.250474
+]
+,[
+11.55852,48.250899
+]
+,[
+11.557589,48.251718
+]
+,[
+11.557367,48.251425
+]
+,[
+11.557252,48.25095
+]
+,[
+11.557603,48.249465
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513891225,
+"guid": "9115ed9397f54861b19047adfc649e6b.1c",
+"title": "Schleissheim Postcard 11/24",
+"description": "Lucky Number 11 in the Schleissheim Postcard Mission Series",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 814815,
+"medianCompletionTimeMs": 641429,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/OXDkCWFH_WDDi4TTI4XxJd5O6-Is6BTkz-B8oVo0xaB9AQ2gTCD527rs1M5XF5zxbzVzPDbQTazwsMzsSznUOg",
+"portalTitle": ["Eingang Wilhelmshof","Alte Post","Alter Bahnhof (Ostteil)","Alter Bahnhof Oberschleissheim","Schleißheim ","Hinweis Barocke Sichtachsen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,8,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.554629,48.248926
+]
+,[
+11.553695,48.249116
+]
+,[
+11.553331,48.249417
+]
+,[
+11.553102,48.248796
+]
+,[
+11.557603,48.249465
+]
+,[
+11.557525,48.248405
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513914637,
+"guid": "2371f02fed83451385ff13b78ebfa0fd.1c",
+"title": "Schleissheim Postcard 12/24",
+"description": "Complete the 'Dirty Dozen' and therefore the second row of the Schleissheim Postcard Mosaic. You are halfway there.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 851852,
+"medianCompletionTimeMs": 419567,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/xc5DkdscjII-yoNSfzlMS4XlOnvQ8lfdG-SbXzGd7eBd-sjxO0Md_TT1AyKWGPfVDsxrKxzkurAfHi12moVu",
+"portalTitle": ["Hinweis Deutsches Museum","Deutsches Museum Flughafen Schleissheim","Fokker D.VII","Flamingo ","Gedenktafel Gebirgsheeresfliegerstaffel 8","Airplane Tail Sculpture"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.557526,48.247112
+]
+,[
+11.557089,48.246248
+]
+,[
+11.55744,48.245968
+]
+,[
+11.55687,48.246013
+]
+,[
+11.556552,48.246235
+]
+,[
+11.55614,48.245621
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513917887,
+"guid": "738dc089e391467ca8218c64d2e5c748.1c",
+"title": "Schleissheim Postcard 13/24",
+"description": "Number 13 in the Schleissheim Postcard Mission Series. Should not be attempted on a Friday 13th.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 857143,
+"medianCompletionTimeMs": 448905,
+"numUniqueCompletedPlayers": 30,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/kKutjSnY51ryHfQ-rJc7BeiPTpaF6xvLdKf6y-VFiXQXhTnrWkYXKWEJGjBSvMuKdBGG2RlUFNQ96otDnT4",
+"portalTitle": ["MiG-21 MF","Europa Vector","Deutsches Museum","Airplane Tail Sculpture","Gedenktafel Gebirgsheeresfliegerstaffel 8","Deutsches Museum Flughafen Schleissheim"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [8,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.555276,48.244614
+]
+,[
+11.555051,48.244468
+]
+,[
+11.554616,48.244729
+]
+,[
+11.55614,48.245621
+]
+,[
+11.556552,48.246235
+]
+,[
+11.557089,48.246248
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513921273,
+"guid": "010344069fa14f839d62007839862d55.1c",
+"title": "Schleissheim Postcard 14/24",
+"description": "Number 14 in the Schleissheim Postcard Mission Series",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 840000,
+"medianCompletionTimeMs": 615330,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/tWYnfOJU0EiQKuJEOuE4s9e1XdaBpz81d1KZuFUdkp5f6RZHq52GfVBBOJCc9PXcdrWnK6PkW0lCqMzxB_vV",
+"portalTitle": ["Flugplatz Oberschleißheim","Der FC-Phoenix Biergarten","Skateboard Rampe","Infotafel Rundweg Hochmutting","Old Well - Alter Brunnen","Infotafel Schloss Schleißheim Süd"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,2,2,2,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.5578,48.244997
+]
+,[
+11.560214,48.245754
+]
+,[
+11.562173,48.24566
+]
+,[
+11.56268,48.24577
+]
+,[
+11.562282,48.246528
+]
+,[
+11.560417,48.247462
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513929612,
+"guid": "28b17bfff3aa4efaaa1731edfb8e6c50.1c",
+"title": "Schleissheim Postcard 15/24",
+"description": "Number 15 of the Schleissheim Postcard Mission Series. Almost there, agent.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 875000,
+"medianCompletionTimeMs": 259183,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Ye_Twg4C7VlmUhvr3WsS_ntpIyav2I875cm_NcM1wAzAosyn_iqmrJ1kKFLn-0HmrsR58EWBxh8A5T-uwD_t",
+"portalTitle": ["Südflügel Schloss Schleissheim","Nischenfigur Schloß Schleissheim","Nischenfigur 8","Staatsgalerie Im Neuen Schloss","Pforte Schloss Schleissheim","Eingang Schloss"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.56097,48.247572
+]
+,[
+11.561371,48.247581
+]
+,[
+11.561137,48.248032
+]
+,[
+11.560789,48.248362
+]
+,[
+11.560815,48.248681
+]
+,[
+11.561217,48.248867
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513933767,
+"guid": "460822b754f4438397eb9fe6ae2956ac.1c",
+"title": "Schleissheim Postcard 16/24",
+"description": "Sweet Sixteen of the Schleissheim Postcard Mission Series.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 888889,
+"medianCompletionTimeMs": 213902,
+"numUniqueCompletedPlayers": 30,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/-T1K-9foVWgOWRKyV_YcUjN4QIWvk3w2JMz_iCbbZgSVUjoya-oVuynVvxED-FbfoZ_0fDfYfbagjvxKzioY",
+"portalTitle": ["Marmorstatue","Statue mit Stab","Hall of Fame ","Statue 4","Statue mit Puppe","Eine der Nischenfiguren am Neu","Statue 8"],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.561205,48.24961
+]
+,[
+11.56113,48.249734
+]
+,[
+11.561185,48.249796
+]
+,[
+11.56119,48.249886
+]
+,[
+11.561073,48.249919
+]
+,[
+11.561246,48.249981
+]
+,[
+11.561203,48.250023
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513937327,
+"guid": "c0e059cc5bf54e118132c1bd062627e7.1c",
+"title": "Schleissheim Postcard 17/24",
+"description": "Number 17 of the Schleissheim Postcard Mission Series.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 884615,
+"medianCompletionTimeMs": 226411,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/hBWyZqC9R82i6qbo-CT9Cf4PZBctjzH_F5yLrMFPlk38gLbTm1K7L23vmfObokQXhpvqEmeqqPDAZB0Znj4i",
+"portalTitle": ["Kriegerstatue","Mosaik Schlossverwaltung ","Schleißheim Map","Skulptur Nord-Ost","Skulptur Nord","Schlossbrunnen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.561198,48.250235
+]
+,[
+11.560799,48.250251
+]
+,[
+11.560475,48.250353
+]
+,[
+11.560281,48.248992
+]
+,[
+11.559981,48.249162
+]
+,[
+11.559987,48.248907
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513939388,
+"guid": "4095945d5f714ab9a50ea870aad7c46f.1c",
+"title": "Schleissheim Postcard 18/24",
+"description": "Number 18 of the Schleissheim Postcard Mission Series.  This Mission will complete the third row of the Mosaic.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 884615,
+"medianCompletionTimeMs": 182116,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/xoA96Kx4KQ04uKHHqEGQOz6S8DU3mlc8a59H9gfPxVz9NKgHcLVLz7IpQ4Yj3GnAHUztqMklTpqbN6z7V6qbeg",
+"portalTitle": ["Skulptur Süd","Hofbräu-Wappen","Klausenweg Kapelle St.Wilhelm","Schloß Schleißheim bei München","Museum im Alten Schloss","Kunstwerk Im Durchgang "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.559967,48.248548
+]
+,[
+11.558978,48.248275
+]
+,[
+11.559208,48.248576
+]
+,[
+11.559548,48.24884
+]
+,[
+11.559259,48.248918
+]
+,[
+11.559175,48.249168
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513946495,
+"guid": "a31b69ae66d3480a9006851d4d42848a.1c",
+"title": "Schleissheim Postcard 19/24",
+"description": "Number 19 of the Schleissheim Postcard Mission Series. Patience, Agent.  You are nearly done.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 857143,
+"medianCompletionTimeMs": 207505,
+"numUniqueCompletedPlayers": 30,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/v8jB2nD_Ao1FMQnpBFDZ_FxRpfeMvkVt_2g7Akx-3U5cP2VaDKm7uNUSLzlevc-SE3QGHGf9CoB0AqJpltjc",
+"portalTitle": ["Truppenmahnmal","WWI + WWII Monument","WWI Air Force Monument","Sonnenuhr","Kunstwerk Im Durchgang ","Museum im Alten Schloss"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.558921,48.248782
+]
+,[
+11.558659,48.249058
+]
+,[
+11.558571,48.248681
+]
+,[
+11.558202,48.248869
+]
+,[
+11.559175,48.249168
+]
+,[
+11.559259,48.248918
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513952034,
+"guid": "f2c0de3912e14d2494359b36f19183b4.1c",
+"title": "Schleissheim Postcard 20/24",
+"description": "Number 20 in the Schleissheim Postcard Banner Mission Series. I can already see the light at the end of the tunnel, can you?",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 846154,
+"medianCompletionTimeMs": 202949,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/NVFFcI69Z1Q3BVwOrO0x1_4Obs3XwkPFUz05Rq3dAGsELg-w9u1p5gyHzJtyev9pjy63G9sW1SzcNKq_1cGr",
+"portalTitle": ["Schloß Schleißheim bei München","Klausenweg Kapelle St.Wilhelm","Hofbräu-Wappen","Skulptur Süd","Schlossbrunnen","Skulptur Nord"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.559548,48.24884
+]
+,[
+11.559208,48.248576
+]
+,[
+11.558978,48.248275
+]
+,[
+11.559967,48.248548
+]
+,[
+11.559987,48.248907
+]
+,[
+11.559981,48.249162
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513957170,
+"guid": "034b770a100d498cb802c23c9a721432.1c",
+"title": "Schleissheim Postcard 21/24",
+"description": "Number 21 in the Series of this Banner Mission. Allowed to drink and vote now even in the United States.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 851852,
+"medianCompletionTimeMs": 196632,
+"numUniqueCompletedPlayers": 30,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/so0_nMT9w-SYkpgmyAWmyi48oxFat78G4cMmvJtTYqPv1o1T4o6rhqftJsb7s9iFw9kZW70S5pnoQpIcgYOvtg",
+"portalTitle": ["Skulptur Nord-Ost","Pforte Schloss Schleissheim","Staatsgalerie Im Neuen Schloss","Nischenfigur 8","Südflügel Schloss Schleissheim","Nischenfigur Schloß Schleissheim"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.560281,48.248992
+]
+,[
+11.560815,48.248681
+]
+,[
+11.560789,48.248362
+]
+,[
+11.561137,48.248032
+]
+,[
+11.56097,48.247572
+]
+,[
+11.561371,48.247581
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513962747,
+"guid": "48232bfa1fbb4d2bb3fb549634206b6e.1c",
+"title": "Schleissheim Postcard 22/24",
+"description": "Number 22 of the Mission Mosaic 'Schleissheimer Postcard'. Hope you havent hacked too much or you will have to use Heatsinks and Multihacks.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 800000,
+"medianCompletionTimeMs": 249581,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/tn0MXpjYH-Qj_38e7yokp7f1X8gT1yoIm97JHLwbG75af2YNFskgRXCT1hN6c3iHky3rZzOlyBq3v62spsMHDQ",
+"portalTitle": ["Infotafel Schloss Schleißheim Süd","Hofbräu-Wappen","Klausenweg Kapelle St.Wilhelm","Skulptur Süd","Schlossbrunnen","Skulptur Nord-Ost"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.560417,48.247462
+]
+,[
+11.558978,48.248275
+]
+,[
+11.559208,48.248576
+]
+,[
+11.559967,48.248548
+]
+,[
+11.559987,48.248907
+]
+,[
+11.560281,48.248992
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513966993,
+"guid": "d40716bf8ffe44efa77c8e945f326c8e.1c",
+"title": "Schleissheim Postcard 23/24",
+"description": "Number 23 of the Schleissheim Postcard Mission Banner Series. Dont forget to look up from the scanner to admire the beautiful architecture while you are here.",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 840000,
+"medianCompletionTimeMs": 214635,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Q2WFnT-CXG5sttF_lMeLU1N4TUXGe8tymsw9f_12zOwZCkOIhltP_QpmPulpVL0271a4xGarOZ7ZzdUCs6djMA",
+"portalTitle": ["Marmorstatue","Statue mit Stab","Hall of Fame ","Statue 4","Statue mit Puppe","Eine der Nischenfiguren am Neu","Statue 8","Kriegerstatue"],
+"portalTypeNum": [1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.561205,48.24961
+]
+,[
+11.56113,48.249734
+]
+,[
+11.561185,48.249796
+]
+,[
+11.56119,48.249886
+]
+,[
+11.561073,48.249919
+]
+,[
+11.561246,48.249981
+]
+,[
+11.561203,48.250023
+]
+,[
+11.561198,48.250235
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473513970033,
+"guid": "a0ac6fd8ff4f442699f47fc369a5aab9.1c",
+"title": "Schleissheim Postcard 24/24",
+"description": "The final Mission of the Schleissheim Postcard Mosaic. I am already tired from all  the submitting. How are your feet, Agent?",
+"author":"Hirun",
+"authorTeam": "R",
+"ratingE6": 714286,
+"medianCompletionTimeMs": 370707,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/8jSyhE6yu22ChFZ2VLe-xLzwF2juazvZEYCGDD7ECIsG1KpoznEEb6X3EMX8xQ46oc-ndpcDu1H8ZRNyFAU8",
+"portalTitle": ["Kunstwerk Im Durchgang ","Museum im Alten Schloss","Truppenmahnmal","WWI + WWII Monument","WWI Air Force Monument","Sonnenuhr","Schleißheim "],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 50
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.559175,48.249168
+]
+,[
+11.559259,48.248918
+]
+,[
+11.558921,48.248782
+]
+,[
+11.558659,48.249058
+]
+,[
+11.558571,48.248681
+]
+,[
+11.558202,48.248869
+]
+,[
+11.557603,48.249465
+]
+]
+}
+}]}

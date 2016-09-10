@@ -1,0 +1,731 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473505678931,
+"guid": "2ba95a571f904043ae5bc1cad80f1357.1c",
+"title": "Spaziergang durch Erding 1/12",
+"description": "Ein Spaziergang durch Erding, erste von  zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 959184,
+"medianCompletionTimeMs": 2387430,
+"numUniqueCompletedPlayers": 43,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/_TNqZN2jI2d_hqbAo4QUong68JgqRpoF7_B2mNMSUriqijHlCwQ2uQJ8XKM29odT3aUEPknWqtq67JZhrLUi",
+"portalTitle": ["Altenerding Bahnhof","Crossroad Cross","Hoelzener Flamme","Wandmosaik","Creation","Double Cross Church","Fontanna Matki Boskiej","Kriegerdenkmal Altenerding","Marterl an der Sempt","Maria Auf Dem Wehr","Historisches Windewerk","Hammerthaler Maria"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,2,1,1,2,1,1,1,2,1,1,1],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.901756,48.293533
+]
+,[
+11.902579,48.292117
+]
+,[
+11.904413,48.294378
+]
+,[
+11.904612,48.293714
+]
+,[
+11.904791,48.293483
+]
+,[
+11.905502,48.293243
+]
+,[
+11.906109,48.293301
+]
+,[
+11.906663,48.29341
+]
+,[
+11.908849,48.293994
+]
+,[
+11.907072,48.295362
+]
+,[
+11.907532,48.295582
+]
+,[
+11.907774,48.2955
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505682683,
+"guid": "82cc134fada54614b8535f85f669711a.1c",
+"title": "Spaziergang durch Erding 2/12",
+"description": "Spaziergang durch Erding, zweite von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 956522,
+"medianCompletionTimeMs": 1002457,
+"numUniqueCompletedPlayers": 46,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Bt7MkCf80q_3eW2MhUTVh2QIRlDy8AoViM9XqptuXGQ4Sk4u36qKDMLu9_mBcAV7vhTCExP65eJvcop-nqo-",
+"portalTitle": ["Marienstatue","Herz in Holz","Pilgertour","Lebensraum Hecke","Karte Stadt Park Erding","Pfeiler Am Parkeingang","Streuobstwiese","Pavillon im Park","Wilhelm von Diez Denkmal","Blaues Nest Von Harry Seeholzer","Spielplatz Stadtpark Erding","Aphrodite"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,2,1,2,1,2,1,1,1,1,1,2],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.907764,48.295841
+]
+,[
+11.907944,48.296333
+]
+,[
+11.907922,48.297042
+]
+,[
+11.9074,48.298854
+]
+,[
+11.907152,48.29852
+]
+,[
+11.906623,48.298465
+]
+,[
+11.906559,48.298133
+]
+,[
+11.906703,48.297889
+]
+,[
+11.905819,48.298489
+]
+,[
+11.905961,48.29866
+]
+,[
+11.906187,48.298942
+]
+,[
+11.906639,48.29903
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505686486,
+"guid": "13157b2c67a746dba39d4a886484f723.1c",
+"title": "Spaziergang durch Erding 3/12",
+"description": "Spaziergang durch Erding, dritte von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 911111,
+"medianCompletionTimeMs": 1237358,
+"numUniqueCompletedPlayers": 44,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/gmNi6Was_Y09Gu5rXtHqAd0n3Z4WtEy9Skmt6RhhmWOnA_ae6RT6edvv3l3ssPRoC7l4LDrI67Yc7rP5lXI",
+"portalTitle": ["Kugel Auf Vase","Eingang Stadtpark","Kleine Kapelle","Handtasche","Lebensraum Wald","Heckengucker","art","Aktivitäts und Informationsangebot","Alter Eingang zum Stadt Park","Geschichte Des Stadtparks","Eulen","Laufstrecken"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,2,1,1,1,2,1,1,1,2],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.906948,48.299552
+]
+,[
+11.90756,48.299752
+]
+,[
+11.90828,48.300262
+]
+,[
+11.906056,48.300411
+]
+,[
+11.905426,48.300566
+]
+,[
+11.904031,48.301212
+]
+,[
+11.903704,48.300869
+]
+,[
+11.903687,48.300581
+]
+,[
+11.903618,48.300247
+]
+,[
+11.904105,48.300188
+]
+,[
+11.904833,48.300087
+]
+,[
+11.903656,48.299861
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505690457,
+"guid": "96934de90a44461abea943895d0254d5.1c",
+"title": "Spaziergang durch Erding 4/12",
+"description": "Spaziergang durch Erding, vierte von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 954545,
+"medianCompletionTimeMs": 1374927,
+"numUniqueCompletedPlayers": 45,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/XMDbtwOyWJLp9Ek_9LKt-xs-fhL497enz1UoHPTVmwR9uQ8vHOaOxhY_LhtFqa6N39hBDunUVoyzcAvVO0g1WA",
+"portalTitle": ["Kreisel für Erding","Weniadunum","Lebensraum Wasser und Auen","Volieren","Mäander","Play Chess in Park ","Eisernes Tor","Freigehege","Altes Taubenhaus","Vision der Neugestaltung","Fliessgewässer","Dragons Sculpture"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,2,1,1,2,1,1,2,1,1,2],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.903988,48.299645
+]
+,[
+11.905634,48.299245
+]
+,[
+11.90521,48.298545
+]
+,[
+11.904939,48.298445
+]
+,[
+11.904568,48.298699
+]
+,[
+11.904244,48.298412
+]
+,[
+11.904879,48.29813
+]
+,[
+11.905059,48.297805
+]
+,[
+11.904524,48.297922
+]
+,[
+11.903701,48.298629
+]
+,[
+11.90372,48.298823
+]
+,[
+11.902971,48.298952
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505697994,
+"guid": "31c1ef765fae461ea706da4730aab063.1c",
+"title": "Spaziergang durch Erding 5/12",
+"description": "Spaziergang durch Erding,fünfte von zwölf MIssionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 744186,
+"medianCompletionTimeMs": 2147959,
+"numUniqueCompletedPlayers": 44,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/sD6iZ2QMlvm64h8z-uQ9BHpeOm_qXu3cGv0OzkTRPihpTtq75Kg-2AE83mkJC5IUh_mhE_uecOUOpdx-Hz9X",
+"portalTitle": ["Denkmal Freiherr von Grainger","Spinne","Konzept der Neugestaltung","Kunstpfad 'Heilig Blut'","Heilig Blut","Kreuzwegstation 6","Geschichte des Stadtparks","Kreuzigung Jesu","Der neue Stadtpark","Kreuzwegstation 3","Raumausstatter Kern Erding","Jesus Am Wegesrand"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,2,1,1,1,2,1,1,1,2,1,1],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.902512,48.299203
+]
+,[
+11.902489,48.298299
+]
+,[
+11.902068,48.298069
+]
+,[
+11.901624,48.29846
+]
+,[
+11.901073,48.298643
+]
+,[
+11.900625,48.298975
+]
+,[
+11.901983,48.299679
+]
+,[
+11.901695,48.299821
+]
+,[
+11.901342,48.30001
+]
+,[
+11.901335,48.300619
+]
+,[
+11.90036,48.300765
+]
+,[
+11.901857,48.301383
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505703326,
+"guid": "75f814d000274b01872c55384a0530af.1c",
+"title": "Spaziergang durch Erding 6/12",
+"description": "Spaziergang durch Erding, sechste von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 692308,
+"medianCompletionTimeMs": 1759927,
+"numUniqueCompletedPlayers": 39,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Q0UU3roLdeWv1l1U9hpLVG8GUQNkLmSvj-QYS1W2I6SBu2wsDGk4jAlwSslJ37_yCOoXh_Vt4hGYqqo65hLi",
+"portalTitle": ["Jesus trägt sein Kreuz","Jesus Wird Geholfen","Fremder Trägt Jesus' Kreuz","Stahlturm Am Landwirtschaftsamt","Statue of Jesus ","Jesus Erhält Das Kreuz","Stadtwappen Am Finanzamt","Villa Rivera","Steinschnecke","Spielplatz","Hirte Mit Schaf","Sonnenkind Sculpture"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1,2,1,1,1,1,2],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.902835,48.302149
+]
+,[
+11.903656,48.302383
+]
+,[
+11.904096,48.3026
+]
+,[
+11.904843,48.303141
+]
+,[
+11.905438,48.303414
+]
+,[
+11.905336,48.303937
+]
+,[
+11.904584,48.303674
+]
+,[
+11.903608,48.304438
+]
+,[
+11.903379,48.30425
+]
+,[
+11.90521,48.302353
+]
+,[
+11.907546,48.302435
+]
+,[
+11.907325,48.303009
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505707424,
+"guid": "895725d6c3e34891a495c1a5153b3af2.1c",
+"title": "Spaziergang durch Erding 7/12",
+"description": "Spaziergang durch Erding, siebte von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 763158,
+"medianCompletionTimeMs": 1592622,
+"numUniqueCompletedPlayers": 40,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/UY0poSYM43_AUSp27qei5Qw8dinFDAKHFbegjJLfQuYQKV9FXJ5-MlT49gkM30kxP18t5NCFD6R3yDUZk4U",
+"portalTitle": ["Poseidon","Jesus Wird Verurteilt","Maibaum Grüner Markt","Bauhaus","Kriegerdenkmal am Grünen Markt","Piratenwelt","Gott grüß die Kunst","Museum Erding","Predigt am Heimatmuseum","Hirsch an der Wand","Gottmann 1460","Statue am Bistro Obermeier"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,2,1,1,1,2,1,2,1,1,1],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.907271,48.303526
+]
+,[
+11.905874,48.304639
+]
+,[
+11.907306,48.304893
+]
+,[
+11.908292,48.304764
+]
+,[
+11.908446,48.305048
+]
+,[
+11.908764,48.304928
+]
+,[
+11.909626,48.304687
+]
+,[
+11.910752,48.305007
+]
+,[
+11.910734,48.305332
+]
+,[
+11.911302,48.305946
+]
+,[
+11.912756,48.305569
+]
+,[
+11.910511,48.306231
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505715874,
+"guid": "666488e902ef4b3282b2090d365fc252.1c",
+"title": "Spaziergang durch Erding 8/12",
+"description": "Spaziergang durch Erding, achte von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 528561,
+"numUniqueCompletedPlayers": 41,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/si__7EpBNShmfyIFnFOnFjXkFH97A0ape3Tf-LlZ9Wn3tOqH7sT6J2v08o-_o5dcJ409E_WdbdINHTGEhpzL",
+"portalTitle": ["Heiliger im Vogelhäuschen","Schöngeist","Erdinger Tor","Tauben auf dem Brunnen","Der Schöne Turm","Hauskreuz","Notjahr 1932 Brunnen","Mysteriöse Steinplatte","Rathaus Erding","Maria mit Kind","Stadtbrunnen","Stadtsparkasse"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1,1,1,1,1,1,2],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.910038,48.306158
+]
+,[
+11.909714,48.30619
+]
+,[
+11.909433,48.306012
+]
+,[
+11.90912,48.305879
+]
+,[
+11.909218,48.306196
+]
+,[
+11.90876,48.306371
+]
+,[
+11.908747,48.306111
+]
+,[
+11.908446,48.30625
+]
+,[
+11.908014,48.306416
+]
+,[
+11.907726,48.306113
+]
+,[
+11.907712,48.306344
+]
+,[
+11.90714,48.306522
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505718787,
+"guid": "f2ed1ab0426747708493c8ec0278ff15.1c",
+"title": "Spaziergang durch Erding 9/12",
+"description": "Spaziergang durch Erding, neunte von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 952381,
+"medianCompletionTimeMs": 693523,
+"numUniqueCompletedPlayers": 43,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/gqR02KSFU69dwhJRegLRwA_mhZkMSYiLJT22sbtNH3FAAg8XLOGo45XAVgYfUzmfkIyCmx9a4MovF9wWKNbg",
+"portalTitle": ["Kleiner Platz","Dem Abgeschiedenen Geiste","Die Gründnerische Grabstatt 1743","Gedenktafel Joan Christoph Zistler","Stadtpfarrkirche St. Johannes","Bronze Statue of St. Prosper","Straße Altar ","Schieber Sculpture","Eheleute Fischer","Zur Post","White Face","Junger Bacchus"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,2,1,1,2,1,1,1,1],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.907214,48.306252
+]
+,[
+11.906912,48.306304
+]
+,[
+11.906588,48.30634
+]
+,[
+11.906529,48.306525
+]
+,[
+11.906127,48.306447
+]
+,[
+11.905802,48.305741
+]
+,[
+11.905113,48.305777
+]
+,[
+11.905145,48.30555
+]
+,[
+11.90632,48.305513
+]
+,[
+11.90671,48.305775
+]
+,[
+11.907081,48.306008
+]
+,[
+11.90695,48.3056
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505727275,
+"guid": "1e14985ea5304699a8ba17039d707ee2.1c",
+"title": "Spaziergang durch Erding 10/12",
+"description": "Spaziergang durch Erding, zehnte von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 950000,
+"medianCompletionTimeMs": 1380390,
+"numUniqueCompletedPlayers": 41,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/C2YFn-tOYdkD0iXv3iWesBYO9QaJNoS2qqXa2rXPIsOlnLdSiPs3OSvCthUvv-zrVbl9uD_ftia491nTIhVC",
+"portalTitle": ["St. Florian Mitte","Maria in der Wand","Zeitlos","Historic Landmark","Hölzerner Rennradfahrer","Bücherei Erding","Deine Stadt","Friedensengel ","Jesus","Jesus","Metal World","Glowing Dentist"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,2],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.907855,48.305473
+]
+,[
+11.908055,48.305645
+]
+,[
+11.908935,48.30554
+]
+,[
+11.90954,48.305326
+]
+,[
+11.910071,48.306732
+]
+,[
+11.909592,48.307167
+]
+,[
+11.909846,48.307535
+]
+,[
+11.908356,48.309083
+]
+,[
+11.907675,48.309022
+]
+,[
+11.907522,48.308778
+]
+,[
+11.907973,48.308641
+]
+,[
+11.908085,48.30835
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505731797,
+"guid": "08d56a1a5e8a4dcbbed9b45a8a5e5b21.1c",
+"title": "Spaziergang durch Erding 11/12",
+"description": "Spaziergang durch Erding, elfte von zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 804878,
+"medianCompletionTimeMs": 1690639,
+"numUniqueCompletedPlayers": 41,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/HBkFTEf6yF3EmaTDXJKvNxkcvZI2Pey1iM1io-9BLIcJ_ao4sX8HGgeapHZnnaCnD_V6C4EgrQzPoUsAK1xkGw",
+"portalTitle": ["Ehem Schönherr Haus","Zeitzeichen","Gruberhausen","Gedenktafel Josef von Widnmann","Jesus Baby mit Mama","Stadt Apotheke Erding","Säule der Feldzüge","Carl Spitzweg in Erding","Neuapostolische Kirche","Maria & Kind","Big C","Sculpture at the Alois Schiess"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,8,1,1,1,1,1,1,1,1,2,1],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.90776,48.308218
+]
+,[
+11.907911,48.307967
+]
+,[
+11.90868,48.307841
+]
+,[
+11.907222,48.307327
+]
+,[
+11.907485,48.307107
+]
+,[
+11.907409,48.306933
+]
+,[
+11.90801,48.306968
+]
+,[
+11.907091,48.306892
+]
+,[
+11.90526,48.307733
+]
+,[
+11.903748,48.307232
+]
+,[
+11.904146,48.308194
+]
+,[
+11.904619,48.308521
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505735592,
+"guid": "44929a7fda2c421fb99f4d533b8c8901.1c",
+"title": "Spaziergang durch Erding 12/12",
+"description": "Spaziergang durch Erding, letzte der zwölf Missionen",
+"author":"djromeggs",
+"authorTeam": "E",
+"ratingE6": 904762,
+"medianCompletionTimeMs": 1392422,
+"numUniqueCompletedPlayers": 42,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2GJiE7XuZHVP0N8VgU9gytLwXI5tkNaLA9s5o7wT4puLn76VQrsxdRXwkj4NYGI6xlmKhyDqxg3mvMq5L0Ku",
+"portalTitle": ["Stadthalle","Ehemalige Krankenhauskapelle","Brunnen Landratsamt","Stadthalle Erding Wandbild","Kleiner Platz","Der Schöne Turm","Heiliger im Vogelhäuschen","Predigt am Heimatmuseum","Milestone","Globe On The Wall","Regen Maedchen","Bahnhof Erding"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,1,1,1,1,1,1,1,1,1,1,2],
+"id": 43
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.905335,48.30858
+]
+,[
+11.905914,48.308802
+]
+,[
+11.905258,48.308385
+]
+,[
+11.905738,48.308059
+]
+,[
+11.907214,48.306252
+]
+,[
+11.909218,48.306196
+]
+,[
+11.910038,48.306158
+]
+,[
+11.910734,48.305332
+]
+,[
+11.912167,48.304198
+]
+,[
+11.912504,48.304111
+]
+,[
+11.911838,48.303919
+]
+,[
+11.912288,48.303731
+]
+]
+}
+}]}

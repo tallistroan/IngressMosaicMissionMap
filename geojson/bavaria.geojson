@@ -1,0 +1,1010 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473047887760,
+"guid": "181fa8d7042545a09e722cfc9e39950d.1c",
+"title": "Bavaria München 1 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 969697,
+"medianCompletionTimeMs": 816218,
+"numUniqueCompletedPlayers": 66,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/JzDPEtRO9ouOdSHByJdRiCidWrK0AIlc9wM-Po_9pJywK0sde-dwU8SnG7Qk-cNjjaHFpqmc_NswojKYl0zVMw",
+"portalTitle": ["Monaco Bavaria","Bavaria statue","Up in Bavaria","WW1 Memorial Theresienwiese","Bayerische Zugspitzbahn","Metallzylinder 13 und 13a an der Theresie"],
+"portalTypeNum": [1,2,2,1,1,1],
+"portalObjectiveNum": [8,7,7,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.545971,48.130672
+]
+,[
+11.546032,48.131814
+]
+,[
+11.545652,48.132479
+]
+,[
+11.546457,48.133279
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047891363,
+"guid": "e2918266eaca4378a57c83e006cbd53f.1c",
+"title": "Bavaria München 2 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 937500,
+"medianCompletionTimeMs": 624359,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ef7KiqEeBfYlrElDiAPQ-0mz7lpPatoMPETej5C_jfbMUdrfSP9gsJoqYxungw-BLj1nTbpMt1HfdbujF5ik",
+"portalTitle": ["Hotel Krone","Hacker-Pschorr Bräuhaus","Theresienwiese Gedenktafel","Theresienwiese Klohaus","Frauenstatue mit Efeu","Altes Gerichtsgebäude"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.547272,48.135554
+]
+,[
+11.547958,48.136068
+]
+,[
+11.549709,48.135901
+]
+,[
+11.549739,48.13629
+]
+,[
+11.550734,48.13603
+]
+,[
+11.551024,48.135959
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047906837,
+"guid": "4e9c37699194466da602bc86bffd43fb.1c",
+"title": "Bavaria München 3 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 970149,
+"medianCompletionTimeMs": 262018,
+"numUniqueCompletedPlayers": 71,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/RiGv-EpG8opFbDI7rR-KXH6CHmFsplKdpukECg66mAVUAlRklNUWI7xC6jvxdOWQ9N1BL9Fv5DamjwiwSBgt",
+"portalTitle": ["Schildhalter","Cathédrale St Paul","Oktoberfest's best view","Esel Mit Harfe","Jesus am Kreuz","Pfarrhaus St. Pauls"],
+"portalTypeNum": [1,1,2,1,1,1],
+"portalObjectiveNum": [1,1,7,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.551322,48.136018
+]
+,[
+11.551668,48.136416
+]
+,[
+11.551973,48.13658
+]
+,[
+11.552652,48.136513
+]
+,[
+11.552983,48.136621
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047910210,
+"guid": "66b737353a98419abed3d969dfe37906.1c",
+"title": "Bavaria München 4 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 984615,
+"medianCompletionTimeMs": 511633,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/juo8_oRveaAt1iVmz4PhSmCqeXtvBr8Dx7isbtl61F0675mRJSIukSRmtVTWb3g1yBu-Qm46UFYP0trDj_Gw",
+"portalTitle": ["Fake 3D Ornament ","Frozen Face At Cafe Lenz ","Modernized Palace","Sitzende Frau","Köpfe","Sunclock"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.553401,48.136002
+]
+,[
+11.553274,48.135385
+]
+,[
+11.55435,48.134879
+]
+,[
+11.555499,48.134975
+]
+,[
+11.554993,48.134443
+]
+,[
+11.553598,48.133998
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047913284,
+"guid": "2bc3d1e7178a4125a9ff91ae80b6fa11.1c",
+"title": "Bavaria München 5 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 984127,
+"medianCompletionTimeMs": 476436,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/sm3Ym0VEDgzHrCZQoG8l8zs5iBwfeTDCXdZl2lymwYKlVHuBcN24t2ge50bSeYVzUGEDfKhb09-nWceEaAoE",
+"portalTitle": ["Advertising Pillar","Kraftfahrer-Schutz","Holzhäusle","Wiesn View","Theresienwiese","Mozartstraße 23"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.553383,48.133687
+]
+,[
+11.554049,48.133691
+]
+,[
+11.553351,48.132931
+]
+,[
+11.553859,48.132192
+]
+,[
+11.552832,48.130229
+]
+,[
+11.553881,48.129973
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047938709,
+"guid": "da9a20a84fb64d21a88c8e6fa5a58f81.1c",
+"title": "Bavaria München 6 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 969231,
+"medianCompletionTimeMs": 350924,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/n3sVA1lNcxOQW0SVgfCqj4mkVKAi8mAYiUL2wAbWfmGKGvwnVdXxv0nvFxQvYf-gppo3Y8dHPDbin7xHHKi7EQ",
+"portalTitle": ["Maria mit Kind","Alte verzierte Fassade","Altbau am Bavariapark","Theresien Gymnasium","Monument of Louis IV the Holy","Hallebrandt Haus"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.554318,48.13061
+]
+,[
+11.554395,48.130897
+]
+,[
+11.554964,48.131257
+]
+,[
+11.556192,48.131917
+]
+,[
+11.555798,48.132016
+]
+,[
+11.556199,48.132539
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047942741,
+"guid": "1921a191a7af450d8cd748932a4db723.1c",
+"title": "Bavaria München 7 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 984848,
+"medianCompletionTimeMs": 281686,
+"numUniqueCompletedPlayers": 71,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/h-VXMH3UZPuiWzoe8mIokrJaOoDa4mn05WfcaUtDC8W2beSbwvx9qVxwczIW24O4_ppt5GfTj7W0aPEJIQM8",
+"portalTitle": ["Prämiertes Meisterstück","Sprüche an der Wand","Watcher of the Window","Bavarian Angels","Golden Wife","Art at Bildungszentrum"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.556903,48.132655
+]
+,[
+11.557259,48.132417
+]
+,[
+11.558017,48.132481
+]
+,[
+11.557886,48.132967
+]
+,[
+11.558247,48.133207
+]
+,[
+11.558732,48.133124
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047946555,
+"guid": "198fe51d2ca849e9bc607b1d9d20132b.1c",
+"title": "Bavaria München 8 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 937500,
+"medianCompletionTimeMs": 257952,
+"numUniqueCompletedPlayers": 71,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/8tYJ7Z7nk8sCBxfcLTX_7qG6qZJb8ALg6a-YICu0428BYEXVKHL_rY7zpj1ybTFDz5jWZkOo4YdpyNx1ZxA",
+"portalTitle": ["Medical Reading Hall","Mariandl","Stone Art","Sculpture at the Corner Petten","Ring","The Bronze Portal Ring"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.558362,48.133413
+]
+,[
+11.558658,48.133423
+]
+,[
+11.558399,48.134404
+]
+,[
+11.558339,48.134625
+]
+,[
+11.557791,48.13468
+]
+,[
+11.557525,48.13457
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047954267,
+"guid": "aadd25622ba14f0c9560abfe0697339d.1c",
+"title": "Bavaria München 9 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 969697,
+"medianCompletionTimeMs": 531219,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/6QrZHt7kYEd8bzePfRUaZXtWsygnfmIJ_jW8-_Op3jlGRuh95wwD-XIY4o--xITBJCa5naKGw8JxBWefhP14",
+"portalTitle": ["Mann Mit Bart ","Sitzende Frau","Wandkunst Allianzarena","Yellow Angels","Relief Maria & Kind Art","Historische Fasade Schwanthalerstr."],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.556521,48.134854
+]
+,[
+11.555499,48.134975
+]
+,[
+11.555608,48.136033
+]
+,[
+11.556012,48.136445
+]
+,[
+11.555664,48.137063
+]
+,[
+11.554272,48.137589
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047975132,
+"guid": "d9e9786ea2e04563a2c1bc7f12835281.1c",
+"title": "Bavaria München 10 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 940299,
+"medianCompletionTimeMs": 263403,
+"numUniqueCompletedPlayers": 71,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/hNPW1Bq1mDPCWkWp0XMhESztPRkGjUkNLJKRO-P-ZKREFrsOBEKbf3FwgbbUS2BZb5gWGOeE_V2L0TunVfq7",
+"portalTitle": ["Wahre Kunst Ist Eine Blüth, Wachsend Aus Des Volks Gemüth","Augustiner Bräu","Weltwirtschaft Wandgemälde","Burgwappen","Eunuch","Angel und Ködermarkt"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.553939,48.137424
+]
+,[
+11.553374,48.137371
+]
+,[
+11.553215,48.137609
+]
+,[
+11.552393,48.137408
+]
+,[
+11.552196,48.137782
+]
+,[
+11.551741,48.137948
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473047986966,
+"guid": "7f1e7aba21164a7386efe6e42d88dc57.1c",
+"title": "Bavaria München 11 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 925373,
+"medianCompletionTimeMs": 446654,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/AA6d-sf8dRmyG_t1QQm_-wvJ0f4eX7Qh-wrp7MlY91zIWOpUfOA0DvwpPE7ecIwXlLUk0z3QEZlq0C03oXMu_w",
+"portalTitle": ["Hans Hermann Haus","Car Rent Knacki","Da Un Evelpluma ","5 Steinsäulen","Sonnentor, Hansjörg Voth","Kindergarden Window Painting"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.551496,48.138123
+]
+,[
+11.551566,48.138703
+]
+,[
+11.550579,48.139117
+]
+,[
+11.549993,48.139106
+]
+,[
+11.548882,48.139492
+]
+,[
+11.548677,48.139728
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048002713,
+"guid": "478228b5362443c69a6d71129c4ea651.1c",
+"title": "Bavaria München 12 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 969231,
+"medianCompletionTimeMs": 253208,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/VzOdQos6-HrIJLugUtUQls3wz1hClrLp5zmz5KPPlF99QjdDbkgW6wzztc0f4xDPjEJPatbxRSKZLMCsxwx9pQ",
+"portalTitle": ["Mondphasen-Brunnen","Wasserspiele","Brückenlagersockel","Stellwerk Hauptbahnhof","Hackerbrücke","Hackerbrücke"],
+"portalTypeNum": [1,1,1,1,2,1],
+"portalObjectiveNum": [1,1,1,1,7,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.548535,48.140342
+]
+,[
+11.548608,48.140562
+]
+,[
+11.548558,48.140769
+]
+,[
+11.548553,48.14164
+]
+,[
+11.548406,48.141984
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048007596,
+"guid": "ddf3307e365648b6affa8188e055cdb3.1c",
+"title": "Bavaria München 13 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 953125,
+"medianCompletionTimeMs": 734284,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/b0n6GQaum2lUcAofXR4ntQ4qz50WcVcfl0mUiaW7XlRVxcoFKzuRQb6zsM9kQ24IpGnAw8qZZFQNMoVVLTBR",
+"portalTitle": ["Alte Steinbrücke am ZOB","Kunst-Messe München","Lichtpyramide","Play","Wittelsbacher Goldmarie","Brennstoffzelle"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.548504,48.142584
+]
+,[
+11.548839,48.144165
+]
+,[
+11.549267,48.144543
+]
+,[
+11.547685,48.145244
+]
+,[
+11.548152,48.145903
+]
+,[
+11.548535,48.146513
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048026530,
+"guid": "dbf12226115244178ac30797aa3014a0.1c",
+"title": "Bavaria München 14 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 923077,
+"medianCompletionTimeMs": 345212,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/yLgFlshntJ9zPPWnOPEI3a7VkVPSiZnTDP0zZjN9pTHINxVTO6ZZ1S4VZ7Wm7kvVelHT2gZtBzk-d2ieOBEk",
+"portalTitle": ["Senefelder Denkmal","Akademie für das Graphische Gewerbe","Kleiner Obelisk am Marsplatz","Turm","Finanzamt München IV","Schlüssel zur beruflichen Bildung"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.547636,48.146232
+]
+,[
+11.547467,48.14601
+]
+,[
+11.547449,48.146607
+]
+,[
+11.546501,48.146139
+]
+,[
+11.545687,48.14612
+]
+,[
+11.546215,48.145729
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048030629,
+"guid": "30c58d8f73134492a5a406ad30c25472.1c",
+"title": "Bavaria München 15 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 919355,
+"medianCompletionTimeMs": 498885,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/gN5A6fgLzNG5ZyDHnbYcxnoBh9uJuF6B1HCOs-nR44LF4Pa1g09UkEVBTaTkaU7y7PkbpF72-hERipJ3pSM",
+"portalTitle": ["Schneeball Des Lichts","Business Building","Arnulfpark","Web Maze","Cheese Wall","Arnulfpark Infotafel"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.545137,48.144655
+]
+,[
+11.545315,48.14295
+]
+,[
+11.544418,48.142975
+]
+,[
+11.542888,48.143398
+]
+,[
+11.542648,48.143516
+]
+,[
+11.541995,48.143162
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048037798,
+"guid": "b5ca96695b8a4eefbc346fe4136529bc.1c",
+"title": "Bavaria München 16 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 938462,
+"medianCompletionTimeMs": 320334,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/aNkno5cS-8FfyZNxBEfOdwPrTG_RkDyVDWPdpjYBswfqF4nNAV82fphb4oQVnBGUH9aTS3J1Ox7gz4DbRpUCYw",
+"portalTitle": ["Chessboard","Arnulfpark Tafel","Ring & Hock","Stangen","Arnulfpark","Arnulfpark"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.540545,48.143781
+]
+,[
+11.539824,48.143633
+]
+,[
+11.539738,48.143969
+]
+,[
+11.538728,48.144134
+]
+,[
+11.538491,48.143937
+]
+,[
+11.538367,48.143505
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048042241,
+"guid": "2dc7c9909f444e1db10cb5f0bb0d6f5e.1c",
+"title": "Bavaria München 17 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 953125,
+"medianCompletionTimeMs": 223024,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ESFcYRuqAWQxO4i93JB1rM5VrH44YNLwN9Y6TZLQHjPbLxz79bBOqnRzaP3v1di5hAJM-jUZWLgvKi7utyU",
+"portalTitle": ["Dean and David","Anarchie in Bayern","Asphaltsee","Freiheizhalle","Schornstein, Erika-Mann-Straße","Kent at Donnersbergerbrucke"],
+"portalTypeNum": [1,1,1,2,1,1],
+"portalObjectiveNum": [1,1,1,7,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.537237,48.143653
+]
+,[
+11.536983,48.143764
+]
+,[
+11.537017,48.143944
+]
+,[
+11.536131,48.143858
+]
+,[
+11.535523,48.143702
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048056715,
+"guid": "5c0df8dbd137410da28756a1f09f5fec.1c",
+"title": "Bavaria München 18 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 953125,
+"medianCompletionTimeMs": 186606,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/ZSX6gvA8MAT1SvPiVHgUVENDPgPQWaK-P3tpi6UGY0DCpJoPXLWVOYv3wYvLx3YTFm8V7gU3vVI8-l6C5dt0",
+"portalTitle": ["Geier","Mysteriöse Skulptur Donnersberger Brücke","Mouse on the Box","3 Women In A Park","We're All Mad Here Mural","Die Drei Pfeifen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.535228,48.143529
+]
+,[
+11.535334,48.143278
+]
+,[
+11.534201,48.143443
+]
+,[
+11.533996,48.143615
+]
+,[
+11.534512,48.143824
+]
+,[
+11.534194,48.144019
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048063244,
+"guid": "6eeee288d52b492280ccf4a41c6ec98b.1c",
+"title": "Bavaria München 19 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 923077,
+"medianCompletionTimeMs": 208237,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/2Ruz65Ta3MaRuURdQFHy1IE-JPtOEYUjMvasDPcxaLivgWnbkOqqd123rpVG1Y0gDS4TGXcqtOcsOgoi_yTx",
+"portalTitle": ["Graffiti Missile","Kabelsalat","Duckmarine Graffiti","Animals Mural","Eyes Mural","Loco Ink"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.534567,48.144106
+]
+,[
+11.534599,48.144382
+]
+,[
+11.534403,48.144583
+]
+,[
+11.534631,48.1447
+]
+,[
+11.534816,48.145257
+]
+,[
+11.534929,48.14549
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048067090,
+"guid": "331689bca7894ac49509bd235fd4880c.1c",
+"title": "Bavaria München 20 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 953846,
+"medianCompletionTimeMs": 615608,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/bs_0NIHlCriKYNEAkSwKAVm2hmTfjRxB_YPInrBn4U0N2tuPna4ubNjinh3q6oL_Ji0Tl5rHmWiI8MUlFi1W",
+"portalTitle": ["Miss Leprechaun and Unicorn","Forest in the City","Mercedes Niederlassung Donners","Mercedes-Benz Centre","Helmholtz 2","Citadines Hotel"],
+"portalTypeNum": [1,1,1,2,1,1],
+"portalObjectiveNum": [1,1,1,7,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.535302,48.145837
+]
+,[
+11.53594,48.145793
+]
+,[
+11.536128,48.145969
+]
+,[
+11.541226,48.145016
+]
+,[
+11.54215,48.144843
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048078487,
+"guid": "c40c9e66f4304c7abdc915a2a2c165ea.1c",
+"title": "Bavaria München 21 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 923077,
+"medianCompletionTimeMs": 714500,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/Gub-Jge8uZC-2H8TCo9bocUo8-0Sa_3I7bDXXExEt1Pn6XVc1gblWnVpPLqtnl5399tsSECcGnmLDLeRymdS",
+"portalTitle": ["Schneeball Des Lichts","Saint","Figuren an der Wand","Wappenlöwe","Alte Steinbrücke am ZOB","Hackerbrücke"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.545137,48.144655
+]
+,[
+11.546729,48.144099
+]
+,[
+11.547014,48.144061
+]
+,[
+11.547345,48.143963
+]
+,[
+11.548504,48.142584
+]
+,[
+11.548406,48.141984
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048091913,
+"guid": "34789f27bd81494590827f17be7c91f7.1c",
+"title": "Bavaria München 22 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 953846,
+"medianCompletionTimeMs": 245731,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/rVkuT-guyCE34LEs80jTM0HI1U6ASo2UctOtt1vmhxl6s_dACtvUw8S0d2lG84Iz9WDTPLLtJZKMck4eCqGO",
+"portalTitle": ["Stellwerk Hauptbahnhof","Hackerbrücke","Brückenlagersockel","Wasserspiele","Mondphasen-Brunnen","Kindergarden Window Painting"],
+"portalTypeNum": [1,2,1,1,1,1],
+"portalObjectiveNum": [1,7,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.548553,48.14164
+]
+,[
+11.548558,48.140769
+]
+,[
+11.548608,48.140562
+]
+,[
+11.548535,48.140342
+]
+,[
+11.548677,48.139728
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048094734,
+"guid": "1b0fb9d3e07940c2bb6fe837298f5d3e.1c",
+"title": "Bavaria München 23 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 954545,
+"medianCompletionTimeMs": 514226,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/aqb_UfxpHcPRK-QVfvOnNlt3_NZN9_QSkaV8rL7Dq8DA-OPoOctbpMCKaKMdvP0Pq18a0-CqvLI80H4EqKE",
+"portalTitle": ["Sonnentor, Hansjörg Voth","Red Eye","EPO Skybar","Theresienhaus","Kleiner Springbrunnen","Glass Pyramid"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.548882,48.139492
+]
+,[
+11.548596,48.138895
+]
+,[
+11.549462,48.138754
+]
+,[
+11.549576,48.13769
+]
+,[
+11.549315,48.137105
+]
+,[
+11.548218,48.136921
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473048106467,
+"guid": "cc0a057930be4cbf8d3cdb1f19164400.1c",
+"title": "Bavaria München 24 / 24",
+"description": "Die kolossale und monumental anmutende Bronzestatue der Bavaria wurde im Auftrag von König Ludwig I. (1786–1868) in den Jahren 1843 bis 1850 errichtet. Sie bildet eine Einheit mit der Ruhmeshalle.",
+"author":"TheMonster1979",
+"authorTeam": "R",
+"ratingE6": 968750,
+"medianCompletionTimeMs": 610521,
+"numUniqueCompletedPlayers": 71,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/wQjTLQ0FT-1F1zQC_q8ajyiOKGEYzrcrllVqy5YBO8QUTIbMgjTSzBzVxYPF54hDuvIJttUwG-kWDYM7f9m7",
+"portalTitle": ["Theresienhöhe Brunnen","Hacker-Pschorr Bräuhaus","Hotel Krone","Metallzylinder 13 und 13a an der Theresie","WW1 Memorial Theresienwiese","Monaco Bavaria"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 8
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.548383,48.136738
+]
+,[
+11.547958,48.136068
+]
+,[
+11.547272,48.135554
+]
+,[
+11.546457,48.133279
+]
+,[
+11.546032,48.131814
+]
+,[
+11.545971,48.130672
+]
+]
+}
+}]}

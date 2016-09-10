@@ -1,0 +1,803 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473505095574,
+"guid": "66cb3887a5ca4b11859f3bba82ed89a3.1c",
+"title": "FFB - ENL-Mosaik 01",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis FFB und seine Dörfer und Städte ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 916667,
+"medianCompletionTimeMs": 768070,
+"numUniqueCompletedPlayers": 43,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/oAl-8ee8SzoCryOoKax-YuuP0yJRTYG9cgBTYLJTachErfgcap6-e9v2p_390CtMK-911EmbFS2zymPqzyli",
+"portalTitle": ["Hardy's FFB","Modern House","Dragon-Killer","Wandkapelle","Kunstwerk","Kapelle an der Straßenecke","Ikone an Hauswand"],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.251303,48.177499
+]
+,[
+11.251953,48.178043
+]
+,[
+11.250393,48.178463
+]
+,[
+11.249777,48.177469
+]
+,[
+11.24941,48.176133
+]
+,[
+11.249688,48.175991
+]
+,[
+11.250415,48.176126
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505099770,
+"guid": "b8e494dcdf654e2ba7c1ce5e1cd0873e.1c",
+"title": "FFB - ENL-Mosaik 02",
+"description": "Diese Misssionen bringen euch dazu, die Dörfer und Staädte im LKR FFB zu besuchen. Um das Mosaik zu bekommen, müsst ihr die Missions in Reihenfolge von 1 bis 18 machen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 952381,
+"medianCompletionTimeMs": 776392,
+"numUniqueCompletedPlayers": 43,
+"typeNumMission": 2,
+"image": "https://lh4.ggpht.com/uRYvX9xCqME2CZs-FIk7Jq36K13DKA5CEOnl34D8HVVxStZtuEt9fUKUepsVZoFS11ysUSOP3kvlNiNf6_IR0g",
+"portalTitle": ["Maibaum vor der Brauerei","Brauerei  Kaltenberg","Marthabräu-Kapelle","Matthäus Kap. 6 Vers 26","Ballerina Mural","Lichtspielhaus in FFB","Fahnenmasten am Park","AXA, Augsburger Str. 11","Piratenschiff"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.252759,48.182592
+]
+,[
+11.252576,48.182832
+]
+,[
+11.253649,48.183009
+]
+,[
+11.25499,48.183414
+]
+,[
+11.255262,48.183149
+]
+,[
+11.254999,48.182729
+]
+,[
+11.254371,48.181101
+]
+,[
+11.254033,48.181052
+]
+,[
+11.254207,48.180904
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505102512,
+"guid": "548644639e274ebdaa73057e66f70364.1c",
+"title": "FFB - ENL-Mosaik 03",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 833333,
+"medianCompletionTimeMs": 590749,
+"numUniqueCompletedPlayers": 42,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/PN15nQ9dwSkVVpLjrAX41qZmgGrAZrtTdgGJXE2E_dYNDzMmBeG1Qo5JLVheVuu59eAHJldq6u2feTw6GftP",
+"portalTitle": ["Gemälde über Tür","300 Jahre altes Haus","Fassadenmalerei","Rostige Säule","FFB Springbrunnen","Bibliothek","Aumühle Fürstenfeldbruck"],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.254488,48.175529
+]
+,[
+11.254693,48.175664
+]
+,[
+11.25403,48.175192
+]
+,[
+11.254125,48.174924
+]
+,[
+11.253528,48.17492
+]
+,[
+11.253015,48.174875
+]
+,[
+11.25309,48.175283
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505117073,
+"guid": "4e9991c2e8ce485b86b359501bc01890.1c",
+"title": "FFB - ENL-Mosaik 04",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis FFB und seine Dörfer und Städte ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 916667,
+"medianCompletionTimeMs": 1062571,
+"numUniqueCompletedPlayers": 36,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/BFFu5rLVYdf0JepZwxhuNdgEnDKFOtVMmerY-brFGWD8Re0sdQzEyBpJbB4Duub3ETR-G_croqzfz217Qw1XYA",
+"portalTitle": ["Marterl Am Bauernhof","Vogelhaus Auf Baumspitze ","Wappen Bäckerei Wimmer","Piece of Art","Brunnen Emmering","Jesuskreuz","Rathaus Emmering","Stadtbrunnen Emmering"],
+"portalTypeNum": [1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.271094,48.183222
+]
+,[
+11.274163,48.183948
+]
+,[
+11.274598,48.184043
+]
+,[
+11.275746,48.184172
+]
+,[
+11.27635,48.184285
+]
+,[
+11.276974,48.182608
+]
+,[
+11.276599,48.182497
+]
+,[
+11.276768,48.181927
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505186468,
+"guid": "dc347a1e7fd14c42905a62a3999a0f01.1c",
+"title": "FFB - ENL-Mosaik 05",
+"description": "Besuche die Dörfer und Städte im Landkreis Fürstenfelbruck, dann bekommst du als Belohnung ein Mosaik auf dem Scanner. Fange bei 01 an und höre bei 18 auf.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 861111,
+"medianCompletionTimeMs": 1644621,
+"numUniqueCompletedPlayers": 34,
+"typeNumMission": 2,
+"image": "https://lh5.ggpht.com/owUTlGJUdg0SFaOEN0Sjb1dHV5eH5jsYHZ5jNO-NOuu9IqRLRVaETO_Rgz1ncE0MUbG0BVN4T1LD3DIhyVqA",
+"portalTitle": ["Brunnen Rosshaupterplatz","Bunte Kuh in Olching","Fox Pole Olching","Gartenfreunde Olching Jubiläumstafel","Rathaus Olching","Baum der Besinnung"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.323891,48.2029
+]
+,[
+11.32555,48.197717
+]
+,[
+11.330555,48.19912
+]
+,[
+11.331608,48.199334
+]
+,[
+11.331487,48.203397
+]
+,[
+11.332053,48.205504
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505191757,
+"guid": "2a1055ba14964a03b589fff3617e1d3e.1c",
+"title": "FFB - ENL-Mosaik 06",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 812500,
+"medianCompletionTimeMs": 1461864,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/iwN0VypJouWxg3hqL0Pp8ts5Bh6ohdHHEP7q4l63LyYI_ziWPJImZCtddY34G2hLjXqZYpuc4UzF6uenJWb0",
+"portalTitle": ["Missile Plaque","Steinskulptur am Gröbenzeller Gymnasium","Springbrunnen Gymnasium Gröbenzell","Brunnen Am Freizeitheim","Colored Wall","Spielplatz Häuschen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.380662,48.193152
+]
+,[
+11.381667,48.19362
+]
+,[
+11.383132,48.192691
+]
+,[
+11.383724,48.19216
+]
+,[
+11.381746,48.192239
+]
+,[
+11.380513,48.192276
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505195312,
+"guid": "c93a0bbb965240e692243176fedc1da3.1c",
+"title": "FFB - ENL-Mosaik 07",
+"description": "Um das Mosaik auf den Scanner zu bekommen, musst du Missionen, die dich durch Landkreis führen, in Reihenfolge von 01 bis 18 machen. Besuche Puchheim eine Stad im Landkreis Fürstenfeldbruck.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 733333,
+"medianCompletionTimeMs": 1418060,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/zLC7nuwOUZxzfRu7MDYHDuENIUtWmykgPuSxbgs11SD6tgAVR4PAjtYU4IaKY9Q2xdtB7GkDewZN1gqRi9Vf",
+"portalTitle": ["The Chain Gang","Säulen der Freundschaft","Gaststättenplatz","Tribüne Fußballplatz Puchheim","Goldener Propeller","Kriegsgefangenenlager Gedenkstein "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.352609,48.179096
+]
+,[
+11.352255,48.179184
+]
+,[
+11.354099,48.179666
+]
+,[
+11.354723,48.180559
+]
+,[
+11.352943,48.17996
+]
+,[
+11.351682,48.180021
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505216859,
+"guid": "030139fc1bb4422d93d1948b26fb6aa5.1c",
+"title": "FFB - ENL-Mosaik 08",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 740741,
+"medianCompletionTimeMs": 870740,
+"numUniqueCompletedPlayers": 27,
+"typeNumMission": 2,
+"image": "https://lh4.ggpht.com/0nwsY4oSrBVkTmVqrTtu3wX3iw5LRXoK7w9FSMZL2o3BWkwHtxATVfXLDuNPdOYr6wd0JN8LpTyChRn9J1oa",
+"portalTitle": ["Seilstern","JuZ Eichenau","Mosaik","Katholische Kirche Eichenau","Kriegerdenkmal","Maibaum Eichenau","Rathaus Eichenau"],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.324029,48.173088
+]
+,[
+11.324452,48.17202
+]
+,[
+11.32261,48.171034
+]
+,[
+11.322043,48.172026
+]
+,[
+11.32134,48.172048
+]
+,[
+11.322313,48.172366
+]
+,[
+11.322779,48.172871
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505258552,
+"guid": "5158c6f9f3594714bcec98e0d7f13e5f.1c",
+"title": "FFB - ENL-Mosaik 09",
+"description": "Besuche Germering, eine der Städte im Landkreis Fürstenfeldbruck. Um das komplette Mosaik auf den Scanner zu bekommen, musst du bei 01 beginnen und die Missions in  Reihenfolge machen",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 814815,
+"medianCompletionTimeMs": 1170422,
+"numUniqueCompletedPlayers": 27,
+"typeNumMission": 2,
+"image": "https://lh3.ggpht.com/Dgk0qV5PPS6Fo8tYMgVd7b4CiOtlLAPhCIZRdwmSsPYUN_I1CjsROb0qmq5iUE4KEwE3akcgohANBjY4w-4hCg",
+"portalTitle": ["JBSII Outback","ASP Abenteuerspielplatz","Burkart","MC Donalds Rutsche","Birnbaum Steig Mai Baum","Historische Wasserversorgung Germering"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.376116,48.14076
+]
+,[
+11.37548,48.140548
+]
+,[
+11.37525,48.138662
+]
+,[
+11.371271,48.138991
+]
+,[
+11.377205,48.137982
+]
+,[
+11.378727,48.138442
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505263094,
+"guid": "f594330aa06a4697a218b3cf4ae8c20d.1c",
+"title": "FFB - ENL-Mosaik 10",
+"description": "Diese Mission ist Teil eines Mosaiks, für welches du die Missionen im Landkreis von 1 bis 18 in Reihenfolge machen solltes. Diese Mission führt dich nach Germering, eine der beiden großen Kreisstädte.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 857143,
+"medianCompletionTimeMs": 468933,
+"numUniqueCompletedPlayers": 27,
+"typeNumMission": 2,
+"image": "https://lh3.ggpht.com/fp2xCfTtoGffD7fRb_AzB0XB6S36Uwx6dSWObTjWGKDNekLRyXInVl-dKs7KCj36RZhpdJ0rnrxXwhI_89rSqg",
+"portalTitle": ["Maibaum Germering","The Dragon","Alte Hufschmiedtafel","Wandbild Feuer Fighter","Trattoria Weinlese","Kreuz auf Verkehrsinsel","Beim Joche"],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.360472,48.138338
+]
+,[
+11.359909,48.138192
+]
+,[
+11.359024,48.137919
+]
+,[
+11.358808,48.137643
+]
+,[
+11.354753,48.135798
+]
+,[
+11.352704,48.134732
+]
+,[
+11.351315,48.134495
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505275906,
+"guid": "21ed69d8c29f4f4ab0b9006baa32d370.1c",
+"title": "FFB - ENL-Mosaik 11",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis FFB und seine Dörfer und Städte ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 785714,
+"medianCompletionTimeMs": 473909,
+"numUniqueCompletedPlayers": 27,
+"typeNumMission": 2,
+"image": "https://lh5.ggpht.com/KVfSnOPDovs96OQApqYECkNhcqcZNYCLxH3G84UA9eW3jMvetyNpvOl517T7GO7ig60At4dFFG95Cof-y-qx",
+"portalTitle": ["Wandmalerei","Wandbild Pension St. Jakob","Old Church St.  Jakob","Kriegerdenkmal Germering","Maibaum am Kriegerdenkmal","St. Rupert Gedenkstatue"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.353373,48.128103
+]
+,[
+11.352157,48.129644
+]
+,[
+11.349961,48.128348
+]
+,[
+11.349653,48.127925
+]
+,[
+11.349699,48.127545
+]
+,[
+11.348491,48.126819
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505307822,
+"guid": "60679edfcaf643a8b5b3033c2ffa9f8b.1c",
+"title": "FFB - ENL-Mosaik 12",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 785714,
+"medianCompletionTimeMs": 943161,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 2,
+"image": "https://lh3.ggpht.com/plGU-6dJCBAh-GvRP0Y6PUs7Wy-gvVLDpTY6V2Lv3h2UoVFRAOCvXJ4OrSX0upNAcvhGyFmjcqShjlh4SjsJ",
+"portalTitle": ["Holzfrau auf Zaun","Maibaum an der Amper","Kriegerdenkmal","1250 Jahre","Kreuzweg Schöngeising","Schöngeising Bahnhof"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.209907,48.134193
+]
+,[
+11.208984,48.136069
+]
+,[
+11.208963,48.136445
+]
+,[
+11.206299,48.138838
+]
+,[
+11.19674,48.143962
+]
+,[
+11.191444,48.147216
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505311323,
+"guid": "94cc9940d2264619811a6ba9e83e54d8.1c",
+"title": "FFB - ENL-Mosaik 13",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis FFB und seine Dörfer und Städte ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 793103,
+"medianCompletionTimeMs": 1499700,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 2,
+"image": "https://lh3.ggpht.com/FgGq4BZLLzQrwVUO0Vo44WDjh8nDAdCwqMhM8zNWUHN6BLkXXiNAzkVjS8PHcpeAhEZiBeeK0sVyxsVrtzJw",
+"portalTitle": ["Kirche Mammendorf","Brunnen Mammendorf","Handwerker-Haus","Katholische Kirche Mammendorf","Maibaum","INRI","Türmle"],
+"portalTypeNum": [1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.16455,48.208256
+]
+,[
+11.164464,48.208031
+]
+,[
+11.163635,48.207887
+]
+,[
+11.156435,48.205789
+]
+,[
+11.154708,48.205624
+]
+,[
+11.146334,48.20811
+]
+,[
+11.146413,48.209851
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505335508,
+"guid": "d5a24b5e9a1e426daa5143125f81ec45.1c",
+"title": "FFB - ENL-Mosaik 14",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis FFB und seine Dörfer und Städte ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 785714,
+"medianCompletionTimeMs": 815096,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/ehBFpI95qfxzC5wAPfmbooC3DQd0X-d3ZaN3byQb9dCAMyZmOTnO4_CvdSGR1Lmes0L02O73Rqy3EDBqEuf6Tw",
+"portalTitle": ["Brunnen In Maisach","Maibaum Maisach","Braustüberl","INRI","Stonewall","Prähistorisches Maisach"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.25915,48.217113
+]
+,[
+11.261723,48.217309
+]
+,[
+11.263813,48.217074
+]
+,[
+11.264518,48.217024
+]
+,[
+11.267547,48.216869
+]
+,[
+11.26756,48.21664
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505348879,
+"guid": "0fb700300f8946e8a9d2dcaf07535aef.1c",
+"title": "FFB - ENL-Mosaik 15",
+"description": "Besuche die Dörfer und Städte im Landkreis Fürstenfelbruck, dann bekommst du als Belohnung ein Mosaik auf dem Scanner. Fange bei 01 an und höre bei 18 auf.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 812500,
+"medianCompletionTimeMs": 787130,
+"numUniqueCompletedPlayers": 32,
+"typeNumMission": 2,
+"image": "https://lh5.ggpht.com/ihrkHAiUU63hXXiOfhmyPPGotlpESuh0DPhCMUj86Fy-gGZuamVqRr-IihLpwa0aMN6IFcfTxj5jNq--FsMj",
+"portalTitle": ["Gedenkstein","Statue St.Konrad","Kreuz Kirchenbauverein","Kirche","Metallblume","Florian"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.296568,48.210647
+]
+,[
+11.295051,48.211234
+]
+,[
+11.294633,48.211456
+]
+,[
+11.294484,48.211134
+]
+,[
+11.295381,48.210694
+]
+,[
+11.29589,48.209935
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505353224,
+"guid": "7b10c2eecf7844de93e483e42fc408d1.1c",
+"title": "FFB - ENL-Mosaik 16",
+"description": "Besuche die Dörfer und Städte im Landkreis Fürstenfelbruck, dann bekommst du als Belohnung ein Mosaik auf dem Scanner. Fange bei 01 an und höre bei 18 auf.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 793103,
+"medianCompletionTimeMs": 992519,
+"numUniqueCompletedPlayers": 29,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/I8g86hfUr_tMQERRSbxC75CYo8eKDwaw-ut29bauvbHfxHUmQtVT71t1MWNEL7GnTNJ1YEHmOwfPThuMNuu3",
+"portalTitle": ["Marterl","Marterl Germerswang","Maibaum Germerswang","St Florian","Postkutsche","Bulls on the Wall"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.224584,48.226244
+]
+,[
+11.224957,48.222739
+]
+,[
+11.223676,48.222518
+]
+,[
+11.223257,48.222491
+]
+,[
+11.22278,48.222443
+]
+,[
+11.221615,48.222277
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505366163,
+"guid": "a5985ba8522348a892b1deed7daa2d09.1c",
+"title": "FFB - ENL-Mosaik 17",
+"description": "Dieses Mosaik besteht aus 18 Missionen die in Reihenfolge von 1 bis 18 gemacht werden müssen. Dabei lernt ihr den Landkreis FFB und seine Dörfer und Städte ein wenig kennen.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 851842,
+"numUniqueCompletedPlayers": 27,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/MylEKdbhJIkh9MzgQtAzw4xrz1mrCetlx_wgIMqBAW53dtJMyP32NkxG6DpB8d9um-Jik3x6j1JDBTdMgCM",
+"portalTitle": ["Kriegergedenktafel Aufkirchen","Maibaum Aufkirchen","Kirche Aufkirchen","Marterl am Wegesrand","Kirche Unterschweinbach","Maibaum Unterschweinbach"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.192268,48.24008
+]
+,[
+11.191947,48.240161
+]
+,[
+11.190507,48.241496
+]
+,[
+11.185109,48.246761
+]
+,[
+11.179747,48.252522
+]
+,[
+11.179044,48.252414
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473505378785,
+"guid": "ae42d3fd8b7b44329c4cfb75c0687db5.1c",
+"title": "FFB - ENL-Mosaik 18",
+"description": "Besucht die Städte und Dörfer  des LKR FFB. Um das Mosaik fertig zu bekommen, musst du die Missionen von 1 bis 18 in Reihenfolge machen. Hier besuchst du FFB.",
+"author":"Whombel",
+"authorTeam": "E",
+"ratingE6": 906250,
+"medianCompletionTimeMs": 748242,
+"numUniqueCompletedPlayers": 31,
+"typeNumMission": 2,
+"image": "https://lh4.ggpht.com/DwQOrk2x7ZYo8tJtgzKvz5ifEXkSlLd1WzaEB7CZvOp77jYm8R03nbi0fHv9a2q6qR22Avcrt8LWbr4Rr3c",
+"portalTitle": ["Kruzifix Augsburgerstrasse/Ortseingang","Bavarian Lions","Luftwaffe-Monument","Mysterious Aschebechaaa","Matthäus Kap. 6 Vers 26","Marthabräu-Kapelle"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 42
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.250177,48.186283
+]
+,[
+11.250448,48.186404
+]
+,[
+11.251074,48.18667
+]
+,[
+11.255295,48.186878
+]
+,[
+11.25499,48.183414
+]
+,[
+11.253649,48.183009
+]
+]
+}
+}]}

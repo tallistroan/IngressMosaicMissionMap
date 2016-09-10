@@ -1,0 +1,177 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473438674720,
+"guid": "420bb245169e4083a065dfa6edb52201.1c",
+"title": "München: Waldtrudering",
+"description": "Mission #1Complete in this order #1 - #2 - #3 - #4",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 902439,
+"medianCompletionTimeMs": 1290098,
+"numUniqueCompletedPlayers": 41,
+"typeNumMission": 2,
+"image": "https://lh3.ggpht.com/Q3BpTI6mnh2_0sSiTFwBX3A5bDMZd0gEHFVIdqOwhsvdmlJmKnd5W-omOQb4XKtPh9T2zb9PlgwjlzW-bfjBkQ",
+"portalTitle": ["Die Krone","Butterflies","Utabrunnen","Wienerwald Corporate Architecture","TSV Waldtrudering","Meisenpension","Paradoxx","Statue at the Wall","Chinesische Löwen"],
+"portalTypeNum": [1,1,1,2,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,7,1,1,1,1,1],
+"id": 20
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.709466,48.111289
+]
+,[
+11.705342,48.112489
+]
+,[
+11.700664,48.112522
+]
+,[
+11.697717,48.114727
+]
+,[
+11.694986,48.115417
+]
+,[
+11.694376,48.115705
+]
+,[
+11.691547,48.117421
+]
+,[
+11.691274,48.117486
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473438678460,
+"guid": "fba29ea02dd948f295387fe8131d6cc5.1c",
+"title": "München: Neutrudering, Gartenstadt",
+"description": "Mission #2Complete in this order #1 - #2 - #3 - #4",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 866667,
+"medianCompletionTimeMs": 692119,
+"numUniqueCompletedPlayers": 44,
+"typeNumMission": 2,
+"image": "https://lh6.ggpht.com/_H4ePBbmAyAX8g_z56mRHkoZRwRX-7JiiTqjA9QXy7pt2t3J3LN5whXoHyQ9lN4ucY65A7O-sjKzOSmdZ4xL",
+"portalTitle": ["AXA, Postweg 4","Small Water Tower","Blaue Schaukel","Friedens Kirche Trudering","Wikingerschiff","DRUDE FOUNTAIN"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 20
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.684099,48.117924
+]
+,[
+11.683849,48.118014
+]
+,[
+11.682876,48.117511
+]
+,[
+11.679171,48.115669
+]
+,[
+11.678372,48.115093
+]
+,[
+11.676627,48.116866
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473438690239,
+"guid": "27d43f35e29c44678fef0c96ac1e7f59.1c",
+"title": "München: Strasstrudering",
+"description": "Mission #3Complete in this order #1 - #2 - #3 - #4",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 914894,
+"medianCompletionTimeMs": 754269,
+"numUniqueCompletedPlayers": 46,
+"typeNumMission": 2,
+"image": "https://lh3.ggpht.com/8xMTwKuLKqab7HgTV-MMIcaVgi3KxSl4kE-s8Hm8dusprXYsTWLSqJh7EnYw9NKAY3QQoGiK0y0oL6Fam42a",
+"portalTitle": ["Cross Nikolaus-Prugger-Weg","Kugel vorm Kulturzentrum Trudering","Holzkreuz der Pfarrjugend","Hidden Strawberry","Obermaier","Trudering Mitte"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 20
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.677011,48.120018
+]
+,[
+11.670659,48.11949
+]
+,[
+11.667873,48.121533
+]
+,[
+11.668426,48.122999
+]
+,[
+11.669953,48.121806
+]
+,[
+11.670784,48.121763
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473438692253,
+"guid": "ffdca3bf7ca34d4b97b1055867cea4d1.1c",
+"title": "München: Kirchtrudering",
+"description": "Mission #4Complete in this order #1 - #2 - #3 - #4",
+"author":"DestinationMuc",
+"authorTeam": "R",
+"ratingE6": 954545,
+"medianCompletionTimeMs": 933451,
+"numUniqueCompletedPlayers": 45,
+"typeNumMission": 2,
+"image": "https://lh5.ggpht.com/Bo5Mg7w6GMNK3xRmd1TBj8Vlim7QmXGLCa26Gyv-nDyKO2CklMiIVqQb4f0X_kuJtUC3zvWaiuA-k91AGBQ",
+"portalTitle": ["Wegkreuz KIRCHTRUDERING","Manchester United 1958 Memorial ","Traditional Pigeonry","Truderinger Wirtshaus","Den Gefallenen Söhnen","Kirche: St. Peter und Paul"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 20
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.677768,48.126155
+]
+,[
+11.676783,48.125866
+]
+,[
+11.675586,48.125564
+]
+,[
+11.674025,48.125876
+]
+,[
+11.670585,48.12652
+]
+,[
+11.669497,48.127
+]
+]
+}
+}]}

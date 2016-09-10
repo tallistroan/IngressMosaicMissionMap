@@ -1,0 +1,1022 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473507356435,
+"guid": "2a94068d0dc640ce8f29bc121f15fd46.1c",
+"title": "1972 Summer Olympics 01 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 917066,
+"numUniqueCompletedPlayers": 26,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/_0bEcABwNZB5KtEFU_tMqgs7_6OkhRCf82yPOzfwFzpETNCdn33ZNwY9OfriD3RTOMYEVxLr6vMYNq3J5zbgRw",
+"portalTitle": ["Wall of Doctors","Brunnen An Der Pipeline ","Memorial Sign for the Olympic Attack in 1972","Villa Bavaria (Wandmalereien)","Wüste","Never Ending Peace and Love"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.554669,48.180531
+]
+,[
+11.555095,48.180456
+]
+,[
+11.555244,48.180257
+]
+,[
+11.554242,48.179443
+]
+,[
+11.553153,48.179366
+]
+,[
+11.552416,48.179057
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507359730,
+"guid": "53183c7562e54c1689f15455a048f631.1c",
+"title": "1972 Summer Olympics 02 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 417677,
+"numUniqueCompletedPlayers": 25,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Uk3JraxfSXDWU4tN7NSzHQc8xlzS_7ydM8SWOijC5FO_loGqJynRwQz3z4ltAj3hN2vgSahY02l_GGhE613Reg",
+"portalTitle": ["The Sun ","Colorful Life","Nelson Mandela","Ampelmännchen","Graffiti Am 50er Haus","Brunnen Olympiadorf"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.551666,48.178743
+]
+,[
+11.551401,48.178951
+]
+,[
+11.551644,48.179593
+]
+,[
+11.552029,48.17985
+]
+,[
+11.552776,48.179767
+]
+,[
+11.551642,48.180229
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507362164,
+"guid": "2994ef8a9bae4eedbc7e7c8a2ad53e7c.1c",
+"title": "1972 Summer Olympics 03 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 469193,
+"numUniqueCompletedPlayers": 25,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/kYgbQGjJcAwhJ1bOtMBgEUrwk-wHb6RaWIAGuLxmadN3kFBE171Sjql5KXrzjy-sF3JVLGM3qccKY2Yj8DoB",
+"portalTitle": ["Tetraeder","Olympic Rings Sculpture","Wasserspiele Connollystraße","Der schwarze Brunnen","Noch 'ne Kugel","Kaskadenbrunnen im Olympiadorf"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.550533,48.180542
+]
+,[
+11.549985,48.17996
+]
+,[
+11.549767,48.179839
+]
+,[
+11.549108,48.179862
+]
+,[
+11.549714,48.180384
+]
+,[
+11.54945,48.180735
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507364746,
+"guid": "ca162938c50642bcb6a8542775e61f94.1c",
+"title": "1972 Summer Olympics 04 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 958333,
+"medianCompletionTimeMs": 887430,
+"numUniqueCompletedPlayers": 25,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/X0ILDx0L68zDvz9r5xdVPtkXiuYmiTQ1B3mhwlMK1hSzwEwpFZqZppY0hyBxRzCRnAbb_3Nq0BGnO-ZfhJk",
+"portalTitle": ["Wasservorhang","Gedenken an die Olympischen Spiele von 1972","Olympiadorf Weltzeit","Brunnen Olympiadorf 2","Metallspirale Nadistraße","Dorfuhr"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.552147,48.180965
+]
+,[
+11.552632,48.180901
+]
+,[
+11.552641,48.181911
+]
+,[
+11.551872,48.181961
+]
+,[
+11.551563,48.181885
+]
+,[
+11.550811,48.183284
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507367519,
+"guid": "9a0f41ec6b5a42c1b113da99d0c23200.1c",
+"title": "1972 Summer Olympics 05 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 956522,
+"medianCompletionTimeMs": 1043082,
+"numUniqueCompletedPlayers": 24,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/oF93vrDRDAQIkQIPBtYbIAgtOH4d-II8J4OXdLcYBGjceY7Pp3T67IdheNr8Ouv9F1KnZkyFxBo-TQ__lGM",
+"portalTitle": ["Grüne Wasser","ツ  Pitsch Patsch Blume ","Weisse Stadt Olympiadorf","Parkour Rote Stadt","Die Kugel","Kunstwerk Olympiadorf"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.547775,48.184958
+]
+,[
+11.548512,48.184281
+]
+,[
+11.547766,48.183656
+]
+,[
+11.547116,48.183727
+]
+,[
+11.548496,48.183343
+]
+,[
+11.548491,48.182947
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507373556,
+"guid": "6a8b8a97d92e48dfa9fe9605845f6af0.1c",
+"title": "1972 Summer Olympics 06 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 625032,
+"numUniqueCompletedPlayers": 24,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/cyzYZL-b-UQXXVEROFAxdv8k08FYhQfRQw7kQWe4lADf8CIq7fwp0aoLwyH0Hqqubl1WzgEsxUvcpN_7ylk",
+"portalTitle": ["Formen-Brunnen","Brunnen Nadistraße - OlyDorf","Nadisee Olympiadorf ","Dreiecksvariation (Krönchen)","Flying Diamond","Olympia 1972"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.548599,48.182429
+]
+,[
+11.548885,48.181627
+]
+,[
+11.548428,48.181157
+]
+,[
+11.547354,48.180874
+]
+,[
+11.547782,48.17975
+]
+,[
+11.54732,48.179468
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507377010,
+"guid": "ac6f8f4d87d24f96b066790240832c7a.1c",
+"title": "1972 Summer Olympics 07 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 956522,
+"medianCompletionTimeMs": 622485,
+"numUniqueCompletedPlayers": 24,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/RjlXTdCLuZOhN1Bp0SPwhMxV4Kh6mAD1yYqD-1ukNxNhqd1uyFbF7pI0AfzUowlY2Od9QqJ75f2x0_tTKE6C",
+"portalTitle": ["Kunstwerk Am TUM Campus","Olympische Birke","Entrance to Olympiapark","Denkmal für die Opfer des Olympiaattentates 1972","Oldschool Maps","Olympiastadion München Eingang Nord"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.547074,48.178877
+]
+,[
+11.547761,48.178489
+]
+,[
+11.548226,48.177138
+]
+,[
+11.547746,48.176702
+]
+,[
+11.548134,48.175515
+]
+,[
+11.547839,48.175357
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507394553,
+"guid": "11ac5b182f03499cb36c80196f3c36cc.1c",
+"title": "1972 Summer Olympics 08 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1089084,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/my6TDbZyguchBY2udqoUdw8I1aOxjUCq_bivYhOZEofa1O7Blpwyv990AFlBnGLr2U-wyi1Gy3YjcfdcF8rIPQ",
+"portalTitle": ["Olympiastützpunkt Bayern","MUC - Mash Wandmalerei","MUC Olympiastadion Entrance Portal","Olympisches Feuer München 1972","Olympic Gold Medal Winners","MUC - Alois der Affe"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.544534,48.173724
+]
+,[
+11.545881,48.171361
+]
+,[
+11.547563,48.171815
+]
+,[
+11.548385,48.172823
+]
+,[
+11.548564,48.173076
+]
+,[
+11.548996,48.173584
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507398614,
+"guid": "04ddc082ca834dc5a6c599b4e7edcab7.1c",
+"title": "1972 Summer Olympics 09 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 607536,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/HJKEGMZExB1rh7CZIDG0B2iT409j0v2mBU__ut4xcdyNfmx8C8riK-CRVzVp3eTV7WVs4XcPwHRx5HU8bA-F",
+"portalTitle": ["Grundstein Olympiaanlage München","And the Winners Are","Olympiahalle - Eingang West","Olympic Stadium Munich","Linkin Park: Olympiahalle","Eingang Ost Olympia Halle München"],
+"portalTypeNum": [1,1,1,2,1,1],
+"portalObjectiveNum": [1,1,1,7,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.548368,48.17382
+]
+,[
+11.548025,48.17414
+]
+,[
+11.549005,48.1751
+]
+,[
+11.549888,48.175536
+]
+,[
+11.551552,48.174597
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507404481,
+"guid": "b705caa65d3a416881716808481ce227.1c",
+"title": "1972 Summer Olympics 10 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 954545,
+"medianCompletionTimeMs": 650157,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/K0V9RNUu-_2aiBVlZ1SP_HS6o1VrnbSPl0am1bD87gCgArxjzlubc0uqSMvAwRBbm1lSdo1rxBeqsPqzBVWl",
+"portalTitle": ["Olympia Schwimmhalle München","Amphitheater","Olympiaschwimmhalle","See Am OlympiaTurm","Kino Eingang","Friedensbotschaft des Dalai Lama"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.551238,48.173924
+]
+,[
+11.550624,48.173082
+]
+,[
+11.551682,48.173179
+]
+,[
+11.552258,48.172511
+]
+,[
+11.553488,48.173058
+]
+,[
+11.55354,48.173298
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507408397,
+"guid": "9e4454967c30471ab1a592d5c6df60fb.1c",
+"title": "1972 Summer Olympics 11 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 961538,
+"medianCompletionTimeMs": 233760,
+"numUniqueCompletedPlayers": 27,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/aYyVwIUFJy9OS4g4tuiHS9fU5CrfZO7J4HwXL8zHlzSYSeWxcd02mWk27771OSh0FFclId42CnL-kEHhJI4Idg",
+"portalTitle": ["Friedensbotschaft","MUC - Walk of fame","MUC - Kleiner Fuchs","Olympiaturm München","Olympiapark WalkOfFame Metallica","Handabdrücke"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.553499,48.173478
+]
+,[
+11.553897,48.173702
+]
+,[
+11.553554,48.173864
+]
+,[
+11.554189,48.174201
+]
+,[
+11.554256,48.173849
+]
+,[
+11.554609,48.1739
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507414452,
+"guid": "effa6eaa7d6649e38df9c4375099c074.1c",
+"title": "1972 Summer Olympics 12 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 590915,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/61M1AQshDnfJmJFOEMFqXaOraxztz9i2dE53qsZpFxVMzrX7AMu3CuD2ejgvRa86hwpgZQCeK4asHYZ6KHKK",
+"portalTitle": ["Socca 5","Minigolf","Sea Life München ","Olympia Eisstadion","Spielplatz Olympiaberg","Olympiapark Süd"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.555915,48.174709
+]
+,[
+11.555889,48.174491
+]
+,[
+11.555994,48.173952
+]
+,[
+11.557264,48.174595
+]
+,[
+11.558686,48.172501
+]
+,[
+11.558235,48.172446
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507417896,
+"guid": "c1bf71a702ab4148bcf4a9dcbd3dfa64.1c",
+"title": "1972 Summer Olympics 13 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1299120,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/TH-NL2lbmMzmzRnIP8eJnrgKxnv4-2D-55kEXbPsTgLtU404S-nOpz7KbUiLc7fUVE9su_DSOAlG1dS4vm0",
+"portalTitle": ["Peace Memorial 'Schuttblume'","Kreuz auf dem Olympiaberg","Cross in the Park","1. Geodätischer Referenzpunkt auf dem Olympiaberg","Olympiaberg","1. Geodätischer Referenzpunkt In Bayern"],
+"portalTypeNum": [1,1,1,1,2,1],
+"portalObjectiveNum": [1,1,1,1,7,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.556088,48.170834
+]
+,[
+11.555498,48.170658
+]
+,[
+11.552488,48.169334
+]
+,[
+11.551568,48.169746
+]
+,[
+11.551347,48.170023
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507434512,
+"guid": "0a00a1e1cab54c96b6c0df27f992e1c7.1c",
+"title": "1972 Summer Olympics 14 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1232895,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2Z2fBvwm2LEIEr07XJcIN9jbGLUdSoINLg8BGDTAmTKzp3SHavpyQUuIBE6KkO2xfMprAdSgMF7XiEFp9gY",
+"portalTitle": ["Kuhdeifi","Demonstration der Tiere","Bauvorhaben Im Olympiapark","MUC - Dänemark Silberweide","MUC - Italien Spitz Ahorn","MUC - Monaco Blumenesche"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.549275,48.168599
+]
+,[
+11.548858,48.168805
+]
+,[
+11.5477,48.170283
+]
+,[
+11.54697,48.170331
+]
+,[
+11.546564,48.170224
+]
+,[
+11.5451,48.170033
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507440639,
+"guid": "9b1c5d62ca9741bda45619721f764445.1c",
+"title": "1972 Summer Olympics 15 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 530633,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/d27ciDOwGzO4nrY-CRCna0LV6y630sgPrVunFSCv79bAKRzMHjOdEZCJ3QCqQrc9BtvgLDlt53-5kpdya8-EgQ",
+"portalTitle": ["MUC - Traubeneiche","MUC - Säulen Saudi","MUC - Island Moor Birke","Triumphans im Olympiapark","Event Arena Olympiapark","Walkingroute im Olympiapark - Station 3"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.545117,48.170497
+]
+,[
+11.544913,48.170292
+]
+,[
+11.544665,48.169924
+]
+,[
+11.542333,48.170431
+]
+,[
+11.541943,48.169892
+]
+,[
+11.541971,48.169461
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507453429,
+"guid": "8ca1c895e402419d99137ee3bb8d12d1.1c",
+"title": "1972 Summer Olympics 16 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1182752,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ItGEuQ_Oz-A5xV2i2xSo7tzxGRyjQ6p8fx1ZHfCndha-29xzlajJOpjVLiNXTR2xxXmEEI0V-COa2RALNhdK",
+"portalTitle": ["Relief Über Dem Eingang","Dantebad Hintereingang","Dante Stadion","Statue","Stone Heart","Kranich"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.5275,48.16611
+]
+,[
+11.528037,48.16664
+]
+,[
+11.527742,48.167615
+]
+,[
+11.527124,48.167909
+]
+,[
+11.526696,48.16795
+]
+,[
+11.525863,48.167207
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507474525,
+"guid": "423b5224db50467a9607cb6975c981f8.1c",
+"title": "1972 Summer Olympics 17 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1244415,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Qg0IJM-K6zjYY5-nf5mgGy6_eU6n1b2wLKSmgm6qZhDzuVB53cV2f1U6MmMQw2fUmSIU_x7C_XOxJihWabmv",
+"portalTitle": ["Porzellan Manufaktur","Schleuse","Nymphenburg Schloss","Schloss Kirche","Vase No 1","Statue of Diana"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.508424,48.159042
+]
+,[
+11.507116,48.158491
+]
+,[
+11.505689,48.159158
+]
+,[
+11.5039,48.159016
+]
+,[
+11.502796,48.158563
+]
+,[
+11.502367,48.158547
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507478371,
+"guid": "919c036bdae34e3dbfd2b9a1771d0837.1c",
+"title": "1972 Summer Olympics 18 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 340488,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/dxjy5Rcb7WEhZUgZCVkMiPM-HMq2jUD9nZIQ8Ixp8W8SqFc3alcfoFml1D6XXoWcI2-9vY8uAQwW42OVLoVI0g",
+"portalTitle": ["Statue of Apollo","Vase #2","Vase #3","Brunnen","Vase #10","Statue of Jupiter"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.501754,48.158524
+]
+,[
+11.501108,48.158493
+]
+,[
+11.500828,48.158536
+]
+,[
+11.500737,48.158082
+]
+,[
+11.50113,48.157822
+]
+,[
+11.501788,48.158086
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507481756,
+"guid": "d0c67dd0018745e7ab0028e4c5a50e0a.1c",
+"title": "1972 Summer Olympics 19 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 181777,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/oRFa6hjPcBKE-pCj8KWBr3XARrhhtj68hFRS6ulwc_NazwvfzdI0HqnBLE_8rvnO-Wt96DXYcKmHiOPWW9qT",
+"portalTitle": ["Statue of Juno","Statue Of Saturn","Kybele","Schloss Park Nymphenburg","Nymphenburg Palace","Goldene Laternen"],
+"portalTypeNum": [1,1,1,1,2,1],
+"portalObjectiveNum": [1,1,1,1,7,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.501781,48.15829
+]
+,[
+11.502386,48.158319
+]
+,[
+11.502431,48.158113
+]
+,[
+11.502832,48.158363
+]
+,[
+11.503026,48.158129
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507530722,
+"guid": "df9177986ee34783a65943e35d8b4047.1c",
+"title": "1972 Summer Olympics 20 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 2105761,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/tWb9Wc_2KIshGjT_gncLAbqx9D3EmJI2wIUBhofz7_TCHfGQb3YmZWO4JgU5JbZM3_cLWZNPl4bWUxIIXG-WbQ",
+"portalTitle": ["Leistungszentrum München Rudern und Kanu","Gewässerkreuzung","Zielturm","Tribüne 72","Betonschlange","Aussichtsturm at 1000m"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.524709,48.252316
+]
+,[
+11.528591,48.252088
+]
+,[
+11.524419,48.248459
+]
+,[
+11.523531,48.247352
+]
+,[
+11.522876,48.246472
+]
+,[
+11.515319,48.241791
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507544049,
+"guid": "20fa3bbdd3c84f04a9f194b2ae986f93.1c",
+"title": "1972 Summer Olympics 21 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 954545,
+"medianCompletionTimeMs": 2457830,
+"numUniqueCompletedPlayers": 22,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/XF--4eco1vi5VE74pQFwvGvN6M91Wi_W871Lj_9uCYdr_y-Ei6clgN7Jexwc6ZgY9tnrjJxGGn0LI8N7E4YJ",
+"portalTitle": ["Garching Hochbrück Ubahn","Steam Mobility","Spielplatz Hochbrück","Garching Hochbrück ","Spielplatz Hochbrück","Olympia-Schießanlage Hochbrück"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.630954,48.247019
+]
+,[
+11.624957,48.246283
+]
+,[
+11.61589,48.247312
+]
+,[
+11.612221,48.247629
+]
+,[
+11.607587,48.246806
+]
+,[
+11.602008,48.231061
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507569470,
+"guid": "9b48263d921f4adf9d30ff42a3d6908d.1c",
+"title": "1972 Summer Olympics 22 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 790588,
+"numUniqueCompletedPlayers": 24,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/cWwNW9wdR0xSn0XgiHhFhFT4E3S_ZSBKWLukYyqiceUHwyZ1EBFvda0q3FcRR1eTiVCdlOSYFaj8J-_0ypyEKQ",
+"portalTitle": ["Bank Im Park","Oak Tree Stone","Monopteros Englischer Garten","Sankt Florian Near Chinesischer Turm, München","Gaststätte am Chinesischen Turm","Heiliger St. Florian"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.592671,48.150425
+]
+,[
+11.591982,48.150302
+]
+,[
+11.591011,48.1499
+]
+,[
+11.592419,48.1516
+]
+,[
+11.591907,48.152058
+]
+,[
+11.592757,48.152154
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507584653,
+"guid": "130188f85c01452fbefc6174598a1e98.1c",
+"title": "1972 Summer Olympics 23 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 916667,
+"medianCompletionTimeMs": 824795,
+"numUniqueCompletedPlayers": 24,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/NfaGvNrMmm-ex9xnYin2mNCC5tT_8RAoBh06d5xiLNsjfu76lwyu2VcasLZXZXF1IPU7kq0eJNn5AuZi73Q30Q",
+"portalTitle": ["Mauerstück Im Hopfengarten","Rudi-Sedlmayer-Halle","Steinskulptur am Audi Dome","Nostalgisches Kinderkarussell","Fountains at the Westpark","Audi Dome"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.52474,48.127047
+]
+,[
+11.52568,48.126327
+]
+,[
+11.526454,48.125547
+]
+,[
+11.526466,48.125189
+]
+,[
+11.526717,48.125032
+]
+,[
+11.524743,48.125614
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473507602763,
+"guid": "c8d03192c0384eeab9870adc03463821.1c",
+"title": "1972 Summer Olympics 24 / 24",
+"description": "Visit the places where the games took place: Olympic Village, Olympiapark, Nymphenburg Palace, Oberschleißheim Regatta Course, Firing Range Garching, Rudi-Sedlmayer-Hall Sendling, Riding stadium Riem",
+"author":"DMsG",
+"authorTeam": "R",
+"ratingE6": 909091,
+"medianCompletionTimeMs": 1945930,
+"numUniqueCompletedPlayers": 23,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/iCFIEVHTNfBZI-8AA5g_1Z8hmr6904HNWYJ-IEbRi77DfdIbxlNa_GXERHh0WIsFX9TNrg9w2lvZPVnx25kc",
+"portalTitle": ["S-Bahn Riem","Spielplatz","Riemer Kletterburg","Galopprennbahn","Pferdebändiger","Olympia-Reitanlage München-Riem"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 46
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.678557,48.144014
+]
+,[
+11.674033,48.142045
+]
+,[
+11.672387,48.142579
+]
+,[
+11.673847,48.145464
+]
+,[
+11.670033,48.143379
+]
+,[
+11.6689,48.143046
+]
+]
+}
+}]}

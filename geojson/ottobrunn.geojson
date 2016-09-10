@@ -1,0 +1,374 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473456125170,
+"guid": "03e353ca4d704e87962234cd2555ec11.1c",
+"title": "1-6 - EXPUGNA OTTOFONTEM",
+"description": "Ottobrunn ist eine Gemeinde mit ungefähr 21.000 Einwohnern. Sie liegt im oberbayerischen Landkreis München südöstlich der Landeshauptstadt München.",
+"author":"Purzelpuppe",
+"authorTeam": "E",
+"ratingE6": 375000,
+"medianCompletionTimeMs": 11578913,
+"numUniqueCompletedPlayers": 1,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/k-xMS1Ivk-zVZdjGqJ0tgJik6jfbz-IoRMs6IbZpUzuUbzQshuHPJgI9tFwNWZbTlrduS7DIZuZO54CZvFg",
+"portalTitle": ["S-Bahn Ottobrunn","Hansarena","Neuapostolische Kirche Ottobrunn","Evangelische Kirche","Kardio Brunnen","Stillgelegter Steinbrunnen ","Schutzpatron Der Feuerwehr","Friedrich-Ebert-Platz","Pfau Ottobrunn","Ottosäule","Spiralspringbrunnen","Frauenstatue","Spielplatz Robert-Koch-Straße"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,2,2,2,2,2,2,2,2],
+"id": 34
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.679085,48.062887
+]
+,[
+11.677198,48.064183
+]
+,[
+11.676329,48.06343
+]
+,[
+11.674429,48.062842
+]
+,[
+11.674613,48.061827
+]
+,[
+11.670099,48.061034
+]
+,[
+11.668371,48.060424
+]
+,[
+11.667187,48.059665
+]
+,[
+11.665434,48.05932
+]
+,[
+11.66903,48.053047
+]
+,[
+11.665662,48.053438
+]
+,[
+11.664257,48.054112
+]
+,[
+11.663156,48.05351
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473456145941,
+"guid": "9e08fe7d45a54745b7c6a59839671d60.1c",
+"title": "2-6 - EXPUGNA OTTOFONTEM",
+"description": "Die Anfänge Ottobrunns als Siedlung datieren auf das Jahr 1902. Der Name „Ottobrunn“ wurde 1913 geprägt und 1921 offiziell eingeführt. Bis zu ihrer Erhebung in den Rang einer Gemeinde (1955) war die S",
+"author":"Purzelpuppe",
+"authorTeam": "E",
+"ratingE6": 0,
+"medianCompletionTimeMs": 3202803,
+"numUniqueCompletedPlayers": 1,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/3_whiRsSgl9jtCYm_0w2oHF8JLSP4mNUwsL-8s1N9MhmqEVnGhE8OiUu9NQsFeyEwDGVQAwxBEPrqzM0qTmAag",
+"portalTitle": ["St.Albertus Magnus Church","Abenteuerspielplatz im Ranhazpark","Sportpark Ottobrunn","Park Fountain","Holzskulptur im Parkfriedhof","Moderne Skulptur im Parkfriedhof","Brunnen im Parkfriedhof","Skulptur im Parkfriedhof","Marmorskulptur im Parkfriedhof","Historisches Marterl im Parkfriedhof","Aussegnungshalle im Parkfriedhof","Frauenskulptur im Parkfriedhof","Eingang Parkfriedhof Ottobrunn"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,2,2,2,2,2,2,2,2],
+"id": 34
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.663629,48.054271
+]
+,[
+11.660391,48.058002
+]
+,[
+11.6518,48.057212
+]
+,[
+11.656466,48.05991
+]
+,[
+11.649771,48.060882
+]
+,[
+11.649086,48.061074
+]
+,[
+11.648393,48.061478
+]
+,[
+11.648726,48.061589
+]
+,[
+11.650894,48.062082
+]
+,[
+11.650862,48.061862
+]
+,[
+11.651822,48.061732
+]
+,[
+11.651919,48.061344
+]
+,[
+11.652317,48.061296
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473456148926,
+"guid": "7df5833256a2474b959da83a963f6f10.1c",
+"title": "3-6 - EXPUGNA OTTOFONTEM",
+"description": "Damit ist Ottobrunn unter den 29 Kommunen des Landkreises die einzige, die nach nur 53-jährigem Bestehen d. ursprünglichen Siedlung die politische Selbstständigkeit als Gebietskörperschaft erlangt hat",
+"author":"Purzelpuppe",
+"authorTeam": "E",
+"ratingE6": 0,
+"medianCompletionTimeMs": 182444998,
+"numUniqueCompletedPlayers": 1,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/TcZXGmoCSS3x5-w-n6MjpZEpVsyxNIzYSeqhSdH5KMkLpxisWgWuon4VN17bIkBHiZ36O0mDEJTRKVZRTXKN",
+"portalTitle": ["Barbara Oppenrieder Mural","Zwei Löwen","FeG München Süd Ost","Spielplatz Am Bogen","Otto Von Griechenland Museum","Wolf-Ferrari-Haus Ottobrunn","Spielplatz am Wirtshaus","Wolf-Ferrari-Haus","Aida","Gehstirn","Fragile Stele","Ohr Des Dionys"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,2,2,2,2,2,2,2],
+"id": 34
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.657848,48.060114
+]
+,[
+11.662552,48.062661
+]
+,[
+11.666506,48.062801
+]
+,[
+11.664291,48.063615
+]
+,[
+11.664701,48.064574
+]
+,[
+11.664826,48.064855
+]
+,[
+11.66525,48.065563
+]
+,[
+11.665812,48.065028
+]
+,[
+11.665546,48.064492
+]
+,[
+11.665225,48.064386
+]
+,[
+11.665132,48.06445
+]
+,[
+11.665219,48.064276
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473456152312,
+"guid": "379b609f012d403196be44d4cd1e3941.1c",
+"title": "4-6 - EXPUGNA OTTOFONTEM",
+"description": "Diese Entwicklung geschah ausschließlich durch organisches Wachstum, das heißt ohne Zusammenschluss mit anderen Siedlungen oder Gemeinden.",
+"author":"Purzelpuppe",
+"authorTeam": "E",
+"ratingE6": 0,
+"medianCompletionTimeMs": 83782790,
+"numUniqueCompletedPlayers": 1,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/CH0dyBJfLrBjv1LAcFfi_7WZjMdhZ5kXC9EW94gn7P187s72oDOrX29AkAHeEDz_JmY4xZUqur0Rvd9QhoQS",
+"portalTitle": ["Badende","Denkmalsplatz Ottobrunn","Staudenpflanzung Ottobrunn","DAS Tollhaus","Fireplace on the Road","Kleiner Zoo Am Landschaftspark","SANS Pavillion","NKB Pavillion","Denkmal Salettl","Spielplatz Im Amalienwald","SJM","Pfadibaumhaus"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,2,2,2,2,2,2,2],
+"id": 34
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.665021,48.064219
+]
+,[
+11.66495,48.064365
+]
+,[
+11.65696,48.070395
+]
+,[
+11.656844,48.070594
+]
+,[
+11.656448,48.071234
+]
+,[
+11.653191,48.066524
+]
+,[
+11.646979,48.074627
+]
+,[
+11.646935,48.075029
+]
+,[
+11.653385,48.07421
+]
+,[
+11.659326,48.072738
+]
+,[
+11.659789,48.072642
+]
+,[
+11.660312,48.072935
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473456155170,
+"guid": "ad81b8b0ff9b4e2c9f199df980287093.1c",
+"title": "5-6 - EXPUGNA OTTOFONTEM",
+"description": "Seit den 1960er Jahren zählt Ottobrunn zu den bevölkerungsreichsten Gemeinden des Landkreises.",
+"author":"Purzelpuppe",
+"authorTeam": "E",
+"ratingE6": 0,
+"medianCompletionTimeMs": 84487109,
+"numUniqueCompletedPlayers": 1,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/nV0XaeuVZrmZWnWXZv2eYomqtqwE8nbBnVYjeYX6HOqE2Qit_q6Nvp7DUtwPQlmwPzYxGnigyYsTSKxmuA9w",
+"portalTitle": ["Waldschlößchen","Großes Christus Kreuz Ottobrunn","KZ-Außenlager Skulptur Ottobrunn","Galoppierende Pferde","Kath. Schule Zu St. Otto","St. Otto","Red Guy","Maibaum Ottobrunn","Indischer Elefant","Polsterei","Kein Trinkwasser","Boyscouts HQ / Treehouse"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,2,2,2,2,2,2,2],
+"id": 34
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.658592,48.067951
+]
+,[
+11.660261,48.065191
+]
+,[
+11.660605,48.065275
+]
+,[
+11.661973,48.065505
+]
+,[
+11.662941,48.066859
+]
+,[
+11.662819,48.067154
+]
+,[
+11.66438,48.066577
+]
+,[
+11.665056,48.06643
+]
+,[
+11.668428,48.067452
+]
+,[
+11.673731,48.068584
+]
+,[
+11.677594,48.069191
+]
+,[
+11.681926,48.070456
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473456178024,
+"guid": "531f58aa667543f0912bf07cd72f0957.1c",
+"title": "6-6 - EXPUGNA OTTOFONTEM",
+"description": "Obwohl seit Mitte der 1990er Jahre zahlreiche Arbeitsplätze in & um Ottobrunn abgebaut & teilweise an andere Standorte verlagert wurden, überschritt Ottobrunn im Jahr 2010 die Marke von 20k Einwohnern",
+"author":"Purzelpuppe",
+"authorTeam": "E",
+"ratingE6": 0,
+"medianCompletionTimeMs": 50564870,
+"numUniqueCompletedPlayers": 1,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/6LnVmjfzfrVdL3Cwobf1jqlLMcw08xg3TEeqF4raeeQ0j5oObaOE5oOerDK9qUuvvBJlTiiT7hAeDIU89hQ",
+"portalTitle": ["Reißverschluss","Wandmalerei Ottobrunn","Waldschaukel","Lenbachs Rutschenturm","Der Wolf","Radhaus Ottobrunn","Kleists Roundabout","Slackline","modernes Handkarussell","Mensch","Sisyphus","Playground Ottobrunn","St. Magdalena Kirche Ottobrunn"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [2,2,2,2,2,2,2,2,2,2,2,2,2],
+"id": 34
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.684946,48.070869
+]
+,[
+11.692113,48.072766
+]
+,[
+11.686577,48.070373
+]
+,[
+11.689579,48.066784
+]
+,[
+11.689969,48.066361
+]
+,[
+11.689342,48.064686
+]
+,[
+11.68776,48.065098
+]
+,[
+11.687711,48.066197
+]
+,[
+11.688538,48.066351
+]
+,[
+11.686059,48.068615
+]
+,[
+11.678546,48.068348
+]
+,[
+11.680444,48.066334
+]
+,[
+11.682136,48.063248
+]
+]
+}
+}]}

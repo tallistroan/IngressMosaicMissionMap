@@ -1,0 +1,1547 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473515644259,
+"guid": "1209ee8402be4f8b84284cc959cd1d5a.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 1 /18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 716450,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/5mn84W5jrKI7pQm-iLUH_GRn11R9iMCuCxecPCASgQEM4ro2eYFQUyyhxPxFhhSuWP_Zly-ywAsZJDP2-FrK",
+"portalTitle": ["Stellwerk","Bahnhof Weilheim ","POST Adler","Bahnhofsuhr ","Evangelische Kirche ","Max Brunnen 1995"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.143847,47.845588
+]
+,[
+11.143522,47.8453
+]
+,[
+11.143557,47.844971
+]
+,[
+11.143039,47.843088
+]
+,[
+11.142862,47.841969
+]
+,[
+11.142345,47.841862
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515651627,
+"guid": "6a225528820d4ddb8352a13664196fe0.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 2/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 262827,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/VFQUdyJra5iPhdEtW84AJAL-n1UwKN8NhHvBxJLMdx5xD0tBbC-rpuEsWPIrm9zZvwiKpcHRszUWsi1qjPh7xA",
+"portalTitle": ["Pferdl","Historisches Bemerkungsschild","Stadtbrunnen Schmidstraße","Rid Stadtansicht","Civitas Kirche","Stadtmauerturm"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.141774,47.841888
+]
+,[
+11.141893,47.841001
+]
+,[
+11.141904,47.840813
+]
+,[
+11.142104,47.840743
+]
+,[
+11.142312,47.840935
+]
+,[
+11.142442,47.840709
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515655787,
+"guid": "16132531765a48ee87c8917225bb61b4.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 3/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 548406,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/N9xf0FZRWb5BQKVud1OWcDShszHRcD7qKvbvp4Z9qfzfSfh09MYUsoWn48WpZ6QVJ1SmWu3P5v0Igrn83rsw",
+"portalTitle": ["Sparkassen Denkmal ","Heiliger Franziskus","Anker des Minenjagdbootes","Weilheim Rathaus","Jesuskreuz ","Wasserrad "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.143047,47.840424
+]
+,[
+11.143882,47.840207
+]
+,[
+11.144335,47.839985
+]
+,[
+11.144238,47.838868
+]
+,[
+11.145021,47.838667
+]
+,[
+11.146087,47.838524
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515659082,
+"guid": "b5af97113764449a93ee4d3c185bf678.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 4/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 554240,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/fSJzta9nYIUmxCW7KATKqKhDMiCNKSTLBnT98PK_6uBtTtJ6V_CF7GZNkOekjlYZ63VWs0D-qkpIBbyfp0NeiA",
+"portalTitle": ["Sonderschule ","Altes Amt","Kranken Balls","Kriegerdenkmal ","Weilheimer Hof","Kinderburg "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.146535,47.837374
+]
+,[
+11.145067,47.837693
+]
+,[
+11.144414,47.83757
+]
+,[
+11.143505,47.83789
+]
+,[
+11.142909,47.837863
+]
+,[
+11.142547,47.836886
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515662778,
+"guid": "ef6b87b051d84807a4dc314b063b5eec.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 5/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 800000,
+"medianCompletionTimeMs": 713380,
+"numUniqueCompletedPlayers": 5,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/7k-BgKeO7IPw-S_739fIl24VXcNABeOslGEvSef59J8UjzseQ2a0Sl8p9QrI2onwygScc_uvHWaD3dhSK3l4",
+"portalTitle": ["Oase","INRI ","Kirche St. Pölten ","St. Pölten","Schwimmhalle Weilheim ","Vereinsheim TSV Weilheim "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.142102,47.837112
+]
+,[
+11.141502,47.837117
+]
+,[
+11.139296,47.837371
+]
+,[
+11.138864,47.83753
+]
+,[
+11.140151,47.835549
+]
+,[
+11.139337,47.834494
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515770413,
+"guid": "bfc6c46aaedf4d089a048d99501df4ff.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 6/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 1882337,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/q3XnmPxknw2LuvOdhbKwCwK7cYXSnNJr8daWpF5HOTz7itwWaSkiEwEF8cEqRaagFTfJASLq3J58onPuM9rwYA",
+"portalTitle": ["Trim-Dich-Park in der Au Weilheim","Idylischer Pavilion in der Au","Stadtskulptur In der Au Weilheim","Bolzplatz in der Ammer Au","BMX-Race Bahn Weilheim","Pit Two"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.129873,47.837492
+]
+,[
+11.130603,47.838077
+]
+,[
+11.131098,47.83779
+]
+,[
+11.132591,47.8376
+]
+,[
+11.133882,47.840031
+]
+,[
+11.138462,47.840404
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515786360,
+"guid": "90d360123d5a40158f691bdcec66f19b.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 7/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 750000,
+"medianCompletionTimeMs": 456454,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/NGDkIHRJz6fatAo7gdKY5lhTUFSFUJA2yaydJ8-J4cOn3DAn4NBKRN_uHytQ2GftDwWEyFtIu3AZY5Vqi-A",
+"portalTitle": ["Fischerkapelle","Brunnen Musikschule","Marienplatz","Mariensäule ","Stadtmuseum","Mariä Himmelfahrt"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.138838,47.839331
+]
+,[
+11.140441,47.839122
+]
+,[
+11.141451,47.839582
+]
+,[
+11.141756,47.839486
+]
+,[
+11.142245,47.839355
+]
+,[
+11.142302,47.838972
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515802747,
+"guid": "b6338c49529343dea66547f05f11d439.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 8/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 1004128,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/54OzK7STVQcFGKKPhx3ELVkBktAJEsdKEAezoDwtlU8CcdzhEZbCK7RkS_InC9gk9KZEcVTACyDDslA_tZA",
+"portalTitle": ["Maria Mit Krone ","Weilheim Rathaus","Jesuskreuz ","Wasserrad ","Sonderschule ","Altes Amt"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.143576,47.839172
+]
+,[
+11.144238,47.838868
+]
+,[
+11.145021,47.838667
+]
+,[
+11.146087,47.838524
+]
+,[
+11.146535,47.837374
+]
+,[
+11.145067,47.837693
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515813980,
+"guid": "5c1ebb9b49e348e9a8814382b4329d86.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 9/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 333333,
+"medianCompletionTimeMs": 500644,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/QrlfnLEYK6dfw511c4X5ei8uyBkDlUifCud0OvkpTZ9kGLmvMulQYwiktWjsmzmS59FQ9ajo1iuhO5yT6m0",
+"portalTitle": ["Kranken Balls","Kriegerdenkmal ","Weilheimer Hof","Kinderburg ","Oase","INRI "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.144414,47.83757
+]
+,[
+11.143505,47.83789
+]
+,[
+11.142909,47.837863
+]
+,[
+11.142547,47.836886
+]
+,[
+11.142102,47.837112
+]
+,[
+11.141502,47.837117
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515816849,
+"guid": "3c67da8960f64add9dde63f339d46295.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 10/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 250000,
+"medianCompletionTimeMs": 580097,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/MInIiQP5X4WBYbYCKSDRc5JkRFIlJiF_j7l2tC90rwZcHBKYnnqUIza7eAM0IIV5Ef913dVRrz0SWrjPjLqwAQ",
+"portalTitle": ["Kirche St. Pölten ","St. Pölten","Stadttheater","Brunnen Musikschule","Fischerkapelle","Pit Two"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.139296,47.837371
+]
+,[
+11.138864,47.83753
+]
+,[
+11.140081,47.838133
+]
+,[
+11.140441,47.839122
+]
+,[
+11.138838,47.839331
+]
+,[
+11.138462,47.840404
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515825522,
+"guid": "2304023bf5664c3cbdf3aa7c4ce84ad4.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 11/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 757316,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/c4Y5ehwv37hWo9473BgXeIKdhCRcM5nw-LeMQkcKzxLJbCvepNGnBMVQ5MK5b2xwFWOeWZG3bAKkJ-v3rR4S",
+"portalTitle": ["Große Hochlandhalle Weilheim","Pferdl","Max Brunnen 1995","Evangelische Kirche ","Historisches Bemerkungsschild","Stadtbrunnen Schmidstraße"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.134779,47.843376
+]
+,[
+11.141774,47.841888
+]
+,[
+11.142345,47.841862
+]
+,[
+11.142862,47.841969
+]
+,[
+11.141893,47.841001
+]
+,[
+11.141904,47.840813
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515830446,
+"guid": "062e8cdb6120414a84d85994db84b824.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 12/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 1864318,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/dk_81UQEtuJLW2v5iDwh2pVVVhmzzLMpYWE8OSfuFkkeA_Hp8ljcwGUa8WDW-ZaEM1_xJaciagt4BloWQE7w",
+"portalTitle": ["Rid Stadtansicht","Civitas Kirche","Stadtmauerturm","Sparkassen Denkmal ","Heiliger Franziskus","Anker des Minenjagdbootes"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.142104,47.840743
+]
+,[
+11.142312,47.840935
+]
+,[
+11.142442,47.840709
+]
+,[
+11.143047,47.840424
+]
+,[
+11.143882,47.840207
+]
+,[
+11.144335,47.839985
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515834492,
+"guid": "5c002e20abde491d87cec375f95c6451.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 13/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 750000,
+"medianCompletionTimeMs": 1720886,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/F-XMwm0UfZqj7QSAaAtvQhlPmXmZeHaB_rU9bXd1NBa_HqbgFNOfqDf6WCw6NDFNA662nR3jz2gWkgSZNi9S",
+"portalTitle": ["Weilheim Rathaus","Jesuskreuz ","Wasserrad ","Sonderschule ","Naturspielhaus Im Gögerlwald","Holzfigur und Holzkästen im Gögerlwald"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.144238,47.838868
+]
+,[
+11.145021,47.838667
+]
+,[
+11.146087,47.838524
+]
+,[
+11.146535,47.837374
+]
+,[
+11.156494,47.830117
+]
+,[
+11.158716,47.827389
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515860717,
+"guid": "e23e20417a70415abc1c1db6e1a78769.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 14/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 3176064,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/coOYXOcbrViwu5LuJH-5-3ym3r6JX2o313sq-hTVwi5xrlkGHV19AexwXxiohSWdlqYLtXKpnWlfaPpQhsnv",
+"portalTitle": ["Gögerl Kreuz","Gipfelkreuz Gögerl Weilheim","Mariensäule","Sportvereinsheim Weilheim","Marienkreuz","Jesuskreuz Römerstrasse"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.158809,47.82707
+]
+,[
+11.159066,47.828337
+]
+,[
+11.159085,47.835236
+]
+,[
+11.161982,47.836176
+]
+,[
+11.157938,47.838515
+]
+,[
+11.151159,47.84051
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515868389,
+"guid": "743627a4c8724a5389274ec11339adc1.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 15/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 1204689,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ASBsa2tD2VKEimXXc5yc2MDsJpP2n34FMXapE4ayCetD6niEwS7FSgpP0UvE_xzB58mLySsRTryDIB-3wRQ",
+"portalTitle": ["Steinbrunnen Brigittes Blumeneck","Versicherung","Social Network ","Weilheim Rathaus","Maria Mit Krone ","Mariä Himmelfahrt"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.152543,47.843171
+]
+,[
+11.148444,47.844622
+]
+,[
+11.145417,47.840776
+]
+,[
+11.144238,47.838868
+]
+,[
+11.143576,47.839172
+]
+,[
+11.142302,47.838972
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515873286,
+"guid": "2bbc268653484db6a8b5919276503a16.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 16/18",
+"description": "Reswue is for datingPlease wear good shoes as you will visit also some romantic places outside the city center",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 842968,
+"numUniqueCompletedPlayers": 5,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/9jSXyG_0WYhjE9D_Zm9FcrCspPvu3Cpcz4LZCpoVP0khjIT1KasBugeR8L_FmqV7yQZDn2omH5TuR0LrQ9I",
+"portalTitle": ["Stadtmuseum","Mariensäule ","Marienplatz","Brunnen Musikschule","Westtor Stadtbogen","Bücherei Weilheim"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.142245,47.839355
+]
+,[
+11.141756,47.839486
+]
+,[
+11.141451,47.839582
+]
+,[
+11.140441,47.839122
+]
+,[
+11.14056,47.840183
+]
+,[
+11.140748,47.84071
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515880816,
+"guid": "b373dfca0a484cad8d4b96d26fd9bcd6.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 17/18",
+"description": "Reswue is for dating",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 509677,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/xpOXnaETTNSmJSuNgB4-ExwAI52cAplsHcVH1X0Hd3Jh4eNkP1iQkPTtb-1-jupK16AXswf56FCPl86CmiVx",
+"portalTitle": ["Historisches Bemerkungsschild","Stadtbrunnen Schmidstraße","Rid Stadtansicht","Civitas Kirche","AXA, Schützenstr. 20","Pferdl"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.141893,47.841001
+]
+,[
+11.141904,47.840813
+]
+,[
+11.142104,47.840743
+]
+,[
+11.142312,47.840935
+]
+,[
+11.13939,47.84266
+]
+,[
+11.141774,47.841888
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473515908105,
+"guid": "9666f1ae808c4142bb78d202412a1cf6.1c",
+"title": "Reswue is for dating Part I Weilheim in Obb. 18/18",
+"description": "Reswue is for dating",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 246180,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/tXggmZLyEW-fg4kGnZY9Jbzjcmhh3bS7iuU2Adhj9HUNPDCtM-b2ibtmw206VIurAdaNEE_E6SKRr-U3P8588Q",
+"portalTitle": ["Max Brunnen 1995","Evangelische Kirche ","Bahnhofsuhr ","POST Adler","Bahnhof Weilheim ","Stellwerk"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,8],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.142345,47.841862
+]
+,[
+11.142862,47.841969
+]
+,[
+11.143039,47.843088
+]
+,[
+11.143557,47.844971
+]
+,[
+11.143522,47.8453
+]
+,[
+11.143847,47.845588
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516019142,
+"guid": "382239171e4e4c72ae7a848ad2302b68.1c",
+"title": "Reswue is for dating Part II Tutzing 1/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 776600,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/WghVkxUwLtUcwWChDQrDZU9cO4Zq4LcIBgme_fbXnZOMFP84XVzRWOPCn-4MQ_GHFWlDtp0MqKHumOTow-2f",
+"portalTitle": ["Bahnhof Tutzing","Bahnhof Tutzing","Post","Madonna","Jesusstatue","Klinikbrunnen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [8,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.27308,47.906787
+]
+,[
+11.273045,47.907457
+]
+,[
+11.273676,47.907265
+]
+,[
+11.276445,47.908193
+]
+,[
+11.276295,47.907861
+]
+,[
+11.276635,47.907566
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516021376,
+"guid": "5025b5728f1c4f04aef7cfa740750480.1c",
+"title": "Reswue is for dating Part II Tutzing 2/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 727022,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/35IjUHSooYZDCYaVvqd_LKU2jYpa5nGxIXJfPHFPTZm0xbvtrLG-E4C7MmCuAqaXdGF6FQwkhxpjbn4DALrH",
+"portalTitle": ["Grotte beim Krankenhaus","Kriegerdenkmal","Mural","Fassadenmalerei Hauptstraße","Zwillingsstatuen ","Gesichterwand "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.276975,47.907588
+]
+,[
+11.277287,47.908172
+]
+,[
+11.278762,47.907594
+]
+,[
+11.279332,47.907692
+]
+,[
+11.279969,47.90723
+]
+,[
+11.280019,47.907015
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516031828,
+"guid": "c6d12a37cf6840cc9eecbb049934d79a.1c",
+"title": "Reswue is for dating Part II Tutzing 3/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 558357,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/h62s_2G3bf5ZC67ZucTMfizs3aoT5AlTH1Lmt6B0Py-sqbTjKCqCsFO643VM_9m0wLFlYjHBI6cKptWJiDc",
+"portalTitle": ["Kriegerdenkmal","Pavillon Am See","Ballspieler - Mural ","Holzburg ","Fischereimeister Lettker","Statue Singendes Mädchen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.280176,47.906622
+]
+,[
+11.280718,47.9069
+]
+,[
+11.280003,47.907731
+]
+,[
+11.280344,47.907509
+]
+,[
+11.281334,47.907378
+]
+,[
+11.281984,47.907588
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516054320,
+"guid": "2c42fa00abe142fb86746ab9babe1607.1c",
+"title": "Reswue is for dating Part II Tutzing 4/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 302386,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/RNe35YxVRV0t_rVls5tsW-AefOR3jPWgRAs8JjxPLWcn7c8nUGOygSoj7Nesbvb1eaxf-qriM7k8foH0wBw",
+"portalTitle": ["Little Church","Mosaikstern - Mural ","Mural - Sankt Gertrud ","Anno Domino 1954","Goldfisch ","Schlossmauer"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.281512,47.907892
+]
+,[
+11.280977,47.907763
+]
+,[
+11.2807,47.908022
+]
+,[
+11.279931,47.908272
+]
+,[
+11.280259,47.908788
+]
+,[
+11.280901,47.908783
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516063411,
+"guid": "b0fd0f8811324dabb68bec1883a2f71a.1c",
+"title": "Reswue is for dating Part II Tutzing 5/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 773186,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/USQyjvIL5murQkkUC04j0LD6I1uFDw5UndJG4MXv3DYADjxOJFNaDjilSXfwd7TLdjhjgEjOOMBh7o1Twu5Iig",
+"portalTitle": ["Alte Litfaßsäule","Schloss Tutzing","Mariensäule","Mural","Fischer Müller","Brunnen an der Hauptstraße"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.278672,47.908657
+]
+,[
+11.282311,47.909536
+]
+,[
+11.282795,47.909824
+]
+,[
+11.283132,47.910596
+]
+,[
+11.282594,47.91034
+]
+,[
+11.280745,47.910402
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516071229,
+"guid": "6c9d8c1f80054087acb384b3e375fc3e.1c",
+"title": "Reswue is for dating Part II Tutzing 6/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 441557,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Htk813a1yH4CusJ7PYdCW3XDX7FwUyutkontHJsvXypuTi9m5EgNGmO8-SDFTknMX1dJiG0Sh5zdF66EM3g",
+"portalTitle": ["Altes Wagenrad ","Tutzing Mural ","Mahnmal","Christuskirche Tutzing","Brunnen Am Rathaus","Maibaum Tutzing "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.278965,47.909816
+]
+,[
+11.278083,47.909935
+]
+,[
+11.277261,47.910107
+]
+,[
+11.275359,47.909794
+]
+,[
+11.276664,47.910789
+]
+,[
+11.277194,47.910782
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516077674,
+"guid": "3b43bebe87c34779ba5430e617279c37.1c",
+"title": "Reswue is for dating Part II Tutzing 7/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 256773,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Lia3UEbsxZ5o26bFjKomj6vD-mvAOWoAFa6qghPvxtMVgKLICHpM5tZuCpN43eoxjvzSRNEhRBVbFpBZtR9u",
+"portalTitle": ["Friede auf Erden","Erinnerungstafel","Stadtansicht Tutzing","Heldenbrunnen","St. Joseph Tutzing","Erinnerungsstein Daria"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.277631,47.910852
+]
+,[
+11.277756,47.910668
+]
+,[
+11.277862,47.91077
+]
+,[
+11.27804,47.910649
+]
+,[
+11.278329,47.910848
+]
+,[
+11.278494,47.911155
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516083137,
+"guid": "522a544533504bfea8ca7f7e3f8d7961.1c",
+"title": "Reswue is for dating Part II Tutzing 8/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 750000,
+"medianCompletionTimeMs": 969423,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/6svWdNTQvcAIDrRz8Pk1u0GhxSECaq2T31thaeC1G2IkchYz67kwZbJ1I_pfIHDCOokkaMU0brsu4aIKVvPT",
+"portalTitle": ["Sankt Michael","Maria Mit Kind - Mural ","Marien Statue ","Freiwillige Feuerwehr - Memorial ","Gertrude Just","Elly Ney"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.27918,47.910806
+]
+,[
+11.27939,47.911432
+]
+,[
+11.279737,47.911604
+]
+,[
+11.28023,47.911531
+]
+,[
+11.284718,47.912879
+]
+,[
+11.285999,47.913162
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516104656,
+"guid": "8c760558677f457aa2ef561e4f1b417e.1c",
+"title": "Reswue is for dating Part II Tutzing 9/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 350851,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/_YJ53LC0JMOpnQeZd7iwmvuiarZnzCfVYmoL0bneVwwz9QhXTUwg0ldopD1P_puakxnAY7teZXaiyNEhZVJZ",
+"portalTitle": ["Johannes Brahms","Dracheneimer ","Musikeimer ","Zwillingslöwen","Gasthaus zum Häring","Musikgruppe - Mural "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.286317,47.913178
+]
+,[
+11.287289,47.91337
+]
+,[
+11.287163,47.913539
+]
+,[
+11.288575,47.913647
+]
+,[
+11.288237,47.913821
+]
+,[
+11.28835,47.914174
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516109617,
+"guid": "9a6c139f311a4e5e9ae47a6a49fbccab.1c",
+"title": "Reswue is for dating Part II Tutzing 10/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 1284038,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2oyeulRn5g9ZobWm4xC9YNoZs9gSLSbuGw7uBvYckjwEQ7jSKlQvQSSUz3Pm_cG__IYHjlfK43oq14EaYC9Xcg",
+"portalTitle": ["Dein Reich komme","Nordbad ","Alte Malzmühle - Mural ","Tabaluga ","Plakette Kreuzigunggruppe ","Jesus am Parkplatz"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.287999,47.914963
+]
+,[
+11.288589,47.915943
+]
+,[
+11.284948,47.916019
+]
+,[
+11.286043,47.917465
+]
+,[
+11.290193,47.919362
+]
+,[
+11.290203,47.919602
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516113233,
+"guid": "9afcfea2619449c2a8cb55141acfeee5.1c",
+"title": "Reswue is for dating Part II Tutzing 11/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 2117487,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/MRX2Ekja7990z4BI5OxWUr2JljFeMD4rCRuaow21Nc3mTJVmX7y2GM6SAeajpNYejwrnQREyE7eU0A4QkVM",
+"portalTitle": ["Kapelle Weylerstrasse","Willkommen In Tutzing ","Tabaluga ","Alte Malzmühle - Mural ","Kind Mit Werkzeug - Statue ","Gedenkstätte Ludendorff"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.288555,47.921769
+]
+,[
+11.287587,47.919799
+]
+,[
+11.286043,47.917465
+]
+,[
+11.284948,47.916019
+]
+,[
+11.280755,47.916716
+]
+,[
+11.272967,47.91254
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516118238,
+"guid": "82f253adac554bb4bffbc46f52df5d89.1c",
+"title": "Reswue is for dating Part II Tutzing 12/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 399754,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/lBXgS1WPNB8Vfno_nsYi-R-OU2uDyXFhxpQc1hORq1IW6r7ji6MUL2yWVyP3JKm0SeQ1ggRQVFYlXSrki9s",
+"portalTitle": ["Ave Maria","Brunnen Am Rathaus","Maibaum Tutzing ","Erinnerungsstein Daria","St. Joseph Tutzing","Heldenbrunnen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.2769,47.911302
+]
+,[
+11.276664,47.910789
+]
+,[
+11.277194,47.910782
+]
+,[
+11.278494,47.911155
+]
+,[
+11.278329,47.910848
+]
+,[
+11.27804,47.910649
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516131435,
+"guid": "5111b7d1beb340429fbc75119283d291.1c",
+"title": "Reswue is for dating Part II Tutzing 13/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 180970,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ljvEKKCLVr-Zdxo0G47hjup4ZU6QeRlgrD-cIZ0fyNoYNfSmPVlJD530UtDV_9zApBhMK1VLEei4IImvBhBm",
+"portalTitle": ["Erinnerungstafel","Stadtansicht Tutzing","Friede auf Erden","Maibaum Tutzing ","Brunnen Am Rathaus","Mahnmal"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.277756,47.910668
+]
+,[
+11.277862,47.91077
+]
+,[
+11.277631,47.910852
+]
+,[
+11.277194,47.910782
+]
+,[
+11.276664,47.910789
+]
+,[
+11.277261,47.910107
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516143113,
+"guid": "89e325c9c83140c4bad449df6a1e65e5.1c",
+"title": "Reswue is for dating Part II Tutzing 14/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 735681,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/j7wg-X1AgtOZAESMkqhAuu6VBJAo6MNoYhfFj6tkWUSrmMZ392IgSu0_TSx2VHrICAZxFJnIHRHepXwuvBg",
+"portalTitle": ["Tutzing Mural ","Altes Wagenrad ","Brunnen an der Hauptstraße","Fischer Müller","Mural","Mariensäule"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.278083,47.909935
+]
+,[
+11.278965,47.909816
+]
+,[
+11.280745,47.910402
+]
+,[
+11.282594,47.91034
+]
+,[
+11.283132,47.910596
+]
+,[
+11.282795,47.909824
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516147506,
+"guid": "945a0136ed674f29b0cd69d60694cfa5.1c",
+"title": "Reswue is for dating Part II Tutzing 15/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 464474,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/bMvZEsFT2IlATZZ8-2ZbRpR7WkiKPHj_n1gtkJzOzUGdjQkeYVuerc3uuP1bK2chOlvfAzzOsbLo2IbfiFs",
+"portalTitle": ["Schloss Tutzing","Schlossmauer","Mural - Sankt Gertrud ","Mosaikstern - Mural ","Little Church","Statue Singendes Mädchen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.282311,47.909536
+]
+,[
+11.280901,47.908783
+]
+,[
+11.2807,47.908022
+]
+,[
+11.280977,47.907763
+]
+,[
+11.281512,47.907892
+]
+,[
+11.281984,47.907588
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516155812,
+"guid": "619778f29f144013b35f2a099bf6082f.1c",
+"title": "Reswue is for dating Part II Tutzing 16/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 251933,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/M-fidez0-6A-aIeH4IN2-phlanCptyfVRXSwdHznSi89mviJYZ39iF8srWampVe8TQxsKPRWOhlb6xYdDGAPSQ",
+"portalTitle": ["Fischereimeister Lettker","Pavillon Am See","Kriegerdenkmal","Gesichterwand ","Zwillingsstatuen ","Holzburg "],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.281334,47.907378
+]
+,[
+11.280718,47.9069
+]
+,[
+11.280176,47.906622
+]
+,[
+11.280019,47.907015
+]
+,[
+11.279969,47.90723
+]
+,[
+11.280344,47.907509
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516164236,
+"guid": "9757b8852614476b86c94f7b49f1f88f.1c",
+"title": "Reswue is for dating Part II Tutzing 17/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 816218,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/6m127G6WLjAaZmBcavQI4H1_mHUtX4IlPccLj_6fQN8-vtEh9tIrQZx5kGb5nfe3LCG3DDRwKC_zuJMFjm4",
+"portalTitle": ["Ballspieler - Mural ","Fassadenmalerei Hauptstraße","Mural","Kriegerdenkmal","Grotte beim Krankenhaus","Klinikbrunnen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.280003,47.907731
+]
+,[
+11.279332,47.907692
+]
+,[
+11.278762,47.907594
+]
+,[
+11.277287,47.908172
+]
+,[
+11.276975,47.907588
+]
+,[
+11.276635,47.907566
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473516171374,
+"guid": "186c98ad38dc43428194d15737907037.1c",
+"title": "Reswue is for dating Part II Tutzing 18/18",
+"description": "Reswue is for dating Continuation after playing Part I in Weilheim in Obb.Part II will lead you to some romantic places at the seaside of Starnberger See",
+"author":"Ammersee",
+"authorTeam": "R",
+"ratingE6": 500000,
+"medianCompletionTimeMs": 640271,
+"numUniqueCompletedPlayers": 4,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/AWyjkv_SeiK4Yw9DLoHL9qjnDKLmEiiiIb0lkWkpAAZsY4vR17PvELksbsRN01a-BFkyMBwqADP90VQhyfrV",
+"portalTitle": ["Jesusstatue","Madonna","Post","Bahnhof Tutzing","Tutzinger Keller","Bahnhof Tutzing"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 52
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.276295,47.907861
+]
+,[
+11.276445,47.908193
+]
+,[
+11.273676,47.907265
+]
+,[
+11.273045,47.907457
+]
+,[
+11.272033,47.904282
+]
+,[
+11.27308,47.906787
+]
+]
+}
+}]}

@@ -81,8 +81,33 @@ h4{
     padding:0;
     max-width:300px;
     max-height:500px;
-    overflow-y: scroll;
     overflow-x: hidden;
+    color: #fff;
+    background: #333 !important;
+}
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+    border-bottom-color: #333 !important;
+}
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip {
+    border-bottom-color: #333 !important;
+}
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+    border-bottom-color: #333 !important;
+}
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+    border-top-color: #333 !important;
+}
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip {
+    border-top-color: #333 !important;
+}
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+    border-top-color: #333 !important;
+}
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: #333 !important;
+}
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: #333 !important;
 }
 .mapboxgl-popup-content h4 {
     background:#663399;

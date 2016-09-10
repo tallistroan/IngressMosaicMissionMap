@@ -51,6 +51,819 @@
           48.141321
         ]
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Uptown München",
+        "description": "zu Fuß machbar, Rad muss stellenweise geschoben werden",
+        "imagePath": "pics/uptown.jpg",
+        "info": "https://plus.google.com/108174827006742440372/posts/JKwcE78tQHU",
+        "id": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.576208,
+          48.137238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Munich City Walls",
+        "description": "zu Fuß machbar, Rad muss stellenweise geschoben werden, auf dem direkten Weg sind einige Uniques mehr möglich",
+        "imagePath": "pics/walls.jpg",
+        "info": "https://plus.google.com/108174827006742440372/posts/2hmHGQ5JWa9",
+        "id": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.576878,
+          48.136661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Spiderweb",
+        "description": "von jedem Portal aus müssen acht Links erstellt werden (und viermal gehackt werden), daher umliegende Keys und ggf. Viren zum Flippen bereithalten, Dauer stark von den Gegebenheiten vor Ort abhängig",
+        "imagePath": "pics/spiderweb.jpg",
+        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/AV7MhNFqBaP",
+        "id": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575486,
+          48.13722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Münchner Kindl",
+        "description": "machbar zu Fuß und mit dem Rad",
+        "imagePath": "pics/kindl.jpg",
+        "info": "https://plus.google.com/105408486233581365618/posts/CQYnJsMHBXV",
+        "id": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575486,
+          48.13722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bavaria München",
+        "description": "machbar zu Fuß und mit dem Rad",
+        "imagePath": "pics/bavaria.jpg",
+        "info": "https://plus.google.com/+EeePee_at_Muc/posts/DdXoQCYxBLU",
+        "id": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.545971,
+          48.130672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Siegestor München XX/24",
+        "description": "machbar zu Fuß, Rad muss teilweise geschoben werden",
+        "imagePath": "pics/siegOne.jpg",
+        "info": "https://plus.google.com/+EeePee_at_Muc/posts/iN2SK1Ccawk",
+        "id": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.577356,
+          48.140569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Siegestor München XX",
+        "description": "machbar zu Fuß, Rad muss teilweise geschoben werden, einige Uniques mehr auf dem direkten Weg machbar",
+        "imagePath": "pics/siegTwo.jpg",
+        "info": "https://plus.google.com/115143876577311717279/posts/5gNC2z5hX8R",
+        "id": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.582108,
+          48.152297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Schwabylon",
+        "description": "zu Fuß machbar, Fahrrad teilweise möglich",
+        "imagePath": "pics/schwabylon.jpg",
+        "info": "https://plus.google.com/110846006526075725494/posts/aZvS4atAmZu",
+        "id": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.586201,
+          48.162715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Munich Portal Hunter Stroll",
+        "description": "zu Fuß machbar, Fahrrad teilweise möglich",
+        "imagePath": "pics/stroll.jpg",
+        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/g6YVFy3VLAj",
+        "id": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.574875,
+          48.137357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Oberhachinger Runde",
+        "description": "machbar zu Fuß und Fahrrad, Anreise mit S-Bahn S3 bis Station Furth",
+        "imagePath": "pics/oberhaching.jpg",
+        "info": "https://plus.google.com/101244766742225063471/posts/ACLNoQj2Xq2",
+        "id": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.593261,
+          48.035366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Sound & Vision",
+        "description": "Fahrrad sehr zu empfehlen, da teilweise große Strecken zwischen den Portalen/Missionen zurückgelegt werden müssen, mit Auto sehr begrenzt möglich. Hinweis: Mission 36 gibt es zweimal, einfach eine davon spielen",
+        "imagePath": "pics/sound.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/KLbFmJGPSpd",
+        "id": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.658516,
+          48.199911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Blauer Reiter",
+        "description": "zu Fuß machbar, bedingt mit Rad möglich; zahlreiche Uniques mehr möglich als oben angegeben, da viele Portale auf dem direkten Weg in den Missionen ausgelassen werden",
+        "imagePath": "pics/reiter.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/KLbFmJGPSpd",
+        "id": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.563926,
+          48.146732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Schlösser in Oberschleißheim",
+        "description": "zu Fuß machbar, <a href='http://www.schloesser-schleissheim.de/deutsch/tourist/oeffn.htm'>Öffnungszeiten des Hofgarten</a> beachten",
+        "imagePath": "pics/schleiss.jpg",
+        "info": "",
+        "id": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.558202,
+          48.248869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Englischer Garten",
+        "description": "mit dem Fahrrad machbar, alternativ ausgedehnter Spaziergang",
+        "imagePath": "pics/garten.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/UTRWqfTp1Ys",
+        "id": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.587689,
+          48.143404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "I love München",
+        "description": "am besten zu Fuß machbar, nachts auf mit dem Fahrrad möglich",
+        "imagePath": "pics/love.jpg",
+        "info": "https://plus.google.com/111393022701999353991/posts/QrfXJGr9nXs",
+        "id": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.560711,
+          48.140198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Münchens Biergärten",
+        "description": "kurze Einzelmissionen, für die Wege zwischen den Missionen ÖPNV empfehlenswert",
+        "imagePath": "pics/bier.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/eHyLhExsHjS",
+        "id": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.591939,
+          48.152416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Trudering",
+        "description": "Fahrrad aufgrund der Missionslänge empfehlenswert, machbar aber auch zu Fuß",
+        "imagePath": "pics/trudering.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/cHqEcsM1FRd",
+        "id": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.709466,
+          48.111289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Tierpark",
+        "description": "liegt komplett im Tierpark, deswegen Öffnungszeiten des Tierparks beachten",
+        "imagePath": "pics/tierpark.jpg",
+        "info": "",
+        "id": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.551648,
+          48.100534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Türkenfeld",
+        "description": "Auto oder Fahrrad empfehlenswert",
+        "imagePath": "pics/turk.jpg",
+        "info": "",
+        "id": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.076893,
+          48.104563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Innerer Radring",
+        "description": "Fahrrad selbstverständlich empfohlen",
+        "imagePath": "pics/innen.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/PXWASyyJToP",
+        "id": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.592344,
+          48.136846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Äußerer Radring",
+        "description": "Fahrrad selbstverständlich empfohlen",
+        "imagePath": "pics/aussen.jpg",
+        "info": "https://plus.google.com/+RomanMartynez/posts/22xuufzqRzv",
+        "id": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.633479,
+          48.134968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Gauting",
+        "description": "am besten zu Fuß zu machen, Fahrrad grundsätzlich möglich, vor dem Absolvieren auf der Intel die Upgrademöglichkeiten gegenprüfen",
+        "imagePath": "pics/gauting.jpg",
+        "info": "https://plus.google.com/+EeePee_at_Muc/posts/3FPjKE4eDFS",
+        "id": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.375993,
+          48.070713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Starnberg",
+        "description": "zu Fuß machbar, nicht für Auto geeignet, Schlosspark nachts geschlossen das Portal ist aber mit einem kleinen Umweg von außen erreichbar",
+        "imagePath": "pics/starnberg.jpg",
+        "info": "https://plus.google.com/108174827006742440372/posts/DSyB6EuUke1",
+        "id": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.342601,
+          47.995636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Sunset At The Lake",
+        "description": "erste Runde Aufbau/Hack, zweite Runde linken, daher vorher Blick auf Intel sinnvoll, um viele Viren zu sparen",
+        "imagePath": "pics/sunset.jpg",
+        "info": "https://plus.google.com/105408486233581365618/posts/FhS3716q3cJ",
+        "id": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.251291,
+          48.077323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pullach im Isartal",
+        "description": "machbar zu Fuß/teilweise Fahrrad",
+        "imagePath": "pics/pullach.jpg",
+        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/WoetXMZJnYS",
+        "id": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.521487,
+          48.058299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Germeringer Kermit",
+        "description": "Fahrrad oder Auto empfehlenswert",
+        "imagePath": "pics/kermit.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/hTAJpzygxDB",
+        "id": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.365,
+          48.129444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Germering",
+        "description": "nur Aktionen machen, die die Missionen verlangen, da Missionen teilweise über die selben Portale führen",
+        "imagePath": "pics/germering.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/S6YfZqFoRyR",
+        "id": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.386416,
+          48.134245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mors certa, hora incerta",
+        "description": "zu Fuß machbar, <a href='https://www.muenchen.de/rathaus/Stadtverwaltung/Referat-fuer-Gesundheit-und-Umwelt/Friedhof_und_Bestattung/SFM/Friedhoefe/Waldfriedhof.html'>Öffnungszeiten</a> des Friedhofs beachten",
+        "imagePath": "pics/mors.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/S6YfZqFoRyR",
+        "id": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.501004,
+          48.111733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Tatort Hadern",
+        "description": "zu Fuß machbar, Fahrrad aber stellenweise sehr hilfreich, <a href='https://www.muenchen.de/rathaus/Stadtverwaltung/Referat-fuer-Gesundheit-und-Umwelt/Friedhof_und_Bestattung/SFM/Friedhoefe/Waldfriedhof.html'>Öffnungszeiten</a> des Friedhofs beachten und genügend Zeit zum Spielen darauf einplanen",
+        "imagePath": "pics/tatort.jpg",
+        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/GmyJmwMqhq6",
+        "id": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.492993,
+          48.117754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "EXPUGNA SENTILINGA!",
+        "description": "zu Fuß und teilweise Fahrrad machbar, je nach Farbe der Portale einige Burster notwendig",
+        "imagePath": "pics/sendling.jpg",
+        "info": "https://plus.google.com/u/0/+UwePapenfuss-UPafus/posts/8AVCBABANPN",
+        "id": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.53297,
+          48.097872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "EXPUGNA OTTOFONTEM",
+        "description": "Fahrrad/Auto empfehlenswert um weite Strecken zwischen einzelnen Portalen zurückzulegen. Achtung: in Ottobrunn stehen sehr viele blaue 8er Portale, daher je nach Fraktion genug XMP/US bzw. Flipcards notwendig",
+        "imagePath": "pics/ottobrunn.jpg",
+        "info": "https://plus.google.com/u/0/+UwePapenfuss-UPafus/posts/8AVCBABANPN",
+        "id": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.679085,
+          48.062887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Endless",
+        "description": "zu Fuß/mit dem Fahrrad machbar, die drei Teile können auch unabhängig voneinander absolviert werden. Hinweis: Der vierte Teil (Missionen ab 55) ist noch nicht vollständig freigeschaltet",
+        "imagePath": "pics/endless.jpg",
+        "info": "https://plus.google.com/+MichaelKah4712/posts/hwGEmHunenN",
+        "id": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.558931,
+          48.140335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Antiquarium München",
+        "description": "zu Fuß machbar, teilweise Fahrrad möglich",
+        "imagePath": "pics/antiquarium.jpg",
+        "info": "https://plus.google.com/+EeePee_at_Muc/posts/HDQkGyqRBE9",
+        "id": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57772,
+          48.141742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Celtic Knot",
+        "description": "zu Fuß machbar, nachts auch mit dem Fahrrad möglich",
+        "imagePath": "pics/celtic.jpg",
+        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/J3EadCZ6iPL",
+        "id": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.565815,
+          48.139141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Zombie Apokalypse",
+        "description": "zu Fuß und mit dem Fahrrad möglich",
+        "imagePath": "pics/zombie.jpg",
+        "info": "",
+        "id": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.437851,
+          48.262847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Stadtwappen Dachau",
+        "description": "Fahrrad empfehlenswert, aber auch zu Fuß möglich",
+        "imagePath": "pics/dachau.jpg",
+        "info": "https://plus.google.com/+RomanMartynez/posts/BSCkYK4jomW",
+        "id": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.444106,
+          48.254208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "AURUM Dachau",
+        "description": "Fahrrad empfehlenswert, schwere Fragen zu beantworten",
+        "imagePath": "pics/aurum.jpg",
+        "info": "",
+        "id": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.467556,
+          48.266679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Shapers Eye",
+        "description": "Auto sehr empfehlenswert, Fahrtstrecke insgesamt ca. 140km",
+        "imagePath": "pics/shapers.jpg",
+        "info": "https://plus.google.com/116563139712321765420/posts/Yb2GX7moHRC",
+        "id": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.444106,
+          48.254208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "FFB ENL-Mosaik",
+        "description": "Auto empfehlenswert aufgrund großer Abstände zwischen den einzelnen Missionen, Dauer mit Auto etwa 4-6h",
+        "imagePath": "pics/ffbenl.jpg",
+        "info": "https://plus.google.com/+FlorianHorch/posts/YNp4DL8b7XL",
+        "id": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.251303,
+          48.177499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Spaziergang durch Erding",
+        "description": "machbar zu Fuß, Fahrrad muss teilweise geschoben werden",
+        "imagePath": "pics/erding.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/cpN8Sg2YhuG",
+        "id": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.901756,
+          48.293533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Blue Sun Garching",
+        "description": "Fahrrad sehr empfohlen aufgrund der Länge, mit Fahrrad etwa 5-6h, zu Fuß 9-11h, deckt so gut wie alle Portale in Garching ab, für Tips bitte G+ Post beachten",
+        "imagePath": "pics/bluesun.jpg",
+        "info": "https://plus.google.com/105802707506886411072/posts/QZudHrzm3fD",
+        "id": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.630954,
+          48.247019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ismaning",
+        "description": "Fahrrad empfohlen, begrenzt auch mit Auto machbar",
+        "imagePath": "pics/ismaning.jpg",
+        "info": "https://plus.google.com/+RomanMartynez/posts/MVVrr3uaRkJ",
+        "id": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.684061,
+          48.214031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "1972 Summer Olympics",
+        "description": "die ersten 19 Missionen sind zu Fuß machbar, danach braucht man Auto/Fahrrad/ÖPNV um die einzelnen Missionen zu erreichen, Gesamtdauer daher abhängig vom Fortbewegungsmittel zwischen den einzelnen Missionen",
+        "imagePath": "pics/olympics.jpg",
+        "info": "https://plus.google.com/115691861964980669941/posts/AZWkWDnE79B",
+        "id": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.554669,
+          48.180531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Marienplatz München",
+        "description": "zu Fuß machbar, nachts auch Fahrrad möglich",
+        "imagePath": "pics/marienplatz.jpg",
+        "info": "https://plus.google.com/+MarioGreenHamsterStemmler/posts/9FDK4zFGcXW",
+        "id": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575546,
+          48.137437
+        ]
+      }
+    },
+    {"type": "Feature",
+      "properties": {
+        "title": "Munich City",
+        "description": "kann auch gut in 6er Reihen gemacht werden, Fahrrad aufgrund der Länge der einzelnen Missionen empfehlenswert",
+        "imagePath": "pics/city.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/Qpe32559ycD",
+        "id": 48
+      },"geometry": {
+      "type": "Point",
+      "coordinates":[
+        11.57594,48.137372
+      ]
+    }},
+    {"type": "Feature",
+      "properties": {
+        "title": "Districts of Munich",
+        "description": "für ÖPNV ausgelegt, mind. 12h einplanen, in den Randzeiten der Öffis ggf. nicht/nur schwer machbar bzw. dauert es dann länger, Tageskarte Innenraum empfehlenswert",
+        "imagePath": "pics/districts.jpg",
+        "info": "https://plus.google.com/+NorbertRehm/posts/7WaZHH1i5cN",
+        "id": 49
+      },"geometry": {
+      "type": "Point",
+      "coordinates":[
+        11.575546,48.137437
+      ]
+    }},
+    {"type": "Feature",
+      "properties": {
+        "title": "Schleissheim Postcard",
+        "description": "zu Fuß und mit dem Fahrrad machbar",
+        "imagePath": "pics/postcard.jpg",
+        "info": "https://plus.google.com/115699361489256627368/posts/SeUFgpn1V8Y",
+        "id": 50
+      },"geometry": {
+      "type": "Point",
+      "coordinates":[
+        11.557779,48.257227
+      ]
+    }},
+    {"type": "Feature",
+      "properties": {
+        "title": "Das große Biergartenmosaik",
+        "description": "Hinweis: vsl. nur bis Ende September online! meist kurze Einzelmissionen, liegen allerdings weit auseinander daher Fahrrad/Auto und ggf. ÖPNV empfehlenswert",
+        "imagePath": "pics/biergarten.jpg",
+        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/LmhbL4dcnmx",
+        "id": 51
+      },"geometry": {
+      "type": "Point",
+      "coordinates":[
+        11.591939,48.152416
+      ]
+    }},
+    {"type": "Feature",
+      "properties": {
+        "title": "Reswue is for dating",
+        "description": "Anreise bis Weilheim von München aus mit Zug oder Auto möglich, für die einzelnen Missionen teilweise Fahrrad hilfreich",
+        "imagePath": "pics/reswue.jpg",
+        "info": "https://plus.google.com/100134537804155218602/posts/BfKNAnJmGcf",
+        "id": 52
+      },"geometry": {
+      "type": "Point",
+      "coordinates":[
+        11.143847,47.845588
+      ]
+    }}
   ]
 }

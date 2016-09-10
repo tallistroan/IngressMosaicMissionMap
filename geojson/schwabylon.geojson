@@ -1,0 +1,773 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1473135684787,
+"guid": "c2b01c443a6c4b2cad64be6d5e39b345.1c",
+"title": "Schwabylon 01",
+"description": "Schwabylon. Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 971014,
+"medianCompletionTimeMs": 680682,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/QXkPc2hw1FbY7auFwUXIIyrdgzDxeE0KBf-uKRgGKWiUXn8pVJ1SOp2pCOfg3SATJsTvkqTfLM16i8FqVO8",
+"portalTitle": ["Bally-Prell-Brunnen","Fledermaus Und Teddyschlange ","Blumenfassade in der Clemensstr","Maria and Jesus","Maximiliansgymnasium","Mens sana in corpore sano"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.586201,48.162715
+]
+,[
+11.58614,48.163477
+]
+,[
+11.585714,48.163283
+]
+,[
+11.58481,48.163466
+]
+,[
+11.585007,48.164656
+]
+,[
+11.584333,48.16439
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135689909,
+"guid": "23a6d68a390f4f88be2e487d9e6c0ae2.1c",
+"title": "Schwabylon 02",
+"description": "Schwabylon.Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 969231,
+"medianCompletionTimeMs": 397975,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/mXXY0SRK9evM1ss0IuHx7gGuYMf8eWPijUwLlZrD5IgyXjLMjH8Z-BGBSxvx4sQnrbwjHjnVDl3OuVQ6MyuZ3w",
+"portalTitle": ["Oskar-von-Miller-Gymnasium","Unter Kindes Augen","House of Angels","Fakultät für Architektur","Ellipsen","Tennisspielerin"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.583631,48.164639
+]
+,[
+11.582749,48.164459
+]
+,[
+11.581899,48.163919
+]
+,[
+11.581016,48.163885
+]
+,[
+11.580812,48.164148
+]
+,[
+11.580827,48.164475
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135884872,
+"guid": "2f7409925bec4d76aa03f5605c9ace63.1c",
+"title": "Schwabylon 03",
+"description": "Schwabylon.Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 955224,
+"medianCompletionTimeMs": 287073,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/qK3GxZrHiue0YrZJigDr6G_ekXvlrGi3HDY691UAtlKlhmthdwSzugUJZXTxGnTUDM16QmiWaA1vge3UfUw8",
+"portalTitle": ["Früchte Und Blumen","Friedenstauben","Obstträger","Bienenstock","Bacchus","Viktoria"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.580916,48.164995
+]
+,[
+11.580392,48.165181
+]
+,[
+11.580378,48.164958
+]
+,[
+11.580028,48.164931
+]
+,[
+11.579464,48.165558
+]
+,[
+11.579044,48.165546
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135899580,
+"guid": "bad88f3b748c4c8ca9da7694a727f45a.1c",
+"title": "Schwabylon 04",
+"description": "Schwabylon.Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 926471,
+"medianCompletionTimeMs": 599897,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/qU9so2vAKYuaN6NhoDgwXrxsIUCyQQ-QxwLVed0rbhnXF4Rcgd2TH31oR7AZSeyyD13E_RAhxSs3RysX1jNgvQ",
+"portalTitle": ["Portal","Märchentor","Confines Ove","Flying Horse ","Gelehrter der Botanik ","Das Tor"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.580289,48.166338
+]
+,[
+11.581036,48.166222
+]
+,[
+11.582955,48.165823
+]
+,[
+11.583781,48.165395
+]
+,[
+11.583666,48.165126
+]
+,[
+11.584465,48.165429
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135903065,
+"guid": "c663a44782d54c109841fc931efda9b5.1c",
+"title": "Schwabylon 05",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 970588,
+"medianCompletionTimeMs": 434651,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/rPuGObLpB45reJPwdO-nJoMsdZlqJ29RGVZszOl9kMQV5--oSNYd8P7Mybd4pSxjw-8Pr5KcNIbl76mdevU",
+"portalTitle": ["Steinrelief II","Der Hirte","Sulzbacher Venus","Komm Glück mit Frieden","Steinrelief","Sankt Georg"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.584567,48.16564
+]
+,[
+11.584705,48.165941
+]
+,[
+11.585673,48.16653
+]
+,[
+11.586073,48.166408
+]
+,[
+11.586161,48.165309
+]
+,[
+11.585208,48.165299
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135908845,
+"guid": "538e2dbf901a458cbe4a79144f70ffab.1c",
+"title": "Schwabylon 06",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 884058,
+"medianCompletionTimeMs": 585947,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/sefNjZdeP1YQxtMB6ZRAvv6lbsI5O6NUlfKVbUndHUlUGKsGhnDNbC-g9Z3Ko6lPO_lT8_ovpgNPhMzzEzA",
+"portalTitle": ["Confines Ove","1a in Schwabing","Mann mit Hund","Tänzerin in der Rheinstrasse ","Das Mädchen mit dem Vogel","Column Reliefs"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.582955,48.165823
+]
+,[
+11.581168,48.166663
+]
+,[
+11.581151,48.166933
+]
+,[
+11.581749,48.167039
+]
+,[
+11.582725,48.167546
+]
+,[
+11.582982,48.167868
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135911932,
+"guid": "d91e5161438a4e3188b066866bc1656e.1c",
+"title": "Schwabylon 07",
+"description": "Das Schwabylon war ein Einkaufszentrum in Schwabing, das seiner Zeit voraus war.Es wurde 1973 eröffnet und schon nach kurzer Zeit wieder geschlossen.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 927536,
+"medianCompletionTimeMs": 870906,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/_mZIWo22taPJUQ53-8WNI9CHPnkIy281qjqn_VDoZgx1hT7F4ouYcWoU7nAdahXM-r2RDhZ_9CGi-LkDiIc",
+"portalTitle": ["Kirche Maria vom guten Rat","Kirchturm Maria vom guten Rat","Gedenktafel für Rudolf Hesse","Orange Powercube","Tantris","Kreisel"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.584761,48.168317
+]
+,[
+11.585282,48.168473
+]
+,[
+11.585907,48.169304
+]
+,[
+11.588378,48.169401
+]
+,[
+11.588175,48.16969
+]
+,[
+11.587966,48.171385
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135923688,
+"guid": "01b1f4cdc2fc4cc39776abb02eb5a6f2.1c",
+"title": "Schwabylon 08",
+"description": "Bereits 1979 wurden Teile des Gebäudes wieder abgerissen.Aktuell entsteht auf der Fläche, auf der ursprünglich unter anderem das Schwabylon stand, das neue Stadtquartier Schwabinger Tor.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 897059,
+"medianCompletionTimeMs": 625005,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/fuMcGdLAENZ6254MPl7OuqP_BpyVIpC7nvJjbE7nFyR-3hnjsen8qy_IVPwQF4eWRIwGcDY2Vw5OzaJRyck",
+"portalTitle": ["Kinderspielplatz","Aqua Arena","Säule","Floating Stones","Die Bohne","München, Skulptur am Schwabing"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.587381,48.172806
+]
+,[
+11.587492,48.173276
+]
+,[
+11.587788,48.174127
+]
+,[
+11.589975,48.174332
+]
+,[
+11.589511,48.173272
+]
+,[
+11.590404,48.172287
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135926755,
+"guid": "c5f90d3280f94aa2a04f6bf5960d7dc6.1c",
+"title": "Schwabylon 09",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 924242,
+"medianCompletionTimeMs": 1110743,
+"numUniqueCompletedPlayers": 72,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/_BUceI32Z1q8-4sajxCiZ_ajIskq4VMqun5-enOvLl0BWjBuRd5lbo3pxklcY3hKNigJ5vsBtCWS__jICDslYQ",
+"portalTitle": ["Sitzende","Stonecube","Lousy Umbrellas ","Polygraphia Nova, Munich","Erster Ubahn-Stahlträger Münchens","Orpheus und Eurydike"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.591068,48.172321
+]
+,[
+11.593133,48.174199
+]
+,[
+11.59566,48.173095
+]
+,[
+11.59549,48.172695
+]
+,[
+11.596373,48.172747
+]
+,[
+11.594602,48.171344
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135929754,
+"guid": "bd161b2f17b14603bd07c46e7780e332.1c",
+"title": "Schwabylon 10",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 911765,
+"medianCompletionTimeMs": 716183,
+"numUniqueCompletedPlayers": 69,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2glAqnW1z-ECiJGPfoGdED64WuR3ewH1xAvMwFOfT8gkM_yDL0DFCBBHqnRCXzVu5GdX0lYkXibvshpdF4FDGQ",
+"portalTitle": ["Stengelhof","Alter Torbogen","Steinrelief","Maria Mit Kind","Spielende Kinder","Kunigundenstr Heiliger"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.593844,48.169753
+]
+,[
+11.593211,48.169104
+]
+,[
+11.592867,48.168771
+]
+,[
+11.593446,48.167468
+]
+,[
+11.59254,48.166791
+]
+,[
+11.591826,48.166127
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135932696,
+"guid": "f567f80c68c24363ae1d0457adb728cc.1c",
+"title": "Schwabylon 11",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 941176,
+"medianCompletionTimeMs": 471859,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/cabntSjFxOp2Ib0-pz-EI3jiiHPZE4lushpgOxeL-7eeZxAG2NWP_EFoYbkMpNisTh_jKxFlxjU-tNT2ijg",
+"portalTitle": ["Marienbild Am Haus","Neue Maria Im Haus","Gott segne deinen Eingang","Subway Dietlindenstrasse","Sonnengott am Fuchsbau, Munich","Hausbewacher"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.591312,48.16619
+]
+,[
+11.590824,48.166448
+]
+,[
+11.590652,48.166677
+]
+,[
+11.590304,48.166426
+]
+,[
+11.588568,48.165186
+]
+,[
+11.588438,48.164496
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135947339,
+"guid": "479b426782664965a3ef706501bde453.1c",
+"title": "Schwabylon 12",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 924242,
+"medianCompletionTimeMs": 368922,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/lcURQo6aRivaPzO5i_NpcCXKfL0GJW2UeBiEHGRZWSqATtpp3kQ5wV9vCtAk34zJ4ziCPHiXoeLFE9Gl1Mi2CA",
+"portalTitle": ["Graffiti Wall Unterführung","Haus an der Münchner Freiheit","Hippo in Schwabing","Monaco Franze","Grünes Eck, Schwabing","Heiliger Bimmbam"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.587854,48.164033
+]
+,[
+11.587776,48.163695
+]
+,[
+11.587342,48.163675
+]
+,[
+11.587323,48.163416
+]
+,[
+11.58827,48.163018
+]
+,[
+11.588299,48.16227
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135950813,
+"guid": "95faaec1201241c6858405c359137288.1c",
+"title": "Schwabylon 13",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 941176,
+"medianCompletionTimeMs": 360933,
+"numUniqueCompletedPlayers": 71,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/l444kpXLNRU4VBCr74fZZlThf1v_QxF8Q3dLAl8Z9NQxWNPaUE_MLyg3kUbA24ipQbHqozfJLAiwtVJfUYku6g",
+"portalTitle": ["M.Z.","Münchner Lach- und Schiess-Gesellschaft","Fox","Engelstor Grundschule","Church Crossings","Grabmal St Sylvester"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.589493,48.162293
+]
+,[
+11.590743,48.162014
+]
+,[
+11.591286,48.162071
+]
+,[
+11.59184,48.161867
+]
+,[
+11.591831,48.161562
+]
+,[
+11.591991,48.161229
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135955963,
+"guid": "1fc7362f19fc4418a3330eaac529be38.1c",
+"title": "Schwabylon 14",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 955224,
+"medianCompletionTimeMs": 323823,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/taH7PLAAMGMPNHmG2lpCLmWjtD6J4ZyHbU5cZ0kTKSYzHDhA_MF3hkb_L8OLEXSB7kSDc4QoLdKRVxCtbj1tyQ",
+"portalTitle": ["St. Sylvester","3 Hanging Guys","Maria mit Kind","Viereckhof","Yet Another May Tree","Verteidigt die Freiheit - Defend freedom"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.592514,48.161579
+]
+,[
+11.592414,48.161411
+]
+,[
+11.59263,48.161218
+]
+,[
+11.591483,48.160797
+]
+,[
+11.591344,48.160564
+]
+,[
+11.591339,48.160213
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135972181,
+"guid": "4c5a546e913e4c8c869e769eb498fc81.1c",
+"title": "Schwabylon 15",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 955882,
+"medianCompletionTimeMs": 361927,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/K9fCN838VtOYwlO-ge_f3oPej_qP1JFICUU4N7i5kwjPGUQt6SA_HuU9Rq52uStZ-mglsjOZZODR6DZyl7GG",
+"portalTitle": ["Joseph Kardinal Wendel","Trapped Inside a Wall","Willy Grafs Wohnhaus","ArmorQuadratus ","Amore","Lowen Brunnen"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.591745,48.160208
+]
+,[
+11.591325,48.159881
+]
+,[
+11.591744,48.159741
+]
+,[
+11.590765,48.158447
+]
+,[
+11.590908,48.158294
+]
+,[
+11.590413,48.158052
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135978686,
+"guid": "41a73c1670ab412c97195b8566e760e2.1c",
+"title": "Schwabylon 16",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 938462,
+"medianCompletionTimeMs": 461848,
+"numUniqueCompletedPlayers": 68,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/68zGen_zfG-s8r3BA_TgzVL3jn16X2huJz4CL_I-Stf1qS5Jbd0enaYkuJPOlRJdTxmW9I64213FbSO0Tk1i",
+"portalTitle": ["Silver Tree","Beauty and the Beast ","Runder Turm 2.0","Griechischer Gott","Glasfenster","Giebel mit Pfau"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.589943,48.157955
+]
+,[
+11.589342,48.157615
+]
+,[
+11.58931,48.157368
+]
+,[
+11.588096,48.157918
+]
+,[
+11.588236,48.15877
+]
+,[
+11.587499,48.158887
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135984596,
+"guid": "5e451584b9ea40f0a1412d556f29a501.1c",
+"title": "Schwabylon 17",
+"description": "Diese Runde führt durch einen Teil des Münchner Stadtteils Schwabing.Schwabing war früher ein kleines Dorf nördlich von Münchnen, das als Suuapinga bereits 782 in Urkunden erwähnt wurde.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 970149,
+"medianCompletionTimeMs": 417577,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/GSF50IH7BQtOt-5wrGdbv4QBAvkQNf8WyvJTPUmZ0mxF-tmxRyhJPvuxXzywaGvDB7bfU7_U7pjB1jVFXDCZsg",
+"portalTitle": ["Knospen aus Stein","Maria mit Wetterfahne ","Schwabinger Waschweiber","Schwabinger Podium","Wedekindplatz","Fahrrad in Wand"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.58719,48.158922
+]
+,[
+11.587372,48.159541
+]
+,[
+11.588093,48.159917
+]
+,[
+11.587852,48.160079
+]
+,[
+11.588681,48.161433
+]
+,[
+11.58869,48.16176
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1473135989155,
+"guid": "0a21101190424b83870c774ec47891d2.1c",
+"title": "Schwabylon 18",
+"description": "Gleich ist es geschafft! Der letzte Teil dieser Runde durch Schwabing führt dich zurück zur U-Bahn-Station Münchner Freiheit.",
+"author":"PiiQuadrat",
+"authorTeam": "R",
+"ratingE6": 940299,
+"medianCompletionTimeMs": 434033,
+"numUniqueCompletedPlayers": 70,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/PBn92nLFwlo4An1utCUOObtbC35k302NAV0H7mlyw5WbvFmbTRiXR0aHMb6Vdc3fxr146pTowUrVNt9lRg565A",
+"portalTitle": ["Mirror of No Reflection","Schachspiel an der Münchner Freiheit","Freiheitsbrunnen","MF Sculpture","Skulptur Seelenfeuer","Münchner Freiheit"],
+"portalTypeNum": [1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1],
+"id": 11
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.587495,48.162348
+]
+,[
+11.587052,48.162931
+]
+,[
+11.586646,48.163197
+]
+,[
+11.586644,48.162932
+]
+,[
+11.586674,48.162659
+]
+,[
+11.586614,48.16219
+]
+]
+}
+}]}

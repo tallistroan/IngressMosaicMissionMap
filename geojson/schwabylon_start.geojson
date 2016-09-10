@@ -1,0 +1,55 @@
+{"type": "FeatureCollection","features": [{"type": "Feature","properties": {"mission":1},"geometry":{"type": "Point","coordinates":[
+11.586201,48.162715
+]
+}},{"type": "Feature","properties": {"mission":2},"geometry":{"type": "Point","coordinates":[
+11.583631,48.164639
+]
+}},{"type": "Feature","properties": {"mission":3},"geometry":{"type": "Point","coordinates":[
+11.580916,48.164995
+]
+}},{"type": "Feature","properties": {"mission":4},"geometry":{"type": "Point","coordinates":[
+11.580289,48.166338
+]
+}},{"type": "Feature","properties": {"mission":5},"geometry":{"type": "Point","coordinates":[
+11.584567,48.16564
+]
+}},{"type": "Feature","properties": {"mission":6},"geometry":{"type": "Point","coordinates":[
+11.582955,48.165823
+]
+}},{"type": "Feature","properties": {"mission":7},"geometry":{"type": "Point","coordinates":[
+11.584761,48.168317
+]
+}},{"type": "Feature","properties": {"mission":8},"geometry":{"type": "Point","coordinates":[
+11.587381,48.172806
+]
+}},{"type": "Feature","properties": {"mission":9},"geometry":{"type": "Point","coordinates":[
+11.591068,48.172321
+]
+}},{"type": "Feature","properties": {"mission":10},"geometry":{"type": "Point","coordinates":[
+11.593844,48.169753
+]
+}},{"type": "Feature","properties": {"mission":11},"geometry":{"type": "Point","coordinates":[
+11.591312,48.16619
+]
+}},{"type": "Feature","properties": {"mission":12},"geometry":{"type": "Point","coordinates":[
+11.587854,48.164033
+]
+}},{"type": "Feature","properties": {"mission":13},"geometry":{"type": "Point","coordinates":[
+11.589493,48.162293
+]
+}},{"type": "Feature","properties": {"mission":14},"geometry":{"type": "Point","coordinates":[
+11.592514,48.161579
+]
+}},{"type": "Feature","properties": {"mission":15},"geometry":{"type": "Point","coordinates":[
+11.591745,48.160208
+]
+}},{"type": "Feature","properties": {"mission":16},"geometry":{"type": "Point","coordinates":[
+11.589943,48.157955
+]
+}},{"type": "Feature","properties": {"mission":17},"geometry":{"type": "Point","coordinates":[
+11.58719,48.158922
+]
+}},{"type": "Feature","properties": {"mission":18},"geometry":{"type": "Point","coordinates":[
+11.587495,48.162348
+]
+}}]}

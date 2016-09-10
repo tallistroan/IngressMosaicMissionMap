@@ -1,0 +1,73 @@
+{"type": "FeatureCollection","features": [{"type": "Feature","properties": {"mission":1},"geometry":{"type": "Point","coordinates":[
+11.557779,48.257227
+]
+}},{"type": "Feature","properties": {"mission":2},"geometry":{"type": "Point","coordinates":[
+11.557588,48.258329
+]
+}},{"type": "Feature","properties": {"mission":3},"geometry":{"type": "Point","coordinates":[
+11.553267,48.255884
+]
+}},{"type": "Feature","properties": {"mission":4},"geometry":{"type": "Point","coordinates":[
+11.55414,48.255288
+]
+}},{"type": "Feature","properties": {"mission":5},"geometry":{"type": "Point","coordinates":[
+11.556296,48.252463
+]
+}},{"type": "Feature","properties": {"mission":6},"geometry":{"type": "Point","coordinates":[
+11.559643,48.252156
+]
+}},{"type": "Feature","properties": {"mission":7},"geometry":{"type": "Point","coordinates":[
+11.56102,48.253709
+]
+}},{"type": "Feature","properties": {"mission":8},"geometry":{"type": "Point","coordinates":[
+11.560632,48.252878
+]
+}},{"type": "Feature","properties": {"mission":9},"geometry":{"type": "Point","coordinates":[
+11.561706,48.25166
+]
+}},{"type": "Feature","properties": {"mission":10},"geometry":{"type": "Point","coordinates":[
+11.558458,48.250474
+]
+}},{"type": "Feature","properties": {"mission":11},"geometry":{"type": "Point","coordinates":[
+11.554629,48.248926
+]
+}},{"type": "Feature","properties": {"mission":12},"geometry":{"type": "Point","coordinates":[
+11.557526,48.247112
+]
+}},{"type": "Feature","properties": {"mission":13},"geometry":{"type": "Point","coordinates":[
+11.555276,48.244614
+]
+}},{"type": "Feature","properties": {"mission":14},"geometry":{"type": "Point","coordinates":[
+11.5578,48.244997
+]
+}},{"type": "Feature","properties": {"mission":15},"geometry":{"type": "Point","coordinates":[
+11.56097,48.247572
+]
+}},{"type": "Feature","properties": {"mission":16},"geometry":{"type": "Point","coordinates":[
+11.561205,48.24961
+]
+}},{"type": "Feature","properties": {"mission":17},"geometry":{"type": "Point","coordinates":[
+11.561198,48.250235
+]
+}},{"type": "Feature","properties": {"mission":18},"geometry":{"type": "Point","coordinates":[
+11.559967,48.248548
+]
+}},{"type": "Feature","properties": {"mission":19},"geometry":{"type": "Point","coordinates":[
+11.558921,48.248782
+]
+}},{"type": "Feature","properties": {"mission":20},"geometry":{"type": "Point","coordinates":[
+11.559548,48.24884
+]
+}},{"type": "Feature","properties": {"mission":21},"geometry":{"type": "Point","coordinates":[
+11.560281,48.248992
+]
+}},{"type": "Feature","properties": {"mission":22},"geometry":{"type": "Point","coordinates":[
+11.560417,48.247462
+]
+}},{"type": "Feature","properties": {"mission":23},"geometry":{"type": "Point","coordinates":[
+11.561205,48.24961
+]
+}},{"type": "Feature","properties": {"mission":24},"geometry":{"type": "Point","coordinates":[
+11.559175,48.249168
+]
+}}]}
