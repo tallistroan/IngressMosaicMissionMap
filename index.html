@@ -258,7 +258,7 @@
       var layers = [
         [3, '#8db600'],
         [2, '#ffe135'],
-        [0, '#663399']
+        [0, '#9653c6']
       ];
 
       map.addLayer({
@@ -269,7 +269,7 @@
           "visibility": "none"
         },
         "paint": {
-          "circle-color": "#663399",
+          "circle-color": "#9653c6",
           "circle-radius": 11,
           "circle-blur": 0.3
         },
@@ -320,7 +320,7 @@
           "visibility": "none"
         },
         "paint": {
-          "circle-color": "#663399",
+          "circle-color": "#9653c6",
           "circle-radius": 11,
           "circle-blur": 0.3
         },
@@ -363,7 +363,7 @@
                   "line-cap": "round"
                 },
                 "paint": {
-                  "line-color": "#663399",
+                  "line-color": "#9653c6",
                   "line-width": 6,
                   "line-dasharray": [1, 1.5]
                 },
@@ -379,7 +379,7 @@
                   "line-cap": "round"
                 },
                 "paint": {
-                  "line-color": "#663399",
+                  "line-color": "#9653c6",
                   "line-width": 6
                 },
                 "filter": ["==", "typeNumMission", 1]
@@ -565,7 +565,7 @@
             var result = points.features;
             for (var i = 0; i < result.length; i++) {
               if (feature.geometry.coordinates[0].toFixed(4) === result[i].geometry.coordinates[0].toFixed(4) &&
-                  feature.geometry.coordinates[0].toFixed(4) === result[i].geometry.coordinates[0].toFixed(4)) {
+                  feature.geometry.coordinates[1].toFixed(4) === result[i].geometry.coordinates[1].toFixed(4)) {
                 startTitle.push(result[i].properties.title);
                 startDescription.push(result[i].properties.description);
                 startImage.push(result[i].properties.imagePath);
