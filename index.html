@@ -18,20 +18,11 @@
 
 </head>
 <body>
-<!--<div class="row">
-    <div class="large-2 small-3 columns">
-        <p>This is a test sidebar text</p>
-    </div>
-    <div class="large-10 small-9 columns">
-        <p>This is the main page where the map should be</p>
-    </div>
-</div>-->
-
 <div class="fixed">
   <nav class="top-bar" data-topbar>
     <ul class="title-area">
       <li class="name">
-        <h1><a href="index.html" id="title">Mosaikkarte München BETA</a></h1>
+        <h1><a href="index.html" id="title">Mosaikkarte München</a></h1>
       </li>
       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon active"><a href="#"><span>Menü</span></a></li>
@@ -39,9 +30,6 @@
 
     <section class="top-bar-section">
       <ul class="left">
-        <!-- include you mosaic here for the menu entry, see template:
-         <li><a href="index.html?id=id">mosaicTitle</a></li>
-        -->
         <li class="has-dropdown">
           <a href="#">Mosaikliste</a>
           <ul class="dropdown">
@@ -89,18 +77,10 @@
               <ul class="dropdown" id="sub-3">
               </ul>
             </li>
-            <!-- previously used for the special starwars missions
-            <li class="has-dropdown"><a href="#">Spezialmissionen</a>
-                <ul class="dropdown">
-                    <li></li>
-                </ul>
-
-                <li><a href="index.html?id=5">Hachinger Bach</a></li>
-            </li> -->
           </ul>
         </li>
         <li><a href="info.html">Legende</a></li> <!-- legend -->
-        <li><a href="overview.html">Übersicht</a></li> <!-- overview withour map -->
+        <!--<li><a href="overview.html">Übersicht</a></li>--> <!-- overview withour map -->
         <li><a href="contact.html">Kontakt</a></li> <!-- contact information -->
       </ul>
     </section>
@@ -197,19 +177,24 @@
       "biergarten",
       "reswue"
     ];
+
+    var startPointsResult;
+    $.getJSON('./geojson/startpoints.geojson',
+        function (points) {
+          startPointsResult = points;
+          //missionTitleMenu = points.features[i].properties.title;
+        });
     // add mosaics to dropdown menu
     for (var i = 0; i < missionList.length; i++) {
       var missionLengthMenu = 0;
       var missionTitleMenu = "";
-      $.getJSON('./geojson/' + missionList[i] + '_start.geojson',
-          function (points) {
-            missionLengthMenu = points.features.length;
-          });
-      $.getJSON('./geojson/startpoints.geojson',
-          function (points) {
-            missionTitleMenu = points.features[i].properties.title;
-          });
-      document.getElementById('sub-' + missionLengthMenu).innerHTML += '<li><a href="index.html?id=' + (i + 1) + '">' + missionTitleMenu + '</a></li>'
+      //$.getJSON('./geojson/' + missionList[i] + '_start.geojson',
+      //    function (points) {
+      //      missionLengthMenu = points.features.length;
+      //    });
+      missionTitleMenu = startPointsResult.features[i].properties.title;
+      missionLengthMenu = startPointsResult.features[i].properties.missions;
+      document.getElementById('sub-' + missionLengthMenu).innerHTML += '<li><a href="index.html?id=' + (i+1) + '">' + missionTitleMenu + '</a></li>'
     }
     // initialize background map
     mapboxgl.accessToken = mapbox_accesstoken;
@@ -220,9 +205,9 @@
       center: [11.57, 48.14],
       zoom: 14,
       minZoom: 10,
-      maxZoom: 17
-      //hash: true
-      //maxBounds: bounds
+      maxZoom: 17,
+      hash: false,
+      maxBounds: bounds
     });
 
     map.addControl(new mapboxgl.Navigation({position: 'top-right'}));
@@ -338,7 +323,6 @@
       // and when a mosaic is selected
       else {
         var currentID = parseInt(getQueryVariable("id"));
-        console.log("currentID-thingy -->" + missionList[currentID - 1]);
         map.setLayoutProperty('singleStart', 'visibility', 'visible');
         map.setFilter('singleStart', ["==", "id", currentID]);
 
@@ -353,7 +337,6 @@
         });
         $.when(iterateMissionCoordinates(missionList[currentID - 1]))
             .done(function () {
-              //console.log(map.fitBounds(map.getBounds('selectedMission')));
               map.addLayer({
                 "id": "selectedMissionLayerNonSeq",
                 "type": "line",
@@ -417,13 +400,9 @@
         });
         // TODO: Work on the hover feature for mission paths
         map.on('mousemove', function (e) {
-
           var missionPath = map.queryRenderedFeatures(e.point, {layers: ['selectedMissionLayerSeq', 'selectedMissionLayerNonSeq']});
-          //map.setPaintProperty(missionPath[0].layer.id, 'line-width', 7);
-
           if (!missionPath.length) {
             popupMission.remove();
-            //map.setPaintProperty(missionPath[0].layer.id, 'line-width', 4);
             return;
           }
           // popup on mouse coordinate
@@ -436,30 +415,12 @@
 
     });
 
-    /*   map.on("click", function (e) {
-     var clickedFeature = map.queryRenderedFeatures(e.point, {layers: ['cluster-0', 'cluster-1']});
-     map.flyTo({
-     center: clickedFeature[0].geometry.coordinates,
-     zoom: map.getZoom() + 2,
-     speed: 0.6,
-     curve: 1
-     });
-     console.log(map.getZoom());
-     });*/
-    /*map.on("click", function (e) {
-     var clickedFeature = map.queryRenderedFeatures(e.point, {layers: ['unclustered-points']});
-     if (clickedFeature[0].properties.id) {
-     window.location = 'index.html?id=' + clickedFeature[0].properties.id;
-     }
-     });*/
     var popup = new mapboxgl.Popup({
       closeButton: false,
       closeOnClick: false
     });
     map.on('mousemove', function (e) {
       var features_startPoints = map.queryRenderedFeatures(e.point, {layers: ['singleStart', 'unclustered-points', 'cluster-0', 'cluster-1', 'cluster-2']});
-      //console.log(features_startPoints);
-
       if (!features_startPoints.length) {
         popup.remove();
         return;
@@ -473,7 +434,6 @@
               // avoid creation of a new popup when the mouse position is slightly changed,
               // it is also useful to avoid bad popup behaviour on mobile devices
               if (startTitle.length === feature_cluster.properties.point_count) {
-                //console.log(startTitle);
                 var missionString = "";
                 for (var i = 0; i < startTitle.length; i++) {
                   missionString += '</br><a href="index.html?id=' + startId[i] + '">' + startTitle[i] + '</a>';
@@ -483,7 +443,7 @@
                 missionString = "</br>Zoome für mehr Details";
               }
               popup.setLngLat(feature_cluster.geometry.coordinates)
-                  .setHTML("Hier starten " + feature_cluster.properties.point_count + " Missionen " + missionString)
+                  .setHTML("Hier starten " + feature_cluster.properties.point_count + " Mosaike " + missionString)
                   .addTo(map);
               startTitle = [];
               startDescription = [];
@@ -554,7 +514,7 @@
       }
       else {
         popup.setLngLat(feature_cluster.geometry.coordinates)
-            .setHTML(feature_cluster.properties.title)
+            .setHTML('<a href="index.html?id=' + feature_cluster.properties.id + '">' + feature_cluster.properties.title + '</a>')
             .addTo(map);
       }
     });
@@ -587,7 +547,6 @@
       $.getJSON('./geojson/' + mission + '.geojson',
           function (points) {
             var result = points.features;
-            console.log(result.length);
             var arrayPortals = [];
             var arrayPortalTypeNum = [];
             var arrayPortalObjectiveNum = [];
@@ -682,41 +641,6 @@
     }
   });
 
-
-  /*
-
-
-   // Populate the popup and set its coordinates
-   // based on the feature found.
-   var popup = new mapboxgl.Popup({
-   "closeButton": false,
-   "closeOnClick": true,
-   "anchor": "bottom"
-   })
-   .setLngLat(feature.geometry.coordinates)
-   .setHTML(
-   '<h6>' + feature.properties.title + '</h6>'
-   // popup content, text in german, meaning/content is described in the comments after the p-tag
-   + '<span>Ersteller: </span>' + authorName +'<br/>' // author
-   + '<span>Zeit: </span>ca. ' + calcTime(medianCompletionTime)+'<br/>' // median completion time
-   + '<span>Länge: </span>ca. ' + '5h' +'<br/>'// length of the mission, linear distance including the distance between the individual missions
-   + '<span>Aktionen: </span>' + 'all' +'<br/>' // type and count of actions that need to be fulfilled during the mosaic
-   + '<span>Gesamtanzahl Portale: </span>' + 'total' +'<br/>' // number of total portals in the mosaic
-   + '<span>Anzahl Unique Portale: </span>' + 'unique' +'<br/>' // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
-   + '<span>Mehr: </span>' + feature.properties.description +'<br/>' // shows the description specified during the export process from the intel
-   + '<span>Download: </span><a href="' + feature.properties.imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a>'
-   )
-   .addTo(map);
-   });
-   */
-
-
-  // create ClusterGroup for start points on the main map
-
-
-  /**
-   * prepares mission details, when the mission should be displayed
-   */
   function prepareMission(feature, startMissions) {
     document.getElementById("title").innerHTML = "◄ " + startMissions.features[0].properties.title;
     var arrayPortals = [];
@@ -794,11 +718,6 @@
     map.setView([startMissions.features[0].geometry.coordinates[1], startMissions.features[0].geometry.coordinates[0]], 16);
   }
 
-  /**
-   * defines what is visible when clicking on the mission start point at the overview map
-   * @param feature
-   * @param layer
-   */
   function onEachPointOverview(feature, layer) {
     if (feature.properties && feature.properties.title) {
       layer.bindPopup(
@@ -807,11 +726,7 @@
           + '<p><a href="index.html?id=' + feature.properties.id + '">Details/Route in der Karte anzeigen</a></p>');
     }
   }
-  /**
-   * create popup content for the first mission, when the user clicks on the start point
-   * @param feature
-   * @param layer
-   */
+
   function onEachStartPoint(feature, layer) {
     if (feature.properties && feature.properties.missionNumber) {
       // create clickable intel-link for every mission start as label
@@ -889,12 +804,7 @@
       }
     }
   }
-  /**
-   * returns style of the mission marker - a bigger coloured point for the first mission and small rings for the other missions
-   * @param feature
-   * @param latlng
-   * @returns style
-   */
+
   function startMissionStyle(feature, latlng) {
     switch (feature.properties.missionNumber) {
       case "1-12": // special pattern solely for the spiderweb-mosaic
@@ -921,11 +831,6 @@
     }
   }
 
-  /**
-   * returns the value of id, that is provided, when a mission is selected in the menu or from the overview page
-   * @param variable
-   * @returns value of id
-   */
   function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
     var vars = query.split("&");

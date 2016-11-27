@@ -79,7 +79,7 @@ h4{
 .mapboxgl-popup-content {
     font:400 15px/22px 'Source Sans Pro',  Sans-serif;
     padding:0;
-    max-width:270px;
+    max-width:300px;
     max-height:500px;
     overflow-x: hidden;
     color: #fff;
