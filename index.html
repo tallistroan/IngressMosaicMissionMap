@@ -9,9 +9,8 @@
   <link rel="stylesheet" href="css/foundation.css"/>
   <link rel="stylesheet" href="css/ownStyle.css"/>
   <script src="js/vendor/modernizr.js"></script>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v0.23.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.23.0/mapbox-gl.css' rel='stylesheet'/>
-
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet' />
   <script src="js/vendor/jquery.js"></script>
   <script src="js/helpFunctions.js"></script>
   <script type="text/javascript" src="options.js"></script>
@@ -210,8 +209,8 @@
       maxBounds: bounds
     });
 
-    map.addControl(new mapboxgl.Navigation({position: 'top-right'}));
-    map.addControl(new mapboxgl.Geolocate({position: 'top-right'}));
+    map.addControl(new mapboxgl.NavigationControl({position: 'top-right'}));
+    map.addControl(new mapboxgl.GeolocateControl({position: 'top-right'}));
 
     map.on('load', function () {
       map.addSource("startPoints", {
