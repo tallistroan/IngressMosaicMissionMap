@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Reswue is for dating";
+var mosaicTitle = "Time, Space und Fürstenfeldbruck";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "reswue";
+var mosaicName = "time";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 52;
+var mosaicID = 55;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "Anreise bis Weilheim von München aus mit Zug oder Auto möglich, für die einzelnen Missionen teilweise Fahrrad hilfreich";
+var mosaicDescription = "Fahrrad plus ggf. ÖPNV empfehlenswert, Auto und zu Fuß teilweise möglich";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "https://plus.google.com/100134537804155218602/posts/BfKNAnJmGcf";
+var mosaicInfoPost = "https://plus.google.com/+EeePee_at_Muc/posts/Q91Y7nJPxQV";
 
 var lines = [];
 var counter = 0;

@@ -167,7 +167,7 @@
       "type": "Feature",
       "properties": {
         "title": "Siegestor München XX",
-        "description": "machbar zu Fuß, Rad muss teilweise geschoben werden, einige Uniques mehr auf dem direkten Weg machbar",
+        "description": "ACHTUNG: Nur noch online bis 02.12. ca 22 Uhr, machbar zu Fuß, Rad muss teilweise geschoben werden, einige Uniques mehr auf dem direkten Weg machbar",
         "imagePath": "pics/siegTwo.jpg",
         "info": "https://plus.google.com/115143876577311717279/posts/5gNC2z5hX8R",
         "id": 10,
@@ -915,6 +915,48 @@
       "type": "Point",
       "coordinates":[
         11.143847,47.845588
+      ]
+    }},
+    {"type": "Feature",
+      "properties": {
+        "title": "Das Große Wiesn Mosaik Teil 1",
+        "description": "Fahrrad grundsätzlich möglich, muss nur manchmal geschoben werden, letzte Mission kann problematisch werden während der Zeit des Wiesenaufbaus, Teile 49 bis 288 des Mosaiks noch nicht online",
+        "imagePath": "pics/wiesn.jpg",
+        "info": "https://plus.google.com/+felixoehl/posts/1k1Hv7R3Bb7",
+        "id": 53,
+        "missions": 48
+      },"geometry": {
+      "type": "Point",
+      "coordinates":[
+        11.549709,48.135901
+      ]
+    }},
+    {"type": "Feature",
+      "properties": {
+        "title": "EXQVIRE FONTEM OTTONIS",
+        "description": "selbes Motiv und ähnliche Routenführung wie <a href='http://ingress.tallistroan.de/muenchen/index.html?id=34'>EXPUGNA OTTOFONTEM</a>",
+        "imagePath": "pics/exqvire.jpg",
+        "info": "",
+        "id": 54,
+        "missions": 6
+      },"geometry": {
+      "type": "Point",
+      "coordinates":[
+        11.679085,48.062887
+      ]
+    }},
+    {"type": "Feature",
+      "properties": {
+        "title": "Time, Space und Fürstenfeldbruck",
+        "description": "Fahrrad plus ggf. ÖPNV empfehlenswert, Auto und zu Fuß teilweise möglich",
+        "imagePath": "pics/time.jpg",
+        "info": "https://plus.google.com/+EeePee_at_Muc/posts/Q91Y7nJPxQV",
+        "id": 55,
+        "missions": 48
+      },"geometry": {
+      "type": "Point",
+      "coordinates":[
+        11.389033,48.134114
       ]
     }}
   ]
