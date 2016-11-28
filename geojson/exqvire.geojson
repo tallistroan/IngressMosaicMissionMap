@@ -1,0 +1,374 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1480282331541,
+"guid": "59aeb07dba054b89aff31e939f2e6fa2.1c",
+"title": "1-6 EXQVIRE FONTEM OTTONIS",
+"description": "Das einzig wahre Ottobrunn Mosaik. Erforsche Ottobrunn und fülle dein Inventar auf.",
+"author":"bob62",
+"authorTeam": "R",
+"ratingE6": 0,
+"medianCompletionTimeMs": 0,
+"numUniqueCompletedPlayers": 0,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/J5Apj34OTwodcIFnkqzAHktmQCojD4eBrz4EgmfjRiUV58WjaGUAL4RjSW4T36NDVBKHE7pRnORNuk52it-8",
+"portalTitle": ["S-Bahn Ottobrunn","Hansarena","Neuapostolische Kirche Ottobrunn","Evangelische Kirche","Kardio Brunnen","Stillgelegter Steinbrunnen ","Schutzpatron Der Feuerwehr","Friedrich-Ebert-Platz","Pfau Ottobrunn","Ottosäule","Spiralspringbrunnen","Frauenstatue","St.Albertus Magnus Church"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 54
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.679085,48.062887
+]
+,[
+11.677198,48.064183
+]
+,[
+11.676329,48.06343
+]
+,[
+11.674429,48.062842
+]
+,[
+11.674613,48.061827
+]
+,[
+11.670099,48.061034
+]
+,[
+11.668371,48.060424
+]
+,[
+11.667187,48.059665
+]
+,[
+11.665434,48.05932
+]
+,[
+11.66903,48.053047
+]
+,[
+11.665662,48.053438
+]
+,[
+11.664257,48.054112
+]
+,[
+11.663629,48.054271
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480282382509,
+"guid": "2977072eaf0648e28b6ab8e958d4795f.1c",
+"title": "2-6 EXQVIRE FONTEM OTTONIS",
+"description": "Die einzig wahre Ottobrunn Mission. Erforsche Ottobrunn und fülle dein Inventar auf.",
+"author":"bob62",
+"authorTeam": "R",
+"ratingE6": 0,
+"medianCompletionTimeMs": 0,
+"numUniqueCompletedPlayers": 0,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/f4K0R5BB36bINoTiUIElqLCyIRbBFfdsh44yGDabMPtBlBuQUa37BKxbfuZlRLrqorh6R6yfZpE9Dq0v11lu",
+"portalTitle": ["Spielplatz Robert-Koch-Straße","Ludwig Bölkow Statue","Sportpark Ottobrunn","Eingang Parkfriedhof Ottobrunn","Frauenskulptur im Parkfriedhof","Historisches Marterl im Parkfriedhof","Marmorskulptur im Parkfriedhof","Skulptur im Parkfriedhof","Brunnen im Parkfriedhof","Moderne Skulptur im Parkfriedhof","Holzskulptur im Parkfriedhof"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1],
+"id": 54
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.663156,48.05351
+]
+,[
+11.652546,48.05246
+]
+,[
+11.6518,48.057212
+]
+,[
+11.652317,48.061296
+]
+,[
+11.651919,48.061344
+]
+,[
+11.650862,48.061862
+]
+,[
+11.650894,48.062082
+]
+,[
+11.648726,48.061589
+]
+,[
+11.648393,48.061478
+]
+,[
+11.649086,48.061074
+]
+,[
+11.649771,48.060882
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480282386576,
+"guid": "085e2fb1ff204bbdacddb2d706acf28a.1c",
+"title": "3-6 EXQVIRE FONTEM OTTONIS",
+"description": "Die einzig wahre Ottobrunn Mission. Erforsche Ottobrunn und fülle dein Inventar auf.",
+"author":"bob62",
+"authorTeam": "R",
+"ratingE6": 0,
+"medianCompletionTimeMs": 0,
+"numUniqueCompletedPlayers": 0,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/3dfUzHN0UZp2QUjPc_pBLMqRQr71M6Fv7aJPBo4WOvvBADj-uyvNrlrrM-pVrSzOD-2ZC_4LNTDJ4ilENRs",
+"portalTitle": ["Barbara Oppenrieder Mural","Zwei Löwen","Spielplatz Am Bogen","Badende","Denkmalsplatz Ottobrunn","Fragile Stele","Gehstirn","Ohr Des Dionys","Aida","Otto Von Griechenland Museum","Wolf-Ferrari-Haus Ottobrunn","Spielplatz am Wirtshaus","Wolf-Ferrari-Haus"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 54
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.657848,48.060114
+]
+,[
+11.662552,48.062661
+]
+,[
+11.664291,48.063615
+]
+,[
+11.665021,48.064219
+]
+,[
+11.66495,48.064365
+]
+,[
+11.665132,48.06445
+]
+,[
+11.665225,48.064386
+]
+,[
+11.665219,48.064276
+]
+,[
+11.665546,48.064492
+]
+,[
+11.664701,48.064574
+]
+,[
+11.664826,48.064855
+]
+,[
+11.66525,48.065563
+]
+,[
+11.665812,48.065028
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480282408803,
+"guid": "433da412d7f84c1890b43cc876beda34.1c",
+"title": "4-6 EXQVIRE FONTEM OTTONIS",
+"description": "Die einzig wahre Ottobrunn Mission. Erforsche Ottobrunn und fülle dein Inventar auf.",
+"author":"bob62",
+"authorTeam": "R",
+"ratingE6": 0,
+"medianCompletionTimeMs": 0,
+"numUniqueCompletedPlayers": 0,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/dxJi4FWuzxhGGknawYFCj5FmQKzQgu7Q6q3FXE_BW2C7H3pD-gszgRqegq3Ekdj8Ib9QVUhLq-5v2uGgnrjc",
+"portalTitle": ["SJM","Spielplatz Im Amalienwald","Pfadibaumhaus","Staudenpflanzung Ottobrunn","DAS Tollhaus","Fireplace on the Road","Denkmal Salettl","Old Gasthof zum Flughafen","Wine Reconfort","Friedhof Neubiberg","Christian Hinz  Skulptur Neubi","Kreuz at Friedhof Neubiberg","NKB Pavillion","SANS Pavillion"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 54
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.659789,48.072642
+]
+,[
+11.659326,48.072738
+]
+,[
+11.660312,48.072935
+]
+,[
+11.65696,48.070395
+]
+,[
+11.656844,48.070594
+]
+,[
+11.656448,48.071234
+]
+,[
+11.653385,48.07421
+]
+,[
+11.651237,48.078567
+]
+,[
+11.650371,48.078413
+]
+,[
+11.649704,48.077304
+]
+,[
+11.64823,48.075708
+]
+,[
+11.647581,48.075574
+]
+,[
+11.646935,48.075029
+]
+,[
+11.646979,48.074627
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480282414429,
+"guid": "429cd2bae0a741da83c8180d1c93a674.1c",
+"title": "5-6 EXQVIRE FONTEM OTTONIS",
+"description": "Die einzig wahre Ottobrunn Mission. Erforsche Ottobrunn und fülle dein Inventar auf.",
+"author":"bob62",
+"authorTeam": "R",
+"ratingE6": 0,
+"medianCompletionTimeMs": 0,
+"numUniqueCompletedPlayers": 0,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/K1LT0VQE_47v9_u14empV-IkVa7GygtjZm_Y9CinA4bb7PoDh-ZnbANHJk1yNzJ0Zd6hUGsrT5LTRpc-xWA",
+"portalTitle": ["Kleiner Zoo Am Landschaftspark","Waldschlößchen","Großes Christus Kreuz Ottobrunn","KZ-Außenlager Skulptur Ottobrunn","Galoppierende Pferde","Kath. Schule Zu St. Otto","St. Otto","Red Guy","Maibaum Ottobrunn","Indischer Elefant","Polsterei"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1],
+"id": 54
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.653191,48.066524
+]
+,[
+11.658592,48.067951
+]
+,[
+11.660261,48.065191
+]
+,[
+11.660605,48.065275
+]
+,[
+11.661973,48.065505
+]
+,[
+11.662941,48.066859
+]
+,[
+11.662819,48.067154
+]
+,[
+11.66438,48.066577
+]
+,[
+11.665056,48.06643
+]
+,[
+11.668428,48.067452
+]
+,[
+11.673731,48.068584
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480282428180,
+"guid": "da3a285328674d4c8a447ba4e8b177eb.1c",
+"title": "6-6 EXQVIRE FONTEM OTTONIS",
+"description": "Die einzig wahre Ottobrunn Mission. Erforsche Ottobrunn und fülle dein Inventar auf.",
+"author":"bob62",
+"authorTeam": "R",
+"ratingE6": 0,
+"medianCompletionTimeMs": 0,
+"numUniqueCompletedPlayers": 0,
+"typeNumMission": 2,
+"image": "https://lh3.googleusercontent.com/8z8pDDDlUjzLdEoV3itcCWKfcHl6jVueKR1_pmq5XmFR_SaC5bIDwgl0hZw8oJcZVoiLGOIsUllEnAU6PQc",
+"portalTitle": ["Kein Trinkwasser","Sisyphus","Boyscouts HQ / Treehouse","Realschule / Kunst","The Respect Wall","Mensch","Lenbachs Rutschenturm","Der Wolf","modernes Handkarussell","Slackline","Radhaus Ottobrunn","Kleists Roundabout","St. Magdalena Kirche Ottobrunn"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1,1,1,1],
+"id": 54
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.677594,48.069191
+]
+,[
+11.678546,48.068348
+]
+,[
+11.681926,48.070456
+]
+,[
+11.681937,48.071751
+]
+,[
+11.681389,48.071462
+]
+,[
+11.686059,48.068615
+]
+,[
+11.689579,48.066784
+]
+,[
+11.689969,48.066361
+]
+,[
+11.688538,48.066351
+]
+,[
+11.687711,48.066197
+]
+,[
+11.689342,48.064686
+]
+,[
+11.68776,48.065098
+]
+,[
+11.682136,48.063248
+]
+]
+}
+}]}

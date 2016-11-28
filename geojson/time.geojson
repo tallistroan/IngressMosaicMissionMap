@@ -1,0 +1,2639 @@
+{"type":"FeatureCollection","features":[{"type": "Feature",
+"properties":{
+"time": 1480307879251,
+"guid": "ad6ef447d46742df98fabf54a044e932.1c",
+"title": "Time, Space und Fürstenfeldbruck I",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 884323,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ZjgC3CatJ8vIWiauYNWiKILIp40oeONtZDWJKh8PsW9x8ErWpBrp4S7YAbrLxQGSEwcb9VPEdboACeA__zc",
+"portalTitle": ["Bahnhof Harthaus","S Bahn Station Harthaus","Mosaik","Portal of St. Caecilia","St. Caecilla","Stone Stack","Schmetterling","Flötenspieler","Skulptur Münchner Straße","AXA, Münchner Str. 13"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.389033,48.134114
+]
+,[
+11.388262,48.133524
+]
+,[
+11.386416,48.134245
+]
+,[
+11.386204,48.13444
+]
+,[
+11.386189,48.134671
+]
+,[
+11.386363,48.134879
+]
+,[
+11.385569,48.134858
+]
+,[
+11.385989,48.135149
+]
+,[
+11.387707,48.136109
+]
+,[
+11.387149,48.136438
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307882436,
+"guid": "b7fa1cbc805e478fb233643d66f521d7.1c",
+"title": "Time, Space und Fürstenfeldbruck II",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1086069,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/M_z6-7PRZSl_vZnQSBy2lU1cspMSnqqV7N0gwxUuhMReJBFbHf4htH-zZqGfKhNgPEVxqdHvTSvImurkwOg",
+"portalTitle": ["Goddess","Historische Wasserversorgung Germering","Birnbaum Steig Mai Baum","Burkart","JBSII Outback","ASP Abenteuerspielplatz","Weißer Pavillon","Kinderland Jonathan","Mosaik","Elefant Skulptur"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.382966,48.137258
+]
+,[
+11.378727,48.138442
+]
+,[
+11.377205,48.137982
+]
+,[
+11.37525,48.138662
+]
+,[
+11.376116,48.14076
+]
+,[
+11.37548,48.140548
+]
+,[
+11.379857,48.136386
+]
+,[
+11.378973,48.13571
+]
+,[
+11.3778,48.136116
+]
+,[
+11.377108,48.136994
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307887425,
+"guid": "c3fabb77a03a4f35b2e6029aa99935cc.1c",
+"title": "Time, Space und Fürstenfeldbruck III",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 852840,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/zmN_bjZ-4fu5xY9PXNwsHPkMYdxDKCzFZt4b0g-O1wVFR_6AR4Rw_dklLiX0FcnMRHvH53hIbYgmb3QZ8b5P",
+"portalTitle": ["Playground","Germar","Resistance Pyramide","Kletterlandschaft Im WWK","Kid Trying to Sit on Jumping Horse","Glasmosaik","Bunte Schilder","Asia Skulptur","Wandbild","Playground"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.376835,48.136122
+]
+,[
+11.376355,48.136633
+]
+,[
+11.374523,48.136589
+]
+,[
+11.375491,48.135932
+]
+,[
+11.376406,48.135681
+]
+,[
+11.376372,48.135472
+]
+,[
+11.375972,48.135374
+]
+,[
+11.374752,48.135146
+]
+,[
+11.372221,48.134724
+]
+,[
+11.372004,48.136115
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307892422,
+"guid": "8078f36610fd415b9fbe19b9386409f6.1c",
+"title": "Time, Space und Fürstenfeldbruck IV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1074668,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/NBawLtxtAqKqwufVcsXWWhZGtkheU2j4XCLgDk0_1wxiG8iyNsheH7-_lBYSn3CbU_EXiQIF67r4l7QAsGx3",
+"portalTitle": ["Brunnen Friedhof Germering","Die Ursprünge Germerings","Pfarrkirche St. Martin","Marquart kapelle","Mariensäule","Wandgemälde Sonnenblumen","Marterl an der Kirchenstr","Wandmalerei","Roßstall Theater Germering","Maibaum Germering"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.366346,48.137282
+]
+,[
+11.366059,48.13784
+]
+,[
+11.365501,48.137399
+]
+,[
+11.36514,48.137441
+]
+,[
+11.364204,48.137431
+]
+,[
+11.363957,48.13651
+]
+,[
+11.362049,48.136286
+]
+,[
+11.361995,48.137266
+]
+,[
+11.360849,48.137417
+]
+,[
+11.360472,48.138338
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307895278,
+"guid": "7d87f50e643a44ba910ed3ffef4068fe.1c",
+"title": "Time, Space und Fürstenfeldbruck V",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 686561,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Cu6UvBBny84qdM_SyHkfXpCFdug7b1f937tdQKvFTX6i-tUllUSwpRq56R-z1EOry8g30t3fAb232HRmBZdO",
+"portalTitle": ["The Dragon","Holzbrunnen an der FFW","Flame","Maypole VITALIS","Jugendwerkstatt Germering","Jugendwerkstatt Graffiti","Alte Hufschmiedtafel","Wandbild Feuer Fighter","Marienfigur","Trattoria Weinlese"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.359909,48.138192
+]
+,[
+11.360048,48.139891
+]
+,[
+11.359011,48.139515
+]
+,[
+11.358761,48.140733
+]
+,[
+11.355566,48.1414
+]
+,[
+11.355824,48.14125
+]
+,[
+11.359024,48.137919
+]
+,[
+11.358808,48.137643
+]
+,[
+11.356607,48.136964
+]
+,[
+11.354753,48.135798
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307904624,
+"guid": "1084bf58b32241bf8b4c73d4b52bdb31.1c",
+"title": "Time, Space und Fürstenfeldbruck VI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 875000,
+"medianCompletionTimeMs": 1403254,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/ilWaDVF3mJJMVR_vqXNpdDZn4qqYW3UYtp8pM2roOIw6C6slSr3KeFAbSo-mntgyZBnpj4x5682AM91CU3Kz",
+"portalTitle": ["Kreuz auf Verkehrsinsel","Beim Joche","Germeringer See","Gehölzerlebnispfad Germering","Marterl ","Römischer Ziegelbrennofen","Wegkreuz","St. Rupert Gedenkstatue","Maria Wandbild","Maibaum am Kriegerdenkmal"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.352704,48.134732
+]
+,[
+11.351315,48.134495
+]
+,[
+11.342716,48.135206
+]
+,[
+11.342153,48.134653
+]
+,[
+11.338804,48.134232
+]
+,[
+11.345963,48.12833
+]
+,[
+11.347378,48.128571
+]
+,[
+11.348491,48.126819
+]
+,[
+11.348896,48.126877
+]
+,[
+11.349699,48.127545
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307924373,
+"guid": "1e430c6b94ae4f08b398682a3f7d6430.1c",
+"title": "Time, Space und Fürstenfeldbruck VII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 857143,
+"medianCompletionTimeMs": 816138,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/IqMsR0YW9Z0PI8S6cns_KuF9jvxwpR2YMIjXyWuvvtdbRXAAJnMbS_wnX3BwwUEuU8an9Vwos6f8HSokJne4Zg",
+"portalTitle": ["Kriegerdenkmal Germering","Old Church St.  Jakob","Metallgebilde","Wandmalerei","Wandbild Pension St. Jakob","Regenbogen Wandmalerei","Observatorium","Wandmalerei Teppich ","Pendulum","Hüpfmatten"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.349653,48.127925
+]
+,[
+11.349961,48.128348
+]
+,[
+11.350713,48.127271
+]
+,[
+11.353373,48.128103
+]
+,[
+11.352157,48.129644
+]
+,[
+11.353468,48.130849
+]
+,[
+11.358035,48.130444
+]
+,[
+11.357624,48.129864
+]
+,[
+11.359181,48.13252
+]
+,[
+11.36071,48.133926
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307972616,
+"guid": "6b3b59100b5a45a4a1b911fd8ecf79dd.1c",
+"title": "Time, Space und Fürstenfeldbruck VIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 497612,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/MLrgLHbV0WbLVQxaML-ZWO8m6yx4MvnZ6QXa_OYymvtB4UosnR3TB4K1LiF7goYBdpmL3QgGieYNGbzAd_HTTw",
+"portalTitle": ["Kirchturm St. Martin","St. Martins Kirche","Sculpture 'Link'","Rathaus GERMERING","Skulptur Klang des Glücks","Museum Zeit+Raum","100 Jahre Männer Chor Germering","Helix","Schnecken","Dietrich-Bonhoeffer-Kirche"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.361102,48.134381
+]
+,[
+11.361145,48.134673
+]
+,[
+11.362787,48.134737
+]
+,[
+11.363048,48.134589
+]
+,[
+11.36236,48.134408
+]
+,[
+11.362622,48.134112
+]
+,[
+11.362216,48.13424
+]
+,[
+11.361756,48.134049
+]
+,[
+11.361885,48.133022
+]
+,[
+11.362731,48.131982
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307984345,
+"guid": "10238875c34b44b082a1aeea896b6c5a.1c",
+"title": "Time, Space und Fürstenfeldbruck IX",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 912001,
+"numUniqueCompletedPlayers": 9,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/tEnpNXI5alMn6UH92D6XCcWGgx6RqPiv6izwwT8Vl4JY_sofJIOUEpd_JbRVptHaoOx4UXlNkfGfgx47o9SV7g",
+"portalTitle": ["Goethe Strasse","Wandbild","Stadthalle Germering","Broken Globe","I.Q.E.D. ","Drei Pfeifen","Hendl Gedenk Brunnen","Fontaine Engel","AXA, Landsberger Str. 25","Kunst An Wand"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.363052,48.132079
+]
+,[
+11.364199,48.131994
+]
+,[
+11.365663,48.130624
+]
+,[
+11.36645,48.130363
+]
+,[
+11.367269,48.130658
+]
+,[
+11.3675,48.131111
+]
+,[
+11.367333,48.129909
+]
+,[
+11.368152,48.129908
+]
+,[
+11.37051,48.13126
+]
+,[
+11.371098,48.13098
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307988257,
+"guid": "c0e9ced375d04036a567d756b312864c.1c",
+"title": "Time, Space und Fürstenfeldbruck X",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1162653,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/TNYGGITeP2smO-yHijkWdGqdr3nwCl2EuhRSavzxJU0eROh75X39gq3gNleSKoWwg3le4DXsj4DK25I2KGP8",
+"portalTitle": ["Rundhaus ","Wippe","Blue Elephant","Holzschaukel ","Klettergerüst für die Kleinen","Janosch und Tiger","Wandornament","Don Bosco Tower","Statue Don Bosco ","Eistüte"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.372077,48.129241
+]
+,[
+11.374472,48.127932
+]
+,[
+11.374733,48.127302
+]
+,[
+11.374919,48.124042
+]
+,[
+11.370488,48.125138
+]
+,[
+11.3675,48.124721
+]
+,[
+11.367299,48.123916
+]
+,[
+11.366845,48.123104
+]
+,[
+11.366791,48.123355
+]
+,[
+11.366205,48.124513
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480307992261,
+"guid": "f6666351f8c543468bf3e1b24aa53a5f.1c",
+"title": "Time, Space und Fürstenfeldbruck XI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1495324,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Of-W-Ypi_Y6tuugLWEHHKTjA6nOvpbkyqkH4aeHe9Il1-uJ5zHGLDwzor-Uol5x3BwxZnMIR8adk9A5iHnVZ",
+"portalTitle": ["Dragonrider","Steinfische","Fensterkunst","Skulptur 'Menetekel'","Germering Bahnhof","Taubenkobel","Kriegerdenkmal ","Friedenssäule Puchheim","Katholische Kirche Maria Himmelfahr","Maibaum"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.366475,48.124812
+]
+,[
+11.36623,48.127052
+]
+,[
+11.365414,48.128101
+]
+,[
+11.365,48.129444
+]
+,[
+11.364384,48.129038
+]
+,[
+11.347683,48.146848
+]
+,[
+11.348257,48.147096
+]
+,[
+11.348213,48.147502
+]
+,[
+11.348554,48.147758
+]
+,[
+11.345474,48.149995
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308016783,
+"guid": "4d3a93e6002b4c03931b9c2d7956bc6b.1c",
+"title": "Time, Space und Fürstenfeldbruck XII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1081149,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/foOAMQL_pE37855NZxP4sSeIiuR_JKDGTAFTXDShO-IxVVkb7ke1nChF9D3fo-wjkZYfsxOe2ICm7jxBfnevOA",
+"portalTitle": ["Art-Box Pucheim","Fontäne","Sportheim Puchheim","Spielplatz Puchheim Ort.","Sonnenuhr Puchheim","St. Laurentius Kapelle","Geometriesäulen","Lebensbretter","Rocket Lamp","Puc Kulturzentrum"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.3463,48.150061
+]
+,[
+11.347241,48.150411
+]
+,[
+11.348907,48.150217
+]
+,[
+11.350784,48.149138
+]
+,[
+11.34749,48.151832
+]
+,[
+11.343337,48.152661
+]
+,[
+11.341924,48.152478
+]
+,[
+11.345912,48.169779
+]
+,[
+11.346371,48.169881
+]
+,[
+11.346177,48.170105
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308022459,
+"guid": "8e6ad1df62dc4ba38ba3d74d93615542.1c",
+"title": "Time, Space und Fürstenfeldbruck XIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 888889,
+"medianCompletionTimeMs": 550208,
+"numUniqueCompletedPlayers": 9,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/8vQyoeohlysr2uaYwlNjB9a8eDOUhXsG1Xik0uWAj0xCpKe6hwWirxYq3stYikrwx46WoZcK172o9kPb0ac",
+"portalTitle": ["Mosaic Skulptur","Evangelisch Glocke Puchheim","Eisenskulptur Fire Bike","Eisenskulptur PUC","Alte Kugel","Wandmalerei Am Bhf","Schaukeln","Tempel West","Brunnen Alois-Harbeck-Platz","Holzobelisk am Alois-Harbeck-Platz"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.34576,48.169959
+]
+,[
+11.345447,48.170172
+]
+,[
+11.346344,48.170586
+]
+,[
+11.347262,48.17033
+]
+,[
+11.348408,48.170714
+]
+,[
+11.349736,48.171847
+]
+,[
+11.349679,48.172169
+]
+,[
+11.350205,48.172235
+]
+,[
+11.350306,48.171972
+]
+,[
+11.350607,48.171982
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308030046,
+"guid": "f1eb386477cd470493bf7754a56e213d.1c",
+"title": "Time, Space und Fürstenfeldbruck XIV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 477811,
+"numUniqueCompletedPlayers": 9,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/iKGR9DmI9G8fUlLEUg7J7kK6KKC_P8XSH04QP19AyfUevd5ashisdiWMcBtQB5Kq4PQq_QPML9RF2fUTkaXe",
+"portalTitle": ["Katholische Kirche Puchheim","Rathaus Puchheim","Vogel An Der Wand","Kupferrosen","Stadtbibliothek Puchheim","Emil Schnaufer Runde","Graffiti","Pfarramt St. Josef","Grafitti am JUZ","Kapelle"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.351035,48.171564
+]
+,[
+11.350335,48.170964
+]
+,[
+11.350299,48.170708
+]
+,[
+11.350638,48.170748
+]
+,[
+11.350631,48.170694
+]
+,[
+11.35126,48.170501
+]
+,[
+11.351538,48.170728
+]
+,[
+11.351336,48.170943
+]
+,[
+11.351806,48.171181
+]
+,[
+11.352768,48.171107
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308034853,
+"guid": "6d0383704a5c4c5fa96f8ed5568d226d.1c",
+"title": "Time, Space und Fürstenfeldbruck XV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 869589,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/FCB4-hCgoKy_BUY0oWSwS9N60mW54FEGM6B1BaXC1iuBDwinPIveyrD2XzEvX9WXnqoOOL6Ig_TZG3xj9ptZ",
+"portalTitle": ["Jesus","Heavy Metal am Friedhof","Kriegerdenkmal Puchheim","Skulptur von Franz Hämmerle","St. Josef","Bahnhof Puchheim","Hölzerner Torbogen","Rossmann Statue","Carl-Spitzweg-Ring","Fountain "],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.353265,48.170674
+]
+,[
+11.353816,48.171122
+]
+,[
+11.351781,48.171452
+]
+,[
+11.351433,48.171706
+]
+,[
+11.352122,48.171915
+]
+,[
+11.352449,48.172166
+]
+,[
+11.352933,48.172484
+]
+,[
+11.352891,48.172713
+]
+,[
+11.349621,48.175382
+]
+,[
+11.350752,48.176059
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308052435,
+"guid": "bfa877b05c6942009305f797f874e36b.1c",
+"title": "Time, Space und Fürstenfeldbruck XVI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1116343,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/Pg7oYXHY96Z2SCqJMKf4bnXCQ1lJsEUtU5ZANq6vLJ-uLuQypYXk841JJ0RsyWdJUkZSfRUwHWep2AQKT3oS",
+"portalTitle": ["Minikarusell","Kriegsgefangenenlager Gedenkstein ","Goldener Propeller","Gaststättenplatz","The Chain Gang","Säulen der Freundschaft","Brunnen an der Birkenstrasse","Königreichssaal Jehovas Zeugen","Walking People","Public Playground "],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.350067,48.178913
+]
+,[
+11.351682,48.180021
+]
+,[
+11.352943,48.17996
+]
+,[
+11.354099,48.179666
+]
+,[
+11.352609,48.179096
+]
+,[
+11.352255,48.179184
+]
+,[
+11.354463,48.17751
+]
+,[
+11.354223,48.176615
+]
+,[
+11.35607,48.176272
+]
+,[
+11.356768,48.175192
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308056770,
+"guid": "a99dfad90bdf466089344f2fdddf43f5.1c",
+"title": "Time, Space und Fürstenfeldbruck XVII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 993153,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/hdm32eUEorHJOS3nA25kVJNiGjbvRQFtRSlz203KofN_66EOfj_doyjlABGhz5fh1LtFkaqAvkvvXbDT3eCh",
+"portalTitle": ["Cafe Göbl Puchheim Bahnhof","Akropolis","Spielplatz Puchheim","Kletterspinnennetz","Kegelbrunnen","Wall Painting","Rastplatz","Springbrunnen","Krishna","Skulptur am Domicil"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.358125,48.174297
+]
+,[
+11.362253,48.175473
+]
+,[
+11.361426,48.177284
+]
+,[
+11.361282,48.177444
+]
+,[
+11.361052,48.17918
+]
+,[
+11.361391,48.179307
+]
+,[
+11.361699,48.177882
+]
+,[
+11.362162,48.178047
+]
+,[
+11.362923,48.175991
+]
+,[
+11.366261,48.176453
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308064807,
+"guid": "0ca85be1f1374d9385d0c5297235d8fa.1c",
+"title": "Time, Space und Fürstenfeldbruck XVIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 868598,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/cSSMeX1egiwgF_LTTyEJmk1vNvU4COR2k1OTqW44-oXCb-Yr_CJtzIdj3XrUdjR7dt8GnqjbbCEM15mGp8Re",
+"portalTitle": ["Kreuzkirche","Russengedenkstätte","Angemaltes Garagentor","Kapelle am Kleinen Gröbenzell Friedhof","Kuh Auf Dem Dach","Metall-Säule - grau","Bunte Säule","Metalkugel - Kunst-Globus","INRI","Arbeiter Tafel"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.370796,48.179077
+]
+,[
+11.373457,48.179113
+]
+,[
+11.386426,48.181146
+]
+,[
+11.383808,48.184016
+]
+,[
+11.387279,48.186505
+]
+,[
+11.387193,48.186731
+]
+,[
+11.386875,48.186839
+]
+,[
+11.387018,48.187087
+]
+,[
+11.387041,48.18891
+]
+,[
+11.387542,48.189359
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308076757,
+"guid": "cfb0f1312193410cbc606bca041a8902.1c",
+"title": "Time, Space und Fürstenfeldbruck XIX",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1426914,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/d3ESo24aTEfISlvZjhTQu7qR2XNuDLXBdsV_s-SUhQlr4qZXGMt0bXiDVNSqRJIV6CYSxRkjKRAtSxlbXafWZg",
+"portalTitle": ["Pferdekopf","Klimmzug ","Rumpfseitheben","Brunnen Am Freizeitheim","Springbrunnen Gymnasium Gröbenzell","Colored Wall","Spielplatz Häuschen","Horst","Art on the Wall","Piratenschiff "],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.387248,48.189567
+]
+,[
+11.387307,48.191061
+]
+,[
+11.386223,48.19117
+]
+,[
+11.383724,48.19216
+]
+,[
+11.383132,48.192691
+]
+,[
+11.381746,48.192239
+]
+,[
+11.380513,48.192276
+]
+,[
+11.376836,48.193705
+]
+,[
+11.373356,48.196056
+]
+,[
+11.372678,48.19535
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308107398,
+"guid": "eb5f07d496b044fe8365cacce14f0f3b.1c",
+"title": "Time, Space und Fürstenfeldbruck XX",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 329294,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/-g_Oe5bp-Gl7da_Joe7rgAA38V4tQgSSjZihhXfv1jK2_fMQxnEH6uJwLWNI91sebBL2EmYfmA7B5OBJNc0",
+"portalTitle": ["Der Bauer An Der Wand","Pünktchen","Small Fountain","Cafe Ciccino","Jesus Kreuz","Katholische Kirche Gröbenzell","Entrance St. Johann Baptist","Wasserspiel Im Kirchhof","Pfarrbüro Gröbenzell","Sheep on Stone"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.372957,48.194961
+]
+,[
+11.372628,48.194421
+]
+,[
+11.372925,48.19369
+]
+,[
+11.372416,48.193676
+]
+,[
+11.371982,48.193897
+]
+,[
+11.371867,48.193826
+]
+,[
+11.371628,48.193929
+]
+,[
+11.371435,48.193891
+]
+,[
+11.371448,48.193729
+]
+,[
+11.371086,48.193681
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308110297,
+"guid": "923890554cdc4aa98cb352b403bb11bc.1c",
+"title": "Time, Space und Fürstenfeldbruck XXI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 221971,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2fEgICB77Xj6EfwmkrEmn_sh-unReoEWWTBdd1f6OJ9CVQ0i6q7aiOMnY4_fP97sel18Dn5n1vMcgjfCK8Dr",
+"portalTitle": ["Bücherei Am Rathausplatz","Gasthaus Zur Alten Schule","Maibaum","Rathaus Gröbenzell","Springbrunnen am Rathaus","Kriegsdenkmal","Sozialdienst","Evang. Luth. Zachäuskirche, Gröbenzell","Kirchenstein","Pfarramt Gröbenzell"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.370761,48.19385
+]
+,[
+11.370859,48.194025
+]
+,[
+11.371229,48.194098
+]
+,[
+11.371048,48.194248
+]
+,[
+11.370755,48.194321
+]
+,[
+11.370339,48.194254
+]
+,[
+11.370341,48.194057
+]
+,[
+11.370002,48.194104
+]
+,[
+11.369959,48.194093
+]
+,[
+11.369417,48.193937
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308113922,
+"guid": "ccda7c87591d4f16b65585b437f2ddaf.1c",
+"title": "Time, Space und Fürstenfeldbruck XXII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 2286950,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2yGaf0ylXSwPEdW3LtANn1-GfKgjpGJphIhChVqW9ubYD4nzXYKOQLvu8BmvX-jorw4bCuInOghlvmTnnZ29",
+"portalTitle": ["Brunnen","Friseurwappen","Steingebilde","Bücherei","Sterntaler (The Star Money)","Bahnhof Olching","Cubengruppe","Stonewalls Grünanger","Pferd","Kletter-Ringe"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.368717,48.193697
+]
+,[
+11.368133,48.193808
+]
+,[
+11.36656,48.194093
+]
+,[
+11.369817,48.194822
+]
+,[
+11.372928,48.195245
+]
+,[
+11.337276,48.210121
+]
+,[
+11.346503,48.212592
+]
+,[
+11.346836,48.212938
+]
+,[
+11.347864,48.21346
+]
+,[
+11.348153,48.213977
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308141814,
+"guid": "be04c571a5254e9f9851a507961f13d6.1c",
+"title": "Time, Space und Fürstenfeldbruck XXIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 717310,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/tE_anPeCUAEid1tVlhTWgxkkxS3XjeSWt8yeCdLo93IN_y_llvAp1bL9HDG5cSIDAy9hBCEMVXSpahLgFdE",
+"portalTitle": ["Maus Schwaigfeld","Drei Bretter","Schwaigfeld Park Kletterwand","Anton","Schwaigfeld Tipi","Schwaigfeld Kletterstämme","Rotating Chairs Schwaigfeld","Blumenfeld","Brunnen Seniorenheim","Kunstvoller Pavilion"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.348208,48.214356
+]
+,[
+11.348645,48.214264
+]
+,[
+11.349179,48.214469
+]
+,[
+11.350071,48.21503
+]
+,[
+11.350134,48.215393
+]
+,[
+11.350543,48.21536
+]
+,[
+11.349319,48.215716
+]
+,[
+11.348568,48.215849
+]
+,[
+11.347216,48.215365
+]
+,[
+11.347727,48.21538
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308148290,
+"guid": "8c78e11f99a74948bb97e6200c1fc2b2.1c",
+"title": "Time, Space und Fürstenfeldbruck XXIV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 784739,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/WQTppfKCyJlRHvmrtLNE2bgcq5sg_Im1nh0mCrfYEBZ_4oNkS1jCz7BPG0Me-N-EJRz4qAdKJbp_TyMapPc",
+"portalTitle": ["Schwaigfeld Stonehead I","Bachlauf","Holzkuh","Schwaigfeld Park Brunnen","2nd Stonehead","Kunst am blauen Haus","Kruzifix am blauen Haus","Brunnen am Haus der Begegnung","Kugelbrunnen","Brunnen am Altenheim"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.348061,48.215193
+]
+,[
+11.348426,48.215016
+]
+,[
+11.348156,48.214647
+]
+,[
+11.347998,48.214826
+]
+,[
+11.347389,48.214752
+]
+,[
+11.346964,48.214529
+]
+,[
+11.3468,48.214358
+]
+,[
+11.345671,48.215235
+]
+,[
+11.344458,48.215389
+]
+,[
+11.337302,48.212725
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308155825,
+"guid": "1de773f724884757ac5a5aa6b57a17d0.1c",
+"title": "Time, Space und Fürstenfeldbruck XXV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 581600,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/A_Hl1ZZiX298iEJ_etRRBifhi0HlXiqNBfwOk2eEbjdy3m8kDBGBibkDqqoryfVjaCoAXD8dEfLdYKaG5v-z",
+"portalTitle": ["Mediterranes Flair","Olchinger Brunnenbuberl","Flamingos","Handwerk","Wandmalerei St. Peter and Paul","Soldatendenkmal","Pfarrkirche St. Peter and Paul","Steingarten am Hauptplatz","Maibaum Olching","Statue Faschingsgilde"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.332175,48.209832
+]
+,[
+11.331281,48.209357
+]
+,[
+11.330555,48.209518
+]
+,[
+11.328688,48.208
+]
+,[
+11.328392,48.208127
+]
+,[
+11.328029,48.208048
+]
+,[
+11.327945,48.208219
+]
+,[
+11.327685,48.207698
+]
+,[
+11.327082,48.207398
+]
+,[
+11.326913,48.206899
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308160989,
+"guid": "e0406ef91e714a2faa63aaf28d1bc5ab.1c",
+"title": "Time, Space und Fürstenfeldbruck XXVI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 3951993,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/plFu7S11gWQd39KS1ytnCkPR0fjrnyVcsbcL2oqZUNemcIbcySR0z0z9QBykucgHEkWOMAPuuUlNLoDA5Qs",
+"portalTitle": ["Steinblock zur Gebietsreform","Wandmalerei","Brunnen im Marienhof","Gedenkstein Kolpinghaus","Evangelische Kirche","Bahnhof Olching","Gernlindenmotive auf der Brücke","Gründungsstein","Maibaum Gernlinden","Chained Dragon"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.32728,48.206872
+]
+,[
+11.327928,48.207545
+]
+,[
+11.33197,48.209303
+]
+,[
+11.333879,48.2091
+]
+,[
+11.334256,48.208995
+]
+,[
+11.334807,48.210149
+]
+,[
+11.298839,48.213105
+]
+,[
+11.298046,48.212564
+]
+,[
+11.297248,48.212025
+]
+,[
+11.294149,48.212286
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308172096,
+"guid": "5dfe22427b6640e788b7581e6a26e3e3.1c",
+"title": "Time, Space und Fürstenfeldbruck XXVII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1616365,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/37hn1Q_urb9E5eROixm6AJmxk326yKS6xqGCGNrQuu20KgjcsHZn8nVd1CyplZQwPP6FuvAVGaqfgUZ6H7AoEA",
+"portalTitle": ["Kreuz Kirchenbauverein","Kirche","Metallblume","Bürgerzentrum Gernlinden","Decoration","Bahnhof Gernlinden","Bahnhof Maisach","Eis-Café Alberto","Brunnen In Maisach","Braustüberl"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.294633,48.211456
+]
+,[
+11.294484,48.211134
+]
+,[
+11.295381,48.210694
+]
+,[
+11.296984,48.211912
+]
+,[
+11.297857,48.212368
+]
+,[
+11.298899,48.2127
+]
+,[
+11.257057,48.214127
+]
+,[
+11.257461,48.215396
+]
+,[
+11.25915,48.217113
+]
+,[
+11.263813,48.217074
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308197111,
+"guid": "fb4943bccb5e42aaaf6c8385b32fa396.1c",
+"title": "Time, Space und Fürstenfeldbruck XXVIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 791663,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/-D8CAi26b3fGyqdpgexnIVwxxFRj01WZi1nHcBNO65-hbHoKysYtslqTPxwlMjoij5jp1ZQJeZdwu4UV_pqW",
+"portalTitle": ["Prähistorisches Maisach","Marterl beim Vereinsheim","Rooster on Top","Wooden Tower","Kunst-Kletterfelsen","Stonewall","INRI","Maibaum Maisach","Kirche Maisach","Denkmal 'Sie Werden Auferstehen'"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.26756,48.21664
+]
+,[
+11.268242,48.215844
+]
+,[
+11.268768,48.215491
+]
+,[
+11.270225,48.21715
+]
+,[
+11.267356,48.2176
+]
+,[
+11.267547,48.216869
+]
+,[
+11.264518,48.217024
+]
+,[
+11.261723,48.217309
+]
+,[
+11.259194,48.218824
+]
+,[
+11.258499,48.21878
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308199965,
+"guid": "497ccd11a8254de286040453974c60f5.1c",
+"title": "Time, Space und Fürstenfeldbruck XXIX",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1412904,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/oBcDp8WikrlkNQRk4K3xd3VS5e1-ksm5kRZPXTiaKBY-74OvDp_5QK3G1l3Kd6EoPwVzBDRQsq98_yKNhow",
+"portalTitle": ["Pfarramt St. Vitus","Information An Der Kirche","Rathaus Maisach","Sonnenuhr Vier Jahreszeiten","The Jesus","Maria Und Joseph","Marterl Lindach","St Rupert","Funkelndes Marterl","Liberty FFB"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.258292,48.218937
+]
+,[
+11.257862,48.219502
+]
+,[
+11.257889,48.217064
+]
+,[
+11.256319,48.216443
+]
+,[
+11.252893,48.219027
+]
+,[
+11.235441,48.200874
+]
+,[
+11.233254,48.202053
+]
+,[
+11.231231,48.202535
+]
+,[
+11.230521,48.200854
+]
+,[
+11.249504,48.194711
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308214194,
+"guid": "24c805e849484bd8b33bfb5698de6dec.1c",
+"title": "Time, Space und Fürstenfeldbruck XXX",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1595903,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/rjcesmuMUrWDMkcxv6_WFfpz9o7YlGKZAhnzeTb3rcKNj84r_xkDyXYvsso4mIdKip9JuyBPNpxRHq_-4Qhq",
+"portalTitle": ["Crazy Rabbit Wandmalerei","Schoene Frau","Alte Straßenwalze","Lichtspielhaus in FFB","Ballerina Mural","Matthäus Kap. 6 Vers 26","Marthabräu-Kapelle","Brauerei  Kaltenberg","Maibaum vor der Brauerei","Brunnen Parkcafe"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.249073,48.193202
+]
+,[
+11.249077,48.192617
+]
+,[
+11.250433,48.193173
+]
+,[
+11.254999,48.182729
+]
+,[
+11.255262,48.183149
+]
+,[
+11.25499,48.183414
+]
+,[
+11.253649,48.183009
+]
+,[
+11.252576,48.182832
+]
+,[
+11.252759,48.182592
+]
+,[
+11.254274,48.181843
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308216785,
+"guid": "aeb919d47dff4f38964827be438c6571.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 664165,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/eFifvYmk0CSkHDvwAtPWWnXpVKjuyAxbNDOo37AjhjHCk4geiuJ7w-gutM898_Z1sYjM1wYiVZ-tUpPZ4p4",
+"portalTitle": ["Fahnenmasten am Park","AXA, Augsburger Str. 11","Piratenschiff","Rapunzels Ferien Wohnung","Zirkl - Adolf Kolping Str","Lions Duo","Maria and Jesus on Building","Springbrunnen Josefstift","Großes Klangspiel","Kreuz an der VHS"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.254371,48.181101
+]
+,[
+11.254033,48.181052
+]
+,[
+11.254207,48.180904
+]
+,[
+11.255461,48.180898
+]
+,[
+11.257561,48.181308
+]
+,[
+11.258122,48.181428
+]
+,[
+11.258685,48.180064
+]
+,[
+11.258356,48.179527
+]
+,[
+11.258128,48.17941
+]
+,[
+11.258012,48.178933
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308224199,
+"guid": "703f5ddaf1da4f66a0eabe47c5bdb262.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 668518,
+"numUniqueCompletedPlayers": 9,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/6eXiU9sE10ut8Ve4WklMUWtYj0xKjd7_50cJVRD9XbU5ar9HkutT3yd5L7mlvnjtakOEwUPHeT34Ocy6zQc",
+"portalTitle": ["Wasserspielplatz FFB","Gift Zwerg","Taubenbrunnen","Statue Rittersfrau","Springbrunnen ","Buddha","Todesmarsch Mahnmal","Rathaus Fürstenfeldbruck","St. Florian","Nabucco Unterhaus"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.257933,48.178557
+]
+,[
+11.257181,48.17896
+]
+,[
+11.255915,48.179891
+]
+,[
+11.256012,48.18018
+]
+,[
+11.25549,48.18016
+]
+,[
+11.255286,48.179905
+]
+,[
+11.255211,48.179605
+]
+,[
+11.25457,48.179387
+]
+,[
+11.254091,48.179308
+]
+,[
+11.254532,48.179049
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308229624,
+"guid": "0dfc7f74204e4625be22748d714b51bf.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 857143,
+"medianCompletionTimeMs": 529195,
+"numUniqueCompletedPlayers": 8,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/l-qCFUPSxGNmzRedzKOxGlsfVMLmxLUfUba5OULAyteFDRwMBupRD5sUiiLHlgpCIZe-kDBkCYIG8-CmKWc",
+"portalTitle": ["Priester","Sonnenuhr ","Spielplatz Innenstadt","Miller","Lokales Geschäft: Bäckerei","Auge","Statua di Cristo","St. Magdalena","Holy Maria","Sonne Der Dreifaltigkeit "],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.254711,48.178673
+]
+,[
+11.255051,48.178614
+]
+,[
+11.254731,48.178475
+]
+,[
+11.254981,48.178245
+]
+,[
+11.255481,48.178005
+]
+,[
+11.256494,48.177809
+]
+,[
+11.256946,48.177855
+]
+,[
+11.257149,48.177711
+]
+,[
+11.256812,48.177647
+]
+,[
+11.256797,48.177404
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308234451,
+"guid": "0453feb75db4479f9bcddd2f99e9850c.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXIV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 777778,
+"medianCompletionTimeMs": 663122,
+"numUniqueCompletedPlayers": 9,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/zZMNIUnMVH1HHVhgCFUwg4LZ49bZ3dpbH7Abpc5xtz1SSdiwlQnjwHZHpy16L6sbNASTnlP1odu3AIazGJE",
+"portalTitle": ["Rundbogen Tor","Statue near Amper","The Fountain","Hotel Post","Alte Schneiderei","Säule an der Amperbrücke","Wandgemälde","Leonhardikirche","Gefallenen-Denkmal","Der Heilige Christophorus an der Amperbrücke"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.256024,48.177312
+]
+,[
+11.255961,48.176992
+]
+,[
+11.255684,48.177433
+]
+,[
+11.255233,48.177807
+]
+,[
+11.255189,48.177415
+]
+,[
+11.255969,48.176737
+]
+,[
+11.256467,48.176188
+]
+,[
+11.256111,48.176388
+]
+,[
+11.255857,48.176482
+]
+,[
+11.255605,48.176883
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308250277,
+"guid": "467ee064ab054a62bffad744e8c2def7.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 605323,
+"numUniqueCompletedPlayers": 7,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/EdwE-fz7krND62-Yw1AI3_Cumhy12mrkRYg0dFDxRc5OssIgBDwWYqdvtq0o8A7QmeGdpTSJ0WKSIeDvakNvGw",
+"portalTitle": ["Uhr mit Sternzeichen","Three Faces","Maria Und Josef","Innungshaus","Marienstatue in der Hauswand","Ikone an Hauswand","Kapelle an der Straßenecke","Kunstwerk","Big Flower","Zweirad Fischbeck"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.254572,48.176655
+]
+,[
+11.254358,48.176915
+]
+,[
+11.253763,48.177405
+]
+,[
+11.253295,48.177105
+]
+,[
+11.252253,48.176719
+]
+,[
+11.250415,48.176126
+]
+,[
+11.249688,48.175991
+]
+,[
+11.24941,48.176133
+]
+,[
+11.247994,48.176297
+]
+,[
+11.247376,48.176193
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308256137,
+"guid": "fec42961d4b04e27b503b1197f6fe495.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXVI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1112133,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/VIZIBj2ONYrSBsJ-ea4azU21JPKLdb3bzCN-zPDfbC5q0vOYv8WhJ81gGVwGZ_UAnsNA7rKliGz0iel6prQBFQ",
+"portalTitle": ["Stadterhebungsdenkmal","Pico Lounge","Little Church","Rapunzel-Zimmer","Lion's Back","Kunstgalerie","Grafitti Amper Oase","Pavilion Beach","Modern Art DUAL I","Math Art"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.245264,48.175873
+]
+,[
+11.244176,48.176418
+]
+,[
+11.24349,48.177077
+]
+,[
+11.242354,48.176584
+]
+,[
+11.243328,48.176582
+]
+,[
+11.243757,48.1763
+]
+,[
+11.245099,48.17449
+]
+,[
+11.244617,48.173346
+]
+,[
+11.246867,48.173439
+]
+,[
+11.247684,48.172477
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308262032,
+"guid": "843e443eb218436185cc906cf87e0337.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXVII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1939402,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2BGkrMPaZylBOSoZZ6S9ezxUvo58__bDUswzifrTx_1k1xb0W6MFgBiigwa9K9p7BuThjk_nFltQwecS_HU",
+"portalTitle": ["Herr im Klostergarten","Statue im Klostergarten","Abstrakte Holzskulptur am Kloster","Kreuz Am Kloster","Veranstaltungsort Fürstenfeld","Torbögen","Rost","Schulterstand","Alte Scheune im Klosterhof","Wandbild Kloster "],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.249703,48.171251
+]
+,[
+11.249319,48.171001
+]
+,[
+11.248811,48.17098
+]
+,[
+11.248382,48.170936
+]
+,[
+11.246921,48.17097
+]
+,[
+11.246281,48.170511
+]
+,[
+11.246264,48.170134
+]
+,[
+11.246929,48.169781
+]
+,[
+11.247471,48.169919
+]
+,[
+11.248235,48.169855
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308279316,
+"guid": "009dc7945e8641b08bfa3fcd5bb04f67.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXVIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 697552,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/0Gl1gX0mhRb2lecUDnyNDx1ezrwxKm-25c7NMwaPuYXa3pELW1F9yXT5fZawMw7rD8wvYgVeKNk0ltcFZzTE",
+"portalTitle": ["Tür im Stein","Klosterkirche Fürstenfeld","Marterl am Kloster FFB","Turm Kloster  Fürstenfeldbruck ","Alte Katakomben","Denkmal für in Gefangenschaft Gestorbene im ersten Weltkrieg","Kriegerdenkmal","Kruzifix Eingang Stadtpark","Skulptur im Park","Rostige Säule"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.248806,48.169421
+]
+,[
+11.249042,48.169614
+]
+,[
+11.250002,48.169559
+]
+,[
+11.250375,48.169907
+]
+,[
+11.250888,48.170177
+]
+,[
+11.252303,48.170381
+]
+,[
+11.252754,48.170551
+]
+,[
+11.253115,48.172481
+]
+,[
+11.254105,48.1741
+]
+,[
+11.254125,48.174924
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308302052,
+"guid": "0442e1f396e147c4a2fd838c434bebc6.1c",
+"title": "Time, Space und Fürstenfeldbruck XXXIX",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 880187,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/rKjxvz7UhCg6ZZrHJR7wVWqTaPJEeXvwn8YjXExzu2WIhtqlt0ociK-9YEPblEl3SnrFNiGWVhMvvB1RoE5h",
+"portalTitle": ["FFB Springbrunnen","Bibliothek","Aumühle Fürstenfeldbruck","Fassadenmalerei","Gemälde über Tür","300 Jahre altes Haus","Hlg. Maria in Hausecke","Wellenberge","Postbank Finanzcenter","Salus Aegroti suprema lex."],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.253528,48.17492
+]
+,[
+11.253015,48.174875
+]
+,[
+11.25309,48.175283
+]
+,[
+11.25403,48.175192
+]
+,[
+11.254488,48.175529
+]
+,[
+11.254693,48.175664
+]
+,[
+11.255589,48.17507
+]
+,[
+11.255692,48.174784
+]
+,[
+11.255298,48.17447
+]
+,[
+11.257016,48.175348
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308414978,
+"guid": "c36b24af2f7c45adb29f1030c0f19d84.1c",
+"title": "Time, Space und Fürstenfeldbruck XL",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 4425010,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/2jdXToq9w7FdR-BR8dcXfqFod6QToYM_fp4hajIOTG2SAT24iaN99DyUxm_cDyxF_uygMSPKaFY-SJIsMMQ",
+"portalTitle": ["Mariastatuette","Erlöserkirche","Eingang Wittelsbacherhalle","Glowing Pillars","S-Bahn FFB Tunnel","Rehkopf","S-Bahn Fürstenfeldbruck","Train Station Buchenau","Scala Cinema","Geschw. Scholl-Platz"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.257693,48.175552
+]
+,[
+11.258119,48.175516
+]
+,[
+11.259603,48.17392
+]
+,[
+11.26072,48.173286
+]
+,[
+11.261536,48.17238
+]
+,[
+11.261809,48.171914
+]
+,[
+11.26258,48.171765
+]
+,[
+11.224849,48.160374
+]
+,[
+11.224507,48.160691
+]
+,[
+11.225001,48.161368
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308432636,
+"guid": "3020ac2fe68f4ec09c9b43639c62e5fa.1c",
+"title": "Time, Space und Fürstenfeldbruck XLI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1985636,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/fYIxu8ErA8mkIs-0xoB7Vf4mNCiBJET7lS-LtBgGzWvhUXGOyS5CD3s5-5_2M1haBhy_GpF1wITBBbTmxLg6",
+"portalTitle": ["Art In Buchenau","Kreuz In der Buchenau","Peperoni Sculpture","GartenVase","Seniorenbrunnen","Königreichsaal Jehovas Zeugen ","Vietnamesischer Reisbauer Mit Kuh","Bahnhof Buchenau","Bahnhof Grafrath","Evangelische Kirche Grafrath"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.226205,48.163574
+]
+,[
+11.224523,48.163166
+]
+,[
+11.224534,48.162596
+]
+,[
+11.224209,48.162422
+]
+,[
+11.22369,48.16242
+]
+,[
+11.221905,48.160135
+]
+,[
+11.223545,48.160908
+]
+,[
+11.224444,48.160221
+]
+,[
+11.153119,48.132008
+]
+,[
+11.160653,48.127897
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308479887,
+"guid": "8b2c56ad28fe46d2a98cd8a06500c0bd.1c",
+"title": "Time, Space und Fürstenfeldbruck XLII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 833333,
+"medianCompletionTimeMs": 1383210,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/3WpgwYD5OhXmanZpth_b3zRNisPcXO2CTrZem1Wb8mVWb8Rm_0-cK-HFogcVo5pT_EbmROLprlISNPzOJx5c",
+"portalTitle": ["Holzrelief Grafrath","Gefallenendenkmal Wildenroth","Wandmalerei","Jesus und Maria","Wanderdenkmal Unteralting","Kath. Kirche Unteralting","Grafrath INRI","Tiersäule","Holzkopf","Kloster Grafrath"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.162777,48.123334
+]
+,[
+11.164439,48.124
+]
+,[
+11.168489,48.124205
+]
+,[
+11.163948,48.121759
+]
+,[
+11.160605,48.119716
+]
+,[
+11.16405,48.117945
+]
+,[
+11.167769,48.118069
+]
+,[
+11.166535,48.117106
+]
+,[
+11.16438,48.117793
+]
+,[
+11.157085,48.120892
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308491640,
+"guid": "9b5b2f938cd143069f112df8f02d8be4.1c",
+"title": "Time, Space und Fürstenfeldbruck XLIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 2361088,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/f178l-gwJI94fM2282GTp1Dj49YigBgcls59tTkQfGehGFkEASZsNrmZOq3S8p5m4tBGBkCM_0wV2ME-fPx1",
+"portalTitle": ["Church Of Rasso","Graf Rasso Statue","Sankt Wendelinus","Bahnhof Grafrath","Türkenfeld Bahnhof","Gasthaus Eisenreich","Hirschgeweih","Türkenfelder Metallskulptur","Steckerleisbär","Türkenfelder Kriegerdenkmal"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.156298,48.121361
+]
+,[
+11.157983,48.122939
+]
+,[
+11.155277,48.125666
+]
+,[
+11.153119,48.132008
+]
+,[
+11.076893,48.104563
+]
+,[
+11.076376,48.104995
+]
+,[
+11.07781,48.105315
+]
+,[
+11.081364,48.108311
+]
+,[
+11.082342,48.108587
+]
+,[
+11.084113,48.10895
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308500754,
+"guid": "ccdb93f0f5bc445eb09e6010e5243eec.1c",
+"title": "Time, Space und Fürstenfeldbruck XLIV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 1273184,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/7v9VMNdaZOk7FIIBo08qc0BXMc5-BLARyU7aBLMJUAKyaFmUqfJMWJjfgTznbQzP3cyGMEGFATLMtlxs6ZtFzg",
+"portalTitle": ["Sie Werden Auferstehen","Rathaus Türkenfeld","Maibaum Türkenfeld","Gasthof Drexl","Türkenfelder Blatt","Roboter","Jesus am Kreuz","Springbrunnen","VW-Bus an der Wand","Brunnen Türkenfeld"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.084227,48.109452
+]
+,[
+11.084943,48.1095
+]
+,[
+11.08474,48.108911
+]
+,[
+11.08538,48.108842
+]
+,[
+11.0858,48.109326
+]
+,[
+11.085512,48.111422
+]
+,[
+11.083615,48.113105
+]
+,[
+11.083958,48.112924
+]
+,[
+11.085402,48.111098
+]
+,[
+11.085459,48.109076
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308530313,
+"guid": "a5e3c871ab014947a3a24fd1eb246c0a.1c",
+"title": "Time, Space und Fürstenfeldbruck XLV",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 666667,
+"medianCompletionTimeMs": 2439077,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/4G7K_So6Swjz1W1s63a9MnHXcKqkDm1IDViazOJJiUOwuCXM2NSDNEbA25DzYP0mCJ6jucD-9A-2EeoCd5gRpg",
+"portalTitle": ["Geigenskulptur","Mariensäule","Türkenfelder Wandbild","Hahn von  Türkenfeld","Türkenfeld Bahnhof","Zur Post","St. Christophorus","Sportgaststätte Geltendorf","Geltendorfer Jesuskreuz","Kriegerdenkmal Geltendorf"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.086249,48.108464
+]
+,[
+11.086713,48.10826
+]
+,[
+11.085665,48.107289
+]
+,[
+11.084444,48.106109
+]
+,[
+11.076893,48.104563
+]
+,[
+11.037748,48.106455
+]
+,[
+11.036437,48.110259
+]
+,[
+11.035951,48.115974
+]
+,[
+11.032055,48.119609
+]
+,[
+11.027386,48.123712
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308539826,
+"guid": "c7379c36c8f5415e95dab8d07ed87b8b.1c",
+"title": "Time, Space und Fürstenfeldbruck XLVI",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 833333,
+"medianCompletionTimeMs": 1555696,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/lM5D4Z7bjm92AClUYG0eaYqgdVgQldqC8ZzXatktWEHv5UpbAwb-85Op74fhiWKH4r9aVakLwleuFkr9cJw",
+"portalTitle": ["Brunnen","Kirche Geltendorf","Maibaum Geltendorf","Liegender Buddha","Wandgemälde","Rathaus Geltendorf","Kirche zu den hl. Engeln Geltendorf","Bahnhof Geltendorf","Essensduft","Alte Pforte St. Ottilius"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.026807,48.123576
+]
+,[
+11.026646,48.124003
+]
+,[
+11.026435,48.123504
+]
+,[
+11.027336,48.121659
+]
+,[
+11.028778,48.121046
+]
+,[
+11.034473,48.116285
+]
+,[
+11.035017,48.115255
+]
+,[
+11.037746,48.106105
+]
+,[
+11.044796,48.098045
+]
+,[
+11.044504,48.097106
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308549245,
+"guid": "b1971ff602f043468c53e3aedd51553a.1c",
+"title": "Time, Space und Fürstenfeldbruck XLVII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 928429,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/eyVFaHEOgRlY1BSaKVbon-EwTBIcbn_zi2n-D4NVoLhjJDgS-Q0ZaAQ8FwFUDnT9e2EQIC5k3NzDh68mTfXF",
+"portalTitle": ["Big Coffin","Zeichnung","Der Stille Garten","INRI","Bahnhof St.Ottilien","Jewish Graveyard","Klosterpforte","Kloster St. Ottilien","Bischofsstatue","Brunnen St. Ottilien"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.044843,48.096492
+]
+,[
+11.045772,48.09673
+]
+,[
+11.044274,48.095946
+]
+,[
+11.044544,48.095628
+]
+,[
+11.048223,48.094626
+]
+,[
+11.047832,48.094035
+]
+,[
+11.043174,48.094676
+]
+,[
+11.043216,48.094735
+]
+,[
+11.042842,48.094971
+]
+,[
+11.042944,48.095245
+]
+]
+}
+},
+
+{"type": "Feature",
+"properties":{
+"time": 1480308554175,
+"guid": "1346c9f4dbbd4b45a9294dee736cf790.1c",
+"title": "Time, Space und Fürstenfeldbruck XLVIII",
+"description": "Eine Reise durch den schönen Landkreis Fürstenfeldbruck.",
+"author":"Cilenz",
+"authorTeam": "R",
+"ratingE6": 1000000,
+"medianCompletionTimeMs": 331235,
+"numUniqueCompletedPlayers": 6,
+"typeNumMission": 1,
+"image": "https://lh3.googleusercontent.com/QZIs3Ni5F2Y22ZvWQ2eeLhWsFOaT76rUaedIg6lu0VFxaKblTKbLofsDqjIC1A2c0MJiKyz5BBMoXmER7Fys",
+"portalTitle": ["Regula","Aufbrechen und Anrufunf","Menschenwürde","Exerzitienhaus","Antiche Danze 1","Macht ohne zu dienen ist Gewalt","Nähmaschinen Museum","Heiligenstatue am Klosterladen","Blechbrunnen ","Leiterwagen"],
+"portalTypeNum": [1,1,1,1,1,1,1,1,1,1],
+"portalObjectiveNum": [1,1,1,1,1,1,1,1,1,1],
+"id": 55
+},
+"geometry": {
+"type": "LineString",
+"coordinates": [
+[
+11.042934,48.095287
+]
+,[
+11.043274,48.095469
+]
+,[
+11.043059,48.095637
+]
+,[
+11.043334,48.095811
+]
+,[
+11.042956,48.095914
+]
+,[
+11.042335,48.096079
+]
+,[
+11.042392,48.09632
+]
+,[
+11.04247,48.096627
+]
+,[
+11.041912,48.096951
+]
+,[
+11.042169,48.097139
+]
+]
+}
+}]}
