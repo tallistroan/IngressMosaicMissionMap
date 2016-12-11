@@ -16,7 +16,7 @@ var mosaicTitle = "Friedensengel";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "engel";
+var mosaicName = "engel121243";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
 var mosaicID = 56;
@@ -35,31 +35,12 @@ var kml = '<?xml version="1.0" encoding="utf-8" ?><kml xmlns="http://www.opengis
     + '<Style id="lineStyle"><LineStyle><width>2</width><color>ff0055ff</color></LineStyle></Style>'
     + '<Folder><name>' + mosaicTitle + '</name>';
 var kmlCoordDelim = " ";
-
-/*line.push('var ' + mosaicName + '_startMissions = {\n"type":"FeatureCollection",\n"features":[\n');
- for (var i = 0; i < startPoints.length; i++) {
- line.push('{"type": "Feature",\n"properties": {\n');
- // write extra information only once to the file
- if (i == 0) {
- line.push('"title": "' + mosaicTitle.replace(/"/g, ' ') + '",\n');
- line.push('"description": "' + mosaicDescription.replace(/"/g, ' ') + '",\n');
- line.push('"imagePath": "pics/' + mosaicName+ '.jpg",\n');
- line.push('"info": "' + mosaicInfoPost + '",\n');
- line.push('"id": ' + mosaicID + ',\n');
- }
- line.push('"missionNumber":' + (i + 1) + '},\n');
- line.push('"geometry": {\n"type": "Point",\n"coordinates":' + startPoints[i] + '}},')
- }
- line.push(']\n};');*/ // end of startMissions
-
-var popupText ='{"type": "Feature",\n"properties": {\n"title": "' + mosaicTitle.replace(/"/g, ' ') + '",\n'+
-                '"description": "' + mosaicDescription.replace(/"/g, ' ') + '",\n'+
-                '"name": "'+ mosaicName+ '",\n'+
-                '"info": "' + mosaicInfoPost + '",\n'+
-                '"id": ' + mosaicID + ',\n'+
-                '"missions": '+Object.keys(window.plugin.missions.cacheByMissionGuid).length +'\n},';
-
-
+var popupText ='{"type":"Feature","properties":{"title":"' + mosaicTitle.replace(/"/g, ' ') + '",'+
+                '"description":"' + mosaicDescription.replace(/"/g, ' ') + '",'+
+                '"name":"'+ mosaicName+ '",'+
+                '"info":"' + mosaicInfoPost + '",'+
+                '"id":' + mosaicID + ','+
+                '"missions": '+Object.keys(window.plugin.missions.cacheByMissionGuid).length +'},';
 function createOutputString(arr) {
     var all = [],
         delim = "";
@@ -70,12 +51,11 @@ function createOutputString(arr) {
         all.push(columns.join(delim))
     });
 
-    return all.join("\r\n");
+    return all.join("");
 }
 
 function saveFile(url, name) {
-    // Get file name from url.
-    //var filename = url.substring(url.lastIndexOf("/") + 1).split("?")[0];
+    // Get file name from url
     var filename = name;
     var xhr = new XMLHttpRequest();
     xhr.responseType = 'blob';
@@ -116,29 +96,29 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
 
         return e.objectiveNum;
     });
-    line.push('{"type": "Feature",\n"properties":{\n');
-    line.push('"time": ' + m.time + ',\n');
-    line.push('"guid": "' + m.data.guid + '",\n');
-    line.push('"title": "' + m.data.title.replace(/(\r\n|\n|\r)/gm, "").replace(/"/g, '\'') + '",\n');
-    line.push('"description": "' + m.data.description.replace(/(\r\n|\n|\r)/gm, "").replace(/"/g, '\'') + '",\n');
-    line.push('"author":"' + m.data.authorNickname + '",\n');
-    line.push('"authorTeam": "' + m.data.authorTeam + '",\n');
-    line.push('"ratingE6": ' + m.data.ratingE6 + ',\n');
-    line.push('"medianCompletionTimeMs": ' + m.data.medianCompletionTimeMs + ',\n');
-    line.push('"numUniqueCompletedPlayers": ' + m.data.numUniqueCompletedPlayers + ',\n');
-    line.push('"typeNumMission": ' + m.data.typeNum + ',\n');
-    line.push('"image": "' + m.data.image + '",\n');
-    line.push('"portalTitle": [');
+    line.push('{"type":"Feature","properties":{');
+    line.push('"time":' + m.time + ',');
+    line.push('"guid":"' + m.data.guid + '",');
+    line.push('"title":"' + m.data.title.replace(/(\r\n|\n|\r)/gm, "").replace(/"/g, '\'') + '",');
+    line.push('"description":"' + m.data.description.replace(/(\r\n|\n|\r)/gm, "").replace(/"/g, '\'') + '",');
+    line.push('"author":"' + m.data.authorNickname + '",');
+    line.push('"authorTeam":"' + m.data.authorTeam + '",');
+    line.push('"ratingE6":' + m.data.ratingE6 + ',');
+    line.push('"medianCompletionTimeMs":' + m.data.medianCompletionTimeMs + ',');
+    line.push('"numUniqueCompletedPlayers":' + m.data.numUniqueCompletedPlayers + ',');
+    line.push('"typeNumMission":' + m.data.typeNum + ',');
+    line.push('"image":"' + m.data.image + '",');
+    line.push('"portalTitle":[');
     line.push(portalTitle.toString());
-    line.push('],\n');
-    line.push('"portalTypeNum": [');
+    line.push('],');
+    line.push('"portalTypeNum":[');
     line.push(portalTypeNum.toString());
-    line.push('],\n');
-    line.push('"portalObjectiveNum": [');
+    line.push('],');
+    line.push('"portalObjectiveNum":[');
     line.push(portalObjectiveNum.toString());
-    line.push('],\n');
-    line.push('"id": ' + mosaicID + '\n');
-    line.push('},\n"geometry": {\n"type": "LineString",\n"coordinates": [\n');
+    line.push('],');
+    line.push('"id": ' + mosaicID + '');
+    line.push('},"geometry":{"type":"LineString","coordinates":[');
 
     kml += '<Placemark><description>' + m.data.title.replace(/(\r\n|\n|\r)/gm, "").replace(/"/g, '\'') + '</description>'
         + '<styleUrl>#lineStyle</styleUrl><LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>';
@@ -151,7 +131,7 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
             return null;
         }
         kml += [e.portal.lngE6 / 1E6, e.portal.latE6 / 1E6].join(",") + kmlCoordDelim;
-        return '[\n' + [e.portal.lngE6 / 1E6, e.portal.latE6 / 1E6].join(",") + '\n]\n';
+        return '[' + [e.portal.lngE6 / 1E6, e.portal.latE6 / 1E6].join(",") + ']';
     });
 
     kml += '</coordinates></LineString></Placemark>';
@@ -161,11 +141,11 @@ for (guid in window.plugin.missions.cacheByMissionGuid) {
     //line.push.apply(line, waypoints);
     lines.push(line);
     // TODO Handle the case, when the first portal of the mosaic is not longer available
-    line.push(']\n}\n},\n');
-        startPoints += '{"type": "Feature","properties": {"mission":' + counter + '},"geometry":{"type": "Point","coordinates":' +
+    line.push(']}},');
+        startPoints += '{"type":"Feature","properties":{"mission":' + counter + '},"geometry":{"type":"Point","coordinates":' +
             waypoints[0].toString() + '}},';
     if(counter == 1) {
-        popupText += '"geometry": {\n"type": "Point",\n"coordinates":'+waypoints[0].toString() + '}}';
+        popupText += '"geometry":{"type": "Point","coordinates":'+waypoints[0].toString() + '}}';
     }
 }
 
@@ -206,20 +186,3 @@ var starts_save = "text/json;charset=utf-8," + encodeURIComponent(startPoints);
 $('<a href="data:' + kml_save + '" download="'+mosaicName+'.kml">download KML</a>').appendTo('#kml');
 $('<a href="data:' + json_save + '" download="'+mosaicName+'.geojson">download geojson</a>').appendTo('#missions');
 $('<a href="data:' + starts_save + '" download="'+mosaicName+'_start.geojson">download geojson</a>').appendTo('#starts');
-/*
-var textKML = '<p><a onclick="$(\'.ui-dialog-missions-kml textarea\').select();">Select all</a> and press CTRL+C to copy it.</br>Save the content to a file named ' + mosaicName + '.kml</p>'
-    + '<textarea style="width: 96%;height: 250px;" readonly onclick="$(\'.ui-dialog-missions-kml textarea\').select();">'
-    + kml + '</Folder></Document></kml>'
-    + '</textarea>';
-dialog({
-    html: textKML,
-    height: 'auto',
-    width: '400px',
-    dialogClass: 'ui-dialog-missions-kml',
-    title: 'KML File'
-}).dialog('option', 'buttons', {
-    'Close': function () {
-        $(this).dialog('close');
-    }
-
-});*/
