@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Time, Space und Fürstenfeldbruck";
+var mosaicTitle = "Friedensengel";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "time";
+var mosaicName = "engel";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 55;
+var mosaicID = 56;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "Fahrrad plus ggf. ÖPNV empfehlenswert, Auto und zu Fuß teilweise möglich";
+var mosaicDescription = "zu Fuß und Fahrrad möglich, führt an vielen U-/S-Bahn Haltestellen vorbei, kann daher bequem in Teilen gespielt werden";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "https://plus.google.com/+EeePee_at_Muc/posts/Q91Y7nJPxQV";
+var mosaicInfoPost = "https://plus.google.com/+EeePee_at_Muc/posts/B3LXHHGLHJV";
 
 var lines = [];
 var counter = 0;
@@ -54,9 +54,10 @@ var kmlCoordDelim = " ";
 
 var popupText ='{"type": "Feature",\n"properties": {\n"title": "' + mosaicTitle.replace(/"/g, ' ') + '",\n'+
                 '"description": "' + mosaicDescription.replace(/"/g, ' ') + '",\n'+
-                '"imagePath": "pics/' + mosaicName+ '.jpg",\n'+
+                '"name": "'+ mosaicName+ '",\n'+
                 '"info": "' + mosaicInfoPost + '",\n'+
-                '"id": ' + mosaicID + '\n},';
+                '"id": ' + mosaicID + ',\n'+
+                '"missions": '+Object.keys(window.plugin.missions.cacheByMissionGuid).length +'\n},';
 
 
 function createOutputString(arr) {

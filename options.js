@@ -6,3 +6,62 @@ var mapbox_accesstoken = 'pk.eyJ1IjoidGFsbGlzdHJvYW4iLCJhIjoiY2lqaWsybWVqMDAzYXZ
 var southEastBounds = new mapboxgl.LngLat(10.754076,47.653085);
 var northWestBounds = new mapboxgl.LngLat(12.649536,48.756453);
 var bounds = new mapboxgl.LngLatBounds(southEastBounds, northWestBounds);
+// make sure the position in the array matches with the id+1 given to the mosaic
+var missionList = [
+    "bach",
+    "stachus",
+    "olyturm",
+    "uptown",
+    "walls",
+    "spiderweb",
+    "kindl",
+    "bavaria",
+    "siegOne",
+    "siegTwo", // 10
+    "schwabylon",
+    "stroll",
+    "oberhaching",
+    "sound",
+    "reiter",
+    "schleiss",
+    "garten",
+    "love",
+    "bier",
+    "trudering", // 20
+    "tierpark",
+    "turk",
+    "innen",
+    "aussen",
+    "gauting",
+    "starnberg",
+    "sunset",
+    "pullach",
+    "kermit",
+    "germering", // 30
+    "mors",
+    "tatort",
+    "sendling",
+    "ottobrunn",
+    "endless",
+    "antiquarium",
+    "celtic",
+    "zombie",
+    "dachau",
+    "aurum", // 40
+    "shapers",
+    "ffbenl",
+    "erding",
+    "bluesun",
+    "ismaning",
+    "olympics",
+    "marienplatz",
+    "city",
+    "districts",
+    "postcard", // 50
+    "biergarten",
+    "reswue",
+    "wiesn",
+    "exqvire",
+    "time",
+    "engel"
+];

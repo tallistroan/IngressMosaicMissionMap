@@ -121,79 +121,15 @@
     var startId = [];
     var missionJumpTo = [];
 
-    // make sure the position in the array matches with the id+1 given to the mosaic
-    var missionList = [
-      "bach",
-      "stachus",
-      "olyturm",
-      "uptown",
-      "walls",
-      "spiderweb",
-      "kindl",
-      "bavaria",
-      "siegOne",
-      "siegTwo", // 10
-      "schwabylon",
-      "stroll",
-      "oberhaching",
-      "sound",
-      "reiter",
-      "schleiss",
-      "garten",
-      "love",
-      "bier",
-      "trudering", // 20
-      "tierpark",
-      "turk",
-      "innen",
-      "aussen",
-      "gauting",
-      "starnberg",
-      "sunset",
-      "pullach",
-      "kermit",
-      "germering", // 30
-      "mors",
-      "tatort",
-      "sendling",
-      "ottobrunn",
-      "endless",
-      "antiquarium",
-      "celtic",
-      "zombie",
-      "dachau",
-      "aurum", // 40
-      "shapers",
-      "ffbenl",
-      "erding",
-      "bluesun",
-      "ismaning",
-      "olympics",
-      "marienplatz",
-      "city",
-      "districts",
-      "postcard", // 50
-      "biergarten",
-      "reswue",
-        "wiesn",
-        "exqvire",
-        "time"
-    ];
-
     var startPointsResult;
     $.getJSON('./geojson/startpoints.geojson',
         function (points) {
           startPointsResult = points;
-          //missionTitleMenu = points.features[i].properties.title;
         });
     // add mosaics to dropdown menu
-    for (var i = 0; i < missionList.length; i++) {
+    for (var i = 0; i < startPointsResult.features.length; i++) {
       var missionLengthMenu = 0;
       var missionTitleMenu = "";
-      //$.getJSON('./geojson/' + missionList[i] + '_start.geojson',
-      //    function (points) {
-      //      missionLengthMenu = points.features.length;
-      //    });
       missionTitleMenu = startPointsResult.features[i].properties.title;
       missionLengthMenu = startPointsResult.features[i].properties.missions;
       document.getElementById('sub-' + missionLengthMenu).innerHTML += '<li><a href="index.html?id=' + (i+1) + '">' + missionTitleMenu + '</a></li>'
@@ -500,7 +436,7 @@
         popup.setLngLat(feature_cluster.geometry.coordinates)
             .setHTML('<h4>' + feature_cluster.properties.title + '</h4>'
                 // popup content, text in german, meaning/content is described in the comments after the p-tag
-                + createMissionPicString(feature_cluster.properties.imagePath, mosaicLength)
+                + createMissionPicString(feature_cluster.properties.name, mosaicLength)
                 + '<span>Ersteller: </span>' + authorName.join(", ") + '<br/>' // author
                 + '<span>Zeit: </span>ca. ' + calcTime(medianCompletionTime) + '<br/>' // median completion time
                 + '<span>Länge: </span>ca. ' + outputMissionLength + '<br/>'// length of the mission, linear distance including the distance between the individual missions
@@ -508,7 +444,7 @@
                 + '<span>Gesamtanzahl Portale: </span>' + totalPortals + '<br/>' // number of total portals in the mosaic
                 + '<span>Anzahl Unique Portale: </span>' + uniquePortals + '<br/>' // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
                 + '<span>Mehr: </span>' + description + '<br/>' // shows the description specified during the export process from the intel
-                + '<span>Download: </span><a href="' + imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a><br/>'
+                + '<span>Download: </span><a href="kml/'+ imagePath +'.kml">Download als kml</a><br/>'
                 + infoGPlus
 
                 + '<span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear())
@@ -530,7 +466,7 @@
                   feature.geometry.coordinates[1].toFixed(4) === result[i].geometry.coordinates[1].toFixed(4)) {
                 startTitle.push(result[i].properties.title);
                 startDescription.push(result[i].properties.description);
-                startImage.push(result[i].properties.imagePath);
+                startImage.push(result[i].properties.name);
                 startInfo.push(result[i].properties.info);
                 startId.push(result[i].properties.id);
               }
@@ -622,7 +558,7 @@
               if (result[i].properties.id == currentID) {
                 title = result[i].properties.title;
                 description = result[i].properties.description;
-                imagePath = result[i].properties.imagePath;
+                imagePath = result[i].properties.name;
               }
             }
           });
@@ -630,7 +566,7 @@
 
     function createMissionPicString(mission, mosaicLength) {
       var stringMissionPictures = "";
-      var missionName = mission.substring(5, mission.lastIndexOf("."));
+      var missionName = mission;
       // creates the html string for the mission images,
       // window[missionName+"mission"] is used to access the according variable and to get the number of missions in the mosaic
       for (var i = mosaicLength - 1; i >= 0; i--) {
@@ -790,7 +726,7 @@
                 + '<p><span>Gesamtanzahl Portale: </span>' + totalPortals + '</p>' // number of total portals in the mosaic
                 + '<p><span>Anzahl Unique Portale: </span>' + uniquePortals + '</p>' // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
                 + '<p><span>Mehr: </span>' + feature.properties.description + '</p>' // shows the description specified during the export process from the intel
-                + '<p><span>Download: </span><a href="' + feature.properties.imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a>' + '</p>'; // create downloadlink for the kml file, which was specified during export from the intel
+                + '<p><span>Download: </span><a href="kml/'+ imagePath +'.kml">Download als kml</a>' + '</p>'; // create downloadlink for the kml file, which was specified during export from the intel
             // in case a G+ post with more information from the mosaic was specified during the export process, it is included here
             if (feature.properties.info != "---") {
               popupContent += '<p><span>G+: </span><a href="' + feature.properties.info + '">mehr Infos auf G+</a></p>' // more infos on G+
