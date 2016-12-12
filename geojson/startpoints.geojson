@@ -166,24 +166,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Siegestor München XX",
-        "description": "ACHTUNG: Nur noch online bis 02.12. ca 22 Uhr, machbar zu Fuß, Rad muss teilweise geschoben werden, einige Uniques mehr auf dem direkten Weg machbar",
-        "name": "siegTwo",
-        "info": "https://plus.google.com/115143876577311717279/posts/5gNC2z5hX8R",
-        "id": 10,
-        "missions": 24
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.582108,
-          48.152297
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Schwabylon",
         "description": "zu Fuß machbar, Fahrrad teilweise möglich",
         "name": "schwabylon",

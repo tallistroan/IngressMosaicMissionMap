@@ -1,271 +1,99 @@
 <!doctype html>
 <html class="no-js" lang="de">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Mosaikmissionen München</title>
-    <link rel="stylesheet" href="css/foundation.css"/>
-    <link rel="stylesheet" href="css/ownStyle.css"/>
-    <script type="text/javascript" src="missions.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/helpFunctions.js"></script>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet' />
-    <script src="js/vendor/modernizr.js"></script>
-    <script src="js/lazysizes.min.js"></script>
-    <script type="text/javascript" src="options.js"></script>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mosaikmissionen München</title>
+  <link rel="stylesheet" href="css/foundation.css"/>
+  <link rel="stylesheet" href="css/ownStyle.css"/>
+  <script type="text/javascript" src="missions.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/helpFunctions.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet'/>
+  <script src="js/vendor/modernizr.js"></script>
+  <script src="js/lazysizes.min.js"></script>
+  <script src="js/helpFunctions.js"></script>
+  <script src="js/stupidtable.min.js"></script>
+  <script type="text/javascript" src="options.js"></script>
 </head>
 <body>
 <div class="fixed">
-    <nav class="top-bar" data-topbar role="navigation">
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="#" id="title">Übersicht</a></h1>
-            </li>
-            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menü</span></a></li>
-        </ul>
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#" id="title">Übersicht</a></h1>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menü</span></a></li>
+    </ul>
 
-        <section class="top-bar-section">
-            <ul>
-                <li class="has-dropdown">
-                    <a href="#">Mosaikliste</a>
-                    <ul class="dropdown">
-                        <li class="has-dropdown"><a href="#">60er Mosaik</a>
-                            <ul class="dropdown" id="sub-60">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">54er Mosaik</a>
-                            <ul class="dropdown" id="sub-54">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">48er Mosaik</a>
-                            <ul class="dropdown" id="sub-48">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">36er Mosaik</a>
-                            <ul class="dropdown" id="sub-36">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">24er Mosaike</a>
-                            <ul class="dropdown" id="sub-24">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">18er Mosaike</a>
-                            <ul class="dropdown" id="sub-18">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">12er Mosaike</a>
-                            <ul class="dropdown" id="sub-12">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">6er Mosaike</a>
-                            <ul class="dropdown" id="sub-6">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">5er Mosaik</a>
-                            <ul class="dropdown" id="sub-5">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">4er Mosaike</a>
-                            <ul class="dropdown" id="sub-4">
-                            </ul>
-                        </li>
-                        <li class="has-dropdown"><a href="#">3er Mosaike</a>
-                            <ul class="dropdown" id="sub-3">
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="index.html">Karte</a></li>
-                <li><a href="info.html">Legende</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-        </section>
-    </nav>
+    <section class="top-bar-section">
+      <ul>
+        <li><a href="index.html">Karte</a></li>
+        <li><a href="info.html">Legende</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </section>
+  </nav>
 </div>
-<table id="missionTable">
-    <tr><th>Titel</th><th>Ersteller</th><th>Zeit</th><th>Portale</th></tr>
+<p style="margin-left: 5%;margin-top: 1%;color: #ffffff;">Klicke auf den Titel einer Tabellenspalte, um danach zu sortieren</p>
+<table style="max-width:90%;margin-right: 5%;margin-left: 5%;margin-top: 1%;" id="missionTable">
+  <thead>
+  <tr>
+    <th style="min-width:300px;"></th>
+    <th data-sort="string-ins">Titel</th>
+    <th>Details</th>
+    <th data-sort="int" data-sort-default="asc">Anzahl Missionen</th>
+    <th data-sort="int">Portale insg.</th>
+    <th data-sort="int">Portale unique</th>
+    <th data-sort="float">Länge (ca.)</th>
+    <th data-sort="float">Dauer (ca.)</th>
+    <th data-sort="string-ins">Ersteller</th>
+    <th>G+</th>
+    <th>Stand vom</th>
+  </tr>
+  </thead>
+  <tbody id="tablebody">
+  </tbody>
 </table>
 <script>
     $.ajaxSetup({
         async: false
     });
-    var startPointsResult;
+    var $table = $("#missionTable").stupidtable();
+    var startPointsResult = null;
     $.getJSON('./geojson/startpoints.geojson',
         function (points) {
             startPointsResult = points;
         });
     // add mosaics to dropdown menu
     for (var i = 0; i < startPointsResult.features.length; i++) {
-        var missionLengthMenu = 0;
-        var missionTitleMenu = "";
-        missionTitleMenu = startPointsResult.features[i].properties.title;
-        missionLengthMenu = startPointsResult.features[i].properties.missions;
-        document.getElementById('sub-' + missionLengthMenu).innerHTML += '<li><a href="index.html?id=' + (i+1) + '">' + missionTitleMenu + '</a></li>'
-        document.getElementById('missionTable').innerHTML +=
-            '<tr><td>'+startPointsResult.features[i].properties.title+
-            '</td><td>'+startPointsResult.features[i].properties.missions+
-            '</td><td>asdf</td><td>asdf</td></tr>'
+        $.getJSON('./geojson/' + startPointsResult.features[i].properties.name + '.geojson',
+            function (points) {
+                calcMosaicProperties(points.features);
+                var postLink = "";
+                if (startPointsResult.features[i].properties.info != "")
+                    postLink = '<a href="' + startPointsResult.features[i].properties.info + '">Post</a>';
+                else
+                    postLink = "---"
+                document.getElementById('tablebody').innerHTML +=
+                    '<tr><td class="cellPic">' + createMissionPicString(startPointsResult.features[i].properties.name, startPointsResult.features[i].properties.missions) +
+                    '</td><td>' + startPointsResult.features[i].properties.title +
+                    '</td><td>' + startPointsResult.features[i].properties.description +
+                    '</td><td>' + startPointsResult.features[i].properties.missions +
+                    '</td><td>' + totalPortals +
+                    '</td><td>' + uniquePortals +
+                    '</td><td>' + getMissionLengthOutput(missionLength) +
+                    '</td><td>' + calcTime(medianCompletionTime) +
+                    '</td><td>' + authorName +
+                    '</td><td>' + postLink +
+                    '</td><td>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear() +
+                    '</td></tr>';
+                authorName = [];
+                medianCompletionTime = 0;
+            });
     }
-/*
-    // calculates size of the mission pictures
-    var windowWidth = window.innerWidth;
-    var tileSize = 0;
-    var tileSpace = 0;
-    if(windowWidth<450){
-        tileSize = windowWidth*.9/ 6;
-        tileSpace = 2;
-    }
-    else{
-        tileSize =64;
-        tileSpace = 3;
-    }
-
-
-
-    /!**
-     * adds mission details to the overview page
-     *!/
-    function addMissions(feature, mission, panelName) {
-
-        var arrayPortals = [];
-        var arrayPortalTypeNum = [];
-        var arrayPortalObjectiveNum = [];
-        var medianCompletionTime = 0;
-
-        for (var i = mission.features.length - 1; i >= 0; i--) {
-            // collect all waypoints of the mosaic
-            for (var j = mission.features[i].geometry.coordinates.length - 1; j >= 0; j--) {
-                arrayPortals.push(mission.features[i].geometry.coordinates[j]);
-            }
-            // collect all type of every waypoint of the mosaic
-            arrayPortalTypeNum.push(mission.features[i].properties.portalTypeNum);
-            // collect all objectives (actions) of every waypoint of the mosaic
-            arrayPortalObjectiveNum.push(mission.features[i].properties.portalObjectiveNum);
-            // count total completion time of the mosaic
-            medianCompletionTime += mission.features[i].properties.medianCompletionTimeMs;
-        }
-        // calc mission length incl. gaps between the missions itself
-        var missionLength = 0;
-        for (var i = 0; i < arrayPortals.length - 1; i++) {
-            missionLength += calcDistance(arrayPortals[i], arrayPortals[i + 1]);
-        }
-        var outputMissionLength = "";
-        if (missionLength < 1) {
-            //when length < 1km display the value in meters
-            outputMissionLength += (missionLength * 1000).toFixed(0) + ' m'
-        } else {
-            // when length > 1km display the value in kilometers
-            outputMissionLength += missionLength.toFixed(2) + ' km'
-        }
-
-        countActionHack = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-            return elem === 1; // value for Action Hack
-        }).length;
-        countActionCapture = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-            return elem === 2; // value for Action Capture or Upgrade
-        }).length;
-        countActionLink = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-            return elem === 3; // value for Action Create Link from Portal
-        }).length;
-        countActionField = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-            return elem === 4; // value for Action Create Field from Portal
-        }).length;
-        countActionMod = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-            return elem === 5; // value for Action Install Mod on Portal
-        }).length;
-        countActionPhoto = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-            return elem === 6; // value for Action Take a Photo
-        }).length;
-        countActionViewWaypoint = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-            return elem === 7; // value for Action View this Fieldtrip Waypoint
-        }).length;
-        countActionPassphrase = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-            return elem === 8; // value for Action Enter the Passphrase
-        }).length;
-
-        var actionsString = [];
-        if (countActionHack > 0) {
-            actionsString.push(countActionHack + ' x Hack'); // hack
-        }
-        if (countActionCapture > 0) {
-            actionsString.push(countActionCapture + ' x Capture oder Upgrade'); // capture or upgrade
-        }
-        if (countActionLink > 0) {
-            actionsString.push(countActionLink + ' x Link erstellen'); // create link from portal
-        }
-        if (countActionField > 0) {
-            actionsString.push(countActionField + ' x Feld erstellen'); // create field from portal
-        }
-        if (countActionMod > 0) {
-            actionsString.push(countActionMod + ' x Mod deployen'); // deploy mod
-        }
-        if (countActionPhoto > 0) {
-            actionsString.push(countActionPhoto + ' x Photo machen'); // take photo, action not available in the mission editor
-        }
-        if (countActionViewWaypoint > 0) {
-            actionsString.push(countActionViewWaypoint + ' x Fieldtrip Waypoint'); // view fieldtrip waypoint
-        }
-        if (countActionPassphrase > 0) {
-            actionsString.push(countActionPassphrase + ' x Passphrase eingeben'); // enter passphrase
-        }
-
-        asOf = new Date(mission.features[0].properties.time);
-        // create html string for pictures
-        // calculate the height of the overview panel depending on the number of mission in the mosaic
-        var minHeightPanel = (mission.features.length/6)*tileSize+(mission.features.length/6)*(tileSpace*2);
-        var stringMissionPictures ="";
-        // cut the mission name from the imagePath
-        var missionName = feature.properties.imagePath.substring(5, feature.properties.imagePath.lastIndexOf("."))+'_';
-        for(var i = window[missionName+"mission"].features.length-1; i >=0; i--){
-            // change the .jpg when you use another file format for the pictures
-            stringMissionPictures += '<nobr><img class="lazyload" data-src="pics/'+missionName+(i+1)+'.jpg" width='+tileSize+'px height='+tileSize+'px style="padding:'+tileSpace+'px;"></nobr>';
-            if(i%6==0)
-                stringMissionPictures += "</br>";
-        }
-
-        // aquire the data for the overview of each mosaic
-        var tempString =
-
-                '<div class="row" data-equalizer>' +
-                '<div id="'+feature.properties.id+'" class="large-6 columns panel" data-equalizer-watch style="background-color:#303030; min-height:' + minHeightPanel + 'px;">' +
-                stringMissionPictures +
-                '</div><div class="large-6 columns panel" data-equalizer-watch>' +
-                '<h4>' + feature.properties.title + '</h4>' +
-                '<div><span>Ersteller: </span>' + mission.features[0].properties.author + // author
-                '</div><div><span>Zeit: </span>ca. ' + calcTime(medianCompletionTime) + // median completion time
-                '</div><div><span>Länge: </span>ca. ' + outputMissionLength + // // length of the mission, linear distance including the distance between the individual missions
-                '</div><div><span>Aktionen: </span>' + actionsString.join(", ") + // type and count of actions that need to be fulfilled during the mosaic
-                '</div><div><span>Gesamtanzahl Portale: </span>' + arrayPortals.length + // number of total portals in the mosaic
-                '</div><div><span>Anzahl Unique Portale: </span>' + unique(arrayPortals).length + // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
-                '</div><div><span>Mehr: </span>' + feature.properties.description + // shows the description specified during the export process from the intel
-                '</div><div><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear() + // mission data as of the export date from the mosaic
-                '</div><div><span>Download: </span><a href="' + feature.properties.imagePath.replace('pics', 'kml').replace('.jpg', '.kml') + '">Download als kml</a>' + // create downloadlink for the kml file, which was specified during export from the intel
-                '</div><div><span>Karte: </span><a href="index.html?id=' + feature.properties.id + '">Mosaik auf Karte ansehen</a></div>'; // creates link for directly viewing on the map
-        // check if a G+ Post is available
-        if (feature.properties.info != "---") {
-            tempString += '<div><span>G+: </span><a href="' + feature.properties.info +
-                    '">mehr Infos auf G+</a></div></div></div>';
-        }
-        else {
-            // unfortunately no G+ available
-            tempString += '<div><span>G+: </span>Leider kein G+ Post verfügbar</div></div></div>';
-        }
-        document.getElementById(panelName).innerHTML = document.getElementById(panelName).innerHTML + tempString;
-    }
-    /!**
-     * function to determine the number of unique portals in the mosaic
-     * @param array with all portals
-     * @returns
-     *!/
-    function unique(a) {
-        var seen = new Set();
-        return a.filter(function (x) {
-            // use of toString, because every pair of coordinates is an array -> quick comparison of the values
-            return !seen.has(x.toString()) && seen.add(x.toString());
-        })
-    }*/
 </script>
 <script src="js/foundation.min.js"></script>
 <script>
