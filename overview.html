@@ -50,6 +50,7 @@
     <th data-sort="float">Länge (ca.)</th>
     <th data-sort="float">Dauer (ca.)</th>
     <th data-sort="string-ins">Ersteller</th>
+    <th>Download</th>
     <th>G+</th>
     <th>Stand vom</th>
   </tr>
@@ -79,7 +80,7 @@
                     postLink = "---"
                 document.getElementById('tablebody').innerHTML +=
                     '<tr><td class="cellPic">' + createMissionPicString(startPointsResult.features[i].properties.name, startPointsResult.features[i].properties.missions) +
-                    '</td><td>' + startPointsResult.features[i].properties.title +
+                    '</td><td><a href="index.html?id=' + startPointsResult.features[i].properties.id + '">' + startPointsResult.features[i].properties.title + '</a>' +
                     '</td><td>' + startPointsResult.features[i].properties.description +
                     '</td><td>' + startPointsResult.features[i].properties.missions +
                     '</td><td>' + totalPortals +
@@ -87,6 +88,7 @@
                     '</td><td>' + getMissionLengthOutput(missionLength) +
                     '</td><td>' + calcTime(medianCompletionTime) +
                     '</td><td>' + authorName +
+                    '</td><td><a href="kml/' + startPointsResult.features[i].properties.name + '.kml">KML</a>' +
                     '</td><td>' + postLink +
                     '</td><td>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear() +
                     '</td></tr>';
