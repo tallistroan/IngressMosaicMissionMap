@@ -115,3 +115,23 @@ h4{
     padding:2px;
     border-radius:3px 3px 0 0;
 }
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1px 1px;
+    border: 2px solid #000000;
+    background-color: transparent;
+}
+th {
+    background-color: #eee;
+}
+th[data-sort]{
+    cursor:pointer;
+}
+td {
+    background-color: #ffffff;
+}
+td.cellPic {
+    background: #555555;
+}

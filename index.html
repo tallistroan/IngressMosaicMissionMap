@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/ownStyle.css"/>
   <script src="js/vendor/modernizr.js"></script>
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet' />
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet'/>
   <script src="js/vendor/jquery.js"></script>
   <script src="js/helpFunctions.js"></script>
   <script type="text/javascript" src="options.js"></script>
@@ -79,7 +79,7 @@
           </ul>
         </li>
         <li><a href="info.html">Legende</a></li> <!-- legend -->
-        <!--<li><a href="overview.html">Übersicht</a></li>--> <!-- overview withour map -->
+        <li><a href="overview.html">Übersicht</a></li> <!-- overview withour map -->
         <li><a href="contact.html">Kontakt</a></li> <!-- contact information -->
       </ul>
     </section>
@@ -87,709 +87,399 @@
 </div>
 <div id="map"></div>
 <script>
-  $(document).ready(function () {
-    $.ajaxSetup({
-      async: false
-    });
-
-    var title = "";
-    var description = "";
-    var imagePath = "";
-    var totalPortals = 0;
-    var uniquePortals = 0;
-    var authorName = [];
-    var actionCount = 0;
-    var countPortalsInMission = 0;
-    var countFieldtripsInMission = 0;
-    var countActionHack = 0;
-    var countActionCapture = 0;
-    var countActionLink = 0;
-    var countActionField = 0;
-    var countActionMod = 0;
-    var countActionPhoto = 0;
-    var countActionViewWaypoint = 0;
-    var countActionPassphrase = 0;
-    var missionLength = 0;
-    var asOf;
-    var medianCompletionTime = 0;
-    var iterateMissionsString = "";
-    var mosaicLength = 0;
-    var startTitle = [];
-    var startDescription = [];
-    var startImage = [];
-    var startInfo = [];
-    var startId = [];
-    var missionJumpTo = [];
-
-    var startPointsResult;
-    $.getJSON('./geojson/startpoints.geojson',
-        function (points) {
-          startPointsResult = points;
+    $(document).ready(function () {
+        $.ajaxSetup({
+            async: false
         });
-    // add mosaics to dropdown menu
-    for (var i = 0; i < startPointsResult.features.length; i++) {
-      var missionLengthMenu = 0;
-      var missionTitleMenu = "";
-      missionTitleMenu = startPointsResult.features[i].properties.title;
-      missionLengthMenu = startPointsResult.features[i].properties.missions;
-      document.getElementById('sub-' + missionLengthMenu).innerHTML += '<li><a href="index.html?id=' + (i+1) + '">' + missionTitleMenu + '</a></li>'
-    }
-    // initialize background map
-    mapboxgl.accessToken = mapbox_accesstoken;
 
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v9',
-      center: [11.57, 48.14],
-      zoom: 14,
-      minZoom: 10,
-      maxZoom: 17,
-      hash: false,
-      maxBounds: bounds
-    });
-
-    map.addControl(new mapboxgl.NavigationControl({position: 'top-right'}));
-    map.addControl(new mapboxgl.GeolocateControl({position: 'top-right'}));
-
-    map.on('load', function () {
-      map.addSource("startPoints", {
-        type: "geojson",
-        data: "./geojson/startpoints.geojson",
-        cluster: true,
-        clusterMaxZoom: 17, // Max zoom to cluster points on
-        clusterRadius: 20 // Radius of each cluster when clustering points (defaults to 50)
-      });
-      map.addSource("startPoints_unclustered", {
-        type: "geojson",
-        data: "./geojson/startpoints.geojson",
-        cluster: false
-      });
-      map.addSource("nymphenburg", {
-        type: "geojson",
-        data: "./geojson/nymphenburg.geojson"
-      });
-      map.addSource("testMissions", {
-        type: "geojson",
-        data: "./geojson/testMissions.geojson"
-      });
-      map.addSource("nymphenburg_start", {
-        type: "geojson",
-        data: "./geojson/nymphenburg_start.geojson",
-        cluster: false
-      });
-
-      var layers = [
-        [3, '#8db600'],
-        [2, '#ffe135'],
-        [0, '#9653c6']
-      ];
-
-      map.addLayer({
-        "id": "unclustered-points",
-        "type": "circle",
-        "source": "startPoints",
-        "layout": {
-          "visibility": "none"
-        },
-        "paint": {
-          "circle-color": "#9653c6",
-          "circle-radius": 11,
-          "circle-blur": 0.3
-        },
-        "filter": ["has", "id"]
-      });
-
-      layers.forEach(function (layer, i) {
-        map.addLayer({
-          "id": "cluster-" + i,
-          "type": "circle",
-          "source": "startPoints",
-          "layout": {
-            "visibility": "none"
-          },
-          "paint": {
-            "circle-color": layer[1],
-            "circle-radius": 18,
-            "circle-blur": 0.2
-          },
-          "filter": i === 0 ?
-              [">=", "point_count", layer[0]] :
-              ["all",
-                [">=", "point_count", layer[0]],
-                ["<", "point_count", layers[i - 1][0]]]
-        });
-      });
-      // Add a layer for the clusters' count labels
-      map.addLayer({
-        "id": "cluster-count",
-        "type": "symbol",
-        "source": "startPoints",
-        "layout": {
-          "text-field": "{point_count}",
-          "text-font": [
-            "DIN Offc Pro Medium",
-            "Arial Unicode MS Bold"
-          ],
-          "text-size": 12,
-          "visibility": "none"
-        }
-      });
-
-      map.addLayer({
-        "id": "singleStart",
-        "type": "circle",
-        "source": "startPoints_unclustered",
-        "layout": {
-          "visibility": "none"
-        },
-        "paint": {
-          "circle-color": "#9653c6",
-          "circle-radius": 11,
-          "circle-blur": 0.3
-        },
-        "filter": ["has", "id"]
-      });
-
-      // when no mosaic is selected
-      if (!getQueryVariable("id")) {
-        map.setLayoutProperty('unclustered-points', 'visibility', 'visible');
-        map.setLayoutProperty('cluster-0', 'visibility', 'visible');
-        map.setLayoutProperty('cluster-1', 'visibility', 'visible');
-        map.setLayoutProperty('cluster-2', 'visibility', 'visible');
-        map.setLayoutProperty('cluster-count', 'visibility', 'visible');
-      }
-      // and when a mosaic is selected
-      else {
-        var currentID = parseInt(getQueryVariable("id"));
-        map.setLayoutProperty('singleStart', 'visibility', 'visible');
-        map.setFilter('singleStart', ["==", "id", currentID]);
-
-        map.addSource("selectedMission", {
-          type: "geojson",
-          data: "./geojson/" + missionList[currentID - 1] + ".geojson"
-        });
-        map.addSource("selectedStart", {
-          type: "geojson",
-          data: "./geojson/" + missionList[currentID - 1] + "_start.geojson",
-          cluster: false
-        });
-        $.when(iterateMissionCoordinates(missionList[currentID - 1]))
-            .done(function () {
-              map.addLayer({
-                "id": "selectedMissionLayerNonSeq",
-                "type": "line",
-                "source": "selectedMission",
-                "layout": {
-                  "line-join": "round",
-                  "line-cap": "round"
-                },
-                "paint": {
-                  "line-color": "#9653c6",
-                  "line-width": 6,
-                  "line-dasharray": [1, 1.5]
-                },
-                "filter": ["==", "typeNumMission", 2]
-              });
-
-              map.addLayer({
-                "id": "selectedMissionLayerSeq",
-                "type": "line",
-                "source": "selectedMission",
-                "layout": {
-                  "line-join": "round",
-                  "line-cap": "round"
-                },
-                "paint": {
-                  "line-color": "#9653c6",
-                  "line-width": 6
-                },
-                "filter": ["==", "typeNumMission", 1]
-              });
-
-              map.addLayer({
-                "id": "selectedStartLayer",
-                "type": "symbol",
-                "source": "selectedStart",
-                "layout": {
-                  "text-field": "{mission}",
-                  "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-                  "text-offset": [0, 0],
-                  "text-anchor": "center",
-                  "text-size": 20
-                },
-                "paint": {
-                  "text-color": "#000000",
-                  "text-halo-color": "#ffffff",
-                  "text-halo-width": 2
-                }
-              });
-
-              map.jumpTo({
-                center: missionJumpTo,
-                zoom: 14,
-                speed: 0.6,
-                curve: 1
-              });
+        var title = "";
+        var description = "";
+        var imagePath = "";
+        var startTitle = [];
+        var startDescription = [];
+        var startImage = [];
+        var startInfo = [];
+        var startId = [];
+        var missionJumpTo = [];
+        var startPointsResult = null;
+        $.getJSON('./geojson/startpoints.geojson',
+            function (points) {
+                startPointsResult = points;
             });
-        var popupMission = new mapboxgl.Popup({
-          closeButton: false,
-          closeOnClick: false,
-          anchor: "left"
+        // add mosaics to dropdown menu
+        for (var i = 0; i < startPointsResult.features.length; i++) {
+            var missionLengthMenu = 0;
+            var missionTitleMenu = "";
+            missionTitleMenu = startPointsResult.features[i].properties.title;
+            missionLengthMenu = startPointsResult.features[i].properties.missions;
+            var test = startPointsResult.features[i].properties.id;
+            document.getElementById('sub-' + missionLengthMenu).innerHTML +=
+                '<li><a href="index.html?id=' + startPointsResult.features[i].properties.id + '">' + missionTitleMenu + '</a></li>'
+        }
+        // initialize background map
+        mapboxgl.accessToken = mapbox_accesstoken;
+
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v9',
+            center: [11.57, 48.14],
+            zoom: 14,
+            minZoom: 10,
+            maxZoom: 17,
+            hash: false,
+            maxBounds: bounds
         });
-        // TODO: Work on the hover feature for mission paths
-        map.on('mousemove', function (e) {
-          var missionPath = map.queryRenderedFeatures(e.point, {layers: ['selectedMissionLayerSeq', 'selectedMissionLayerNonSeq']});
-          if (!missionPath.length) {
-            popupMission.remove();
-            return;
-          }
-          // popup on mouse coordinate
-          popupMission.setLngLat([JSON.stringify(e.lngLat.lng), JSON.stringify(e.lngLat.lat)])
-              .setHTML(missionPath[0].properties.title)
-              .addTo(map);
-        });
-      }
 
+        map.addControl(new mapboxgl.NavigationControl({position: 'top-right'}));
+        map.addControl(new mapboxgl.GeolocateControl({position: 'top-right'}));
 
-    });
+        map.on('load', function () {
+            map.addSource("startPoints", {
+                type: "geojson",
+                data: "./geojson/startpoints.geojson",
+                cluster: true,
+                clusterMaxZoom: 17, // Max zoom to cluster points on
+                clusterRadius: 20 // Radius of each cluster when clustering points (defaults to 50)
+            });
+            map.addSource("startPoints_unclustered", {
+                type: "geojson",
+                data: "./geojson/startpoints.geojson",
+                cluster: false
+            });
+            var layers = [
+                [3, '#8db600'],
+                [2, '#ffe135'],
+                [0, '#9653c6']
+            ];
 
-    var popup = new mapboxgl.Popup({
-      closeButton: false,
-      closeOnClick: false
-    });
-    map.on('mousemove', function (e) {
-      var features_startPoints = map.queryRenderedFeatures(e.point, {layers: ['singleStart', 'unclustered-points', 'cluster-0', 'cluster-1', 'cluster-2']});
-      if (!features_startPoints.length) {
-        popup.remove();
-        return;
-      }
+            map.addLayer({
+                "id": "unclustered-points",
+                "type": "circle",
+                "source": "startPoints",
+                "layout": {
+                    "visibility": "none"
+                },
+                "paint": {
+                    "circle-color": "#9653c6",
+                    "circle-radius": 11,
+                    "circle-blur": 0.3
+                },
+                "filter": ["has", "id"]
+            });
 
-      var feature_cluster = features_startPoints[0];
-
-      if (feature_cluster.properties.point_count) {
-        $.when(iterateMissionsPopup(feature_cluster))
-            .done(function () {
-              // avoid creation of a new popup when the mouse position is slightly changed,
-              // it is also useful to avoid bad popup behaviour on mobile devices
-              if (startTitle.length === feature_cluster.properties.point_count) {
-                var missionString = "";
-                for (var i = 0; i < startTitle.length; i++) {
-                  missionString += '</br><a href="index.html?id=' + startId[i] + '">' + startTitle[i] + '</a>';
+            layers.forEach(function (layer, i) {
+                map.addLayer({
+                    "id": "cluster-" + i,
+                    "type": "circle",
+                    "source": "startPoints",
+                    "layout": {
+                        "visibility": "none"
+                    },
+                    "paint": {
+                        "circle-color": layer[1],
+                        "circle-radius": 18,
+                        "circle-blur": 0.2
+                    },
+                    "filter": i === 0 ?
+                        [">=", "point_count", layer[0]] :
+                        ["all",
+                            [">=", "point_count", layer[0]],
+                            ["<", "point_count", layers[i - 1][0]]]
+                });
+            });
+            // Add a layer for the clusters' count labels
+            map.addLayer({
+                "id": "cluster-count",
+                "type": "symbol",
+                "source": "startPoints",
+                "layout": {
+                    "text-field": "{point_count}",
+                    "text-font": [
+                        "DIN Offc Pro Medium",
+                        "Arial Unicode MS Bold"
+                    ],
+                    "text-size": 12,
+                    "visibility": "none"
                 }
-              }
-              else if (startTitle.length == 0) {
-                missionString = "</br>Zoome für mehr Details";
-              }
-              popup.setLngLat(feature_cluster.geometry.coordinates)
-                  .setHTML("Hier starten " + feature_cluster.properties.point_count + " Mosaike " + missionString)
-                  .addTo(map);
-              startTitle = [];
-              startDescription = [];
-              startImage = [];
-              startInfo = [];
-              startId = [];
-            })
-      }
-      else if (feature_cluster.layer.id == "singleStart") {
-        var actionsString = [];
-        if (countActionHack > 0) {
-          actionsString.push(countActionHack + ' x Hack'); // hack
-        }
-        if (countActionCapture > 0) {
-          actionsString.push(countActionCapture + ' x Capture oder Upgrade'); // capture or upgrade
-        }
-        if (countActionLink > 0) {
-          actionsString.push(countActionLink + ' x Link erstellen'); // create link from portal
-        }
-        if (countActionField > 0) {
-          actionsString.push(countActionField + ' x Feld erstellen'); // create field from portal
-        }
-        if (countActionMod > 0) {
-          actionsString.push(countActionMod + ' x Mod deployen'); // deploy mod
-        }
-        if (countActionPhoto > 0) {
-          actionsString.push(countActionPhoto + ' x Photo machen'); // take photo, action not available in mission editor
-        }
-        if (countActionViewWaypoint > 0) {
-          actionsString.push(countActionViewWaypoint + ' x Fieldtrip Waypoint'); // view fieldtrip waypoint
-        }
-        if (countActionPassphrase > 0) {
-          actionsString.push(countActionPassphrase + ' x Passphrase eingeben'); // enter passphrase
-        }
-        // create output mission length
-        var outputMissionLength = "";
-        if (missionLength < 1) {
-          //when length < 1km display the value in meters
-          outputMissionLength += (missionLength * 1000).toFixed(0) + ' m'
-        } else {
-          // when length > 1km display the value in kilometers
-          outputMissionLength += missionLength.toFixed(2) + ' km'
-        }
+            });
 
-        var infoGPlus = "";
-        if (feature_cluster.properties.info != "") {
-          infoGPlus = '<span>G+: </span><a href="' + feature_cluster.properties.info + '">mehr Infos auf G+</a><br/>' // more infos on G+
-        } else {
-          infoGPlus = '<span>G+: </span>Leider kein G+ Post verfügbar<br/>' // unfortunately there is no G+ post available
-        }
+            map.addLayer({
+                "id": "singleStart",
+                "type": "circle",
+                "source": "startPoints_unclustered",
+                "layout": {
+                    "visibility": "none"
+                },
+                "paint": {
+                    "circle-color": "#9653c6",
+                    "circle-radius": 11,
+                    "circle-blur": 0.3
+                },
+                "filter": ["has", "id"]
+            });
 
-        popup.setLngLat(feature_cluster.geometry.coordinates)
-            .setHTML('<h4>' + feature_cluster.properties.title + '</h4>'
-                // popup content, text in german, meaning/content is described in the comments after the p-tag
-                + createMissionPicString(feature_cluster.properties.name, mosaicLength)
-                + '<span>Ersteller: </span>' + authorName.join(", ") + '<br/>' // author
-                + '<span>Zeit: </span>ca. ' + calcTime(medianCompletionTime) + '<br/>' // median completion time
-                + '<span>Länge: </span>ca. ' + outputMissionLength + '<br/>'// length of the mission, linear distance including the distance between the individual missions
-                + '<span>Aktionen: </span>' + actionsString.join(", ") + '<br/>' // type and count of actions that need to be fulfilled during the mosaic
-                + '<span>Gesamtanzahl Portale: </span>' + totalPortals + '<br/>' // number of total portals in the mosaic
-                + '<span>Anzahl Unique Portale: </span>' + uniquePortals + '<br/>' // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
-                + '<span>Mehr: </span>' + description + '<br/>' // shows the description specified during the export process from the intel
-                + '<span>Download: </span><a href="kml/'+ imagePath +'.kml">Download als kml</a><br/>'
-                + infoGPlus
-
-                + '<span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear())
-            .addTo(map);
-      }
-      else {
-        popup.setLngLat(feature_cluster.geometry.coordinates)
-            .setHTML('<a href="index.html?id=' + feature_cluster.properties.id + '">' + feature_cluster.properties.title + '</a>')
-            .addTo(map);
-      }
-    });
-
-    function iterateMissionsPopup(feature) {
-      $.getJSON('./geojson/startpoints.geojson',
-          function (points) {
-            var result = points.features;
-            for (var i = 0; i < result.length; i++) {
-              if (feature.geometry.coordinates[0].toFixed(4) === result[i].geometry.coordinates[0].toFixed(4) &&
-                  feature.geometry.coordinates[1].toFixed(4) === result[i].geometry.coordinates[1].toFixed(4)) {
-                startTitle.push(result[i].properties.title);
-                startDescription.push(result[i].properties.description);
-                startImage.push(result[i].properties.name);
-                startInfo.push(result[i].properties.info);
-                startId.push(result[i].properties.id);
-              }
+            // when no mosaic is selected
+            if (!getQueryVariable("id")) {
+                map.setLayoutProperty('unclustered-points', 'visibility', 'visible');
+                map.setLayoutProperty('cluster-0', 'visibility', 'visible');
+                map.setLayoutProperty('cluster-1', 'visibility', 'visible');
+                map.setLayoutProperty('cluster-2', 'visibility', 'visible');
+                map.setLayoutProperty('cluster-count', 'visibility', 'visible');
             }
-          });
-    }
+            // and when a mosaic is selected
+            else {
+                var currentID = parseInt(getQueryVariable("id"));
+                var featureListID = 0;
+                // get position from the mission list, because than the order of mosaics is not relevant
+                for (var i = 0; i < startPointsResult.features.length; i++) {
+                    if (currentID === startPointsResult.features[i].properties.id) {
+                        featureListID = i;
+                        break;
+                    }
+                }
+                map.setLayoutProperty('singleStart', 'visibility', 'visible');
+                map.setFilter('singleStart', ["==", "id", currentID]);
 
-    function iterateMissionCoordinates(mission) {
-      var currentID = 0;
-      $.getJSON('./geojson/' + mission + '_start.geojson',
-          function (points) {
-            var result = points.features;
-            missionJumpTo = result[0].geometry.coordinates;
-          });
+                map.addSource("selectedMission", {
+                    type: "geojson",
+                    data: "./geojson/" + startPointsResult.features[featureListID].properties.name + ".geojson"
+                });
+                map.addSource("selectedStart", {
+                    type: "geojson",
+                    data: "./geojson/" + startPointsResult.features[featureListID].properties.name + "_start.geojson",
+                    cluster: false
+                });
+                $.when(iterateMissionCoordinates(startPointsResult.features[featureListID].properties.name))
+                    .done(function () {
+                        map.addLayer({
+                            "id": "selectedMissionLayerNonSeq",
+                            "type": "line",
+                            "source": "selectedMission",
+                            "layout": {
+                                "line-join": "round",
+                                "line-cap": "round"
+                            },
+                            "paint": {
+                                "line-color": "#9653c6",
+                                "line-width": 6,
+                                "line-dasharray": [1, 1.5]
+                            },
+                            "filter": ["==", "typeNumMission", 2]
+                        });
 
-      $.getJSON('./geojson/' + mission + '.geojson',
-          function (points) {
-            var result = points.features;
-            var arrayPortals = [];
-            var arrayPortalTypeNum = [];
-            var arrayPortalObjectiveNum = [];
-            mosaicLength = result.length;
-            for (var i = result.length - 1; i >= 0; i--) {
-              // collect all waypoints of the mosaic
-              for (var j = result[i].geometry.coordinates.length - 1; j >= 0; j--) {
-                arrayPortals.push(result[i].geometry.coordinates[j]);
-              }
-              // collect all type of every waypoint of the mosaic
-              arrayPortalTypeNum.push(result[i].properties.portalTypeNum);
-              // collect all objectives (actions) of every waypoint of the mosaic
-              arrayPortalObjectiveNum.push(result[i].properties.portalObjectiveNum);
-              // count total completion time of the mosaic
-              medianCompletionTime += result[i].properties.medianCompletionTimeMs;
+                        map.addLayer({
+                            "id": "selectedMissionLayerSeq",
+                            "type": "line",
+                            "source": "selectedMission",
+                            "layout": {
+                                "line-join": "round",
+                                "line-cap": "round"
+                            },
+                            "paint": {
+                                "line-color": "#9653c6",
+                                "line-width": 6
+                            },
+                            "filter": ["==", "typeNumMission", 1]
+                        });
+
+                        map.addLayer({
+                            "id": "selectedStartLayer",
+                            "type": "symbol",
+                            "source": "selectedStart",
+                            "layout": {
+                                "text-field": "{mission}",
+                                "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                                "text-offset": [0, 0],
+                                "text-anchor": "center",
+                                "text-size": 20
+                            },
+                            "paint": {
+                                "text-color": "#000000",
+                                "text-halo-color": "#ffffff",
+                                "text-halo-width": 2
+                            }
+                        });
+
+                        map.jumpTo({
+                            center: missionJumpTo,
+                            zoom: 14,
+                            speed: 0.6,
+                            curve: 1
+                        });
+                    });
+                var popupMission = new mapboxgl.Popup({
+                    closeButton: false,
+                    closeOnClick: false,
+                    anchor: "left"
+                });
+                // TODO: Work on the hover feature for mission paths
+                map.on('mousemove', function (e) {
+                    var missionPath = map.queryRenderedFeatures(e.point, {layers: ['selectedMissionLayerSeq', 'selectedMissionLayerNonSeq']});
+                    if (!missionPath.length) {
+                        popupMission.remove();
+                        return;
+                    }
+                    // popup on mouse coordinate
+                    popupMission.setLngLat([JSON.stringify(e.lngLat.lng), JSON.stringify(e.lngLat.lat)])
+                        .setHTML(missionPath[0].properties.title)
+                        .addTo(map);
+                });
             }
-            countPortalsInMission = $.grep(arrayToOneDimension(arrayPortalTypeNum), function (elem) {
-              return elem === 1; // value for Portal
-            }).length;
-            countFieldtripsInMission = $.grep(arrayToOneDimension(arrayPortalTypeNum), function (elem) {
-              return elem === 2; // value for Fieldtrip Waypoint
-            }).length;
-            countActionHack = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-              return elem === 1; // value for Action Hack
-            }).length;
-            countActionCapture = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-              return elem === 2; // value for Action Capture or Upgrade
-            }).length;
-            countActionLink = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-              return elem === 3; // value for Action Create Link from Portal
-            }).length;
-            countActionField = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-              return elem === 4; // value for Action Create Field from Portal
-            }).length;
-            countActionMod = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-              return elem === 5; // value for Action Install Mod on Portal
-            }).length;
-            countActionPhoto = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-              return elem === 6; // value for Action Take a Photo
-            }).length;
-            countActionViewWaypoint = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-              return elem === 7; // value for Action View this Fieldtrip Waypoint
-            }).length;
-            countActionPassphrase = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-              return elem === 8; // value for Action Enter the Passphrase
-            }).length;
-
-            asOf = new Date(result[0].properties.time);
-            totalPortals = arrayPortals.length;
-            uniquePortals = unique(arrayPortals).length;
-
-            // calc mission length incl. gaps between the missions itself
-            var tempLength = 0;
-            for (var i = 0; i < arrayPortals.length - 1; i++) {
-              tempLength += calcDistance(arrayPortals[i], arrayPortals[i + 1]);
-            }
-            missionLength = tempLength;
-
-            currentID = result[0].properties.id;
-            for (var i = 0; i < result.length; i++) {
-              authorName.push(result[i].properties.author);
-            }
-            // remove double entries
-            authorName = $.unique(authorName);
-          });
-
-      $.getJSON('./geojson/startpoints.geojson',
-          function (points) {
-            var result = points.features;
-            for (var i = 0; i < result.length; i++) {
-              if (result[i].properties.id == currentID) {
-                title = result[i].properties.title;
-                description = result[i].properties.description;
-                imagePath = result[i].properties.name;
-              }
-            }
-          });
-    }
-
-    function createMissionPicString(mission, mosaicLength) {
-      var stringMissionPictures = "";
-      var missionName = mission;
-      // creates the html string for the mission images,
-      // window[missionName+"mission"] is used to access the according variable and to get the number of missions in the mosaic
-      for (var i = mosaicLength - 1; i >= 0; i--) {
-        // change the .jpg when you use another file format for the pictures
-        stringMissionPictures += '<img src="pics/' + missionName + '_' + (i + 1) + '.jpg"  style="padding:2px;width: 40px;height: 40px;">';
-        if (i % 6 == 0)
-          stringMissionPictures += "</br>";
-      }
-      return stringMissionPictures;
-    }
-  });
-
-  function prepareMission(feature, startMissions) {
-    document.getElementById("title").innerHTML = "◄ " + startMissions.features[0].properties.title;
-    var arrayPortals = [];
-    var arrayPortalTypeNum = [];
-    var arrayPortalObjectiveNum = [];
-    for (var i = feature.features.length - 1; i >= 0; i--) {
-      // collect all waypoints of the mosaic
-      for (var j = feature.features[i].geometry.coordinates.length - 1; j >= 0; j--) {
-        arrayPortals.push(feature.features[i].geometry.coordinates[j]);
-      }
-      // collect all type of every waypoint of the mosaic
-      arrayPortalTypeNum.push(feature.features[i].properties.portalTypeNum);
-      // collect all objectives (actions) of every waypoint of the mosaic
-      arrayPortalObjectiveNum.push(feature.features[i].properties.portalObjectiveNum);
-      // count total completion time of the mosaic
-      medianCompletionTime += feature.features[i].properties.medianCompletionTimeMs;
-    }
-
-    // calc mission length incl. gaps between the missions itself
-    var tempLength = 0;
-    for (var i = 0; i < arrayPortals.length - 1; i++) {
-      tempLength += calcDistance(arrayPortals[i], arrayPortals[i + 1]);
-    }
-    missionLength = tempLength;
-
-    countPortalsInMission = $.grep(arrayToOneDimension(arrayPortalTypeNum), function (elem) {
-      return elem === 1; // value for Portal
-    }).length;
-    countFieldtripsInMission = $.grep(arrayToOneDimension(arrayPortalTypeNum), function (elem) {
-      return elem === 2; // value for Fieldtrip Waypoint
-    }).length;
-    countActionHack = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-      return elem === 1; // value for Action Hack
-    }).length;
-    countActionCapture = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-      return elem === 2; // value for Action Capture or Upgrade
-    }).length;
-    countActionLink = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-      return elem === 3; // value for Action Create Link from Portal
-    }).length;
-    countActionField = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-      return elem === 4; // value for Action Create Field from Portal
-    }).length;
-    countActionMod = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-      return elem === 5; // value for Action Install Mod on Portal
-    }).length;
-    countActionPhoto = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-      return elem === 6; // value for Action Take a Photo
-    }).length;
-    countActionViewWaypoint = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-      return elem === 7; // value for Action View this Fieldtrip Waypoint
-    }).length;
-    countActionPassphrase = $.grep(arrayToOneDimension(arrayPortalObjectiveNum), function (elem) {
-      return elem === 8; // value for Action Enter the Passphrase
-    }).length;
-
-    asOf = new Date(feature.features[0].properties.time);
-
-    authorName = feature.features[0].properties.author;
-    totalPortals = arrayPortals.length;
-    uniquePortals = unique(arrayPortals).length;
-
-    var missionLayer = L.geoJson(feature, {
-      style: missionStyles,
-      onEachFeature: onEachFeature
-    });
-    var startSingleMissions = L.geoJson(startMissions, {
-      pointToLayer: startMissionStyle,
-      onEachFeature: onEachStartPoint
-    });
-
-    map.addLayer(missionLayer);
-    map.addLayer(startSingleMissions);
-    //set mapView to the start of the mosaic
-    map.setView([startMissions.features[0].geometry.coordinates[1], startMissions.features[0].geometry.coordinates[0]], 16);
-  }
-
-  function onEachPointOverview(feature, layer) {
-    if (feature.properties && feature.properties.title) {
-      layer.bindPopup(
-          '<h4>' + feature.properties.title + '</h4>'
-          + createHTMLImageString(feature)
-          + '<p><a href="index.html?id=' + feature.properties.id + '">Details/Route in der Karte anzeigen</a></p>');
-    }
-  }
-
-  function onEachStartPoint(feature, layer) {
-    if (feature.properties && feature.properties.missionNumber) {
-      // create clickable intel-link for every mission start as label
-      layer.bindLabel('<a target="_blank" id="linkPortal" title="Startportal in Intel aufrufen" href="https://www.ingress.com/intel?' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '&z=17&pll=' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '">' + feature.properties.missionNumber.toString() + '</a>', {
-        noHide: true
-      });
-      // add a popup with information on the start point of the first mission
-      switch (feature.properties.missionNumber) {
-          // include possible special cases for the first mission here, see README.md for details
-        case "1-12": // special pattern solely for the spiderweb-mosaic
-        case "1, 7": // special pattern solely for the sunset-mosaic
-        case "1, 3": // special pattern solely for the germering-mosaic
-        case 1:
-          if (feature.properties && feature.properties.title) {
-            // concat action string
-            var actionsString = [];
-            if (countActionHack > 0) {
-              actionsString.push(countActionHack + ' x Hack'); // hack
-            }
-            if (countActionCapture > 0) {
-              actionsString.push(countActionCapture + ' x Capture oder Upgrade'); // capture or upgrade
-            }
-            if (countActionLink > 0) {
-              actionsString.push(countActionLink + ' x Link erstellen'); // create link from portal
-            }
-            if (countActionField > 0) {
-              actionsString.push(countActionField + ' x Feld erstellen'); // create field from portal
-            }
-            if (countActionMod > 0) {
-              actionsString.push(countActionMod + ' x Mod deployen'); // deploy mod
-            }
-            if (countActionPhoto > 0) {
-              actionsString.push(countActionPhoto + ' x Photo machen'); // take photo, action not available in mission editor
-            }
-            if (countActionViewWaypoint > 0) {
-              actionsString.push(countActionViewWaypoint + ' x Fieldtrip Waypoint'); // view fieldtrip waypoint
-            }
-            if (countActionPassphrase > 0) {
-              actionsString.push(countActionPassphrase + ' x Passphrase eingeben'); // enter passphrase
-            }
-            // create output mission length
-            var outputMissionLength = "";
-            if (missionLength < 1) {
-              //when length < 1km display the value in meters
-              outputMissionLength += (missionLength * 1000).toFixed(0) + ' m'
-            } else {
-              // when length > 1km display the value in kilometers
-              outputMissionLength += missionLength.toFixed(2) + ' km'
-            }
-
-
-            var popupContent =
-                '<h4>' + feature.properties.title + '</h4>'
-                // popup content, text in german, meaning/content is described in the comments after the p-tag
-                + '<p><span>Ersteller: </span>' + authorName + '</p>' // author
-                + '<p><span>Zeit: </span>ca. ' + calcTime(medianCompletionTime) + '</p>' // median completion time
-                + '<p><span>Länge: </span>ca. ' + outputMissionLength + '</p>' // length of the mission, linear distance including the distance between the individual missions
-                + '<p><span>Aktionen: </span>' + actionsString.join(", ") + '</p>' // type and count of actions that need to be fulfilled during the mosaic
-                + '<p><span>Gesamtanzahl Portale: </span>' + totalPortals + '</p>' // number of total portals in the mosaic
-                + '<p><span>Anzahl Unique Portale: </span>' + uniquePortals + '</p>' // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
-                + '<p><span>Mehr: </span>' + feature.properties.description + '</p>' // shows the description specified during the export process from the intel
-                + '<p><span>Download: </span><a href="kml/'+ imagePath +'.kml">Download als kml</a>' + '</p>'; // create downloadlink for the kml file, which was specified during export from the intel
-            // in case a G+ post with more information from the mosaic was specified during the export process, it is included here
-            if (feature.properties.info != "---") {
-              popupContent += '<p><span>G+: </span><a href="' + feature.properties.info + '">mehr Infos auf G+</a></p>' // more infos on G+
-            } else {
-              popupContent += '<p><span>G+: </span>Leider kein G+ Post verfügbar</p>' // unfortunately there is no G+ post available
-            }
-            popupContent += createHTMLImageString(feature)
-                + '<p><span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear() + '</p>'; // mission data as of the export date from the mosaic
-
-            layer.bindPopup(popupContent);
-          }
-          break;
-      }
-    }
-  }
-
-  function startMissionStyle(feature, latlng) {
-    switch (feature.properties.missionNumber) {
-      case "1-12": // special pattern solely for the spiderweb-mosaic
-      case "1, 7": // special pattern solely for the sunset-mosaic
-      case "1, 3": // special pattern solely for the germering-mosaic
-      case 1:
-        return L.circleMarker(latlng, {
-          radius: 8,
-          fillColor: '#ff8000',
-          color: '#fff',
-          weight: 2,
-          opacity: 1,
-          fillOpacity: 1
         });
-        break;
-      default:
-        return L.circleMarker(latlng, {
-          radius: 5,
-          color: '#bbb',
-          fillOpacity: 0,
-          opacity: 1
+        var popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false
         });
-        break;
-    }
-  }
+        map.on('mousemove', function (e) {
+            var features_startPoints = map.queryRenderedFeatures(e.point, {layers: ['singleStart', 'unclustered-points', 'cluster-0', 'cluster-1', 'cluster-2']});
+            if (!features_startPoints.length) {
+                popup.remove();
+                return;
+            }
+            var feature_cluster = features_startPoints[0];
 
-  function getQueryVariable(variable) {
-    var query = window.location.search.substring(1);
-    var vars = query.split("&");
-    for (var i = 0; i < vars.length; i++) {
-      var pair = vars[i].split("=");
-      if (pair[0] == variable) {
-        return pair[1];
-      }
-    }
-    return (false);
-  }
+            if (feature_cluster.properties.point_count) {
+                $.when(iterateMissionsPopup(feature_cluster))
+                    .done(function () {
+                        // avoid creation of a new popup when the mouse position is slightly changed,
+                        // it is also useful to avoid bad popup behaviour on mobile devices
+                        if (startTitle.length === feature_cluster.properties.point_count) {
+                            var missionString = "";
+                            for (var i = 0; i < startTitle.length; i++) {
+                                missionString += '</br><a href="index.html?id=' + startId[i] + '">' + startTitle[i] + '</a>';
+                            }
+                        }
+                        else if (startTitle.length == 0) {
+                            missionString = "</br>Zoome für mehr Details";
+                        }
+                        popup.setLngLat(feature_cluster.geometry.coordinates)
+                            .setHTML("Hier starten " + feature_cluster.properties.point_count + " Mosaike " + missionString)
+                            .addTo(map);
+                        startTitle = [];
+                        startDescription = [];
+                        startImage = [];
+                        startInfo = [];
+                        startId = [];
+                    })
+            }
+            else if (feature_cluster.layer.id == "singleStart") {
+                var actionsString = [];
+                if (countActionHack > 0) {
+                    actionsString.push(countActionHack + ' x Hack'); // hack
+                }
+                if (countActionCapture > 0) {
+                    actionsString.push(countActionCapture + ' x Capture oder Upgrade'); // capture or upgrade
+                }
+                if (countActionLink > 0) {
+                    actionsString.push(countActionLink + ' x Link erstellen'); // create link from portal
+                }
+                if (countActionField > 0) {
+                    actionsString.push(countActionField + ' x Feld erstellen'); // create field from portal
+                }
+                if (countActionMod > 0) {
+                    actionsString.push(countActionMod + ' x Mod deployen'); // deploy mod
+                }
+                if (countActionPhoto > 0) {
+                    actionsString.push(countActionPhoto + ' x Photo machen'); // take photo, action not available in mission editor
+                }
+                if (countActionViewWaypoint > 0) {
+                    actionsString.push(countActionViewWaypoint + ' x Fieldtrip Waypoint'); // view fieldtrip waypoint
+                }
+                if (countActionPassphrase > 0) {
+                    actionsString.push(countActionPassphrase + ' x Passphrase eingeben'); // enter passphrase
+                }
+                // create output mission length
+                var outputMissionLength = getMissionLengthOutput(missionLength);
 
+                var infoGPlus = "";
+                if (feature_cluster.properties.info != "") {
+                    infoGPlus = '<span>G+: </span><a href="' + feature_cluster.properties.info + '">mehr Infos auf G+</a><br/>' // more infos on G+
+                } else {
+                    infoGPlus = '<span>G+: </span>Leider kein G+ Post verfügbar<br/>' // unfortunately there is no G+ post available
+                }
+
+                popup.setLngLat(feature_cluster.geometry.coordinates)
+                    .setHTML('<h4>' + feature_cluster.properties.title + '</h4>'
+                        // popup content, text in german, meaning/content is described in the comments after the p-tag
+                        + createMissionPicString(feature_cluster.properties.name, mosaicLength)
+                        + '<span>Ersteller: </span>' + authorName.join(", ") + '<br/>' // author
+                        + '<span>Zeit: </span>ca. ' + calcTime(medianCompletionTime) + '<br/>' // median completion time
+                        + '<span>Länge: </span>ca. ' + outputMissionLength + '<br/>'// length of the mission, linear distance including the distance between the individual missions
+                        + '<span>Aktionen: </span>' + actionsString.join(", ") + '<br/>' // type and count of actions that need to be fulfilled during the mosaic
+                        + '<span>Gesamtanzahl Portale: </span>' + totalPortals + '<br/>' // number of total portals in the mosaic
+                        + '<span>Anzahl Unique Portale: </span>' + uniquePortals + '<br/>' // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
+                        + '<span>Mehr: </span>' + feature_cluster.properties.description + '<br/>' // shows the description specified during the export process from the intel
+                        + '<span>Download: </span><a href="kml/' + imagePath + '.kml">Download als kml</a><br/>'
+                        + infoGPlus
+
+                        + '<span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear())
+                    .addTo(map);
+            }
+            else {
+                popup.setLngLat(feature_cluster.geometry.coordinates)
+                    .setHTML('<a href="index.html?id=' + feature_cluster.properties.id + '">' + feature_cluster.properties.title + '</a>')
+                    .addTo(map);
+            }
+        });
+
+        // called when multiple mosaics are starting at the same portal
+        function iterateMissionsPopup(feature) {
+            for (var i = 0; i < startPointsResult.features.length; i++) {
+                if (feature.geometry.coordinates[0].toFixed(4) === startPointsResult.features[i].geometry.coordinates[0].toFixed(4) &&
+                    feature.geometry.coordinates[1].toFixed(4) === startPointsResult.features[i].geometry.coordinates[1].toFixed(4)) {
+                    startTitle.push(startPointsResult.features[i].properties.title);
+                    startDescription.push(startPointsResult.features[i].properties.description);
+                    startImage.push(startPointsResult.features[i].properties.name);
+                    startInfo.push(startPointsResult.features[i].properties.info);
+                    startId.push(startPointsResult.features[i].properties.id);
+                }
+            }
+        }
+
+        function iterateMissionCoordinates(mission) {
+            var currentID = 0;
+            $.getJSON('./geojson/' + mission + '_start.geojson',
+                function (points) {
+                    var result = points.features;
+                    missionJumpTo = result[0].geometry.coordinates;
+                });
+
+            $.getJSON('./geojson/' + mission + '.geojson',
+                function (points) {
+                    calcMosaicProperties(points.features)
+                });
+
+            for (var i = 0; i < startPointsResult.features.length; i++) {
+                if (startPointsResult.features[i].properties.id == currentID) {
+                    title = startPointsResult.features[i].properties.title;
+                    description = startPointsResult.features[i].properties.description;
+                    imagePath = startPointsResult.features[i].properties.name;
+                }
+            }
+
+        }
+
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) {
+                    return pair[1];
+                }
+            }
+            return (false);
+        }
+    });
 </script>
 <script src="js/foundation.min.js"></script>
 <script>
-  $(document).foundation({
-    topbar: {
-      custom_back_text: true,
-      back_text: 'Zurück'
-    }
-  });
+    $(document).foundation({
+        topbar: {
+            custom_back_text: true,
+            back_text: 'Zurück'
+        }
+    });
 </script>
 </body>
 </html>
