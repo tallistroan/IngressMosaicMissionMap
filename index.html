@@ -409,7 +409,7 @@
                         + '<span>Gesamtanzahl Portale: </span>' + totalPortals + '<br/>' // number of total portals in the mosaic
                         + '<span>Anzahl Unique Portale: </span>' + uniquePortals + '<br/>' // number of unique portals a player visits during the mosaic, contains no portals between the individual missions
                         + '<span>Mehr: </span>' + feature_cluster.properties.description + '<br/>' // shows the description specified during the export process from the intel
-                        + '<span>Download: </span><a href="kml/' + imagePath + '.kml">Download als kml</a><br/>'
+                        + '<span>Download: </span><a href="kml/' + feature_cluster.properties.name + '.kml">Download als kml</a><br/>'
                         + infoGPlus
 
                         + '<span>Stand vom: </span>' + asOf.getDate() + '.' + (asOf.getMonth() + 1) + '.' + asOf.getFullYear())
