@@ -31,6 +31,7 @@ When the preparations are done execute the following steps:
 * Customize the first five variables in the export script as described in the comments directly above them
 * Run the customized script in the developer console
 * Download all provided files and copy them to the according folders 'geojson'/'kml'
+* Resize/compress the automatically downloaded images (for better performance), save them as .jpg and copy them to the pics folder
 * Copy the text from the textbox to the file startpoints.geojson (pay attention to the correct geojson structure)
   **Attention:** When you clicked the button, the locally cached mission will be deleted, so make sure you copied and saved the exports before that, otherwise you need to select all single missions again.
 
