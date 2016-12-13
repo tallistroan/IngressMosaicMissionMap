@@ -85,6 +85,7 @@
     </section>
   </nav>
 </div>
+<p style="margin-left: 5%;margin-top: 1%;color: #ffffff;" id="loadText">Lade Karte mit Mosaikdaten…</p>
 <div id="map"></div>
 <script>
     $(document).ready(function () {
@@ -132,7 +133,7 @@
 
         map.addControl(new mapboxgl.NavigationControl({position: 'top-right'}));
         map.addControl(new mapboxgl.GeolocateControl({position: 'top-right'}));
-
+        $("#loadText").remove();
         map.on('load', function () {
             map.addSource("startPoints", {
                 type: "geojson",

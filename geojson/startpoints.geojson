@@ -954,6 +954,21 @@
       "coordinates":[
         11.599442,48.140735
       ]
-    }}
+    }},
+    {"type":"Feature",
+      "properties":{
+        "title":"Weihnachten am Chinesischen Turm",
+        "description":"vsl. bis Ende Januar 2017 online, Spaziergang durch die Altstadt, zu Fuß machbar, nachts auch mit Fahrrad",
+        "name":"chinesisch",
+        "info":"https://plus.google.com/+EeePee_at_Muc/posts/BkgphneRtCb",
+        "id": 57,
+        "missions": 24
+      },
+      "geometry":{
+        "type": "Point",
+        "coordinates":[11.576208,48.137238]
+      }},
+    {"type":"Feature","properties":{"title":"X-MAS-MOSAIK","description":"Auto empfehlenswert v.a. für Missionen 21-24 da diese im Umland von München liegen","name":"xmas","info":"https://plus.google.com/+UwePapenfuss-UPafus/posts/auCE4riZzHi","id":58,"missions": 24},"geometry":{"type": "Point","coordinates":[11.577105,48.141708]}},
+    {"type":"Feature","properties":{"title":"Pasinger Stadtwappen","description":"am besten nur die benötigten Aktionen durchführen um später Viren/Heatsinks zu sparen, da stellenweise die gleichen Portale mehrmals bespielt werden","name":"pasing","info":"https://plus.google.com/+RomanMartynez/posts/36urSLjjwi4","id":59,"missions": 24},"geometry":{"type": "Point","coordinates":[11.461687,48.150701]}}
   ]
 }

@@ -57,6 +57,7 @@
   <tbody id="tablebody">
   </tbody>
 </table>
+<p style="margin-left: 5%;margin-top: 1%;color: #ffffff;" id="loadText">Lade Mosaikdaten…</p>
 <script>
     $.ajaxSetup({
         async: false
@@ -95,6 +96,7 @@
                 medianCompletionTime = 0;
             });
     }
+    $("#loadText").remove();
 </script>
 <script src="js/foundation.min.js"></script>
 <script>
