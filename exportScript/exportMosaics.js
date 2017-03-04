@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Pasinger Stadtwappen";
+var mosaicTitle = "Wasserturm";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "pasing";
+var mosaicName = "wasserturm";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 59;
+var mosaicID = 61;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "am besten nur die benötigten Aktionen durchführen um später Viren/Heatsinks zu sparen, da stellenweise die gleichen Portale mehrmals bespielt werden";
+var mosaicDescription = "Fahrrad empfehlenswert, aber auch zu Fuß machbar, einzelne Portale werden teilweise mehrfach besucht";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "https://plus.google.com/+RomanMartynez/posts/36urSLjjwi4";
+var mosaicInfoPost = "";
 
 var lines = [];
 var counter = 0;
