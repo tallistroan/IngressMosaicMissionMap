@@ -12,17 +12,17 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Wasserturm";
+var mosaicTitle = "Title";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "wasserturm";
+var mosaicName = "title";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 61;
+var mosaicID = 1;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "Fahrrad empfehlenswert, aber auch zu Fuß machbar, einzelne Portale werden teilweise mehrfach besucht";
+var mosaicDescription = "description";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
 var mosaicInfoPost = "";
@@ -180,7 +180,7 @@ dialog({
 
 var kml_save = "text/plain;charset=utf-8," + encodeURIComponent(kml+ '</Folder></Document></kml>');
 var resultString = createOutputString(lines);
-resultString = resultString.substring(0,resultString.length-4)+'}]}';
+resultString = resultString.substring(0,resultString.length-1)+'}]}';
 var json_save = "text/json;charset=utf-8," + encodeURIComponent(resultString);
 var starts_save = "text/json;charset=utf-8," + encodeURIComponent(startPoints);
 $('<a href="data:' + kml_save + '" download="'+mosaicName+'.kml">download KML</a>').appendTo('#kml');
