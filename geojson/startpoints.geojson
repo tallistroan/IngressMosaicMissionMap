@@ -954,6 +954,33 @@
       "coordinates":[
         11.599442,48.140735
       ]
-    }}
+    }},
+    {"type":"Feature",
+      "properties":{
+        "title":"Weihnachten am Chinesischen Turm",
+        "description":"Spaziergang durch die Altstadt, zu Fuß machbar, nachts auch mit Fahrrad",
+        "name":"chinesisch",
+        "info":"https://plus.google.com/+EeePee_at_Muc/posts/BkgphneRtCb",
+        "id": 57,
+        "missions": 24
+      },
+      "geometry":{
+        "type": "Point",
+        "coordinates":[11.576208,48.137238]
+      }},
+    {"type":"Feature","properties":{"title":"X-MAS-MOSAIK","description":"bis Ende 2017 online, Auto empfehlenswert v.a. für Missionen 21-24 da diese im Umland von München liegen","name":"xmas","info":"https://plus.google.com/+UwePapenfuss-UPafus/posts/auCE4riZzHi","id":58,"missions": 24},"geometry":{"type": "Point","coordinates":[11.577105,48.141708]}},
+    {"type":"Feature","properties":{"title":"Pasinger Stadtwappen","description":"am besten nur die benötigten Aktionen durchführen um später Viren/Heatsinks zu sparen, da stellenweise die gleichen Portale mehrmals bespielt werden","name":"pasing","info":"https://plus.google.com/+RomanMartynez/posts/36urSLjjwi4","id":59,"missions": 24},"geometry":{"type": "Point","coordinates":[11.461687,48.150701]}},
+    {"type":"Feature","properties":{"title":"Welcome to München","description":"schnelle Runde direkt am Marienplatz","name":"welcome","info":"https://plus.google.com/+EeePee_at_Muc/posts/BNTegfm6m2R","id":60,"missions": 3},"geometry":{"type": "Point","coordinates":[11.576478,48.136794]}},
+    {"type":"Feature","properties":{"title":"Wasserturm","description":"Fahrrad empfehlenswert, aber auch zu Fuß machbar, einzelne Portale werden teilweise mehrfach besucht","name":"wasserturm","info":"","id":61,"missions": 18},"geometry":{"type": "Point","coordinates":[11.584287,48.021529]}},
+    {"type":"Feature","properties":{"title":"Balanstraße","description":"Fahrrad ggf. empfehlenswert, viele Portale auch vom Auto aus erreichbar, Endportal von Mission 3 nur mit Glück von der Straße aus erreichbar, das MVG Museum hat nur an manchen Sonntagen geöffnet, dann ist das Portal aber problemlos erreichbar sonst ggf. beim Pförtner nachfragen","name":"balan","info":"https://plus.google.com/+EeePee_at_Muc/posts/Pbp2Z2eAqJv","id":62,"missions": 6},"geometry":{"type": "Point","coordinates":[11.5946,48.127329]}},
+    {"type":"Feature","properties":{"title":"Wiener Platz","description":"Fahrrad größtenteils problemlos möglich, nicht für Auto geeignet","name":"wiener","info":"https://plus.google.com/+EeePee_at_Muc/posts/QqDiQoTyw8s","id":63,"missions": 18},"geometry":{"type": "Point","coordinates":[11.596121,48.134439]}},
+    {"type":"Feature","properties":{"title":"Haidhausen","description":"Fahrrad größtenteils problemlos möglich, nicht für Auto geeignet","name":"haidhausen","info":"https://plus.google.com/+EeePee_at_Muc/posts/bzFioD3hqtN","id":64,"missions": 12},"geometry":{"type": "Point","coordinates":[11.603175,48.128008]}},
+    {"type":"Feature","properties":{"title":"Rund um die Ludwigskirche","description":"Fahrrad stellenweise nicht möglich/empfehlenswert, einzelne Portale im Englischen Garten können ggf. schwer (nur mit ein bisschen Drift) erreichbar sein","name":"ludwigskirche","info":"https://plus.google.com/+EeePee_at_Muc/posts/eLhppLXKPsv","id":65,"missions": 24},"geometry":{"type": "Point","coordinates":[11.580952,48.148899]}},
+    {"type":"Feature","properties":{"title":"Smurf the Earth 2017 Germany","description":"Fahrrad muss tagsüber durch einige Fußgängerbereiche geschoben werden, nachts kann dort auch gefahren werden","name":"smurf","info":"https://plus.google.com/+EeePee_at_Muc/posts/PqDub3TaSNQ","id":66,"missions": 36},"geometry":{"type": "Point","coordinates":[11.560711,48.140198]}},
+    {"type":"Feature","properties":{"title":"Magnus Reawakens: Luminescent Heart Munich","description":"Missionsnummerierung a1-18, b1-18, c1-12. für das ENL-München-Logo rechts unten am Anfang Mission 0 statt a1 machen","name":"magnuslong","info":"https://plus.google.com/+EeePee_at_Muc/posts/FVad3DUrAoZ","id":67,"missions": 48},"geometry":{"type": "Point","coordinates":[11.565226,48.141233]}},
+    {"type":"Feature","properties":{"title":"Magnus Reawakens: MUC","description":"kann in beliebiger Reihenfolge absolviert werden, nachts auch angenehm mit Fahrrad machbar (da in Fußgängerzone tagsüber geschoben werden muss)","name":"magnusshort","info":"https://plus.google.com/+EeePee_at_Muc/posts/bpJr28PE8pP","id":68,"missions": 6},"geometry":{"type": "Point","coordinates":[11.560465,48.139225]}},
+    {"type":"Feature","properties":{"title":"Das Große Wiesn Mosaik Teil 2","description":"Fahrrad teilweise möglich (Einbahnstraßen und stellenweise Fußgängerzone vorhanden)","name":"wiesnzwei","info":"https://plus.google.com/+EeePee_at_Muc/posts/SGprdy3NXez","id":69,"missions": 48},"geometry":{"type": "Point","coordinates":[11.545971,48.130672]}},
+    {"type":"Feature","properties":{"title":"Poing Nearly Impossible","description":"je nach Portalstatus ggf. genug XMP mitnehmen, nicht für Auto geeignet","name":"pni","info":"","id":70,"missions": 6},"geometry":{"type": "Point","coordinates":[11.794539,48.176627]}},
+    {"type":"Feature","properties":{"title":"Viktualienmarkt München","description":"nachts problemlos mit Fahrrad machbar, tagsüber muss teilweise geschoben werden","name":"viktual","info":"https://plus.google.com/+EeePee_at_Muc/posts/cdw8BH4eCUA","id":71,"missions": 24},"geometry":{"type": "Point","coordinates":[11.576076,48.135108]}}
   ]
 }

@@ -1,0 +1,1 @@
+{"type": "FeatureCollection","features": [{"type":"Feature","properties":{"mission":1},"geometry":{"type":"Point","coordinates":[11.576478,48.136794]}},{"type":"Feature","properties":{"mission":2},"geometry":{"type":"Point","coordinates":[11.575896,48.13673]}},{"type":"Feature","properties":{"mission":3},"geometry":{"type":"Point","coordinates":[11.575115,48.137532]}}]}
