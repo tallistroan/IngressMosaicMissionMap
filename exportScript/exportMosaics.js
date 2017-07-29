@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Viktualienmarkt München";
+var mosaicTitle = "Stress an der Isar";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "viktual";
+var mosaicName = "stress";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 71;
+var mosaicID = 76;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "nachts problemlos mit Fahrrad machbar, tagsüber muss teilweise geschoben werden";
+var mosaicDescription = "Fahrrad größtenteils möglich, nicht wirklich fürs Auto geeignet";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "https://plus.google.com/+EeePee_at_Muc/posts/cdw8BH4eCUA";
+var mosaicInfoPost = "https://plus.google.com/+EeePee_at_Muc/posts/dg9fZoQkvCh";
 
 var lines = [];
 var counter = 0;
