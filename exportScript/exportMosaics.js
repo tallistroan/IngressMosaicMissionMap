@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Stress an der Isar";
+var mosaicTitle = "Kloster Fürstenfeld";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "stress";
+var mosaicName = "kloster_ffb";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 76;
+var mosaicID = 78;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "Fahrrad größtenteils möglich, nicht wirklich fürs Auto geeignet";
+var mosaicDescription = "gut zu Fuß oder mit dem Fahrrad zu absolvieren, bei den Fragen hilft auch Wikipedia";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "https://plus.google.com/+EeePee_at_Muc/posts/dg9fZoQkvCh";
+var mosaicInfoPost = "https://plus.google.com/+BjoernWinkler/posts/Z5x68WSHPCG";
 
 var lines = [];
 var counter = 0;

@@ -184,24 +184,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Munich Portal Hunter Stroll",
-        "description": "zu Fuß machbar, Fahrrad teilweise möglich",
-        "name": "stroll",
-        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/g6YVFy3VLAj",
-        "id": 12,
-        "missions": 24
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.574875,
-          48.137357
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Oberhachinger Runde",
         "description": "machbar zu Fuß und Fahrrad, Anreise mit S-Bahn S3 bis Station Furth",
         "name": "oberhaching",
@@ -472,24 +454,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Pullach im Isartal",
-        "description": "machbar zu Fuß/teilweise Fahrrad",
-        "name": "pullach",
-        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/WoetXMZJnYS",
-        "id": 28,
-        "missions": 6
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.521487,
-          48.058299
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Germeringer Kermit",
         "description": "Fahrrad oder Auto empfehlenswert",
         "name": "kermit",
@@ -628,24 +592,6 @@
         "coordinates": [
           11.57772,
           48.141742
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Celtic Knot",
-        "description": "zu Fuß machbar, nachts auch mit dem Fahrrad möglich",
-        "name": "celtic",
-        "info": "https://plus.google.com/+UwePapenfuss-UPafus/posts/J3EadCZ6iPL",
-        "id": 37,
-        "missions": 36
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.565815,
-          48.139141
         ]
       }
     },
@@ -986,6 +932,8 @@
     {"type":"Feature","properties":{"title":"Mit der 25 nach Grünwald","description":"kein reines Trammosaik, sondern in drei Teile aufgeteilt zwischen denen man mit der Tram fahren kann, im Anschluss kann noch <a href='./index.html?id=74'>Im Wald bei Grünwald</a> absolviert werden","name":"tram25","info":"https://plus.google.com/+EeePee_at_Muc/posts/cUr894Bpbci","id":73,"missions": 18},"geometry":{"type": "Point","coordinates":[11.598087,48.135479]}},
     {"type":"Feature","properties":{"title":"Im Wald bei Grünwald","description":"kann im Anschluss an <a href='./index.html?id=73'>Mit der 25 nach Grünwald</a> absolviert werden, Capture/Upgrade Mosaik daher Blick auf Intel vorab empfehlenswert","name":"grünwald_wald","info":"https://plus.google.com/+EeePee_at_Muc/posts/cUr894Bpbci","id":74,"missions": 6},"geometry":{"type": "Point","coordinates":[11.519107,48.037367]}},
     {"type":"Feature","properties":{"title":"Munich Resists!","description":"Fahrrad größtenteils möglich, kreuzt teilweise die Wege anderer Mosaike daher Vorsicht bei der Auswahl der richtigen Mission im Scanner","name":"muc_res","info":"https://plus.google.com/+EeePee_at_Muc/posts/1BZJjrNzqjk","id":75,"missions": 66},"geometry":{"type": "Point","coordinates":[11.586938,48.139956]}},
-    {"type":"Feature","properties":{"title":"Stress an der Isar","description":"Fahrrad größtenteils möglich, nicht wirklich fürs Auto geeignet","name":"stress","info":"https://plus.google.com/+EeePee_at_Muc/posts/dg9fZoQkvCh","id":76,"missions": 36},"geometry":{"type": "Point","coordinates":[11.587126,48.139775]}}
+    {"type":"Feature","properties":{"title":"Stress an der Isar","description":"Fahrrad größtenteils möglich, nicht wirklich fürs Auto geeignet","name":"stress","info":"https://plus.google.com/+EeePee_at_Muc/posts/dg9fZoQkvCh","id":76,"missions": 36},"geometry":{"type": "Point","coordinates":[11.587126,48.139775]}},
+    {"type":"Feature","properties":{"title":"Rennrad München Süd","description":"längere Strecke zurückzulegen, daher Fahrrad selbstverständlich empfehlenswert, mit dem Auto müssen teilweise Umwege gefahren werden","name":"rennrad","info":"","id":77,"missions": 12},"geometry":{"type": "Point","coordinates":[11.515969,48.110577]}},
+    {"type":"Feature","properties":{"title":"Kloster Fürstenfeld","description":"gut zu Fuß oder mit dem Fahrrad zu absolvieren, bei den Fragen hilft auch Wikipedia","name":"kloster_ffb","info":"https://plus.google.com/+BjoernWinkler/posts/Z5x68WSHPCG","id":78,"missions": 24},"geometry":{"type": "Point","coordinates":[11.246921,48.17097]}}
   ]
 }
