@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Kloster Fürstenfeld";
+var mosaicTitle = "Sendlinger-Tor-Platz";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "kloster_ffb";
+var mosaicName = "sendlinger_tor";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 78;
+var mosaicID = 79;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "gut zu Fuß oder mit dem Fahrrad zu absolvieren, bei den Fragen hilft auch Wikipedia";
+var mosaicDescription = "teilweise muss Fahrrad geschoben werden, Öffnungszeiten des Alten Südlichen Friedhofs beachten";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "https://plus.google.com/+BjoernWinkler/posts/Z5x68WSHPCG";
+var mosaicInfoPost = "";
 
 var lines = [];
 var counter = 0;
