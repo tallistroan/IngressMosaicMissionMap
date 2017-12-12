@@ -12,20 +12,20 @@
 
 /* title for the mosaic which is displayed to the user
    Please use only alphanumeric characters! */
-var mosaicTitle = "Sendlinger-Tor-Platz";
+var mosaicTitle = "Flughafen München-Riem";
 /* internal name of the mosaic, use a short and descriptive name,
    it is only used for including the files at the website and must be unique at the whole website
    Please use only letters a-z */
-var mosaicName = "sendlinger_tor";
+var mosaicName = "flughafen_riem";
 /* numeric value, is used to determine which mosaic the user wants to see when choosing
  at the overview (map) or from the menu-bar, should be increased by one with each new mosaic */
-var mosaicID = 79;
+var mosaicID = 80;
 /* put any additional information here, e.g. preferred way of transport,
  opening hours of parks/areas, only doable at some hours of the day, etc. */
-var mosaicDescription = "teilweise muss Fahrrad geschoben werden, Öffnungszeiten des Alten Südlichen Friedhofs beachten";
+var mosaicDescription = "Fahrrad kann für einige Missionen empfehlenswert sein, da teilweise weite Strecken zurückgelegt werden müssen";
 /* if there is a post on G+ e.g. in a mosaic community, paste the link to the post
  into this variable.*/
-var mosaicInfoPost = "";
+var mosaicInfoPost = "https://plus.google.com/+UwePapenfuss-UPafus/posts/3pT32u1vMzG";
 
 var lines = [];
 var counter = 0;
