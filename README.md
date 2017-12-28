@@ -42,3 +42,5 @@ Now everything is done and you new mosaic should be visible at the map. If you w
 skip the preparation tasks and start [directly with the export](#export-the-mosaic-from-the-intel).
 
 In case of errors/mosaics not showing at the map, the error messages in the developer console can be of great help to locate the problem.
+
+HINT: Extracting mosaic data from the intel map is technically forbidden by the TOS of Ingress, which means creating a mosaic website is always at your own risk.
