@@ -1,6 +1,5 @@
 # Ingress Mosaic Mission Map
-This project is a web map for visualizing the so called banner-/mosaic-missions within the game Ingress. 
-A live version of this code containing mosaics in Munich, Germany can be found at http://ingress.tallistroan.de/muenchen
+This project is a web map for visualizing the so called banner-/mosaic-missions within the game Ingress.
 
 ## How to create your own map
 Feel free to fork this project to create a web map for your city/region.
